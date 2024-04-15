@@ -1,0 +1,119 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lavienne86.fr",
+        "port": null,
+        "hostname": "www.lavienne86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/ftp/cartographie/Carte_Interactive",
+        "path": "/ftp/cartographie/Carte_Interactive",
+        "href": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive"
+      },
+      "link": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
+      "line": "--2024-04-15 17:02:58--  https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lavienne86.fr",
+        "port": null,
+        "hostname": "www.lavienne86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/ftp/cartographie/Carte_Interactive/",
+        "path": "/ftp/cartographie/Carte_Interactive/",
+        "href": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/"
+      },
+      "link": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/",
+      "line": "--2024-04-15 17:02:58--  https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lavienne86.fr",
+        "port": null,
+        "hostname": "www.lavienne86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://www.lavienne86.fr/robots.txt"
+      },
+      "link": "https://www.lavienne86.fr/robots.txt",
+      "line": "--2024-04-15 17:02:59--  https://www.lavienne86.fr/robots.txt",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lavienne86.fr",
+        "port": null,
+        "hostname": "www.lavienne86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/favicon.ico",
+        "path": "/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/favicon.ico",
+        "href": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/favicon.ico"
+      },
+      "link": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/favicon.ico",
+      "line": "--2024-04-15 17:02:59--  https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/favicon.ico",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lavienne86.fr",
+        "port": null,
+        "hostname": "www.lavienne86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/loading-light.gif",
+        "path": "/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/loading-light.gif",
+        "href": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/loading-light.gif"
+      },
+      "link": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/loading-light.gif",
+      "line": "--2024-04-15 17:02:59--  https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/resources/tpl/viewer/icons/loading-light.gif",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lavienne86.fr",
+        "port": null,
+        "hostname": "www.lavienne86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/ftp/cartographie/Carte_Interactive/app/main-config.js",
+        "path": "/ftp/cartographie/Carte_Interactive/app/main-config.js",
+        "href": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/app/main-config.js"
+      },
+      "link": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/app/main-config.js",
+      "line": "--2024-04-15 17:02:59--  https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/app/main-config.js",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
