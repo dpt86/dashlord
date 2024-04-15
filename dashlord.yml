@@ -41,6 +41,7 @@ urls:
     tags:
       - Institution
   - url: https://www.emploi86.com
+    tags:
       - Territoire
       - Emploi
   - url: https://enej.lavienne86.fr
