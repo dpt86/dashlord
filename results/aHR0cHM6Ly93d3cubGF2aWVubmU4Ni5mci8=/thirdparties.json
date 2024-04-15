@@ -102,22 +102,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
       "details": {
         "id": "google fonts",
@@ -143,6 +127,22 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -150,7 +150,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=709735&h=8&m=4&s=43&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=fdce3f7f8d0730e9&_idn=0&send_image=0&_refts=0&pv_id=SAKK7n&pf_net=366&pf_srv=341&pf_tfr=275&pf_dm1=1059&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=505565&h=9&m=30&s=34&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=315c0d82512210e7&_idn=0&send_image=0&_refts=0&pv_id=X0sH0K&pf_net=298&pf_srv=312&pf_tfr=171&pf_dm1=611&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -159,7 +159,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1713170083,
+      "expires": 1713175234,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -171,10 +171,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "fdce3f7f8d0730e9.1713168283.",
+      "value": "315c0d82512210e7.1713173434.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1746864283,
+      "expires": 1746869434,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -186,7 +186,7 @@
     },
     {
       "name": "fe_typo_user",
-      "value": "08bdebd5e776fb301f69210a3dcb2824.07fa1369e32e2e39c9d615b7d3da796b1a84065dafeeccd677132849a0edd011",
+      "value": "d1f5bf5491cc1f51a8ee92c548377789.e1fc82d754311fdec63d16b55907dbd7cdb69b2bca7df3ae550b4768bb163f81",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -205,10 +205,10 @@
     "content-encoding": "gzip",
     "content-language": "fr",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 08:04:42 GMT",
-    "expires": "Mon, 15 Apr 2024 08:04:41 GMT",
+    "date": "Mon, 15 Apr 2024 09:30:33 GMT",
+    "expires": "Mon, 15 Apr 2024 09:30:33 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=08bdebd5e776fb301f69210a3dcb2824.07fa1369e32e2e39c9d615b7d3da796b1a84065dafeeccd677132849a0edd011; path=/; httponly; samesite=lax",
+    "set-cookie": "fe_typo_user=d1f5bf5491cc1f51a8ee92c548377789.e1fc82d754311fdec63d16b55907dbd7cdb69b2bca7df3ae550b4768bb163f81; path=/; httponly; samesite=lax",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-powered-by": "PleskLin",
@@ -293,12 +293,12 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.138",
+      "ip": "142.251.16.95",
       "geoip": {
         "city": {
-          "geoname_id": 5131638,
+          "geoname_id": 5116931,
           "names": {
-            "en": "Plainview"
+            "en": "Farmingdale"
           }
         },
         "continent": {
@@ -330,14 +330,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11803"
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -429,7 +429,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.189.3",
+      "ip": "172.253.122.94",
       "geoip": {
         "continent": {
           "code": "NA",
