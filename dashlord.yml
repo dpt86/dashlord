@@ -25,5 +25,6 @@ tools:
 columns: # pour masquer des colonnes
   zap: false
 urls:
-  - url: https://www.zen-yoga-poitiers.fr
   - url: https://archives-deux-sevres-vienne.fr/
+  - url: https://www.lavienne86.fr/
+  - url: https://www.mdph86.fr/
