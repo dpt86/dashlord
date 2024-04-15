@@ -116,7 +116,7 @@
 "intermediate_cert_badOCSP","mod.departement86.fr/83.206.130.186","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","mod.departement86.fr/83.206.130.186","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","mod.departement86.fr/83.206.130.186","443","INFO","+1765 seconds from localtime","",""
-"HTTP_headerTime","mod.departement86.fr/83.206.130.186","443","INFO","1713201819","",""
+"HTTP_headerTime","mod.departement86.fr/83.206.130.186","443","INFO","1713206980","",""
 "HSTS","mod.departement86.fr/83.206.130.186","443","LOW","not offered","",""
 "HPKP","mod.departement86.fr/83.206.130.186","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","mod.departement86.fr/83.206.130.186","443","INFO","Apache","",""

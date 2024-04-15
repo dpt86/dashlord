@@ -829,7 +829,7 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713201819"
+              "finding"      : "1713206980"
           }
 ,         {
               "id"           : "HSTS",
@@ -1427,6 +1427,6 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "190"
+              "finding"      : "143"
           }
 ]
