@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1621141345&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=608146070&gjid=1480671801&cid=1379294615.1713200840&tid=UA-XXXXX-X&_gid=59028465.1713200840&_r=1&_slc=1&z=785354945",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=2014134156&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=1312339760&gjid=1970635654&cid=472740753.1713205375&tid=UA-XXXXX-X&_gid=577754104.1713205375&_r=1&_slc=1&z=573471846",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -23,7 +23,7 @@
       "value": "1",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1713200900,
+      "expires": 1713205435,
       "size": 5,
       "httpOnly": false,
       "secure": false,
@@ -34,24 +34,10 @@
     },
     {
       "name": "_gid",
-      "value": "GA1.2.59028465.1713200840",
+      "value": "GA1.2.577754104.1713205375",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1713287240,
-      "size": 29,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.2.1379294615.1713200840",
-      "domain": ".departement86.fr",
-      "path": "/",
-      "expires": 1776272840,
+      "expires": 1713291775,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -61,8 +47,22 @@
       "sourcePort": 443
     },
     {
+      "name": "_ga",
+      "value": "GA1.2.472740753.1713205375",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": 1776277375,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
       "name": "a9d4c84db54b6aa83d99150bcd423ddc",
-      "value": "h5213r7achai1skj6ldchci7p3",
+      "value": "ecl3035ok821a1lquh3800kqm2",
       "domain": "bdv-cabri.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -80,17 +80,17 @@
     "cache-control": "no-store,no-cache,must-revalidate,post-check=0,pre-check=0",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "6797",
+    "content-length": "6795",
     "content-security-policy": "frame-ancestors 'self' *.departement86.fr;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 17:07:19 GMT",
+    "date": "Mon, 15 Apr 2024 18:22:54 GMT",
     "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
     "keep-alive": "timeout=5, max=499",
-    "last-modified": "Mon, 15 Apr 2024 17:07:19 GMT",
+    "last-modified": "Mon, 15 Apr 2024 18:22:54 GMT",
     "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
     "pragma": "no-cache",
     "server": "Microsoft-IIS/8.5",
-    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=h5213r7achai1skj6ldchci7p3; path=/; HttpOnly",
+    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=ecl3035ok821a1lquh3800kqm2; path=/; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "ALLOW-FROM *.departement86.fr",
@@ -199,14 +199,8 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.163.101",
+      "ip": "172.217.12.142",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -236,14 +230,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -258,23 +248,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
