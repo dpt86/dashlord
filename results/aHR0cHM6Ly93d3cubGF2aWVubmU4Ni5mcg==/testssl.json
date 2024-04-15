@@ -549,14 +549,14 @@
               "ip"           : "www.lavienne86.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.lavienne86.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713184415"
+              "finding"      : "1713187961"
           }
 ,         {
               "id"           : "HSTS",
@@ -1140,6 +1140,6 @@
               "ip"           : "www.lavienne86.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "149"
+              "finding"      : "85"
           }
 ]
