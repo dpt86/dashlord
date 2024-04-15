@@ -6,20 +6,20 @@ marianne: false
 tools:
   "404": true
   screenshot: true
-  nmap: false
+  nmap: true
   zap: false
   wappalyzer: false
   http: true
   testssl: true
   lighthouse: true
-  thirdparties: false
-  nuclei: false
+  thirdparties: true
+  nuclei: true
   updownio: false
   dependabot: false
   codescan: false
   stats: false
   declaration-a11y: false
-  ecoindex: false
+  ecoindex: true
   dsfr: false
   betagouv: false
 columns: # pour masquer des colonnes
