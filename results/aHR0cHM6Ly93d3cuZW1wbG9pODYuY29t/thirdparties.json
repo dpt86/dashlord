@@ -1,0 +1,660 @@
+{
+  "trackers": [
+    {
+      "type": "sentry",
+      "url": "https://cdn.ravenjs.com/3.26.2/raven.min.js",
+      "details": {
+        "id": "sentry",
+        "message": "Ensure your TOS notify the Sentry usage"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/f1/f1f5595c-4015-4455-901f-3c091abf194b.jpeg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/0b/0b27f34e-ebc2-4142-80ef-9508e3c4d8c1.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/5c/5cfa8a91-f39f-45f3-ae80-588936e361ee.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/f2/f28a9ca9-0a6f-41f2-b77a-16a816839f60.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/4d/4d8e5c97-d484-4e47-8316-fc5e7d486a28.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/ff/ff256988-a996-4609-bf99-4187731e4a17.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/cc/cc8374e8-b5d5-48ec-9c59-df753c06482e.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/6f/6ff14066-87ce-429c-9f19-df88c73e0a0b.png"
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P39B7C5",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.jobijoba.com/files/smartforum/mb_departement_vienne/carousel/cover-1-carousel-651bce1a38db1.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.jobijoba.com/files/smartforum/mb_departement_vienne/carousel/cover-2-carousel-651bce20bd752.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.jobijoba.com/files/smartforum/mb_departement_vienne/carousel/cover-3-carousel-651bce267f482.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.jobijoba.com/files/smartforum/mb_departement_vienne/carousel/cover-4-carousel-651bce2c4d92d.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.jobijoba.com/files/smartforum/mb_departement_vienne/carousel/cover-5-carousel-651bce32822cb.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.jobijoba.com/files/smartforum/mb_departement_vienne/carousel/cover-6-carousel-651bce3894c65.jpg"
+    },
+    {
+      "type": "at-internet",
+      "url": "https://tag.aticdn.net/piano-analytics.js",
+      "details": {
+        "id": "at-internet",
+        "message": "Ensure your TOS notify the AT internet usage"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://a.hellowork.com/event?s=637373&idclient=lv10anoiex7zu0ob"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pctx",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbQgAcAZgA4ArAAYYAH1QA3AIxSKlGCAC%2BQA",
+      "domain": "www.emploi86.com",
+      "path": "/",
+      "expires": 1747316661,
+      "size": 112,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "HA2",
+      "value": "front-01",
+      "domain": "www.emploi86.com",
+      "path": "/",
+      "expires": -1,
+      "size": 11,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pcid",
+      "value": "%7B%22browserId%22%3A%22lv10anoiex7zu0ob%22%2C%22_t%22%3A%22mapf850q%7Clv10anoq%22%7D",
+      "domain": "www.emploi86.com",
+      "path": "/",
+      "expires": 1747316661,
+      "size": 90,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "pa_privacy",
+      "value": "%22exempt%22",
+      "domain": "www.emploi86.com",
+      "path": "/",
+      "expires": 1747316661,
+      "size": 22,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "mb_departement_vienne_user",
+      "value": "CG9RalI6VWNRY1Y1VjABZAI3AGcCYgM0UjIIaFJnUzBWMVRgVzoGNwEyAGNcPgRsAngOKAA1Bm8BdVMsCDsBYghoUW9SOlU%2FUWlWZVY1AWA%3D",
+      "domain": "www.emploi86.com",
+      "path": "/",
+      "expires": 1744724660.856961,
+      "size": 138,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "mb_departement_vienne",
+      "value": "5o9ppga2dafa45hkr45bi45r99",
+      "domain": "www.emploi86.com",
+      "path": "/",
+      "expires": -1,
+      "size": 47,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "content-encoding": "gzip",
+    "content-length": "12556",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Mon, 15 Apr 2024 13:44:20 GMT",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "pragma": "no-cache",
+    "server": "Apache",
+    "set-cookie": "mb_departement_vienne=5o9ppga2dafa45hkr45bi45r99; path=/; secure; HttpOnly; SameSite=None\nmb_departement_vienne_user=CG9RalI6VWNRY1Y1VjABZAI3AGcCYgM0UjIIaFJnUzBWMVRgVzoGNwEyAGNcPgRsAngOKAA1Bm8BdVMsCDsBYghoUW9SOlU%2FUWlWZVY1AWA%3D; expires=Tue, 15-Apr-2025 13:44:20 GMT; Max-Age=31536000; path=/; secure; HttpOnly\nHA2=front-01; path=/; HttpOnly; Secure",
+    "strict-transport-security": "max-age=63072000",
+    "vary": "partner,Accept-Encoding",
+    "x-content-type-options": "nosniff"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.emploi86.com",
+      "ip": "91.121.52.142",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.ravenjs.com",
+      "ip": "151.101.2.217",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "f.hellowork.com",
+      "ip": "20.74.48.56",
+      "geoip": {
+        "city": {
+          "geoname_id": 2988507,
+          "names": {
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 48.8323,
+          "longitude": 2.4075,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "75001"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Paris",
+              "en": "Paris",
+              "es": "Paris",
+              "fr": "Paris"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "www.googletagmanager.com",
+      "ip": "172.253.122.97",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.jobijoba.com",
+      "ip": "20.74.48.56",
+      "geoip": {
+        "city": {
+          "geoname_id": 2988507,
+          "names": {
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 48.8323,
+          "longitude": 2.4075,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "75001"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Paris",
+              "en": "Paris",
+              "es": "Paris",
+              "fr": "Paris"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "tag.aticdn.net",
+      "ip": "18.160.18.10",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "a.hellowork.com",
+      "ip": "18.67.76.62",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
+}
