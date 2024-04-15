@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.zen-yoga-poitiers.fr",
+        "size": 3453.177,
+        "nodes": 1398,
+        "requests": 54,
+        "grade": "E",
+        "score": 34.0,
+        "ges": 2.32,
+        "water": 3.48,
+        "ecoindex_version": "5.4.2",
+        "date": "2024-04-15 07:10:31.209829",
+        "page_type": "website"
+    }
+]

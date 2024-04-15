@@ -70,7 +70,7 @@
 "intermediate_cert_badOCSP","www.zen-yoga-poitiers.fr/194.36.166.10","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","www.zen-yoga-poitiers.fr/194.36.166.10","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","www.zen-yoga-poitiers.fr/194.36.166.10","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","www.zen-yoga-poitiers.fr/194.36.166.10","443","INFO","1713163362","",""
+"HTTP_headerTime","www.zen-yoga-poitiers.fr/194.36.166.10","443","INFO","1713165127","",""
 "HSTS","www.zen-yoga-poitiers.fr/194.36.166.10","443","LOW","not offered","",""
 "HPKP","www.zen-yoga-poitiers.fr/194.36.166.10","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","www.zen-yoga-poitiers.fr/194.36.166.10","443","INFO","Apache/2.4.57 (Debian)","",""
