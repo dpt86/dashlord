@@ -26,34 +26,34 @@ columns: # pour masquer des colonnes
   zap: false
 urls:
   - url: https://www.lavienne86.fr
-    title: Département de la Vienne
+#    title: Département de la Vienne
   - url: https://archives-deux-sevres-vienne.fr
-    title: Archives Départementales de la Vienne
+#    title: Archives Départementales de la Vienne
   - url: https://bdv.departement86.fr
-    title: Bibliothèque Départementale de la Vienne
+#    title: Bibliothèque Départementale de la Vienne
   - url: https://marches.departement86.fr
-    title: Plateforme des marchés publics du Département de la Vienne
+#    title: Plateforme des marchés publics du Département de la Vienne
   - url: https://www.emploi86.com
-    title: Plateforme emploi du Département de la Vienne
+#    title: Plateforme emploi du Département de la Vienne
   - url: https://enej.lavienne86.fr
-    title: Espace Numérique de l'Éducation et de la Jeunesse du Département de la Vienne
+#    title: Espace Numérique de l'Éducation et de la Jeunesse du Département de la Vienne
   - url: https://www.mdph86.fr
-    title: Maison Départementale des Personnes Handicapées de la Vienne
+#    title: Maison Départementale des Personnes Handicapées de la Vienne
   - url: https://www.vienne-numerique.fr
-    title: Régie Vienne Numérique
+#    title: Régie Vienne Numérique
   - url: https://www.cli-civaux.fr
-    title: Commission Locale d'Information de la Centrale de Civaux
+#    title: Commission Locale d'Information de la Centrale de Civaux
   - url: https://sportsnature.lavienne86.fr
-    title: Sports Nature du Département de la Vienne
+#    title: Sports Nature du Département de la Vienne
   - url: https://subventions.departement86.fr/astre/extra_gs/AccueilGen.jsp  
-    title: Demande de Subvention en ligne du Département de la Vienne
+#    title: Demande de Subvention en ligne du Département de la Vienne
   - url: https://www.lavienne86.fr/ftp/cartographie/Carte_Administratif_Communes/index.html
-    title: Plateforme Cartographique du Département de la Vienne
+#    title: Plateforme Cartographique du Département de la Vienne
   - url: https://mod.departement86.fr/1082-travailler-au-departement-de-la-vienne.htm
-    title: Offre d'Emploi du Département de la Vienne
+#    title: Offre d'Emploi du Département de la Vienne
   - url: https://deliberations.departement86.fr/php/afficher_recherche_Public.php
-    title: Délibération en ligne du Département de la Vienne
+#    title: Délibération en ligne du Département de la Vienne
   - url: https://portailusagers.departement86.fr
-    title: Suivi des demandes Autonomie Département de la Vienne
+#    title: Suivi des demandes Autonomie Département de la Vienne
   - url: https://bdv-cabri.departement86.fr/opac
-    title: Plateforme du réseau des Bibliothèques de la Vienne
+#    title: Plateforme du réseau des Bibliothèques de la Vienne
