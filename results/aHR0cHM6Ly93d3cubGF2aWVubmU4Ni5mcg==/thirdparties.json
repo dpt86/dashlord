@@ -150,7 +150,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=074734&h=15&m=53&s=48&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=a799856309b34e23&_idn=0&send_image=0&_refts=0&pv_id=fSObL4&pf_net=449&pf_srv=296&pf_tfr=161&pf_dm1=822&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=013856&h=17&m=46&s=13&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=fb5fe9ada8553f59&_idn=0&send_image=0&_refts=0&pv_id=jHuPAu&pf_net=258&pf_srv=331&pf_tfr=198&pf_dm1=791&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -159,7 +159,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1713198228,
+      "expires": 1713204973,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -171,10 +171,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "a799856309b34e23.1713196428.",
+      "value": "fb5fe9ada8553f59.1713203174.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1746892428,
+      "expires": 1746899174,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -186,7 +186,7 @@
     },
     {
       "name": "fe_typo_user",
-      "value": "04a66986d1d83043b1bcccf461c20775.e5d8ad076b21c0f041816eae3a073ecafc7e0d888879e137e054764f7d45e66f",
+      "value": "3a7ea5a059de133ad4c12bc677465cc5.c52df444de85e8c3251eb858eed89b0eb10e681fa54b9bef3e6bfdb976777079",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -205,10 +205,10 @@
     "content-encoding": "gzip",
     "content-language": "fr",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 15:53:47 GMT",
-    "expires": "Mon, 15 Apr 2024 15:53:46 GMT",
+    "date": "Mon, 15 Apr 2024 17:46:12 GMT",
+    "expires": "Mon, 15 Apr 2024 17:46:12 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=04a66986d1d83043b1bcccf461c20775.e5d8ad076b21c0f041816eae3a073ecafc7e0d888879e137e054764f7d45e66f; path=/; httponly; samesite=lax",
+    "set-cookie": "fe_typo_user=3a7ea5a059de133ad4c12bc677465cc5.c52df444de85e8c3251eb858eed89b0eb10e681fa54b9bef3e6bfdb976777079; path=/; httponly; samesite=lax",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-powered-by": "PleskLin",
@@ -293,14 +293,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.111.95",
+      "ip": "142.250.190.106",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -330,14 +324,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -352,23 +342,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -429,7 +403,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.122.94",
+      "ip": "142.250.190.3",
       "geoip": {
         "continent": {
           "code": "NA",
