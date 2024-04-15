@@ -45,15 +45,15 @@ urls:
 #    title: Commission Locale d'Information de la Centrale de Civaux
   - url: https://sportsnature.lavienne86.fr
 #    title: Sports Nature du Département de la Vienne
-  - url: https://subventions.departement86.fr/astre/extra_gs/AccueilGen.jsp  
+#  - url: https://subventions.departement86.fr/astre/extra_gs/AccueilGen.jsp  
 #    title: Demande de Subvention en ligne du Département de la Vienne
-  - url: https://www.lavienne86.fr/ftp/cartographie/Carte_Administratif_Communes/index.html
+#  - url: https://www.lavienne86.fr/ftp/cartographie/Carte_Administratif_Communes/index.html
 #    title: Plateforme Cartographique du Département de la Vienne
-  - url: https://mod.departement86.fr/1082-travailler-au-departement-de-la-vienne.htm
+#  - url: https://mod.departement86.fr/1082-travailler-au-departement-de-la-vienne.htm
 #    title: Offre d'Emploi du Département de la Vienne
-  - url: https://deliberations.departement86.fr/php/afficher_recherche_Public.php
+#  - url: https://deliberations.departement86.fr/php/afficher_recherche_Public.php
 #    title: Délibération en ligne du Département de la Vienne
-  - url: https://portailusagers.departement86.fr
+#  - url: https://portailusagers.departement86.fr
 #    title: Suivi des demandes Autonomie Département de la Vienne
-  - url: https://bdv-cabri.departement86.fr/opac
+#  - url: https://bdv-cabri.departement86.fr/opac
 #    title: Plateforme du réseau des Bibliothèques de la Vienne
