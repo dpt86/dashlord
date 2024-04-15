@@ -1,0 +1,448 @@
+{
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/kTCV3YLsIx2G_g4QQu7Yzg2/9782352047438/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/1ye9GRZ0o6rSuM4OYyyFeg2/9782749175607/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/9CgnN-cK9ik9NsicQBaM8A2/9782378012182/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/LQBfUk_Hkk5uTwMn6brBbw2/9782352947219/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/T9s4tPCXipC1xLT4ifiIXg2/2723447073/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://statistique.lavienne86.fr/matomo.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/479ceb9367cfe02a45e24f27c09c5d1ab4268f8352356cf7b6d816427fa02739.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/76f376204d1e8ca07023a9589b00dddaf3edf07aa2dd47abd3f8f9ccedd67184.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/12feede7fa77794923c1526b3ee64f24e121f86424b5346fb02c4b867212cab7.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/9f8d51699cb1d6f0331b0b44b0b163f6722f41d1ca979fc777aefdc3817df1e1.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/f21c12803f58be0e093f0a255a7c9e6298d16fa1407a9b5e6766ca55ef6f0157.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=031578&h=9&m=30&s=39&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=53f917c8087dd6fc&_idn=1&send_image=0&_refts=0&pv_id=0c4mgG&pf_net=278&pf_srv=394&pf_tfr=112&pf_dm1=829&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pk_ses.7.151b",
+      "value": "1",
+      "domain": "bdv.departement86.fr",
+      "path": "/",
+      "expires": 1713175239,
+      "size": 15,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_id.7.151b",
+      "value": "53f917c8087dd6fc.1713173440.",
+      "domain": "bdv.departement86.fr",
+      "path": "/",
+      "expires": 1747128640,
+      "size": 41,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "ErmesSearch_Default",
+      "value": "%7B%22mainScenario%22%3A%22CATALOGUE%20BDV%20SANS%20CD%22%2C%22mainScenarioText%22%3A%22Catalogue%22%7D",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 122,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "Strict",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "InstanceTH",
+      "value": "EXPLOITATIONDefault=bdv",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 33,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "sameSite": "Strict",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_syrSessGuid",
+      "value": "4ac1a271-3de9-4c55-842e-0ceb2e6ba607",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": 1713175237.840615,
+      "size": 48,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "cache-control": "no-cache, no-store",
+    "connection": "Keep-Alive",
+    "content-encoding": "gzip",
+    "content-length": "38569",
+    "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 15 Apr 2024 09:30:37 GMT",
+    "expires": "-1",
+    "keep-alive": "timeout=5, max=500",
+    "pragma": "no-cache",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "Apache",
+    "set-cookie": "_syrSessGuid=4ac1a271-3de9-4c55-842e-0ceb2e6ba607; domain=departement86.fr; expires=Mon, 15-Apr-2024 10:00:37 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "bdv.departement86.fr",
+      "ip": "83.206.130.186",
+      "geoip": {
+        "city": {
+          "geoname_id": 3031815,
+          "names": {
+            "de": "Bondy",
+            "en": "Bondy",
+            "fr": "Bondy",
+            "ja": "ボンディ",
+            "ru": "Бонди",
+            "zh-CN": "邦迪"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 200,
+          "latitude": 48.9043,
+          "longitude": 2.4877,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "93140"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2975246,
+            "iso_code": "93",
+            "names": {
+              "de": "Seine-Saint-Denis",
+              "en": "Seine-Saint-Denis",
+              "es": "Sena Saint Denis",
+              "fr": "Seine-Saint-Denis",
+              "ja": "セーヌ＝サン＝ドニ県",
+              "pt-BR": "Seine-Saint-Denis",
+              "ru": "Сен-Сен-Дени",
+              "zh-CN": "塞纳-圣但尼省"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "covers.syracuse.cloud",
+      "ip": "79.137.46.4",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "statistique.lavienne86.fr",
+      "ip": "87.252.12.208",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "media.electre-ng.com",
+      "ip": "35.190.14.238",
+      "geoip": {
+        "city": {
+          "geoname_id": 4393217,
+          "names": {
+            "de": "Kansas City",
+            "en": "Kansas City",
+            "es": "Kansas City",
+            "fr": "Kansas City",
+            "ja": "カンザスシティ",
+            "pt-BR": "Kansas City",
+            "ru": "Канзас-Сити"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.1027,
+          "longitude": -94.5778,
+          "metro_code": 616,
+          "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "64184"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4398678,
+            "iso_code": "MO",
+            "names": {
+              "de": "Missouri",
+              "en": "Missouri",
+              "es": "Missouri",
+              "fr": "Missouri",
+              "ja": "ミズーリ州",
+              "pt-BR": "Missúri",
+              "ru": "Миссури",
+              "zh-CN": "密苏里州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
