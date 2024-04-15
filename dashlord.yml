@@ -6,19 +6,20 @@ marianne: false
 tools:
   "404": true
   screenshot: true
-  nmap: true
+  nmap: false
   zap: false
   wappalyzer: false
   http: true
   testssl: true
   lighthouse: true
   thirdparties: true
-  nuclei: true
+  nuclei: false
   updownio: false
   dependabot: false
   codescan: false
   stats: false
-  declaration-a11y: false
+  declaration-a11y: true
+  declaration-rgpd: true
   ecoindex: true
   dsfr: false
   betagouv: false
@@ -26,16 +27,59 @@ columns: # pour masquer des colonnes
   zap: false
 urls:
   - url: https://www.lavienne86.fr
+    tags:
+      - Institution
   - url: https://archives-deux-sevres-vienne.fr
+    tags:
+      - Institution
+      - Culture
   - url: https://bdv.departement86.fr
+    tags:
+      - Institution
+      - Culture
   - url: https://marches.departement86.fr
+    tags:
+      - Institution
   - url: https://www.emploi86.com
+      - Territoire
+      - Emploi
   - url: https://enej.lavienne86.fr
+    tags:
+      - Education
   - url: https://www.mdph86.fr
+    tags:
+      - Autonomie
   - url: https://www.vienne-numerique.fr
+    tags:
+      - Territoire
   - url: https://www.cli-civaux.fr
+    tags:
+      - Territoire
   - url: https://sportsnature.lavienne86.fr
+    tags:
+      - Institution
+      - Sport
   - url: https://mod.departement86.fr
+    tags:
+      - Institution
+      - Emploi
   - url: https://portailusagers.departement86.fr
+    tags:
+      - Institution
+      - Autonomie
   - url: https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive
+    tags:
+      - Institution
+      - Territoire
   - url: https://bdv-cabri.departement86.fr/opac
+    tags:
+      - Culture
+      - Territoire
+    - url: https://lireenvienne.fr
+    tags:
+      - Culture
+      - Territoire
+    - url: https://lireenviennecolleges.fr
+    tags:
+      - Culture
+      - Education
