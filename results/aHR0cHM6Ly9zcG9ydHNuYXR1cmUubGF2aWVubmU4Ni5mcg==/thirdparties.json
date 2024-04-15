@@ -110,14 +110,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
@@ -133,8 +125,16 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=724498&h=14&m=14&s=52&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=841c4cfe26566298&_idn=0&send_image=0&_refts=0&pv_id=J0QMRy&pf_net=449&pf_srv=268&pf_tfr=2&pf_dm1=571&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=087440&h=16&m=46&s=54&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=3de0cf18e5b6f094&_idn=0&send_image=0&_refts=0&pv_id=zyjbm8&pf_net=312&pf_srv=247&pf_tfr=1&pf_dm1=500&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1713192292,
+      "expires": 1713201414,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.17.1881",
-      "value": "841c4cfe26566298.1713190493.",
+      "value": "3de0cf18e5b6f094.1713199614.",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1746886493,
+      "expires": 1746895614,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -173,10 +173,10 @@
     "cache-control": "max-age=0",
     "content-encoding": "gzip",
     "content-language": "fr",
-    "content-length": "9901",
+    "content-length": "9897",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 14:14:51 GMT",
-    "expires": "Mon, 15 Apr 2024 14:14:51 GMT",
+    "date": "Mon, 15 Apr 2024 16:46:53 GMT",
+    "expires": "Mon, 15 Apr 2024 16:46:53 GMT",
     "server": "nginx",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
@@ -262,8 +262,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.2.42",
+      "ip": "142.251.163.95",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -293,10 +299,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -311,7 +321,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -372,7 +398,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.4.67",
+      "ip": "172.253.63.94",
       "geoip": {
         "continent": {
           "code": "NA",
