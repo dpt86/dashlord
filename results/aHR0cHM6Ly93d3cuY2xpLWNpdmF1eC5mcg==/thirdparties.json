@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=040121&h=14&m=1&s=5&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=510d7c382b3b2b02&_idn=0&send_image=0&_refts=0&pv_id=f8TWiB&pf_net=497&pf_srv=507&pf_tfr=1&pf_dm1=695&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=660009&h=16&m=34&s=6&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=332ecc041744a69d&_idn=0&send_image=0&_refts=0&pv_id=Y8Vus9&pf_net=346&pf_srv=464&pf_tfr=1&pf_dm1=710&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1713191465,
+      "expires": 1713200646,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.4.c1bf",
-      "value": "510d7c382b3b2b02.1713189665.",
+      "value": "332ecc041744a69d.1713198847.",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1746885665,
+      "expires": 1746894847,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -173,10 +173,10 @@
     "cache-control": "max-age=0",
     "content-encoding": "gzip",
     "content-language": "fr",
-    "content-length": "7768",
+    "content-length": "7774",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 14:01:03 GMT",
-    "expires": "Mon, 15 Apr 2024 14:01:03 GMT",
+    "date": "Mon, 15 Apr 2024 16:34:05 GMT",
+    "expires": "Mon, 15 Apr 2024 16:34:04 GMT",
     "server": "nginx",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
@@ -242,7 +242,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -262,14 +262,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.46.202",
+      "ip": "142.250.189.202",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -299,14 +293,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -321,23 +311,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {

@@ -549,7 +549,7 @@
               "ip"           : "www.cli-civaux.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713189809"
+              "finding"      : "1713199002"
           }
 ,         {
               "id"           : "HSTS",
