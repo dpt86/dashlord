@@ -62,7 +62,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=2121651385&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEBAAUABAAAAACAAI~&jid=539248878&gjid=938398163&cid=13655365.1713164989&tid=UA-160621-11&_gid=576138595.1713164989&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=959169027",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=873083363&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEBAAUABAAAAACAAI~&jid=1511692356&gjid=21812191&cid=199853969.1713168281&tid=UA-160621-11&_gid=1312803543.1713168281&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=748180065",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -70,7 +70,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=2121651385&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEDAAUABAAAAACAAI~&jid=1144870480&gjid=125368553&cid=13655365.1713164989&tid=UA-3609640-1&_gid=576138595.1713164989&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=89713336",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=873083363&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEDAAUABAAAAACAAI~&jid=117928418&gjid=2061943956&cid=199853969.1713168281&tid=UA-3609640-1&_gid=1312803543.1713168281&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=58234463",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -78,7 +78,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PB1ZFNE265&gtm=45je44a0v9125305882za200&_p=1713164988254&gcd=13l3l3l3l1&npa=0&dma=0&cid=13655365.1713164989&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713164989&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=1876",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1PJ9S918RP&gtm=45je44a0v9123709014za200&_p=1713168279964&gcd=13l3l3l3l1&npa=0&dma=0&cid=199853969.1713168281&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713168281&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=2420",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -86,7 +86,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1PJ9S918RP&gtm=45je44a0v9123709014za200&_p=1713164988254&gcd=13l3l3l3l1&npa=0&dma=0&cid=13655365.1713164989&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713164989&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=1925",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PB1ZFNE265&gtm=45je44a0v9125305882za200&_p=1713168279964&gcd=13l3l3l3l1&npa=0&dma=0&cid=199853969.1713168281&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713168281&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=2471",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -94,16 +94,16 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&idsite=8&rec=1&r=385259&h=7&m=9&s=49&url=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&_id=6676d7fc275d1c68&_idn=1&send_image=0&_refts=0&pv_id=0DqXD9&pf_net=515&pf_srv=325&pf_tfr=86&pf_dm1=691&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&idsite=8&rec=1&r=255431&h=8&m=4&s=42&url=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&_id=307fe4066a4791ad&_idn=1&send_image=0&_refts=0&pv_id=JQnzac&pf_net=503&pf_srv=324&pf_tfr=156&pf_dm1=1141&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
     {
       "name": "_pk_id.8.7391",
-      "value": "6676d7fc275d1c68.1713164990.",
+      "value": "307fe4066a4791ad.1713168282.",
       "domain": "archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1747120190,
+      "expires": 1747123482,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -114,11 +114,39 @@
       "sourcePort": 443
     },
     {
+      "name": "_ga_PB1ZFNE265",
+      "value": "GS1.1.1713168281.1.0.1713168281.0.0.0",
+      "domain": ".archives-deux-sevres-vienne.fr",
+      "path": "/",
+      "expires": 1776240281,
+      "size": 51,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.199853969.1713168281",
+      "domain": ".archives-deux-sevres-vienne.fr",
+      "path": "/",
+      "expires": 1776240281,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
       "name": "_pk_ses.8.7391",
       "value": "1",
       "domain": "archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713166789,
+      "expires": 1713170082,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -130,38 +158,10 @@
     },
     {
       "name": "_ga_1PJ9S918RP",
-      "value": "GS1.1.1713164989.1.0.1713164989.0.0.0",
+      "value": "GS1.1.1713168281.1.0.1713168281.0.0.0",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1776236989,
-      "size": 51,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.1.13655365.1713164989",
-      "domain": ".archives-deux-sevres-vienne.fr",
-      "path": "/",
-      "expires": 1776236989,
-      "size": 28,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_ga_PB1ZFNE265",
-      "value": "GS1.1.1713164989.1.0.1713164989.0.0.0",
-      "domain": ".archives-deux-sevres-vienne.fr",
-      "path": "/",
-      "expires": 1776236989,
+      "expires": 1776240281,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -175,7 +175,7 @@
       "value": "1",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713165049,
+      "expires": 1713168341,
       "size": 23,
       "httpOnly": false,
       "secure": false,
@@ -189,7 +189,7 @@
       "value": "1",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713165049,
+      "expires": 1713168341,
       "size": 23,
       "httpOnly": false,
       "secure": false,
@@ -200,11 +200,11 @@
     },
     {
       "name": "_gid",
-      "value": "GA1.2.576138595.1713164989",
+      "value": "GA1.2.1312803543.1713168281",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713251389,
-      "size": 30,
+      "expires": 1713254681,
+      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -228,7 +228,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "m5egvj99ct8l31hmcc9fji6l10",
+      "value": "54adr8eqpjac30udnrpij6al66",
       "domain": "archives-deux-sevres-vienne.fr",
       "path": "/",
       "expires": -1,
@@ -244,11 +244,11 @@
   "headers": {
     "cache-control": "no-cache",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Mon, 15 Apr 2024 07:09:48 GMT",
+    "date": "Mon, 15 Apr 2024 08:04:39 GMT",
     "expires": "-1",
     "pragma": "no-cache",
     "referrer-policy": "no-referrer-when-downgrade",
-    "set-cookie": "PHPSESSID=m5egvj99ct8l31hmcc9fji6l10; path=/\nHAPROXYID=s02; path=/; HttpOnly",
+    "set-cookie": "PHPSESSID=54adr8eqpjac30udnrpij6al66; path=/\nHAPROXYID=s02; path=/; HttpOnly",
     "strict-transport-security": "max-age=63072000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "*",
@@ -313,8 +313,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.62.97",
+      "ip": "142.251.46.232",
       "geoip": {
+        "city": {
+          "geoname_id": 5133273,
+          "names": {
+            "en": "Queens"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -344,10 +350,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 50,
+          "latitude": 40.66,
+          "longitude": -73.839,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11414"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -362,7 +372,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -423,14 +449,8 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.167.101",
+      "ip": "142.250.188.14",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -460,14 +480,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -482,23 +498,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
