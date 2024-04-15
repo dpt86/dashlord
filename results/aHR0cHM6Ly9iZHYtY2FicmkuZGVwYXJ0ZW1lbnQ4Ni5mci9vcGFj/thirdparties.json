@@ -1,0 +1,281 @@
+{
+  "trackers": [
+    {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1621141345&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=608146070&gjid=1480671801&cid=1379294615.1713200840&tid=UA-XXXXX-X&_gid=59028465.1713200840&_r=1&_slc=1&z=785354945",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": 1713200900,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.59028465.1713200840",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": 1713287240,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1379294615.1713200840",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": 1776272840,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "a9d4c84db54b6aa83d99150bcd423ddc",
+      "value": "h5213r7achai1skj6ldchci7p3",
+      "domain": "bdv-cabri.departement86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 58,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "access-control-allow-origin": "*.departement86.fr",
+    "cache-control": "no-store,no-cache,must-revalidate,post-check=0,pre-check=0",
+    "connection": "Keep-Alive",
+    "content-encoding": "gzip",
+    "content-length": "6797",
+    "content-security-policy": "frame-ancestors 'self' *.departement86.fr;",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 15 Apr 2024 17:07:19 GMT",
+    "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+    "keep-alive": "timeout=5, max=499",
+    "last-modified": "Mon, 15 Apr 2024 17:07:19 GMT",
+    "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
+    "pragma": "no-cache",
+    "server": "Microsoft-IIS/8.5",
+    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=h5213r7achai1skj6ldchci7p3; path=/; HttpOnly",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "ALLOW-FROM *.departement86.fr",
+    "x-powered-by": "ASP.NET"
+  },
+  "endpoints": [
+    {
+      "hostname": "bdv-cabri.departement86.fr",
+      "ip": "83.206.130.186",
+      "geoip": {
+        "city": {
+          "geoname_id": 3031815,
+          "names": {
+            "de": "Bondy",
+            "en": "Bondy",
+            "fr": "Bondy",
+            "ja": "ボンディ",
+            "ru": "Бонди",
+            "zh-CN": "邦迪"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 200,
+          "latitude": 48.9043,
+          "longitude": 2.4877,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "93140"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2975246,
+            "iso_code": "93",
+            "names": {
+              "de": "Seine-Saint-Denis",
+              "en": "Seine-Saint-Denis",
+              "es": "Sena Saint Denis",
+              "fr": "Seine-Saint-Denis",
+              "ja": "セーヌ＝サン＝ドニ県",
+              "pt-BR": "Seine-Saint-Denis",
+              "ru": "Сен-Сен-Дени",
+              "zh-CN": "塞纳-圣但尼省"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "www.google-analytics.com",
+      "ip": "142.251.163.101",
+      "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
