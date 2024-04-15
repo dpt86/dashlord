@@ -34,11 +34,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/12feede7fa77794923c1526b3ee64f24e121f86424b5346fb02c4b867212cab7.jpg"
+      "url": "https://media.electre-ng.com/images/image-id/9f8d51699cb1d6f0331b0b44b0b163f6722f41d1ca979fc777aefdc3817df1e1.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/9f8d51699cb1d6f0331b0b44b0b163f6722f41d1ca979fc777aefdc3817df1e1.jpg"
+      "url": "https://media.electre-ng.com/images/image-id/12feede7fa77794923c1526b3ee64f24e121f86424b5346fb02c4b867212cab7.jpg"
     },
     {
       "type": "unknown",
@@ -46,7 +46,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=031578&h=9&m=30&s=39&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=53f917c8087dd6fc&_idn=1&send_image=0&_refts=0&pv_id=0c4mgG&pf_net=278&pf_srv=394&pf_tfr=112&pf_dm1=829&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=675916&h=11&m=45&s=28&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=f91c676ae85e08e9&_idn=1&send_image=0&_refts=0&pv_id=Dlykn5&pf_net=489&pf_srv=432&pf_tfr=139&pf_dm1=882&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -55,7 +55,7 @@
       "value": "1",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1713175239,
+      "expires": 1713183328,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -67,10 +67,10 @@
     },
     {
       "name": "_pk_id.7.151b",
-      "value": "53f917c8087dd6fc.1713173440.",
+      "value": "f91c676ae85e08e9.1713181528.",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1747128640,
+      "expires": 1747136728,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -112,10 +112,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "4ac1a271-3de9-4c55-842e-0ceb2e6ba607",
+      "value": "ccbf11af-efd6-4cfb-af08-8fec09e1258a",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1713175237.840615,
+      "expires": 1713183326.2551,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -130,16 +130,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "38569",
+    "content-length": "38567",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 09:30:37 GMT",
+    "date": "Mon, 15 Apr 2024 11:45:25 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=4ac1a271-3de9-4c55-842e-0ceb2e6ba607; domain=departement86.fr; expires=Mon, 15-Apr-2024 10:00:37 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=ccbf11af-efd6-4cfb-af08-8fec09e1258a; domain=departement86.fr; expires=Mon, 15-Apr-2024 12:15:25 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
