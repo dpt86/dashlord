@@ -26,11 +26,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/479ceb9367cfe02a45e24f27c09c5d1ab4268f8352356cf7b6d816427fa02739.jpg"
+      "url": "https://media.electre-ng.com/images/image-id/76f376204d1e8ca07023a9589b00dddaf3edf07aa2dd47abd3f8f9ccedd67184.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/76f376204d1e8ca07023a9589b00dddaf3edf07aa2dd47abd3f8f9ccedd67184.jpg"
+      "url": "https://media.electre-ng.com/images/image-id/479ceb9367cfe02a45e24f27c09c5d1ab4268f8352356cf7b6d816427fa02739.jpg"
     },
     {
       "type": "unknown",
@@ -46,7 +46,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=952010&h=15&m=53&s=47&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=1f73befd67e9f14a&_idn=1&send_image=0&_refts=0&pv_id=k7CzIB&pf_net=397&pf_srv=359&pf_tfr=91&pf_dm1=644&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=357972&h=17&m=46&s=13&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=6849d8258f9e0250&_idn=1&send_image=0&_refts=0&pv_id=jatMzv&pf_net=517&pf_srv=317&pf_tfr=180&pf_dm1=1003&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -55,7 +55,7 @@
       "value": "1",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1713198227,
+      "expires": 1713204973,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -67,10 +67,10 @@
     },
     {
       "name": "_pk_id.7.151b",
-      "value": "1f73befd67e9f14a.1713196427.",
+      "value": "6849d8258f9e0250.1713203174.",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1747151627,
+      "expires": 1747158374,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -112,10 +112,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "a2ae7b09-342d-4934-a691-a97b477bfa58",
+      "value": "5bee7c0e-f16f-4564-a732-53fa6bc15f5a",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1713198225.839969,
+      "expires": 1713204971.643571,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -130,16 +130,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "38565",
+    "content-length": "38573",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 15:53:45 GMT",
+    "date": "Mon, 15 Apr 2024 17:46:11 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=a2ae7b09-342d-4934-a691-a97b477bfa58; domain=departement86.fr; expires=Mon, 15-Apr-2024 16:23:45 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=5bee7c0e-f16f-4564-a732-53fa6bc15f5a; domain=departement86.fr; expires=Mon, 15-Apr-2024 18:16:11 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
