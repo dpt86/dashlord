@@ -1,0 +1,127 @@
+{
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "value": "392e3865fd635cde502a420b9d4c730e",
+      "domain": "marches.departement86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "no-design",
+      "value": "1",
+      "domain": "marches.departement86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 10,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "SERVERID",
+      "value": "CD86-MPE-PROD-01|Zhz5E|Zhz5E",
+      "domain": "marches.departement86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "cache-control": "max-age=0, must-revalidate, private\nmax-age=0, no-store",
+    "content-encoding": "gzip",
+    "content-length": "5889",
+    "content-security-policy": "default-src 'self' *.local-trust.com; script-src 'self' *.local-trust.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com ; script-src-elem 'self' *.local-trust.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; script-src-attr 'self' *.local-trust.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; style-src 'self' *.local-trust.com *.matomo.cloud fonts.googleapis.com 'unsafe-inline'; style-src-elem 'self' *.local-trust.com fonts.googleapis.com 'unsafe-inline'; style-src-attr 'self' *.local-trust.com fonts.googleapis.com 'unsafe-inline'; img-src 'self' data: *.local-trust.com ssl.gstatic.com *.google-analytics.com *.xiti.com *.matomo.cloud; font-src 'self' *.local-trust.com fonts.gstatic.com data:; connect-src 'self' *.local-trust.com http://localhost:11992 *.google-analytics.com *.matomo.cloud; media-src 'self' *.local-trust.com; object-src 'self' *.local-trust.com; child-src 'self' *.local-trust.com; frame-src * blob:; worker-src 'self' *.local-trust.com; form-action 'self' *.local-trust.com; block-all-mixed-content;frame-ancestors 'self' *.local-trust.com",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Mon, 15 Apr 2024 09:53:19 GMT",
+    "expires": "Mon, 15 Apr 2024 09:53:19 GMT",
+    "link": "<https://marches.departement86.fr/api/v2/docs.jsonld>; rel=\"http://www.w3.org/ns/hydra/core#apiDocumentation\"",
+    "permissions-policy": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(self), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(self), web-share=(), xr-spatial-tracking=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "retry-after": "1800",
+    "server": "WebServer",
+    "set-cookie": "no-design=1; path=/; secure; HttpOnly;HttpOnly;Secure; HttpOnly; Secure\nPHPSESSID=392e3865fd635cde502a420b9d4c730e; path=/; secure; httponly; samesite=lax;HttpOnly;Secure; HttpOnly; Secure",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "marches.departement86.fr",
+      "ip": "54.36.157.203",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
+}
