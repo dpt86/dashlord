@@ -1,0 +1,347 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://portailusagers.departement86.fr/"
+      },
+      "link": "https://portailusagers.departement86.fr/",
+      "line": "--2024-04-15 16:54:43--  https://portailusagers.departement86.fr/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://portailusagers.departement86.fr/robots.txt"
+      },
+      "link": "https://portailusagers.departement86.fr/robots.txt",
+      "line": "--2024-04-15 16:54:44--  https://portailusagers.departement86.fr/robots.txt",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/css/duw.css",
+        "path": "/css/duw.css",
+        "href": "https://portailusagers.departement86.fr/css/duw.css"
+      },
+      "link": "https://portailusagers.departement86.fr/css/duw.css",
+      "line": "--2024-04-15 16:54:44--  https://portailusagers.departement86.fr/css/duw.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/css/screen.css",
+        "path": "/css/screen.css",
+        "href": "https://portailusagers.departement86.fr/css/screen.css"
+      },
+      "link": "https://portailusagers.departement86.fr/css/screen.css",
+      "line": "--2024-04-15 16:54:45--  https://portailusagers.departement86.fr/css/screen.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/js/commun.js",
+        "path": "/js/commun.js",
+        "href": "https://portailusagers.departement86.fr/js/commun.js"
+      },
+      "link": "https://portailusagers.departement86.fr/js/commun.js",
+      "line": "--2024-04-15 16:54:45--  https://portailusagers.departement86.fr/js/commun.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/js/fade.js",
+        "path": "/js/fade.js",
+        "href": "https://portailusagers.departement86.fr/js/fade.js"
+      },
+      "link": "https://portailusagers.departement86.fr/js/fade.js",
+      "line": "--2024-04-15 16:54:45--  https://portailusagers.departement86.fr/js/fade.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/logoTitre.gif",
+        "path": "/images/logoTitre.gif",
+        "href": "https://portailusagers.departement86.fr/images/logoTitre.gif"
+      },
+      "link": "https://portailusagers.departement86.fr/images/logoTitre.gif",
+      "line": "--2024-04-15 16:54:45--  https://portailusagers.departement86.fr/images/logoTitre.gif",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/coinGauche.gif",
+        "path": "/images/coinGauche.gif",
+        "href": "https://portailusagers.departement86.fr/images/coinGauche.gif"
+      },
+      "link": "https://portailusagers.departement86.fr/images/coinGauche.gif",
+      "line": "--2024-04-15 16:54:45--  https://portailusagers.departement86.fr/images/coinGauche.gif",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/coinDroit.gif",
+        "path": "/images/coinDroit.gif",
+        "href": "https://portailusagers.departement86.fr/images/coinDroit.gif"
+      },
+      "link": "https://portailusagers.departement86.fr/images/coinDroit.gif",
+      "line": "--2024-04-15 16:54:46--  https://portailusagers.departement86.fr/images/coinDroit.gif",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/FCboutonsNegative.jpg",
+        "path": "/images/FCboutonsNegative.jpg",
+        "href": "https://portailusagers.departement86.fr/images/FCboutonsNegative.jpg"
+      },
+      "link": "https://portailusagers.departement86.fr/images/FCboutonsNegative.jpg",
+      "line": "--2024-04-15 16:54:46--  https://portailusagers.departement86.fr/images/FCboutonsNegative.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/mdpMail.jsp",
+        "path": "/mdpMail.jsp",
+        "href": "https://portailusagers.departement86.fr/mdpMail.jsp"
+      },
+      "link": "https://portailusagers.departement86.fr/mdpMail.jsp",
+      "line": "--2024-04-15 16:54:46--  https://portailusagers.departement86.fr/mdpMail.jsp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/coinGaucheBas.gif",
+        "path": "/images/coinGaucheBas.gif",
+        "href": "https://portailusagers.departement86.fr/images/coinGaucheBas.gif"
+      },
+      "link": "https://portailusagers.departement86.fr/images/coinGaucheBas.gif",
+      "line": "--2024-04-15 16:54:46--  https://portailusagers.departement86.fr/images/coinGaucheBas.gif",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/coinDroitBas.gif",
+        "path": "/images/coinDroitBas.gif",
+        "href": "https://portailusagers.departement86.fr/images/coinDroitBas.gif"
+      },
+      "link": "https://portailusagers.departement86.fr/images/coinDroitBas.gif",
+      "line": "--2024-04-15 16:54:46--  https://portailusagers.departement86.fr/images/coinDroitBas.gif",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/popupMentionsLegales.jsp",
+        "path": "/popupMentionsLegales.jsp",
+        "href": "https://portailusagers.departement86.fr/popupMentionsLegales.jsp"
+      },
+      "link": "https://portailusagers.departement86.fr/popupMentionsLegales.jsp",
+      "line": "--2024-04-15 16:54:47--  https://portailusagers.departement86.fr/popupMentionsLegales.jsp",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/logo-mdph-small.jpg",
+        "path": "/images/logo-mdph-small.jpg",
+        "href": "https://portailusagers.departement86.fr/images/logo-mdph-small.jpg"
+      },
+      "link": "https://portailusagers.departement86.fr/images/logo-mdph-small.jpg",
+      "line": "--2024-04-15 16:54:47--  https://portailusagers.departement86.fr/images/logo-mdph-small.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/cg86-retourliste.png",
+        "path": "/images/cg86-retourliste.png",
+        "href": "https://portailusagers.departement86.fr/images/cg86-retourliste.png"
+      },
+      "link": "https://portailusagers.departement86.fr/images/cg86-retourliste.png",
+      "line": "--2024-04-15 16:54:47--  https://portailusagers.departement86.fr/images/cg86-retourliste.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/cg86-deconnexion.png",
+        "path": "/images/cg86-deconnexion.png",
+        "href": "https://portailusagers.departement86.fr/images/cg86-deconnexion.png"
+      },
+      "link": "https://portailusagers.departement86.fr/images/cg86-deconnexion.png",
+      "line": "--2024-04-15 16:54:47--  https://portailusagers.departement86.fr/images/cg86-deconnexion.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "portailusagers.departement86.fr",
+        "port": null,
+        "hostname": "portailusagers.departement86.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/cg86-einfo.png",
+        "path": "/images/cg86-einfo.png",
+        "href": "https://portailusagers.departement86.fr/images/cg86-einfo.png"
+      },
+      "link": "https://portailusagers.departement86.fr/images/cg86-einfo.png",
+      "line": "--2024-04-15 16:54:48--  https://portailusagers.departement86.fr/images/cg86-einfo.png",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
