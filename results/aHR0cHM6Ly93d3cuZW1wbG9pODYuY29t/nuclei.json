@@ -1,43 +1,6 @@
 [
   [
     {
-      "template": "dns/dns-saas-service-detection.yaml",
-      "template-url": "https://templates.nuclei.sh/public/dns-saas-service-detection",
-      "template-id": "dns-saas-service-detection",
-      "template-path": "/home/runner/nuclei-templates/dns/dns-saas-service-detection.yaml",
-      "info": {
-        "name": "DNS SaaS Service Detection",
-        "author": [
-          "noah @thesubtlety",
-          "pdteam"
-        ],
-        "tags": [
-          "dns",
-          "service"
-        ],
-        "description": "A CNAME DNS record was discovered",
-        "reference": [
-          "https://ns1.com/resources/cname",
-          "https://www.theregister.com/2021/02/24/dns_cname_tracking/",
-          "https://www.ionos.com/digitalguide/hosting/technical-matters/cname-record/"
-        ],
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "type": "dns",
-      "host": "www.emploi86.com.",
-      "matched-at": "www.emploi86.com",
-      "extracted-results": [
-        "emploi86.com."
-      ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 57192\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CNAME\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 57192\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CNAME\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t4877\tIN\tCNAME\temploi86.com.\n",
-      "timestamp": "2024-04-15T13:51:39.27116025Z",
-      "matcher-status": true
-    },
-    {
       "template": "dns/caa-fingerprint.yaml",
       "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
       "template-id": "caa-fingerprint",
@@ -69,9 +32,46 @@
       "type": "dns",
       "host": "www.emploi86.com.",
       "matched-at": "www.emploi86.com",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 13106\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 13106\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CAA\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\n\n;; AUTHORITY SECTION:\nemploi86.com.\t10800\tIN\tSOA\ta.dns.gandi.net. hostmaster.gandi.net. 1702570600 10800 3600 604800 10800\n",
-      "timestamp": "2024-04-15T13:51:39.523153093Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 49381\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 49381\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CAA\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\n\n;; AUTHORITY SECTION:\nemploi86.com.\t1800\tIN\tSOA\ta.dns.gandi.net. hostmaster.gandi.net. 1702570600 10800 3600 604800 10800\n",
+      "timestamp": "2024-04-15T16:24:33.638217885Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/dns-saas-service-detection.yaml",
+      "template-url": "https://templates.nuclei.sh/public/dns-saas-service-detection",
+      "template-id": "dns-saas-service-detection",
+      "template-path": "/home/runner/nuclei-templates/dns/dns-saas-service-detection.yaml",
+      "info": {
+        "name": "DNS SaaS Service Detection",
+        "author": [
+          "noah @thesubtlety",
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "service"
+        ],
+        "description": "A CNAME DNS record was discovered",
+        "reference": [
+          "https://ns1.com/resources/cname",
+          "https://www.theregister.com/2021/02/24/dns_cname_tracking/",
+          "https://www.ionos.com/digitalguide/hosting/technical-matters/cname-record/"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "dns",
+      "host": "www.emploi86.com.",
+      "matched-at": "www.emploi86.com",
+      "extracted-results": [
+        "emploi86.com."
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 52540\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CNAME\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 52540\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t CNAME\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\n",
+      "timestamp": "2024-04-15T16:24:33.710396677Z",
       "matcher-status": true
     },
     {
@@ -105,12 +105,12 @@
       "matched-at": "www.emploi86.com",
       "extracted-results": [
         "b.dns.gandi.net.",
-        "a.dns.gandi.net.",
-        "c.dns.gandi.net."
+        "c.dns.gandi.net.",
+        "a.dns.gandi.net."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 24920\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t NS\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 24920\n;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t NS\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t4876\tIN\tCNAME\temploi86.com.\nemploi86.com.\t4876\tIN\tNS\tb.dns.gandi.net.\nemploi86.com.\t4876\tIN\tNS\ta.dns.gandi.net.\nemploi86.com.\t4876\tIN\tNS\tc.dns.gandi.net.\n",
-      "timestamp": "2024-04-15T13:51:40.271973425Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 45186\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t NS\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 45186\n;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t NS\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\nemploi86.com.\t10800\tIN\tNS\tb.dns.gandi.net.\nemploi86.com.\t10800\tIN\tNS\tc.dns.gandi.net.\nemploi86.com.\t10800\tIN\tNS\ta.dns.gandi.net.\n",
+      "timestamp": "2024-04-15T16:24:34.555905942Z",
       "matcher-status": true
     },
     {
@@ -147,12 +147,12 @@
       "host": "www.emploi86.com.",
       "matched-at": "www.emploi86.com",
       "extracted-results": [
-        "10 spool.mail.gandi.net.",
-        "50 fb.mail.gandi.net."
+        "50 fb.mail.gandi.net.",
+        "10 spool.mail.gandi.net."
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 45082\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t MX\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 45082\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t MX\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t4876\tIN\tCNAME\temploi86.com.\nemploi86.com.\t10800\tIN\tMX\t10 spool.mail.gandi.net.\nemploi86.com.\t10800\tIN\tMX\t50 fb.mail.gandi.net.\n",
-      "timestamp": "2024-04-15T13:51:40.350874913Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 47524\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t MX\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 47524\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t MX\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\nemploi86.com.\t10800\tIN\tMX\t50 fb.mail.gandi.net.\nemploi86.com.\t10800\tIN\tMX\t10 spool.mail.gandi.net.\n",
+      "timestamp": "2024-04-15T16:24:34.635001528Z",
       "matcher-status": true
     },
     {
@@ -188,12 +188,12 @@
       "host": "www.emploi86.com.",
       "matched-at": "www.emploi86.com",
       "extracted-results": [
-        "\"google-site-verification=IsruFyQhlBcNELH7izm3UkuTVhlu3aDzook8O63R1zU\"",
-        "\"v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\""
+        "\"v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\"",
+        "\"google-site-verification=IsruFyQhlBcNELH7izm3UkuTVhlu3aDzook8O63R1zU\""
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 56212\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 56212\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\nemploi86.com.\t1800\tIN\tTXT\t\"v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\"\nemploi86.com.\t1800\tIN\tTXT\t\"google-site-verification=IsruFyQhlBcNELH7izm3UkuTVhlu3aDzook8O63R1zU\"\n",
-      "timestamp": "2024-04-15T13:51:40.572637169Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 18054\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 18054\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\nemploi86.com.\t1800\tIN\tTXT\t\"v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\"\nemploi86.com.\t1800\tIN\tTXT\t\"google-site-verification=IsruFyQhlBcNELH7izm3UkuTVhlu3aDzook8O63R1zU\"\n",
+      "timestamp": "2024-04-15T16:24:34.645417573Z",
       "matcher-status": true
     },
     {
@@ -225,9 +225,9 @@
       "extracted-results": [
         "v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\""
       ],
-      "request": ";; opcode: QUERY, status: NOERROR, id: 56212\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 56212\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\nemploi86.com.\t1800\tIN\tTXT\t\"v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\"\nemploi86.com.\t1800\tIN\tTXT\t\"google-site-verification=IsruFyQhlBcNELH7izm3UkuTVhlu3aDzook8O63R1zU\"\n",
-      "timestamp": "2024-04-15T13:51:40.572683906Z",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 18054\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 18054\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.emploi86.com.\tIN\t TXT\n\n;; ANSWER SECTION:\nwww.emploi86.com.\t10800\tIN\tCNAME\temploi86.com.\nemploi86.com.\t1800\tIN\tTXT\t\"v=spf1 include:_mailcust.gandi.net ip4:46.105.117.147 ~all\"\nemploi86.com.\t1800\tIN\tTXT\t\"google-site-verification=IsruFyQhlBcNELH7izm3UkuTVhlu3aDzook8O63R1zU\"\n",
+      "timestamp": "2024-04-15T16:24:34.64548544Z",
       "matcher-status": true
     },
     {
@@ -258,131 +258,14 @@
           "max-request": 1
         }
       },
-      "matcher-name": "clear-site-data",
+      "matcher-name": "permissions-policy",
       "type": "http",
       "host": "https://www.emploi86.com",
       "matched-at": "https://www.emploi86.com",
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.36894598Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-embedder-policy",
-      "type": "http",
-      "host": "https://www.emploi86.com",
-      "matched-at": "https://www.emploi86.com",
-      "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
-      "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.368985814Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "content-security-policy",
-      "type": "http",
-      "host": "https://www.emploi86.com",
-      "matched-at": "https://www.emploi86.com",
-      "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
-      "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369003838Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "referrer-policy",
-      "type": "http",
-      "host": "https://www.emploi86.com",
-      "matched-at": "https://www.emploi86.com",
-      "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
-      "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369021471Z",
+      "timestamp": "2024-04-15T16:25:29.618009259Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -421,7 +304,7 @@
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.36903743Z",
+      "timestamp": "2024-04-15T16:25:29.618051228Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -460,7 +343,7 @@
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369050985Z",
+      "timestamp": "2024-04-15T16:25:29.618064733Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -499,7 +382,7 @@
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369063478Z",
+      "timestamp": "2024-04-15T16:25:29.618082476Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -538,7 +421,7 @@
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369077815Z",
+      "timestamp": "2024-04-15T16:25:29.618124244Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -577,7 +460,7 @@
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369090268Z",
+      "timestamp": "2024-04-15T16:25:29.618138792Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -616,7 +499,7 @@
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369102391Z",
+      "timestamp": "2024-04-15T16:25:29.618151395Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -648,14 +531,131 @@
           "max-request": 1
         }
       },
-      "matcher-name": "permissions-policy",
+      "matcher-name": "content-security-policy",
       "type": "http",
       "host": "https://www.emploi86.com",
       "matched-at": "https://www.emploi86.com",
       "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:52:35.369114253Z",
+      "timestamp": "2024-04-15T16:25:29.618164169Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "referrer-policy",
+      "type": "http",
+      "host": "https://www.emploi86.com",
+      "matched-at": "https://www.emploi86.com",
+      "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
+      "ip": "91.121.52.142",
+      "timestamp": "2024-04-15T16:25:29.618210486Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://www.emploi86.com",
+      "matched-at": "https://www.emploi86.com",
+      "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
+      "ip": "91.121.52.142",
+      "timestamp": "2024-04-15T16:25:29.618223099Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-embedder-policy",
+      "type": "http",
+      "host": "https://www.emploi86.com",
+      "matched-at": "https://www.emploi86.com",
+      "request": "GET / HTTP/1.1\r\nHost: www.emploi86.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.0 429 Too Many Requests\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
+      "ip": "91.121.52.142",
+      "timestamp": "2024-04-15T16:25:29.618236334Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.emploi86.com'",
       "matcher-status": true
     },
@@ -686,7 +686,7 @@
         "TBS Internet Ltd"
       ],
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:55:02.189505112Z",
+      "timestamp": "2024-04-15T16:27:56.370525165Z",
       "matcher-status": true
     },
     {
@@ -717,7 +717,7 @@
         "emploi86.com"
       ],
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:55:02.189623833Z",
+      "timestamp": "2024-04-15T16:27:56.370660839Z",
       "matcher-status": true
     },
     {
@@ -748,7 +748,7 @@
         "tls12"
       ],
       "ip": "91.121.52.142",
-      "timestamp": "2024-04-15T13:55:03.558242497Z",
+      "timestamp": "2024-04-15T16:27:57.763879191Z",
       "matcher-status": true
     }
   ]
