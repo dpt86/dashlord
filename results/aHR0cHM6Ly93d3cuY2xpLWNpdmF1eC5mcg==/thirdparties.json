@@ -94,14 +94,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
       "details": {
         "id": "google fonts",
@@ -133,8 +125,16 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=660009&h=16&m=34&s=6&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=332ecc041744a69d&_idn=0&send_image=0&_refts=0&pv_id=Y8Vus9&pf_net=346&pf_srv=464&pf_tfr=1&pf_dm1=710&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=082964&h=18&m=9&s=0&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=5041dd002b4ce3b3&_idn=0&send_image=0&_refts=0&pv_id=EJzgeC&pf_net=499&pf_srv=521&pf_tfr=1&pf_dm1=673&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1713200646,
+      "expires": 1713206340,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.4.c1bf",
-      "value": "332ecc041744a69d.1713198847.",
+      "value": "5041dd002b4ce3b3.1713204540.",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1746894847,
+      "expires": 1746900540,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -175,8 +175,8 @@
     "content-language": "fr",
     "content-length": "7774",
     "content-type": "text/html; charset=utf-8",
-    "date": "Mon, 15 Apr 2024 16:34:05 GMT",
-    "expires": "Mon, 15 Apr 2024 16:34:04 GMT",
+    "date": "Mon, 15 Apr 2024 18:08:58 GMT",
+    "expires": "Mon, 15 Apr 2024 18:08:58 GMT",
     "server": "nginx",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
@@ -262,7 +262,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.189.202",
+      "ip": "142.250.189.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -372,7 +372,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.32.35",
+      "ip": "142.251.46.227",
       "geoip": {
         "city": {
           "geoname_id": 5133273,
@@ -409,7 +409,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
+          "accuracy_radius": 50,
           "latitude": 40.66,
           "longitude": -73.839,
           "metro_code": 501,

@@ -76,7 +76,7 @@
 "intermediate_cert_badOCSP","www.cli-civaux.fr/87.252.12.28","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","www.cli-civaux.fr/87.252.12.28","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","www.cli-civaux.fr/87.252.12.28","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","www.cli-civaux.fr/87.252.12.28","443","INFO","1713199002","",""
+"HTTP_headerTime","www.cli-civaux.fr/87.252.12.28","443","INFO","1713204745","",""
 "HSTS","www.cli-civaux.fr/87.252.12.28","443","LOW","not offered","",""
 "HPKP","www.cli-civaux.fr/87.252.12.28","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","www.cli-civaux.fr/87.252.12.28","443","INFO","nginx","",""
