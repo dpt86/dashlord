@@ -27,4 +27,11 @@ columns: # pour masquer des colonnes
 urls:
   - url: https://archives-deux-sevres-vienne.fr/
   - url: https://www.lavienne86.fr/
+  - url: https://bdv.departement86.fr/
+  - url: https://marches.departement86.fr/
+  - url: https://www.emploi86.com/
+  - url: https://enej.lavienne86.fr/
   - url: https://www.mdph86.fr/
+  - url: https://www.vienne-numerique.fr/
+  - url: https://www.cli-civaux.fr/
+  - url: https://sportsnature.lavienne86.fr/
