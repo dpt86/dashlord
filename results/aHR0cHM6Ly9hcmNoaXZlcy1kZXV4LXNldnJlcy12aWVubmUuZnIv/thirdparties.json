@@ -33,10 +33,6 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/js/container_pIBKInjT.js"
-    },
-    {
       "type": "google tag manager",
       "url": "https://www.googletagmanager.com/gtag/js?id=G-PB1ZFNE265&l=dataLayer&cx=c",
       "details": {
@@ -53,6 +49,18 @@
       }
     },
     {
+      "type": "unknown",
+      "url": "https://statistique.lavienne86.fr/js/container_pIBKInjT.js"
+    },
+    {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=2129141190&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEBAAUABAAAAACAAI~&jid=1040263387&gjid=929609199&cid=987546224.1713173434&tid=UA-160621-11&_gid=666697725.1713173434&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=1630349790",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "google tag manager",
       "url": "https://www.googletagmanager.com/gtag/js?id=G-1PJ9S918RP&l=dataLayer&cx=c",
       "details": {
@@ -62,7 +70,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=873083363&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEBAAUABAAAAACAAI~&jid=1511692356&gjid=21812191&cid=199853969.1713168281&tid=UA-160621-11&_gid=1312803543.1713168281&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=748180065",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=2129141190&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aEDAAUABAAAAACAAI~&jid=59573941&gjid=1100068815&cid=987546224.1713173434&tid=UA-3609640-1&_gid=666697725.1713173434&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=349447371",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -70,7 +78,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=873083363&t=pageview&_s=1&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&ul=en-us&de=UTF-8&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEDAAUABAAAAACAAI~&jid=117928418&gjid=2061943956&cid=199853969.1713168281&tid=UA-3609640-1&_gid=1312803543.1713168281&_r=1&gtm=457e44a0za200&gcd=13l3l3l3l1&dma=0&jsscut=1&z=58234463",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PB1ZFNE265&gtm=45je44a0v9125305882za200&_p=1713173433427&gcd=13l3l3l3l1&npa=0&dma=0&cid=987546224.1713173434&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713173434&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=1419",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -78,15 +86,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1PJ9S918RP&gtm=45je44a0v9123709014za200&_p=1713168279964&gcd=13l3l3l3l1&npa=0&dma=0&cid=199853969.1713168281&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713168281&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=2420",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PB1ZFNE265&gtm=45je44a0v9125305882za200&_p=1713168279964&gcd=13l3l3l3l1&npa=0&dma=0&cid=199853969.1713168281&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713168281&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=2471",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1PJ9S918RP&gtm=45je44a0v9123709014za200&_p=1713173433427&gcd=13l3l3l3l1&npa=0&dma=0&cid=987546224.1713173434&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_eu=AAAI&_s=1&sid=1713173434&sct=1&seg=0&dl=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&dt=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&en=page_view&_fv=1&_ss=1&tfd=1525",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -94,16 +94,16 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&idsite=8&rec=1&r=255431&h=8&m=4&s=42&url=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&_id=307fe4066a4791ad&_idn=1&send_image=0&_refts=0&pv_id=JQnzac&pf_net=503&pf_srv=324&pf_tfr=156&pf_dm1=1141&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Archives%20d%C3%A9partementales%20des%20Deux-S%C3%A8vres%20et%20de%20la%20Vienne&idsite=8&rec=1&r=666307&h=9&m=30&s=34&url=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2F&_id=b57124f8f7fb159e&_idn=1&send_image=0&_refts=0&pv_id=ofIgK6&pf_net=319&pf_srv=320&pf_tfr=88&pf_dm1=825&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
     {
       "name": "_pk_id.8.7391",
-      "value": "307fe4066a4791ad.1713168282.",
+      "value": "b57124f8f7fb159e.1713173434.",
       "domain": "archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1747123482,
+      "expires": 1747128634,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -114,25 +114,11 @@
       "sourcePort": 443
     },
     {
-      "name": "_ga_PB1ZFNE265",
-      "value": "GS1.1.1713168281.1.0.1713168281.0.0.0",
-      "domain": ".archives-deux-sevres-vienne.fr",
-      "path": "/",
-      "expires": 1776240281,
-      "size": 51,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
       "name": "_ga",
-      "value": "GA1.1.199853969.1713168281",
+      "value": "GA1.1.987546224.1713173434",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1776240281,
+      "expires": 1776245434,
       "size": 29,
       "httpOnly": false,
       "secure": false,
@@ -146,7 +132,7 @@
       "value": "1",
       "domain": "archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713170082,
+      "expires": 1713175234,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -158,10 +144,10 @@
     },
     {
       "name": "_ga_1PJ9S918RP",
-      "value": "GS1.1.1713168281.1.0.1713168281.0.0.0",
+      "value": "GS1.1.1713173434.1.0.1713173434.0.0.0",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1776240281,
+      "expires": 1776245434,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -175,7 +161,7 @@
       "value": "1",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713168341,
+      "expires": 1713173494,
       "size": 23,
       "httpOnly": false,
       "secure": false,
@@ -189,7 +175,7 @@
       "value": "1",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713168341,
+      "expires": 1713173494,
       "size": 23,
       "httpOnly": false,
       "secure": false,
@@ -199,12 +185,12 @@
       "sourcePort": 443
     },
     {
-      "name": "_gid",
-      "value": "GA1.2.1312803543.1713168281",
+      "name": "_ga_PB1ZFNE265",
+      "value": "GS1.1.1713173434.1.0.1713173434.0.0.0",
       "domain": ".archives-deux-sevres-vienne.fr",
       "path": "/",
-      "expires": 1713254681,
-      "size": 31,
+      "expires": 1776245434,
+      "size": 51,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -228,7 +214,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "54adr8eqpjac30udnrpij6al66",
+      "value": "caa24nvlthf3us6p8se79dfk47",
       "domain": "archives-deux-sevres-vienne.fr",
       "path": "/",
       "expires": -1,
@@ -244,11 +230,11 @@
   "headers": {
     "cache-control": "no-cache",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Mon, 15 Apr 2024 08:04:39 GMT",
+    "date": "Mon, 15 Apr 2024 09:30:33 GMT",
     "expires": "-1",
     "pragma": "no-cache",
     "referrer-policy": "no-referrer-when-downgrade",
-    "set-cookie": "PHPSESSID=54adr8eqpjac30udnrpij6al66; path=/\nHAPROXYID=s02; path=/; HttpOnly",
+    "set-cookie": "PHPSESSID=caa24nvlthf3us6p8se79dfk47; path=/\nHAPROXYID=s02; path=/; HttpOnly",
     "strict-transport-security": "max-age=63072000",
     "x-content-type-options": "nosniff",
     "x-frame-options": "*",
@@ -313,12 +299,12 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.46.232",
+      "ip": "142.251.16.97",
       "geoip": {
         "city": {
-          "geoname_id": 5133273,
+          "geoname_id": 5116931,
           "names": {
-            "en": "Queens"
+            "en": "Farmingdale"
           }
         },
         "continent": {
@@ -350,14 +336,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11414"
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -389,6 +375,60 @@
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "www.google-analytics.com",
+      "ip": "172.253.63.102",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     },
     {
@@ -443,60 +483,6 @@
             "pt-BR": "França",
             "ru": "Франция",
             "zh-CN": "法国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "www.google-analytics.com",
-      "ip": "142.250.188.14",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
           }
         }
       }
