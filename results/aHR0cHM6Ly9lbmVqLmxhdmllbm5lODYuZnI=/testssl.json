@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "30 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-05-15 17:57"
           }
 ,         {
@@ -507,7 +507,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713198034"
+              "finding"      : "1713204339"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1070,6 +1070,6 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "50"
           }
 ]
