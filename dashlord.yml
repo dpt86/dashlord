@@ -76,11 +76,11 @@ urls:
     tags:
       - Culture
       - Territoire
-    - url: https://lireenvienne.fr
+  - url: https://lireenvienne.fr
     tags:
       - Culture
       - Territoire
-    - url: https://lireenviennecolleges.fr
+  - url: https://lireenviennecolleges.fr
     tags:
       - Culture
       - Education
