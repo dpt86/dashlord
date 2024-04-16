@@ -168,7 +168,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "tbk5g8rahuon39drgsj8slfu00",
+      "value": "gqjoiq0jkpjmegfhbtcdtk82h3",
       "domain": "mod.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -190,12 +190,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Mon, 15 Apr 2024 18:44:16 GMT",
+    "date": "Tue, 16 Apr 2024 16:05:15 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=tbk5g8rahuon39drgsj8slfu00; path=/\nUTB_S=deleted; expires=Sun, 16-Apr-2023 18:44:15 GMT; path=/",
+    "set-cookie": "PHPSESSID=gqjoiq0jkpjmegfhbtcdtk82h3; path=/\nUTB_S=deleted; expires=Mon, 17-Apr-2023 16:05:14 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -304,7 +304,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -324,12 +324,12 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.167.95",
+      "ip": "142.251.32.42",
       "geoip": {
         "city": {
-          "geoname_id": 5116931,
+          "geoname_id": 5133273,
           "names": {
-            "en": "Farmingdale"
+            "en": "Queens"
           }
         },
         "continent": {
@@ -362,13 +362,13 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
+          "latitude": 40.66,
+          "longitude": -73.839,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11735"
+          "code": "11414"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -404,7 +404,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.62.95",
+      "ip": "142.250.188.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -514,7 +514,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.122.94",
+      "ip": "142.250.191.67",
       "geoip": {
         "continent": {
           "code": "NA",
