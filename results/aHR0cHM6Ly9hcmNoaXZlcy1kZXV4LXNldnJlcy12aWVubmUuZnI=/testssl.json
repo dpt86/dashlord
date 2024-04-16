@@ -297,7 +297,7 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03E208704D18F2801A42F3A1346CA87AC328"
+              "finding"      : "03D1723F31FC0F08449ECF7824FB229BAAFE"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F7E7E1AD42C49E234AB3FDCF7D761341478BB896"
+              "finding"      : "4D64C3AF60FF9FB3A39C2486C2B400057827BA36"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3587549244B2076A6BD04DB727B21FE0E2FDF6C2CEA72963D13401F5C6AA3568"
+              "finding"      : "06984E98203097DA3B99E66F552DB5916A848E22D5DD5B804445FBE416AEBBC4"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFCTCCA/GgAwIBAgISA+IIcE0Y8oAaQvOhNGyoesMoMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDAyMTYwOTM3MTNaFw0yNDA1MTYwOTM3MTJaMCkxJzAlBgNVBAMTHmFyY2hpdmVzLWRldXgtc2V2cmVzLXZpZW5uZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALENSsOz6Ew7QXnEZRnnr85SAHVZ6BJNMuR+3IoGj1FYimqxI/BJp/k8Ai8Jw0ETK6wcOWAdqadsXwoniJGUNGZhmP5bqNbi6/Bz6CivGdE8Is0Xes1cY2UycSRY0yHT0yF/TLXC03rve8i+q7EkTgIE2LJ7kok87P4GFooZTC5HRTklVgnXBO2G6nLifnZxak1EwakS8yv8xkyEcUs6jRi5Y4do/Qjddm3qE3gMQLBiBhmHciPGdahiO9fP7Svcb35kSz6jHwr+08M9Zoc2lPmyZEkeZYw97V+nAtB/hwVYYdi00tICFvun+FwERFihAdF/WkubcGFrzwbxJvGezoUCAwEAAaOCAiAwggIcMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU4DsYELgHayAyb3TjFWGbUDshCOMwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wKQYDVR0RBCIwIIIeYXJjaGl2ZXMtZGV1eC1zZXZyZXMtdmllbm5lLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHcAouK/1h7eLy8HoNZObTen3GVDsMa1LqLat4r4mm31F9gAAAGNsX3i1QAABAMASDBGAiEAx7MCLH7mq6hyTMZUPmEbYLaYuqQ1a9fNYNmv7xpFddACIQDjQguXOr7g3CP1j4LxRevsJR4TgA+UA9wuFjZomHrEXgB1AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABjbF942oAAAQDAEYwRAIgPADFaiTpCnqNAiN8RVMGJ4mHHjmLtj9SNvp74t/zbAMCIAtgA1Fl+TjSTB8lf0KJ8axyXU8Yr75TXIlQ3j5zEhIEMA0GCSqGSIb3DQEBCwUAA4IBAQCHDyrzfbmLILmyyW1B9M6XQjUtIGhcVdZa/3eP2IxYEbUfEwWsPXH/oaIwwwefLsS0h/7MZqpyT1PvNzOlXTBrsaG48umesWdJ60rYPOVrcxE1Lqb8naJDlaRkLEWms/Ms27pVGs2ITNJ4uTEJh8Y6WM8i9gIriwZpvvmvm/YA/8OeO0M3YxtuPC6XfXY53rYQTSHJg9HXuk0fnSWiVv83raEL1x5yxv+HqFHVcLFwy/t0w7LzFVl9XHUw8k1HX6S6TEYX6rMMcU/NUwyGECSSq9urEseT205fSSR/8+rS7CYXtpmI5y5B0rKyWsvKq/az7I+bF43wVnPLL69KjGCP\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFCDCCA/CgAwIBAgISA9FyPzH8DwhEns94JPsim6r+MA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDA0MTYxMTA0MjVaFw0yNDA3MTUxMTA0MjRaMCkxJzAlBgNVBAMTHmFyY2hpdmVzLWRldXgtc2V2cmVzLXZpZW5uZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALqC+xjKcn+ws3d5fmUkDJtwb523Rd3Q1lp+xokxHqv1kk7ZiechPOKDTFR2c0DBIVIqzIpvkoDgNwD5CJTQfBOYSma+8+V5kHjHda259JR+hg/EBNigxfoybtv8bpnFpRk9ZHiMAl3U6JMnPx2KvPgy6qP/PxdOfn0xxWiAgj9rnfyK+RiOBRh6vOXAFju6P9pFAiioVnaFo4BEr8Dw+0DexxJJTsK2GhQbT8Uzy5C/quSbIU6ziRj4kcvbR+fY2xDUSCabiTNufdQawUKsuH8HPTMg7gDwlDysIq099yUYnpvVvHKb99nMeuFNhhNQ4kMUx0rtJe2enNweB3Se2B0CAwEAAaOCAh8wggIbMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUOcSibhigzWox3pCQ2pxBh+xAVBowHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wKQYDVR0RBCIwIIIeYXJjaGl2ZXMtZGV1eC1zZXZyZXMtdmllbm5lLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGO5stGFwAABAMARzBFAiEA2FzF2jleQkwxipL6130B1MCS7iM4VL02aXFaCsKOHH4CIBH1jC9BfUD91WckddnEwa/dQ/iJggD8oDRDwCq+WUsXAHUAO1N3dT4tuYBOizBbBv5AO2fYT8P0x70ADS1yb+H61BcAAAGO5stGHgAABAMARjBEAiBN8Vz2ISaAJKgpB9mDui/rys3/zL0xUeRXMpCJuZmpLQIgZLHiHxaIUAGM49wVawDMke064NmyiNuh4n9qgvP5z6IwDQYJKoZIhvcNAQELBQADggEBAKHByUEOFZBSCV1YDbQhrGv+MzF+uSsIl+bgxXQ8l+jSLjChCYbypkG8DSg1MngsEnbcHit0F/Y9hSwdUIgRhSk4cLvkc1PrWeY6O6mlWx131smK73QU77eNu/0XhQMkiyVQbpJzu5UKCCkt5knvhtOaoBNFRbUbNMmAUkRxYYQddqa6bS1T0mBCandlaLPkryWGdXD7DBT/0GusLeIUKmp+WPX1s+BRFaFHG8khGmbe8Ewae0VdI3kL/zQ4WnknZuc6hfFKLx/j2PYyD4CrII0kUYN+Sd/DhV/sHHRQPz+tVXsQtuswco6xm+vW2R1RKxKjCnPwP50hnSoE+pXy/+8=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -374,21 +374,21 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "30 >= 30 days"
+              "finding"      : "89 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-02-16 09:37"
+              "finding"      : "2024-04-16 11:04"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-05-16 09:37"
+              "finding"      : "2024-07-15 11:04"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,7 +535,7 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713203985"
+              "finding"      : "1713280913"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3587549244B2076A6BD04DB727B21FE0E2FDF6C2CEA72963D13401F5C6AA3568"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=06984E98203097DA3B99E66F552DB5916A848E22D5DD5B804445FBE416AEBBC4"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1147,6 +1147,6 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "55"
           }
 ]
