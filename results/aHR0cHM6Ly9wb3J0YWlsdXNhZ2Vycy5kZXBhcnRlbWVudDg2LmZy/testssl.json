@@ -395,7 +395,7 @@
               "ip"           : "portailusagers.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -542,7 +542,7 @@
               "ip"           : "portailusagers.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "77 >= 60 days"
+              "finding"      : "76 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -822,14 +822,14 @@
               "ip"           : "portailusagers.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+4 (± 1.5) seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "portailusagers.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713205404"
+              "finding"      : "1713282253"
           }
 ,         {
               "id"           : "HSTS",
@@ -1462,6 +1462,6 @@
               "ip"           : "portailusagers.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "181"
+              "finding"      : "184"
           }
 ]
