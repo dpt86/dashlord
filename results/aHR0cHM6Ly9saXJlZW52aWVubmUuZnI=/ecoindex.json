@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://lireenvienne.fr",
-        "size": 52431.326,
+        "size": 55145.612,
         "nodes": 4087,
-        "requests": 318,
+        "requests": 319,
         "grade": "G",
         "score": 5.0,
         "ges": 2.9,
         "water": 4.35,
         "ecoindex_version": "5.4.2",
-        "date": "2024-04-15 18:26:39.790066",
+        "date": "2024-04-16 15:48:17.104583",
         "page_type": "article"
     }
 ]
