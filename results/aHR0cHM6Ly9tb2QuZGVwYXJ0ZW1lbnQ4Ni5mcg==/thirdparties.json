@@ -168,7 +168,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "gqjoiq0jkpjmegfhbtcdtk82h3",
+      "value": "514shguvd4hvunv4ut5avuonk7",
       "domain": "mod.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -190,12 +190,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Tue, 16 Apr 2024 16:05:15 GMT",
+    "date": "Fri, 19 Apr 2024 07:33:09 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=gqjoiq0jkpjmegfhbtcdtk82h3; path=/\nUTB_S=deleted; expires=Mon, 17-Apr-2023 16:05:14 GMT; path=/",
+    "set-cookie": "PHPSESSID=514shguvd4hvunv4ut5avuonk7; path=/\nUTB_S=deleted; expires=Thu, 20-Apr-2023 07:33:08 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -324,14 +324,8 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.32.42",
+      "ip": "142.250.191.138",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -361,14 +355,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -383,28 +373,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.188.10",
+      "ip": "142.250.191.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -514,7 +488,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.67",
+      "ip": "142.250.191.99",
       "geoip": {
         "continent": {
           "code": "NA",
