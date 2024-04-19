@@ -1,5 +1,5 @@
-title: DashLord dpt86
-description: Bonnes pratiques techniques
+title: Département de la Vienne
+description: Analyse de conformité
 entity: dpt86
 footer: Powered by DashLord@SocialGouv
 marianne: false
@@ -8,7 +8,7 @@ tools:
   screenshot: true
   nmap: false
   zap: false
-  wappalyzer: false
+  wappalyzer: true
   http: true
   testssl: true
   lighthouse: true
@@ -17,7 +17,7 @@ tools:
   updownio: false
   dependabot: false
   codescan: false
-  stats: false
+  stats: true
   declaration-a11y: true
   declaration-rgpd: true
   ecoindex: true
