@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1308516436&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=2028235893&gjid=676731706&cid=1688791311.1713282377&tid=UA-XXXXX-X&_gid=64956302.1713282377&_r=1&_slc=1&z=1085365389",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1736067009&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=1355454943&gjid=1152057574&cid=1405205566.1713510736&tid=UA-XXXXX-X&_gid=1414522363.1713510736&_r=1&_slc=1&z=705585474",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -23,7 +23,7 @@
       "value": "1",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1713282437,
+      "expires": 1713510795,
       "size": 5,
       "httpOnly": false,
       "secure": false,
@@ -34,11 +34,11 @@
     },
     {
       "name": "_gid",
-      "value": "GA1.2.64956302.1713282377",
+      "value": "GA1.2.1414522363.1713510736",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1713368777,
-      "size": 29,
+      "expires": 1713597135,
+      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.2.1688791311.1713282377",
+      "value": "GA1.2.1405205566.1713510736",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1776354377,
+      "expires": 1776582735,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -62,7 +62,7 @@
     },
     {
       "name": "a9d4c84db54b6aa83d99150bcd423ddc",
-      "value": "c2dqgqo00poh27j122bgiebu80",
+      "value": "a87i0s6cemr29ng73irh8fffbn",
       "domain": "bdv-cabri.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -83,14 +83,14 @@
     "content-length": "6797",
     "content-security-policy": "frame-ancestors 'self' *.departement86.fr;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 16 Apr 2024 15:46:15 GMT",
+    "date": "Fri, 19 Apr 2024 07:12:14 GMT",
     "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
     "keep-alive": "timeout=5, max=499",
-    "last-modified": "Tue, 16 Apr 2024 15:46:16 GMT",
+    "last-modified": "Fri, 19 Apr 2024 07:12:14 GMT",
     "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
     "pragma": "no-cache",
     "server": "Microsoft-IIS/8.5",
-    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=c2dqgqo00poh27j122bgiebu80; path=/; HttpOnly",
+    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=a87i0s6cemr29ng73irh8fffbn; path=/; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "ALLOW-FROM *.departement86.fr",
@@ -199,7 +199,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.250.191.206",
+      "ip": "216.239.38.178",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -231,9 +231,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -248,7 +248,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     }
   ]
