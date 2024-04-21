@@ -150,7 +150,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=678241&h=6&m=35&s=45&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=4afa978e2842bfce&_idn=0&send_image=0&_refts=0&pv_id=dP1bkn&pf_net=911&pf_srv=347&pf_tfr=290&pf_dm1=1126&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=518291&h=1&m=10&s=14&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=31cb7be6e7aa1ab9&_idn=0&send_image=0&_refts=0&pv_id=8P0EaF&pf_net=287&pf_srv=308&pf_tfr=161&pf_dm1=671&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -159,7 +159,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1713510345,
+      "expires": 1713663614,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -171,10 +171,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "4afa978e2842bfce.1713508546.",
+      "value": "31cb7be6e7aa1ab9.1713661814.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1747204546,
+      "expires": 1747357814,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -186,7 +186,7 @@
     },
     {
       "name": "fe_typo_user",
-      "value": "9101022e8ca206a260953dba5fbfed12.229224fbe947109317683ee0b79f30f811756fb5daf2ef736225596bb1418dea",
+      "value": "f6ef661b6265c0c56825ca8e72bdcb55.d4c88a88a3223661f98a9e49b3dc1803d01d15ad637ed99d763ca90402dc5920",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -205,10 +205,10 @@
     "content-encoding": "gzip",
     "content-language": "fr",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 19 Apr 2024 06:35:43 GMT",
-    "expires": "Fri, 19 Apr 2024 06:35:43 GMT",
+    "date": "Sun, 21 Apr 2024 01:10:13 GMT",
+    "expires": "Sun, 21 Apr 2024 01:10:12 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=9101022e8ca206a260953dba5fbfed12.229224fbe947109317683ee0b79f30f811756fb5daf2ef736225596bb1418dea; path=/; httponly; samesite=lax",
+    "set-cookie": "fe_typo_user=f6ef661b6265c0c56825ca8e72bdcb55.d4c88a88a3223661f98a9e49b3dc1803d01d15ad637ed99d763ca90402dc5920; path=/; httponly; samesite=lax",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-powered-by": "PleskLin",
@@ -293,7 +293,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.217.138",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -403,7 +403,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.188.227",
+      "ip": "172.253.62.94",
       "geoip": {
         "continent": {
           "code": "NA",
