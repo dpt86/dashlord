@@ -73,6 +73,14 @@
       }
     },
     {
+      "type": "bootstrapcdn",
+      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "details": {
+        "id": "bootstrapcdn",
+        "message": "Host files locally"
+      }
+    },
+    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
@@ -87,20 +95,12 @@
         "id": "bootstrapcdn",
         "message": "Host files locally"
       }
-    },
-    {
-      "type": "bootstrapcdn",
-      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
-      "details": {
-        "id": "bootstrapcdn",
-        "message": "Host files locally"
-      }
     }
   ],
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "vn789a4ev0pqscr11te0dbprn1",
+      "value": "l276tfdjpuut1gsif13fguf9d0",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 21 Apr 2024 02:01:35 GMT",
+    "date": "Sun, 28 Apr 2024 02:00:30 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=vn789a4ev0pqscr11te0dbprn1; path=/\nUTB_S=deleted; expires=Sat, 22-Apr-2023 02:01:34 GMT; path=/",
+    "set-cookie": "PHPSESSID=l276tfdjpuut1gsif13fguf9d0; path=/\nUTB_S=deleted; expires=Sat, 29-Apr-2023 02:00:29 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -236,7 +236,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -256,7 +256,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.31.95",
+      "ip": "172.253.122.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -310,14 +310,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.16.95",
+      "ip": "172.253.62.95",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -347,14 +341,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -369,28 +359,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "netdna.bootstrapcdn.com",
-      "ip": "104.18.11.207",
+      "ip": "104.18.10.207",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -410,14 +384,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.16.94",
+      "ip": "172.253.63.94",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -447,14 +415,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -469,23 +433,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
