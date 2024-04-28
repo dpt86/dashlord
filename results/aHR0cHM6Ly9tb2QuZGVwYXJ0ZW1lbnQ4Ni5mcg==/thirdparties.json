@@ -168,7 +168,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "0rel9a1u9obaf8i2pg3bm11dh4",
+      "value": "l50f711li2e83tsrijfi88qkp3",
       "domain": "mod.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -190,12 +190,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 21 Apr 2024 02:08:11 GMT",
+    "date": "Sun, 28 Apr 2024 02:08:07 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=0rel9a1u9obaf8i2pg3bm11dh4; path=/\nUTB_S=deleted; expires=Sat, 22-Apr-2023 02:08:10 GMT; path=/",
+    "set-cookie": "PHPSESSID=l50f711li2e83tsrijfi88qkp3; path=/\nUTB_S=deleted; expires=Sat, 29-Apr-2023 02:08:06 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -304,7 +304,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -324,7 +324,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.191.234",
+      "ip": "142.250.191.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -378,7 +378,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.4.202",
+      "ip": "142.250.190.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -488,7 +488,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.2.35",
+      "ip": "172.217.4.67",
       "geoip": {
         "continent": {
           "code": "NA",
