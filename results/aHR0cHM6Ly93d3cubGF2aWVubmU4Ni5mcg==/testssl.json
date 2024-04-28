@@ -353,7 +353,7 @@
               "ip"           : "www.lavienne86.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "231 >= 60 days"
+              "finding"      : "224 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.lavienne86.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713662586"
+              "finding"      : "1714267454"
           }
 ,         {
               "id"           : "HSTS",
@@ -1140,6 +1140,6 @@
               "ip"           : "www.lavienne86.fr/87.252.12.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "76"
+              "finding"      : "80"
           }
 ]
