@@ -9,14 +9,6 @@
       }
     },
     {
-      "type": "cloudflare",
-      "url": "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.1/parsley.min.js",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.googleapis.com/css?family=Barlow:300,400,700,900&display=swap",
       "details": {
@@ -54,7 +46,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -62,7 +54,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -86,14 +78,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
@@ -102,7 +86,23 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -134,15 +134,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -150,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=493758&h=1&m=11&s=3&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=2dcd0005a0123cb9&_idn=0&send_image=0&_refts=0&pv_id=PUX2r3&pf_net=564&pf_srv=301&pf_tfr=198&pf_dm1=841&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=725470&h=1&m=11&s=12&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=22d0fc02be2ef190&_idn=0&send_image=0&_refts=0&pv_id=ab1zhi&pf_net=733&pf_srv=436&pf_tfr=139&pf_dm1=1033&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -159,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1714268463,
+      "expires": 1714873272,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -171,10 +163,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "2dcd0005a0123cb9.1714266663.",
+      "value": "22d0fc02be2ef190.1714871472.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1747962663,
+      "expires": 1748567472,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -185,39 +177,37 @@
       "sourcePort": 443
     },
     {
-      "name": "fe_typo_user",
-      "value": "db6965842998175cba244af7fe0223c7.047ff000fcccfb85e3d447f82cf18d081050b404fd040801507717540bf6b59c",
+      "name": "__Secure-typo3nonce_lur4UPn1f5SFD6ZY4rRxlw",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImxBTGRGLTV5R3kxSkVYeXg2amo0TDVxU0twbWltRWhOSk85WG12S21iTXZxQkU0YU1ZN0xIdyIsInRpbWUiOiIyMDI0LTA1LTA1VDAzOjExOjEwKzAyOjAwIn0.gVu7Yn12CM-kAka5JlkzBa1dfrCAmWjA6ubCEbE2_IU",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
-      "size": 109,
+      "size": 258,
       "httpOnly": true,
-      "secure": false,
+      "secure": true,
       "session": true,
-      "sameSite": "Lax",
+      "sameSite": "Strict",
       "sameParty": false,
       "sourceScheme": "Secure",
       "sourcePort": 443
     }
   ],
   "headers": {
-    "cache-control": "max-age=0",
+    "cache-control": "private, no-store",
     "content-encoding": "gzip",
-    "content-language": "fr",
+    "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 28 Apr 2024 01:11:01 GMT",
-    "expires": "Sun, 28 Apr 2024 01:11:01 GMT",
+    "date": "Sun, 05 May 2024 01:11:10 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=db6965842998175cba244af7fe0223c7.047ff000fcccfb85e3d447f82cf18d081050b404fd040801507717540bf6b59c; path=/; httponly; samesite=lax",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 06 May 2023 01:11:09 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_lur4UPn1f5SFD6ZY4rRxlw=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImxBTGRGLTV5R3kxSkVYeXg2amo0TDVxU0twbWltRWhOSk85WG12S21iTXZxQkU0YU1ZN0xIdyIsInRpbWUiOiIyMDI0LTA1LTA1VDAzOjExOjEwKzAyOjAwIn0.gVu7Yn12CM-kAka5JlkzBa1dfrCAmWjA6ubCEbE2_IU; path=/; secure; httponly; samesite=strict",
+    "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
-    "x-content-type-options": "nosniff",
-    "x-powered-by": "PleskLin",
-    "x-ua-compatible": "IE=edge"
+    "x-typo3-parsetime": "0ms"
   },
   "endpoints": [
     {
       "hostname": "www.lavienne86.fr",
-      "ip": "87.252.12.28",
+      "ip": "91.188.65.186",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -293,7 +283,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.2.42",
+      "ip": "142.250.176.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -347,7 +337,7 @@
     },
     {
       "hostname": "statistique.lavienne86.fr",
-      "ip": "87.252.12.208",
+      "ip": "91.121.50.4",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -403,7 +393,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.131",
+      "ip": "142.250.188.227",
       "geoip": {
         "continent": {
           "code": "NA",
