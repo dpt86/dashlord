@@ -388,7 +388,7 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -541,8 +541,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "64 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (57)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -555,7 +555,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-07-01 23:59"
           }
 ,         {
@@ -822,14 +822,14 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1714267516"
+              "finding"      : "1714872344"
           }
 ,         {
               "id"           : "HSTS",
@@ -1441,6 +1441,6 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "134"
+              "finding"      : "221"
           }
 ]
