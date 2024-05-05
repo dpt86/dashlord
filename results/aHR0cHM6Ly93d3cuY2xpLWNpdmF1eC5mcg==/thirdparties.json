@@ -70,14 +70,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
       "details": {
         "id": "google fonts",
@@ -94,7 +86,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -118,6 +110,14 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
@@ -134,16 +134,16 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=672280&h=1&m=31&s=13&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=59f652686ab2bfc0&_idn=0&send_image=0&_refts=0&pv_id=Jgn9AK&pf_net=354&pf_srv=429&pf_tfr=1&pf_dm1=570&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=3&rec=1&r=550909&h=1&m=38&s=11&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=82cd5bd23a0ffe02&_idn=0&send_image=0&_refts=0&pv_id=cLfdtn&pf_net=698&pf_srv=254&pf_tfr=1&pf_dm1=866&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
     {
-      "name": "_pk_ses.4.c1bf",
+      "name": "_pk_ses.3.c1bf",
       "value": "1",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1714269673,
+      "expires": 1714874891,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -154,11 +154,11 @@
       "sourcePort": 443
     },
     {
-      "name": "_pk_id.4.c1bf",
-      "value": "59f652686ab2bfc0.1714267873.",
+      "name": "_pk_id.3.c1bf",
+      "value": "82cd5bd23a0ffe02.1714873092.",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1747963873,
+      "expires": 1748569092,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -170,23 +170,20 @@
     }
   ],
   "headers": {
-    "cache-control": "max-age=0",
+    "cache-control": "private, no-store",
     "content-encoding": "gzip",
-    "content-language": "fr",
-    "content-length": "7788",
+    "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 28 Apr 2024 01:31:12 GMT",
-    "expires": "Sun, 28 Apr 2024 01:31:11 GMT",
+    "date": "Sun, 05 May 2024 01:38:10 GMT",
     "server": "nginx",
+    "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
-    "x-content-type-options": "nosniff",
-    "x-powered-by": "PleskLin",
-    "x-ua-compatible": "IE=edge"
+    "x-typo3-parsetime": "0ms"
   },
   "endpoints": [
     {
       "hostname": "www.cli-civaux.fr",
-      "ip": "87.252.12.28",
+      "ip": "91.188.65.186",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -262,7 +259,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.4.202",
+      "ip": "172.217.2.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -316,7 +313,7 @@
     },
     {
       "hostname": "statistique.lavienne86.fr",
-      "ip": "87.252.12.208",
+      "ip": "91.121.50.4",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -372,7 +369,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.1.99",
+      "ip": "142.250.191.131",
       "geoip": {
         "continent": {
           "code": "NA",
