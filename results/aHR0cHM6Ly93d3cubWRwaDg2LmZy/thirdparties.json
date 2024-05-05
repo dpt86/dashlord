@@ -52,7 +52,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "k7gn59uol95j861favdppuv2l5",
+      "value": "l2aemr75cp0mcbg1jhnrn16131",
       "domain": "www.mdph86.fr",
       "path": "/",
       "expires": -1,
@@ -74,12 +74,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 28 Apr 2024 01:59:28 GMT",
+    "date": "Sun, 05 May 2024 01:58:44 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=k7gn59uol95j861favdppuv2l5; path=/\nUTB_S=deleted; expires=Sat, 29-Apr-2023 01:59:27 GMT; path=/",
+    "set-cookie": "PHPSESSID=l2aemr75cp0mcbg1jhnrn16131; path=/\nUTB_S=deleted; expires=Sat, 06-May-2023 01:58:43 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -188,7 +188,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -208,14 +208,8 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.40.42",
+      "ip": "142.250.191.202",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -245,14 +239,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -267,23 +257,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
