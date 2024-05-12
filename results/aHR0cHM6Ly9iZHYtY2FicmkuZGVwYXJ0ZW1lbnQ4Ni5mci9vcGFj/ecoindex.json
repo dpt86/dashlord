@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://bdv-cabri.departement86.fr/opac",
-        "size": 439.526,
+        "size": 439.544,
         "nodes": 319,
         "requests": 24,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2024-05-05 01:54:34.344981",
+        "date": "2024-05-12 02:00:21.871896",
         "page_type": "website"
     }
 ]
