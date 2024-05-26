@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=906436&h=1&m=13&s=7&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=de1efa9ed73e310b&_idn=0&send_image=0&_refts=0&pv_id=Q0CN6w&pf_net=719&pf_srv=414&pf_tfr=87&pf_dm1=1134&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=272247&h=1&m=14&s=5&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=39eb42a875ce05bb&_idn=0&send_image=0&_refts=0&pv_id=EqIeLr&pf_net=613&pf_srv=724&pf_tfr=134&pf_dm1=896&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1716082987,
+      "expires": 1716687845,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +163,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "de1efa9ed73e310b.1716081188.",
+      "value": "39eb42a875ce05bb.1716686045.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1749777188,
+      "expires": 1750382045,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -177,8 +177,8 @@
       "sourcePort": 443
     },
     {
-      "name": "__Secure-typo3nonce_f0h23dEzvNnBw_BTLr3_Og",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IndaSElONWkyVFAzejgzOUpsMTVBM0szUUJrT1pzZnVtUlduMnlZUXNpdGVKLXFfT00zNDMtZyIsInRpbWUiOiIyMDI0LTA1LTE5VDAzOjEzOjA2KzAyOjAwIn0.PS3sTKNdmIZElaonNDjEMBt2xb-NDnsAZ2YiN-aGhDg",
+      "name": "__Secure-typo3nonce_aIutWuL3rhVZEkFMEvTCWA",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IjFHRXdfSzRVcW5hVGlLWHg3YW0xaGRPVWhLNVpSWm55N25kUmVLQksyaHFMdUFoYzk2X1M5ZyIsInRpbWUiOiIyMDI0LTA1LTI2VDAzOjE0OjAzKzAyOjAwIn0.8XrftILXpxJ9EQO3RkU-2Wr0nZDtkJfSkGfmZfOpOt0",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -197,9 +197,9 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 19 May 2024 01:13:06 GMT",
+    "date": "Sun, 26 May 2024 01:14:03 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=deleted; expires=Sat, 20 May 2023 01:13:05 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_f0h23dEzvNnBw_BTLr3_Og=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IndaSElONWkyVFAzejgzOUpsMTVBM0szUUJrT1pzZnVtUlduMnlZUXNpdGVKLXFfT00zNDMtZyIsInRpbWUiOiIyMDI0LTA1LTE5VDAzOjEzOjA2KzAyOjAwIn0.PS3sTKNdmIZElaonNDjEMBt2xb-NDnsAZ2YiN-aGhDg; path=/; secure; httponly; samesite=strict",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 27 May 2023 01:14:02 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_aIutWuL3rhVZEkFMEvTCWA=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IjFHRXdfSzRVcW5hVGlLWHg3YW0xaGRPVWhLNVpSWm55N25kUmVLQksyaHFMdUFoYzk2X1M5ZyIsInRpbWUiOiIyMDI0LTA1LTI2VDAzOjE0OjAzKzAyOjAwIn0.8XrftILXpxJ9EQO3RkU-2Wr0nZDtkJfSkGfmZfOpOt0; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -263,7 +263,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -283,8 +283,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "142.250.72.138",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -314,10 +320,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -332,7 +342,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -393,8 +419,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.115.94",
+      "ip": "142.250.68.67",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -424,10 +456,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -442,7 +478,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
