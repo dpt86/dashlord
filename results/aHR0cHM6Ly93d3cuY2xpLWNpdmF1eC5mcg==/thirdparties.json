@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=586266&h=1&m=38&s=40&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=5d0bab7010ece54a&_idn=0&send_image=0&_refts=0&pv_id=Ysiw8x&pf_net=452&pf_srv=270&pf_tfr=1&pf_dm1=771&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=104313&h=1&m=36&s=51&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=1e1a994db6189e82&_idn=0&send_image=0&_refts=0&pv_id=2jYWLG&pf_net=486&pf_srv=367&pf_tfr=1&pf_dm1=761&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1716689320,
+      "expires": 1717294011,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.4.c1bf",
-      "value": "5d0bab7010ece54a.1716687520.",
+      "value": "1e1a994db6189e82.1717292212.",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1750383520,
+      "expires": 1750988212,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 26 May 2024 01:38:39 GMT",
+    "date": "Sun, 02 Jun 2024 01:36:50 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -259,7 +259,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.4.202",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -369,7 +369,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.131",
+      "ip": "64.233.180.94",
       "geoip": {
         "continent": {
           "code": "NA",
