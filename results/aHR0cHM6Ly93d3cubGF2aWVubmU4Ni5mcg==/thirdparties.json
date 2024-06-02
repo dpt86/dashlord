@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=272247&h=1&m=14&s=5&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=39eb42a875ce05bb&_idn=0&send_image=0&_refts=0&pv_id=EqIeLr&pf_net=613&pf_srv=724&pf_tfr=134&pf_dm1=896&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=024005&h=1&m=14&s=17&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=c2d9b81b43579d4e&_idn=0&send_image=0&_refts=0&pv_id=5hlyns&pf_net=480&pf_srv=421&pf_tfr=89&pf_dm1=781&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1716687845,
+      "expires": 1717292657,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +163,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "39eb42a875ce05bb.1716686045.",
+      "value": "c2d9b81b43579d4e.1717290857.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1750382045,
+      "expires": 1750986857,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -177,8 +177,8 @@
       "sourcePort": 443
     },
     {
-      "name": "__Secure-typo3nonce_aIutWuL3rhVZEkFMEvTCWA",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IjFHRXdfSzRVcW5hVGlLWHg3YW0xaGRPVWhLNVpSWm55N25kUmVLQksyaHFMdUFoYzk2X1M5ZyIsInRpbWUiOiIyMDI0LTA1LTI2VDAzOjE0OjAzKzAyOjAwIn0.8XrftILXpxJ9EQO3RkU-2Wr0nZDtkJfSkGfmZfOpOt0",
+      "name": "__Secure-typo3nonce_q5qXh5sHWApzUsLTRjh-RQ",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImIzcXY5RjZxS042cE5lWGUwN1Vwd0RPM3BTbTZnRUFLWGlUTXJ5MHJ5TDZNYnBfQ19NMWZJQSIsInRpbWUiOiIyMDI0LTA2LTAyVDAzOjE0OjE2KzAyOjAwIn0.V0f2X8rVhDGS1eKK9mkxngtOuaDQI3eFBZD85-UeJ_Y",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -197,9 +197,9 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 26 May 2024 01:14:03 GMT",
+    "date": "Sun, 02 Jun 2024 01:14:16 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=deleted; expires=Sat, 27 May 2023 01:14:02 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_aIutWuL3rhVZEkFMEvTCWA=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IjFHRXdfSzRVcW5hVGlLWHg3YW0xaGRPVWhLNVpSWm55N25kUmVLQksyaHFMdUFoYzk2X1M5ZyIsInRpbWUiOiIyMDI0LTA1LTI2VDAzOjE0OjAzKzAyOjAwIn0.8XrftILXpxJ9EQO3RkU-2Wr0nZDtkJfSkGfmZfOpOt0; path=/; secure; httponly; samesite=strict",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 03 Jun 2023 01:14:15 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_q5qXh5sHWApzUsLTRjh-RQ=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImIzcXY5RjZxS042cE5lWGUwN1Vwd0RPM3BTbTZnRUFLWGlUTXJ5MHJ5TDZNYnBfQ19NMWZJQSIsInRpbWUiOiIyMDI0LTA2LTAyVDAzOjE0OjE2KzAyOjAwIn0.V0f2X8rVhDGS1eKK9mkxngtOuaDQI3eFBZD85-UeJ_Y; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -263,7 +263,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -283,12 +283,12 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.138",
+      "ip": "142.251.179.95",
       "geoip": {
         "city": {
-          "geoname_id": 5131638,
+          "geoname_id": 5116931,
           "names": {
-            "en": "Plainview"
+            "en": "Farmingdale"
           }
         },
         "continent": {
@@ -320,14 +320,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11803"
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -419,12 +419,12 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.68.67",
+      "ip": "142.251.16.94",
       "geoip": {
         "city": {
-          "geoname_id": 5131638,
+          "geoname_id": 5116931,
           "names": {
-            "en": "Plainview"
+            "en": "Farmingdale"
           }
         },
         "continent": {
@@ -456,14 +456,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11803"
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
