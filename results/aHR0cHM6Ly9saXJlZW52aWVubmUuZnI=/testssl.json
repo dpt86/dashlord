@@ -395,7 +395,7 @@
               "ip"           : "lireenvienne.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -535,7 +535,7 @@
               "ip"           : "lireenvienne.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "307 >= 60 days"
+              "finding"      : "300 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -731,14 +731,14 @@
               "ip"           : "lireenvienne.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-2 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "lireenvienne.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1717294164"
+              "finding"      : "1717899082"
           }
 ,         {
               "id"           : "HSTS",
@@ -1343,6 +1343,6 @@
               "ip"           : "lireenvienne.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "131"
+              "finding"      : "199"
           }
 ]
