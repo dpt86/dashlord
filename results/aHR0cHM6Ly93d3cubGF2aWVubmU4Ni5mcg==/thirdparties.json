@@ -46,22 +46,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
       "details": {
         "id": "google fonts",
@@ -118,6 +102,22 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
       "details": {
         "id": "google fonts",
@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=024005&h=1&m=14&s=17&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=c2d9b81b43579d4e&_idn=0&send_image=0&_refts=0&pv_id=5hlyns&pf_net=480&pf_srv=421&pf_tfr=89&pf_dm1=781&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=495923&h=1&m=16&s=38&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=73d2afdfc270d037&_idn=0&send_image=0&_refts=0&pv_id=LyscOT&pf_net=344&pf_srv=353&pf_tfr=90&pf_dm1=548&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1717292657,
+      "expires": 1717897598,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,30 +163,15 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "c2d9b81b43579d4e.1717290857.",
+      "value": "73d2afdfc270d037.1717895798.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1750986857,
+      "expires": 1751591798,
       "size": 41,
       "httpOnly": false,
       "secure": false,
       "session": false,
       "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "__Secure-typo3nonce_q5qXh5sHWApzUsLTRjh-RQ",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImIzcXY5RjZxS042cE5lWGUwN1Vwd0RPM3BTbTZnRUFLWGlUTXJ5MHJ5TDZNYnBfQ19NMWZJQSIsInRpbWUiOiIyMDI0LTA2LTAyVDAzOjE0OjE2KzAyOjAwIn0.V0f2X8rVhDGS1eKK9mkxngtOuaDQI3eFBZD85-UeJ_Y",
-      "domain": "www.lavienne86.fr",
-      "path": "/",
-      "expires": -1,
-      "size": 258,
-      "httpOnly": true,
-      "secure": true,
-      "session": true,
-      "sameSite": "Strict",
       "sameParty": false,
       "sourceScheme": "Secure",
       "sourcePort": 443
@@ -197,9 +182,8 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 02 Jun 2024 01:14:16 GMT",
+    "date": "Sun, 09 Jun 2024 01:16:36 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=deleted; expires=Sat, 03 Jun 2023 01:14:15 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_q5qXh5sHWApzUsLTRjh-RQ=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImIzcXY5RjZxS042cE5lWGUwN1Vwd0RPM3BTbTZnRUFLWGlUTXJ5MHJ5TDZNYnBfQ19NMWZJQSIsInRpbWUiOiIyMDI0LTA2LTAyVDAzOjE0OjE2KzAyOjAwIn0.V0f2X8rVhDGS1eKK9mkxngtOuaDQI3eFBZD85-UeJ_Y; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -263,7 +247,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -283,14 +267,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.179.95",
+      "ip": "142.250.31.95",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -320,14 +298,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -342,23 +316,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -419,14 +377,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.16.94",
+      "ip": "172.253.115.94",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -456,14 +408,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -478,23 +426,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
