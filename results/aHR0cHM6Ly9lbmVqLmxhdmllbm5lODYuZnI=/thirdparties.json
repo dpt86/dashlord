@@ -109,7 +109,7 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 16 Jun 2024 01:33:25 GMT",
+    "date": "Sun, 23 Jun 2024 01:33:28 GMT",
     "etag": "W/\"6654ace6-ce6b\"",
     "last-modified": "Mon, 27 May 2024 15:55:18 GMT",
     "server": "nginx/1.18.0",
@@ -174,7 +174,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.131",
+      "ip": "172.217.164.99",
       "geoip": {
         "continent": {
           "code": "NA",
