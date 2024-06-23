@@ -2,35 +2,23 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/lW4gIsDc0DGDGDNuHJgZCg2/9782260055808/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/8cPRkS5mbzUHkwCnDDjOjA2/9782404023656/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/biJV2gy3S3vYrAjla21L5g2/9791038702233/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/xQ2koHNgbUovA_mNatiGtw2/9782260055808/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/ZnSKLkhv5iLGQLbwfZR1ug2/9782848055060/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/gPJSuL1mQqCCT4nI8ooZzw2/9791038702233/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/_U6FY_kKP2GjC2Gybo3FHQ2/9782823617887/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/kBPTDAAe9kjdNT6hl7cH-w2/9782848055060/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/n5fCpTkZPSabI7yfxMJJcg2/9782246838746/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/714fb8b01489df1569ca5172e0f9cb75746f92dae00b6492f951ab2385fefe43.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/a9b01ca38c4905f350e27644c8a2dd1ff151ba8c8e05876d4de58fdb7c0ee884.jpg"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/jK4io6lZ6rAoBeQpk3g-Ew2/9782823617887/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
@@ -38,15 +26,27 @@
     },
     {
       "type": "unknown",
+      "url": "https://statistique.lavienne86.fr/matomo.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/a9b01ca38c4905f350e27644c8a2dd1ff151ba8c8e05876d4de58fdb7c0ee884.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/714fb8b01489df1569ca5172e0f9cb75746f92dae00b6492f951ab2385fefe43.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/c70807e95b62524dd62de9909d23d291f38fbf8ecb203d73edbb5c3a51c742ed.jpg"
+    },
+    {
+      "type": "unknown",
       "url": "https://media.electre-ng.com/images/image-id/6ad226f119338e852a9f80928a96e66c98e0c83973176f0287be0b380dc50f56.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/3148f57bf113cfbe165f8610f74b359d71c29cb0f0506e04474df44978c454d0.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=788095&h=1&m=16&s=46&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=625c474461a70aa0&_idn=1&send_image=0&_refts=0&pv_id=S0Kw7l&pf_net=744&pf_srv=398&pf_tfr=176&pf_dm1=1128&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=298826&h=1&m=15&s=54&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=e2ad150d52d34711&_idn=1&send_image=0&_refts=0&pv_id=glPdSQ&pf_net=716&pf_srv=456&pf_tfr=220&pf_dm1=1686&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -55,7 +55,7 @@
       "value": "1",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1718502406,
+      "expires": 1719107154,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -67,10 +67,10 @@
     },
     {
       "name": "_pk_id.7.151b",
-      "value": "625c474461a70aa0.1718500606.",
+      "value": "e2ad150d52d34711.1719105355.",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1752455806,
+      "expires": 1753060555,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -112,10 +112,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "4dad118d-c3c4-4401-8ea9-724667eb4f0a",
+      "value": "03978e14-9326-43c1-83fd-d07bbc10841c",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1718502403.057567,
+      "expires": 1719107151.469372,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -130,16 +130,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "39388",
+    "content-length": "39299",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 16 Jun 2024 01:16:44 GMT",
+    "date": "Sun, 23 Jun 2024 01:15:51 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=4dad118d-c3c4-4401-8ea9-724667eb4f0a; domain=departement86.fr; expires=Sun, 16-Jun-2024 01:46:43 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=03978e14-9326-43c1-83fd-d07bbc10841c; domain=departement86.fr; expires=Sun, 23-Jun-2024 01:45:51 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -303,62 +303,6 @@
       }
     },
     {
-      "hostname": "statistique.lavienne86.fr",
-      "ip": "91.121.50.4",
-      "geoip": {
-        "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
-          "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
-          }
-        },
-        "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
-          "time_zone": "Europe/Paris"
-        },
-        "registered_country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        }
-      }
-    },
-    {
       "hostname": "media.electre-ng.com",
       "ip": "35.190.14.238",
       "geoip": {
@@ -442,6 +386,62 @@
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "statistique.lavienne86.fr",
+      "ip": "91.121.50.4",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
       }
     }
   ]
