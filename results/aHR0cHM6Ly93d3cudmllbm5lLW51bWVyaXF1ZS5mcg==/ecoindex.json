@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.vienne-numerique.fr",
-        "size": 849.507,
+        "size": 849.511,
         "nodes": 334,
         "requests": 37,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.54,
         "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2024-06-16 01:37:29.017110",
+        "date": "2024-06-23 01:36:50.692299",
         "page_type": null
     }
 ]

@@ -388,14 +388,14 @@
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -535,7 +535,7 @@
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "294 >= 60 days"
+              "finding"      : "287 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -731,14 +731,14 @@
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+1873 seconds from localtime"
+              "finding"      : "+1885 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1718503889"
+              "finding"      : "1719108744"
           }
 ,         {
               "id"           : "HSTS",
@@ -1336,6 +1336,6 @@
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "131"
+              "finding"      : "207"
           }
 ]
