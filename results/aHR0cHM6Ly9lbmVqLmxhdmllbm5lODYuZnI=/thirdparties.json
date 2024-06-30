@@ -109,9 +109,9 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 23 Jun 2024 01:33:28 GMT",
-    "etag": "W/\"6654ace6-ce6b\"",
-    "last-modified": "Mon, 27 May 2024 15:55:18 GMT",
+    "date": "Sun, 30 Jun 2024 01:34:46 GMT",
+    "etag": "W/\"667be431-ce5e\"",
+    "last-modified": "Wed, 26 Jun 2024 09:49:37 GMT",
     "server": "nginx/1.18.0",
     "strict-transport-security": "max-age=63072000"
   },
@@ -174,7 +174,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.164.99",
+      "ip": "172.217.2.35",
       "geoip": {
         "continent": {
           "code": "NA",
