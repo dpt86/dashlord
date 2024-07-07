@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://lireenviennecolleges.fr",
-        "size": 51070.014,
-        "nodes": 2722,
-        "requests": 228,
+        "size": 51045.465,
+        "nodes": 2718,
+        "requests": 226,
         "grade": "G",
         "score": 6.0,
         "ges": 2.88,
         "water": 4.32,
         "ecoindex_version": "5.4.2",
-        "date": "2024-06-30 01:58:40.095522",
+        "date": "2024-07-07 02:06:30.220546",
         "page_type": "article"
     }
 ]
