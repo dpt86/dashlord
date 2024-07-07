@@ -52,7 +52,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "86dam6nqhjqtougc6b66bt6383",
+      "value": "jhl5m4f67n9asu44ii5h4qg4t3",
       "domain": "www.mdph86.fr",
       "path": "/",
       "expires": -1,
@@ -74,12 +74,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 30 Jun 2024 02:06:44 GMT",
+    "date": "Sun, 07 Jul 2024 02:11:57 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=86dam6nqhjqtougc6b66bt6383; path=/\nUTB_S=deleted; expires=Sat, 01-Jul-2023 02:06:43 GMT; path=/",
+    "set-cookie": "PHPSESSID=jhl5m4f67n9asu44ii5h4qg4t3; path=/\nUTB_S=deleted; expires=Sat, 08-Jul-2023 02:11:56 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -188,7 +188,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -208,12 +208,12 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.46.202",
+      "ip": "142.250.68.42",
       "geoip": {
         "city": {
-          "geoname_id": 5133273,
+          "geoname_id": 5131638,
           "names": {
-            "en": "Queens"
+            "en": "Plainview"
           }
         },
         "continent": {
@@ -245,14 +245,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11414"
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
