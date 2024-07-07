@@ -1,6 +1,14 @@
 {
   "trackers": [
     {
+      "type": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.module.min.js",
+      "details": {
+        "id": "jsdelivr",
+        "message": "Host files locally"
+      }
+    },
+    {
       "type": "sentry",
       "url": "https://cdn.ravenjs.com/3.26.2/raven.min.js",
       "details": {
@@ -82,7 +90,7 @@
     },
     {
       "type": "xiti",
-      "url": "https://logs1412.xiti.com/event?s=637373&idclient=ly0vn46wtl02fngi",
+      "url": "https://logs1412.xiti.com/event?s=637373&idclient=lyavst6wyrlooq2q",
       "details": {
         "id": "xiti",
         "message": "Use hosted Matomo instance"
@@ -92,11 +100,11 @@
   "cookies": [
     {
       "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbVgAdCAa1QArACwAfVAE8ADADckUgOxSQAXyA",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbVgC9CAR0IArACwAfVAE9CANwj4A7FJABfIA",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1753839192,
-      "size": 112,
+      "expires": 1754444119,
+      "size": 111,
       "httpOnly": false,
       "secure": true,
       "session": false,
@@ -121,10 +129,10 @@
     },
     {
       "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22ly0vn46wtl02fngi%22%2C%22_t%22%3A%22mdpaklj3%7Cly0vn473%22%7D",
+      "value": "%7B%22browserId%22%3A%22lyavst6wyrlooq2q%22%2C%22_t%22%3A%22mdzaqaj2%7Clyavst72%22%7D",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1753839192,
+      "expires": 1754444119,
       "size": 90,
       "httpOnly": false,
       "secure": true,
@@ -139,7 +147,7 @@
       "value": "%22exempt%22",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1753839192,
+      "expires": 1754444119,
       "size": 22,
       "httpOnly": false,
       "secure": true,
@@ -151,11 +159,11 @@
     },
     {
       "name": "mb_departement_vienne_user",
-      "value": "A2QFPlc2UTMEZlBgATAGYQpvAmEGNQ0xBDRTZAg9A2YBZgU9VztTNFUzVzdWYQVlAnhTdQYzB24GcgN8U2AGZQNjBTFXOVEyBDVQZAFtBmc%3D",
+      "value": "BWICOVg5UjkAZgUwADENagY2D2oHZFdhU2AFNAAyUD0JYAJsAG1TZAc2CmtUOFU9B30BJwQxBWxTJwF%2BAjEEZwVmAj9YMlIxADYFMQBkDWQ%3D",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1751247191.144875,
-      "size": 136,
+      "expires": 1751852118.400416,
+      "size": 138,
       "httpOnly": true,
       "secure": true,
       "session": false,
@@ -165,7 +173,7 @@
     },
     {
       "name": "mb_departement_vienne",
-      "value": "heqbrpq940rcdk4lmqhl0ic53l",
+      "value": "bmqamrln5l6o9n0g56cn84k0d5",
       "domain": "www.emploi86.com",
       "path": "/",
       "expires": -1,
@@ -182,13 +190,13 @@
   "headers": {
     "cache-control": "no-store, no-cache, must-revalidate",
     "content-encoding": "gzip",
-    "content-length": "12532",
+    "content-length": "12623",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 30 Jun 2024 01:33:10 GMT",
+    "date": "Sun, 07 Jul 2024 01:35:18 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "mb_departement_vienne=heqbrpq940rcdk4lmqhl0ic53l; path=/; secure; HttpOnly; SameSite=None\nmb_departement_vienne_user=A2QFPlc2UTMEZlBgATAGYQpvAmEGNQ0xBDRTZAg9A2YBZgU9VztTNFUzVzdWYQVlAnhTdQYzB24GcgN8U2AGZQNjBTFXOVEyBDVQZAFtBmc%3D; expires=Mon, 30-Jun-2025 01:33:10 GMT; Max-Age=31536000; path=/; secure; HttpOnly\nHA2=front-03; path=/; HttpOnly; Secure",
+    "set-cookie": "mb_departement_vienne=bmqamrln5l6o9n0g56cn84k0d5; path=/; secure; HttpOnly; SameSite=None\nmb_departement_vienne_user=BWICOVg5UjkAZgUwADENagY2D2oHZFdhU2AFNAAyUD0JYAJsAG1TZAc2CmtUOFU9B30BJwQxBWxTJwF%2BAjEEZwVmAj9YMlIxADYFMQBkDWQ%3D; expires=Mon, 07-Jul-2025 01:35:18 GMT; Max-Age=31536000; path=/; secure; HttpOnly\nHA2=front-03; path=/; HttpOnly; Secure",
     "strict-transport-security": "max-age=63072000",
     "vary": "partner,Accept-Encoding",
     "x-content-type-options": "nosniff"
@@ -251,8 +259,95 @@
       }
     },
     {
+      "hostname": "cdn.jsdelivr.net",
+      "ip": "146.75.37.229",
+      "geoip": {
+        "city": {
+          "geoname_id": 4744870,
+          "names": {
+            "de": "Ashburn",
+            "en": "Ashburn",
+            "es": "Ashburn",
+            "fr": "Ashburn",
+            "ja": "アッシュバーン",
+            "pt-BR": "Ashburn",
+            "ru": "Ашберн",
+            "zh-CN": "阿什本"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "20149"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 6254928,
+            "iso_code": "VA",
+            "names": {
+              "de": "Virginia",
+              "en": "Virginia",
+              "es": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
+            }
+          }
+        ]
+      }
+    },
+    {
       "hostname": "cdn.ravenjs.com",
-      "ip": "151.101.130.217",
+      "ip": "151.101.194.217",
       "geoip": {
         "city": {
           "geoname_id": 5391959,
@@ -436,7 +531,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.190.40",
+      "ip": "172.253.122.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -587,7 +682,7 @@
     },
     {
       "hostname": "tag.aticdn.net",
-      "ip": "108.156.91.50",
+      "ip": "18.160.18.16",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -641,7 +736,7 @@
     },
     {
       "hostname": "logs1412.xiti.com",
-      "ip": "13.33.167.90",
+      "ip": "13.225.190.231",
       "geoip": {
         "continent": {
           "code": "NA",
