@@ -46,22 +46,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
@@ -71,6 +55,22 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=308516&h=1&m=17&s=48&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=e23b165655caf991&_idn=0&send_image=0&_refts=0&pv_id=mGJY41&pf_net=641&pf_srv=462&pf_tfr=137&pf_dm1=860&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=392277&h=1&m=18&s=25&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=cff47767131c79db&_idn=0&send_image=0&_refts=0&pv_id=Cvm0xc&pf_net=596&pf_srv=460&pf_tfr=133&pf_dm1=902&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1719712068,
+      "expires": 1720316905,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,15 +163,30 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "e23b165655caf991.1719710268.",
+      "value": "cff47767131c79db.1720315106.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1753406268,
+      "expires": 1754011106,
       "size": 41,
       "httpOnly": false,
       "secure": false,
       "session": false,
       "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "__Secure-typo3nonce_lWj2dyb09_WyEa3PAPn95g",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IjFDU0MxNFBLcEZmU1hJVzh1R2hZSk1QNWx5OVZVUkpyN3BwMGVFdk53c2tINllaQmZGSURVUSIsInRpbWUiOiIyMDI0LTA3LTA3VDAzOjE4OjI0KzAyOjAwIn0.4Urrp-b14ggP5JB_qR7McKkPL9aDz4znyMhTud-0CAI",
+      "domain": "www.lavienne86.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 258,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Strict",
       "sameParty": false,
       "sourceScheme": "Secure",
       "sourcePort": 443
@@ -182,8 +197,9 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 30 Jun 2024 01:17:46 GMT",
+    "date": "Sun, 07 Jul 2024 01:18:24 GMT",
     "server": "nginx",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 08 Jul 2023 01:18:23 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_lWj2dyb09_WyEa3PAPn95g=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IjFDU0MxNFBLcEZmU1hJVzh1R2hZSk1QNWx5OVZVUkpyN3BwMGVFdk53c2tINllaQmZGSURVUSIsInRpbWUiOiIyMDI0LTA3LTA3VDAzOjE4OjI0KzAyOjAwIn0.4Urrp-b14ggP5JB_qR7McKkPL9aDz4znyMhTud-0CAI; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -247,7 +263,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -267,14 +283,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.170",
+      "ip": "172.217.14.74",
       "geoip": {
-        "city": {
-          "geoname_id": 5131638,
-          "names": {
-            "en": "Plainview"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -304,14 +314,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11803"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -326,23 +332,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -403,7 +393,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.176.3",
+      "ip": "142.250.217.131",
       "geoip": {
         "continent": {
           "code": "NA",
