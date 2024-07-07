@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=482722&h=1&m=41&s=39&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=4062a0066a2dc4b2&_idn=0&send_image=0&_refts=0&pv_id=e7Zdph&pf_net=467&pf_srv=309&pf_tfr=1&pf_dm1=913&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=312340&h=1&m=43&s=5&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=9c04b5d0f542e9af&_idn=0&send_image=0&_refts=0&pv_id=NgZtF9&pf_net=351&pf_srv=333&pf_tfr=1&pf_dm1=1047&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1719713499,
+      "expires": 1720318385,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.4.c1bf",
-      "value": "4062a0066a2dc4b2.1719711700.",
+      "value": "9c04b5d0f542e9af.1720316586.",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1753407700,
+      "expires": 1754012586,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 30 Jun 2024 01:41:37 GMT",
+    "date": "Sun, 07 Jul 2024 01:43:04 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -259,14 +259,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.138",
+      "ip": "172.217.164.106",
       "geoip": {
-        "city": {
-          "geoname_id": 5131638,
-          "names": {
-            "en": "Plainview"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -296,14 +290,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11803"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -318,23 +308,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -395,8 +369,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.189.3",
+      "ip": "142.251.46.163",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -427,9 +407,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -444,7 +428,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
