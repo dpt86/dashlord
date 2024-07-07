@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 5806.214,
+        "size": 1841.886,
         "nodes": 100,
         "requests": 38,
         "grade": "B",
-        "score": 72.0,
-        "ges": 1.56,
-        "water": 2.34,
+        "score": 77.0,
+        "ges": 1.46,
+        "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2024-06-30 01:35:48.738325",
+        "date": "2024-07-07 01:36:42.915313",
         "page_type": null
     }
 ]

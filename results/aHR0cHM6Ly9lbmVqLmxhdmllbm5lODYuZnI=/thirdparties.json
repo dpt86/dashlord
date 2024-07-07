@@ -109,11 +109,12 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 30 Jun 2024 01:34:46 GMT",
+    "date": "Sun, 07 Jul 2024 01:35:36 GMT",
     "etag": "W/\"667be431-ce5e\"",
     "last-modified": "Wed, 26 Jun 2024 09:49:37 GMT",
     "server": "nginx/1.18.0",
-    "strict-transport-security": "max-age=63072000"
+    "strict-transport-security": "max-age=63072000",
+    "vary": "Accept-Encoding"
   },
   "endpoints": [
     {
@@ -150,7 +151,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
+          "accuracy_radius": 200,
           "latitude": 48.8582,
           "longitude": 2.3387,
           "time_zone": "Europe/Paris"
@@ -174,7 +175,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.2.35",
+      "ip": "142.250.191.67",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -272,13 +273,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 5,
           "latitude": 43.6046,
           "longitude": 1.4451,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "31500"
+          "code": "31000"
         },
         "registered_country": {
           "geoname_id": 3017382,
