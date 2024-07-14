@@ -73,14 +73,6 @@
       }
     },
     {
-      "type": "bootstrapcdn",
-      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
-      "details": {
-        "id": "bootstrapcdn",
-        "message": "Host files locally"
-      }
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
@@ -95,12 +87,20 @@
         "id": "bootstrapcdn",
         "message": "Host files locally"
       }
+    },
+    {
+      "type": "bootstrapcdn",
+      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "details": {
+        "id": "bootstrapcdn",
+        "message": "Host files locally"
+      }
     }
   ],
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "rvur8jvi68gp7nfn0qfnqde3s4",
+      "value": "pvg29r1ankhk8s9i9bt8bat5h6",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 07 Jul 2024 02:14:12 GMT",
+    "date": "Sun, 14 Jul 2024 02:16:15 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=rvur8jvi68gp7nfn0qfnqde3s4; path=/\nUTB_S=deleted; expires=Sat, 08-Jul-2023 02:14:11 GMT; path=/",
+    "set-cookie": "PHPSESSID=pvg29r1ankhk8s9i9bt8bat5h6; path=/\nUTB_S=deleted; expires=Sat, 15-Jul-2023 02:16:14 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -139,14 +139,10 @@
       "ip": "83.206.130.186",
       "geoip": {
         "city": {
-          "geoname_id": 3031815,
+          "geoname_id": 2993572,
           "names": {
-            "de": "Bondy",
-            "en": "Bondy",
-            "fr": "Bondy",
-            "ja": "ボンディ",
-            "ru": "Бонди",
-            "zh-CN": "邦迪"
+            "en": "Moissy-Cramayel",
+            "ru": "Муасси-Крамайель"
           }
         },
         "continent": {
@@ -179,13 +175,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 48.9043,
-          "longitude": 2.4877,
+          "accuracy_radius": 50,
+          "latitude": 48.63,
+          "longitude": 2.6062,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "93140"
+          "code": "77550"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -218,17 +214,17 @@
             }
           },
           {
-            "geoname_id": 2975246,
-            "iso_code": "93",
+            "geoname_id": 2975249,
+            "iso_code": "77",
             "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
+              "de": "Seine-et-Marne",
+              "en": "Seine-et-Marne",
+              "es": "Sena y Marne",
+              "fr": "Seine-et-Marne",
+              "ja": "セーヌ＝エ＝マルヌ県",
+              "pt-BR": "Sena e Marne",
+              "ru": "Сена и Марна",
+              "zh-CN": "塞纳-马恩省"
             }
           }
         ]
@@ -256,14 +252,8 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.163.95",
+      "ip": "172.253.63.95",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -294,13 +284,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -315,35 +301,13 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.16.95",
+      "ip": "172.253.122.95",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -374,13 +338,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -395,23 +355,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -436,7 +380,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.115.94",
+      "ip": "172.253.62.94",
       "geoip": {
         "continent": {
           "code": "NA",
