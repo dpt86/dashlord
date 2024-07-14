@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=587557005&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=809756387&gjid=1852382970&cid=185498190.1720317598&tid=UA-XXXXX-X&_gid=1854260317.1720317598&_r=1&_slc=1&z=731025236",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1700105339&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=286641565&gjid=1303628403&cid=1847807387.1720922626&tid=UA-XXXXX-X&_gid=918918149.1720922626&_r=1&_slc=1&z=20357932",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -23,7 +23,7 @@
       "value": "1",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1720317657,
+      "expires": 1720922686,
       "size": 5,
       "httpOnly": false,
       "secure": false,
@@ -34,11 +34,11 @@
     },
     {
       "name": "_gid",
-      "value": "GA1.2.1854260317.1720317598",
+      "value": "GA1.2.918918149.1720922626",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1720403997,
-      "size": 31,
+      "expires": 1721009026,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -48,11 +48,11 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.2.185498190.1720317598",
+      "value": "GA1.2.1847807387.1720922626",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1783389597,
-      "size": 29,
+      "expires": 1783994626,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -62,7 +62,7 @@
     },
     {
       "name": "a9d4c84db54b6aa83d99150bcd423ddc",
-      "value": "pcup7rubai0tvt5vrbepvqag46",
+      "value": "sf6ee8lmv2ma5l28t5pfs7vnhp",
       "domain": "bdv-cabri.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -80,17 +80,17 @@
     "cache-control": "no-store,no-cache,must-revalidate,post-check=0,pre-check=0",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "6796",
+    "content-length": "6798",
     "content-security-policy": "frame-ancestors 'self' *.departement86.fr;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 07 Jul 2024 01:59:56 GMT",
+    "date": "Sun, 14 Jul 2024 02:03:45 GMT",
     "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
     "keep-alive": "timeout=5, max=499",
-    "last-modified": "Sun, 07 Jul 2024 01:59:56 GMT",
+    "last-modified": "Sun, 14 Jul 2024 02:03:45 GMT",
     "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
     "pragma": "no-cache",
     "server": "Microsoft-IIS/8.5",
-    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=pcup7rubai0tvt5vrbepvqag46; path=/; HttpOnly",
+    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=sf6ee8lmv2ma5l28t5pfs7vnhp; path=/; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "ALLOW-FROM *.departement86.fr",
@@ -102,14 +102,10 @@
       "ip": "83.206.130.186",
       "geoip": {
         "city": {
-          "geoname_id": 3031815,
+          "geoname_id": 2993572,
           "names": {
-            "de": "Bondy",
-            "en": "Bondy",
-            "fr": "Bondy",
-            "ja": "ボンディ",
-            "ru": "Бонди",
-            "zh-CN": "邦迪"
+            "en": "Moissy-Cramayel",
+            "ru": "Муасси-Крамайель"
           }
         },
         "continent": {
@@ -142,13 +138,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 48.9043,
-          "longitude": 2.4877,
+          "accuracy_radius": 50,
+          "latitude": 48.63,
+          "longitude": 2.6062,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "93140"
+          "code": "77550"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -181,17 +177,17 @@
             }
           },
           {
-            "geoname_id": 2975246,
-            "iso_code": "93",
+            "geoname_id": 2975249,
+            "iso_code": "77",
             "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
+              "de": "Seine-et-Marne",
+              "en": "Seine-et-Marne",
+              "es": "Sena y Marne",
+              "fr": "Seine-et-Marne",
+              "ja": "セーヌ＝エ＝マルヌ県",
+              "pt-BR": "Sena e Marne",
+              "ru": "Сена и Марна",
+              "zh-CN": "塞纳-马恩省"
             }
           }
         ]
@@ -199,7 +195,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "172.253.122.100",
+      "ip": "142.250.191.174",
       "geoip": {
         "continent": {
           "code": "NA",
