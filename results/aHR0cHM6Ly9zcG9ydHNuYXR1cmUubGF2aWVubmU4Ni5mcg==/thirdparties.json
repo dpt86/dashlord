@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=249066&h=1&m=50&s=33&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=760638603084ad2c&_idn=0&send_image=0&_refts=0&pv_id=bjjsxl&pf_net=304&pf_srv=235&pf_tfr=1&pf_dm1=667&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=822106&h=1&m=53&s=53&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=e5c03c409d5be7e0&_idn=0&send_image=0&_refts=0&pv_id=WWyVJB&pf_net=743&pf_srv=351&pf_tfr=1&pf_dm1=1028&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1720318833,
+      "expires": 1720923833,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.17.1881",
-      "value": "760638603084ad2c.1720317034.",
+      "value": "e5c03c409d5be7e0.1720922033.",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1754013034,
+      "expires": 1754618033,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 07 Jul 2024 01:50:32 GMT",
+    "date": "Sun, 14 Jul 2024 01:53:51 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -259,7 +259,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "64.233.180.95",
+      "ip": "142.250.191.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -369,8 +369,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.62.94",
+      "ip": "142.251.46.195",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -401,9 +407,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -418,7 +428,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
