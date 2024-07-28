@@ -52,7 +52,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "r68cmt7md1j39prq6u6luagvn5",
+      "value": "nhdghfludb6jh9n8rn2nj15976",
       "domain": "www.mdph86.fr",
       "path": "/",
       "expires": -1,
@@ -74,12 +74,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 21 Jul 2024 02:16:39 GMT",
+    "date": "Sun, 28 Jul 2024 02:17:13 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=r68cmt7md1j39prq6u6luagvn5; path=/\nUTB_S=deleted; expires=Sat, 22-Jul-2023 02:16:38 GMT; path=/",
+    "set-cookie": "PHPSESSID=nhdghfludb6jh9n8rn2nj15976; path=/\nUTB_S=deleted; expires=Sat, 29-Jul-2023 02:17:12 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -204,14 +204,8 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.163.95",
+      "ip": "172.253.63.95",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -242,13 +236,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -263,23 +253,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
