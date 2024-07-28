@@ -17,16 +17,16 @@
       }
     },
     {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/css/esri.css"
+    },
+    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/css/esri.css"
     },
     {
       "type": "unknown",
@@ -106,11 +106,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/dojo/resources/blank.gif"
+      "url": "https://www.arcgis.com/sharing/rest/content/items/40a505d209a44392bffaaa4fa9ee426a?f=json"
     },
     {
       "type": "unknown",
-      "url": "https://www.arcgis.com/sharing/rest/content/items/40a505d209a44392bffaaa4fa9ee426a?f=json"
+      "url": "https://js.arcgis.com/3.27/dojo/resources/blank.gif"
     },
     {
       "type": "unknown",
@@ -242,10 +242,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
-    },
-    {
-      "type": "unknown",
       "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_des_MDS_et_antennes_des_MDS_de_la_Vienne/FeatureServer/0?f=json"
     },
     {
@@ -267,6 +263,10 @@
     {
       "type": "unknown",
       "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_MDS2/FeatureServer/0?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
     },
     {
       "type": "unknown",
@@ -338,30 +338,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/AttributeFilter.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/OrderBy.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/Top.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerMemory.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/OrderbyClause.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereClause.js"
-    },
-    {
-      "type": "unknown",
       "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerDynamic.js"
     },
     {
@@ -399,6 +375,30 @@
     {
       "type": "unknown",
       "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/sha.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/AttributeFilter.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/OrderBy.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/Top.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerMemory.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/OrderbyClause.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereClause.js"
     },
     {
       "type": "unknown",
@@ -482,7 +482,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.arcgis.com/sharing/rest/content/items/1b10aee4699d46abbf7d1f15b2888025/data?f=json"
+      "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e/data?f=json"
     },
     {
       "type": "unknown",
@@ -490,15 +490,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e/data?f=json"
+      "url": "https://www.arcgis.com/sharing/rest/content/items/1b10aee4699d46abbf7d1f15b2888025/data?f=json"
     },
     {
       "type": "unknown",
       "url": "https://www.arcgis.com/sharing/rest/content/items/885e02a3e11945fbbe3f181c8f501f29/data?f=json"
-    },
-    {
-      "type": "unknown",
-      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
     },
     {
       "type": "unknown",
@@ -531,13 +527,89 @@
     {
       "type": "unknown",
       "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/120/8/8?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/128/8/8?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/5f3188b1d2ad4e4eb4a86331ce7d3179/data?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/120/8/8?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/128/8/8?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/3a188e130ae34a5096084b3daf111669/data?f=json"
     }
   ],
   "cookies": [],
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 14 Jul 2024 02:03:24 GMT",
+    "date": "Sun, 28 Jul 2024 02:07:07 GMT",
     "etag": "W/\"62dfabae-2ad5\"",
     "last-modified": "Tue, 26 Jul 2022 08:54:06 GMT",
     "server": "nginx",
@@ -603,14 +675,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.40.42",
+      "ip": "142.250.190.106",
       "geoip": {
-        "city": {
-          "geoname_id": 5116931,
-          "names": {
-            "en": "Farmingdale"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -641,13 +707,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11735"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -662,28 +724,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.217.131",
+      "ip": "142.250.191.131",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -737,7 +783,7 @@
     },
     {
       "hostname": "js.arcgis.com",
-      "ip": "18.154.132.88",
+      "ip": "18.160.213.22",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -791,7 +837,7 @@
     },
     {
       "hostname": "www.arcgis.com",
-      "ip": "52.22.204.43",
+      "ip": "18.234.22.3",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -878,94 +924,7 @@
     },
     {
       "hostname": "services.arcgisonline.com",
-      "ip": "23.42.200.130",
-      "geoip": {
-        "city": {
-          "geoname_id": 5368361,
-          "names": {
-            "de": "Los Angeles",
-            "en": "Los Angeles",
-            "es": "Los Ángeles",
-            "fr": "Los Angeles",
-            "ja": "ロサンゼルス",
-            "pt-BR": "Los Angeles",
-            "ru": "Лос-Анджелес",
-            "zh-CN": "洛杉矶"
-          }
-        },
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 34.0544,
-          "longitude": -118.2441,
-          "metro_code": 803,
-          "time_zone": "America/Los_Angeles"
-        },
-        "postal": {
-          "code": "90060"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
-            "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "cdn.arcgis.com",
-      "ip": "18.154.206.34",
+      "ip": "18.160.249.41",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -997,8 +956,8 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 41.8764,
-          "longitude": -87.6133,
+          "latitude": 37.751,
+          "longitude": -97.822,
           "time_zone": "America/Chicago"
         },
         "registered_country": {
@@ -1014,28 +973,66 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4896861,
-            "iso_code": "IL",
-            "names": {
-              "de": "Illinois",
-              "en": "Illinois",
-              "es": "Illinois",
-              "fr": "Illinois",
-              "ja": "イリノイ州",
-              "pt-BR": "Ilinóis",
-              "ru": "Иллинойс",
-              "zh-CN": "伊利诺伊州"
-            }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.arcgis.com",
+      "ip": "13.32.151.48",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
           }
-        ]
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     },
     {
       "hostname": "static.arcgis.com",
-      "ip": "18.164.154.115",
+      "ip": "13.32.151.89",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1089,21 +1086,8 @@
     },
     {
       "hostname": "server.arcgisonline.com",
-      "ip": "23.42.200.130",
+      "ip": "99.86.229.127",
       "geoip": {
-        "city": {
-          "geoname_id": 5368361,
-          "names": {
-            "de": "Los Angeles",
-            "en": "Los Angeles",
-            "es": "Los Ángeles",
-            "fr": "Los Angeles",
-            "ja": "ロサンゼルス",
-            "pt-BR": "Los Angeles",
-            "ru": "Лос-Анджелес",
-            "zh-CN": "洛杉矶"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -1133,14 +1117,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 20,
-          "latitude": 34.0544,
-          "longitude": -118.2441,
-          "metro_code": 803,
-          "time_zone": "America/Los_Angeles"
-        },
-        "postal": {
-          "code": "90060"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1155,28 +1135,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
-            "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "basemaps.arcgis.com",
-      "ip": "13.225.142.43",
+      "ip": "3.162.112.30",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1230,7 +1194,7 @@
     },
     {
       "hostname": "services-eu1.arcgis.com",
-      "ip": "3.163.125.18",
+      "ip": "99.86.229.101",
       "geoip": {
         "continent": {
           "code": "NA",
