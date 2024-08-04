@@ -388,7 +388,7 @@
               "ip"           : "www.mdph86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -535,7 +535,7 @@
               "ip"           : "www.mdph86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "253 >= 60 days"
+              "finding"      : "246 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -731,14 +731,14 @@
               "ip"           : "www.mdph86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+1952 seconds from localtime"
+              "finding"      : "+1967 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.mdph86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1722134110"
+              "finding"      : "1722738858"
           }
 ,         {
               "id"           : "HSTS",
@@ -1336,6 +1336,6 @@
               "ip"           : "www.mdph86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "200"
+              "finding"      : "197"
           }
 ]
