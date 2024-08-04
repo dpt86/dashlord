@@ -346,7 +346,7 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "148 >= 60 days"
+              "finding"      : "141 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1722131307"
+              "finding"      : "1722735969"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1140,6 +1140,6 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "53"
           }
 ]
