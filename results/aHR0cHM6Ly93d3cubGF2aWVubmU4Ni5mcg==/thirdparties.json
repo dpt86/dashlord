@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=397172&h=1&m=20&s=3&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=e3594ea31f95ba1c&_idn=0&send_image=0&_refts=0&pv_id=wP9eNr&pf_net=353&pf_srv=373&pf_tfr=102&pf_dm1=691&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=350366&h=1&m=21&s=11&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=ba4ec44dd69eca61&_idn=0&send_image=0&_refts=0&pv_id=IMe33a&pf_net=715&pf_srv=371&pf_tfr=89&pf_dm1=627&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1722736203,
+      "expires": 1723341071,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +163,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "e3594ea31f95ba1c.1722734404.",
+      "value": "ba4ec44dd69eca61.1723339271.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1756430404,
+      "expires": 1757035271,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -182,7 +182,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 04 Aug 2024 01:20:02 GMT",
+    "date": "Sun, 11 Aug 2024 01:21:10 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -267,8 +267,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.190.138",
+      "ip": "142.251.167.95",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -299,9 +305,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -316,7 +326,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -377,7 +403,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.4.67",
+      "ip": "172.253.122.94",
       "geoip": {
         "continent": {
           "code": "NA",
