@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1588805651&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=977676581&gjid=816317608&cid=757221305.1722737119&tid=UA-XXXXX-X&_gid=2052887398.1722737119&_r=1&_slc=1&z=1549998954",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=44996527&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=946913646&gjid=1042156553&cid=1412915428.1723341922&tid=UA-XXXXX-X&_gid=30698242.1723341922&_r=1&_slc=1&z=81423274",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -23,7 +23,7 @@
       "value": "1",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1722737179,
+      "expires": 1723341982,
       "size": 5,
       "httpOnly": false,
       "secure": false,
@@ -34,24 +34,10 @@
     },
     {
       "name": "_gid",
-      "value": "GA1.2.2052887398.1722737119",
+      "value": "GA1.2.30698242.1723341922",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1722823519,
-      "size": 31,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.2.757221305.1722737119",
-      "domain": ".departement86.fr",
-      "path": "/",
-      "expires": 1785809119,
+      "expires": 1723428322,
       "size": 29,
       "httpOnly": false,
       "secure": false,
@@ -61,8 +47,22 @@
       "sourcePort": 443
     },
     {
+      "name": "_ga",
+      "value": "GA1.2.1412915428.1723341922",
+      "domain": ".departement86.fr",
+      "path": "/",
+      "expires": 1786413922,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
       "name": "a9d4c84db54b6aa83d99150bcd423ddc",
-      "value": "hnb5j21dej4l5qtkjo0hjhij25",
+      "value": "jtt5li9si2a4gqptvfo5mqjvim",
       "domain": "bdv-cabri.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -80,17 +80,17 @@
     "cache-control": "no-store,no-cache,must-revalidate,post-check=0,pre-check=0",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "6795",
+    "content-length": "6797",
     "content-security-policy": "frame-ancestors 'self' *.departement86.fr;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 04 Aug 2024 02:05:18 GMT",
+    "date": "Sun, 11 Aug 2024 02:05:21 GMT",
     "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
     "keep-alive": "timeout=5, max=499",
-    "last-modified": "Sun, 04 Aug 2024 02:05:18 GMT",
+    "last-modified": "Sun, 11 Aug 2024 02:05:21 GMT",
     "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
     "pragma": "no-cache",
     "server": "Microsoft-IIS/8.5",
-    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=hnb5j21dej4l5qtkjo0hjhij25; path=/; HttpOnly",
+    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=jtt5li9si2a4gqptvfo5mqjvim; path=/; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "ALLOW-FROM *.departement86.fr",
@@ -102,10 +102,14 @@
       "ip": "83.206.130.186",
       "geoip": {
         "city": {
-          "geoname_id": 2993572,
+          "geoname_id": 3023924,
           "names": {
-            "en": "Moissy-Cramayel",
-            "ru": "Муасси-Крамайель"
+            "de": "Conflans-Sainte-Honorine",
+            "en": "Conflans-Sainte-Honorine",
+            "fr": "Conflans-Sainte-Honorine",
+            "ja": "コンフラン＝サントノリーヌ",
+            "ru": "Конфлан-Сент-Онорин",
+            "zh-CN": "孔夫朗-圣奥诺里讷"
           }
         },
         "continent": {
@@ -139,12 +143,12 @@
         },
         "location": {
           "accuracy_radius": 50,
-          "latitude": 48.63,
-          "longitude": 2.6062,
+          "latitude": 48.9999,
+          "longitude": 2.092,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "77550"
+          "code": "78700"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -177,17 +181,17 @@
             }
           },
           {
-            "geoname_id": 2975249,
-            "iso_code": "77",
+            "geoname_id": 2967196,
+            "iso_code": "78",
             "names": {
-              "de": "Seine-et-Marne",
-              "en": "Seine-et-Marne",
-              "es": "Sena y Marne",
-              "fr": "Seine-et-Marne",
-              "ja": "セーヌ＝エ＝マルヌ県",
-              "pt-BR": "Sena e Marne",
-              "ru": "Сена и Марна",
-              "zh-CN": "塞纳-马恩省"
+              "de": "Yvelines",
+              "en": "Yvelines",
+              "es": "Yvelines",
+              "fr": "Yvelines",
+              "ja": "イヴリーヌ県",
+              "pt-BR": "Yvelines",
+              "ru": "Ивелин",
+              "zh-CN": "伊夫林省"
             }
           }
         ]
@@ -195,7 +199,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "64.233.180.102",
+      "ip": "216.239.36.178",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -227,9 +231,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -244,7 +248,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     }
   ]
