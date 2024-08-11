@@ -52,7 +52,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "ghlbnhdqmskrfs9gpnvquvd0d6",
+      "value": "2epcrcuqt1145iogvt1005o7c4",
       "domain": "www.mdph86.fr",
       "path": "/",
       "expires": -1,
@@ -74,12 +74,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 04 Aug 2024 02:17:53 GMT",
+    "date": "Sun, 11 Aug 2024 02:18:32 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=ghlbnhdqmskrfs9gpnvquvd0d6; path=/\nUTB_S=deleted; expires=Sat, 05-Aug-2023 02:17:52 GMT; path=/",
+    "set-cookie": "PHPSESSID=2epcrcuqt1145iogvt1005o7c4; path=/\nUTB_S=deleted; expires=Sat, 12-Aug-2023 02:18:31 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -91,10 +91,14 @@
       "ip": "83.206.130.186",
       "geoip": {
         "city": {
-          "geoname_id": 2993572,
+          "geoname_id": 3023924,
           "names": {
-            "en": "Moissy-Cramayel",
-            "ru": "Муасси-Крамайель"
+            "de": "Conflans-Sainte-Honorine",
+            "en": "Conflans-Sainte-Honorine",
+            "fr": "Conflans-Sainte-Honorine",
+            "ja": "コンフラン＝サントノリーヌ",
+            "ru": "Конфлан-Сент-Онорин",
+            "zh-CN": "孔夫朗-圣奥诺里讷"
           }
         },
         "continent": {
@@ -128,12 +132,12 @@
         },
         "location": {
           "accuracy_radius": 50,
-          "latitude": 48.63,
-          "longitude": 2.6062,
+          "latitude": 48.9999,
+          "longitude": 2.092,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "77550"
+          "code": "78700"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -166,17 +170,17 @@
             }
           },
           {
-            "geoname_id": 2975249,
-            "iso_code": "77",
+            "geoname_id": 2967196,
+            "iso_code": "78",
             "names": {
-              "de": "Seine-et-Marne",
-              "en": "Seine-et-Marne",
-              "es": "Sena y Marne",
-              "fr": "Seine-et-Marne",
-              "ja": "セーヌ＝エ＝マルヌ県",
-              "pt-BR": "Sena e Marne",
-              "ru": "Сена и Марна",
-              "zh-CN": "塞纳-马恩省"
+              "de": "Yvelines",
+              "en": "Yvelines",
+              "es": "Yvelines",
+              "fr": "Yvelines",
+              "ja": "イヴリーヌ県",
+              "pt-BR": "Yvelines",
+              "ru": "Ивелин",
+              "zh-CN": "伊夫林省"
             }
           }
         ]
@@ -184,7 +188,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -204,8 +208,14 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.190.10",
+      "ip": "142.250.72.138",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -235,10 +245,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -253,7 +267,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
