@@ -86,6 +86,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/styles/basic.js"
+    },
+    {
+      "type": "unknown",
       "url": "https://js.arcgis.com/3.27/esri/tasks/AddressCandidate.js"
     },
     {
@@ -95,10 +99,6 @@
     {
       "type": "unknown",
       "url": "https://js.arcgis.com/3.27/esri/virtualearth/VETiledLayer.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/styles/basic.js"
     },
     {
       "type": "unknown",
@@ -354,6 +354,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereClause.js"
+    },
+    {
+      "type": "unknown",
       "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/AttributeFilter.js"
     },
     {
@@ -371,10 +375,6 @@
     {
       "type": "unknown",
       "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/OrderbyClause.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereClause.js"
     },
     {
       "type": "unknown",
@@ -482,6 +482,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/885e02a3e11945fbbe3f181c8f501f29/data?f=json"
+    },
+    {
+      "type": "unknown",
       "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e/data?f=json"
     },
     {
@@ -494,7 +498,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.arcgis.com/sharing/rest/content/items/885e02a3e11945fbbe3f181c8f501f29/data?f=json"
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
     },
     {
       "type": "unknown",
@@ -522,7 +526,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
+      "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
     },
     {
       "type": "unknown",
@@ -538,10 +542,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
-    },
-    {
-      "type": "unknown",
       "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
     },
     {
@@ -551,6 +551,14 @@
     {
       "type": "unknown",
       "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
     },
     {
       "type": "unknown",
@@ -574,10 +582,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-    },
-    {
-      "type": "unknown",
       "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
     },
     {
@@ -587,10 +591,6 @@
     {
       "type": "unknown",
       "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-    },
-    {
-      "type": "unknown",
-      "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
     },
     {
       "type": "unknown",
@@ -638,22 +638,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Sectorisation_des_coll%C3%A8ges_de_la_Vienne_%C3%A0_partir_de_la_rentr%C3%A9e_2021/FeatureServer/1?f=json"
-    },
-    {
-      "type": "unknown",
-      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1?f=json"
-    },
-    {
-      "type": "unknown",
-      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0?f=json"
-    },
-    {
-      "type": "unknown",
-      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0?f=json"
-    },
-    {
-      "type": "unknown",
       "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
     },
     {
@@ -710,6 +694,22 @@
     },
     {
       "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Sectorisation_des_coll%C3%A8ges_de_la_Vienne_%C3%A0_partir_de_la_rentr%C3%A9e_2021/FeatureServer/1?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0?f=json"
+    },
+    {
+      "type": "unknown",
       "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_de_Vienne_Autonomie_Conseils/FeatureServer/0?f=json"
     },
     {
@@ -719,13 +719,97 @@
     {
       "type": "unknown",
       "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Si%C3%A8ges_de_Vienne_Autonomie_Conseils/FeatureServer/0?f=json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20%20adultes%20Handicap%C3%A9s%20Vieillissants%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20avec%20H%C3%A9bergement%20Sourds%20Aveugles%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20vie%20de%20jour%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20avec%20H%C3%A9bergement%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Foyer%20d%27%27Accueil%20M%C3%A9dicalis%C3%A9%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20d%27%27Accueil%20M%C3%A9dicalis%C3%A9%20de%20jour%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Foyer%20d%27%27H%C3%A9bergement%20CART%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20Hebergement%20Continu%20Adultes%20Handicap%C3%A9s%27)%20OR%20(ADRESSE%20%3D%20%27Foyer%20Hebergement%20%20Non%20continu%20Adultes%20Handicap%C3%A9s%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=CATEGORIE%20%3D%20%27Service%20d%27%27Accompagnement%20deTravailleurs%20d%27%27ESAT%20accueil%20familial%27&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=CATEGORIE%20%3D%20%27Service%20d%27%27Accompagnement%20deTravailleurs%20d%27%27ESAT%27&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Section%20Annexe%20avec%20H%C3%A9bergement%27)%20OR%20(CATEGORIE%20%3D%20%27Section%20Annexe%20de%20Jour%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Sectorisation_des_coll%C3%A8ges_de_la_Vienne_%C3%A0_partir_de_la_rentr%C3%A9e_2021/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0/query?f=json&where=STATUT%20%3D%20%27PRIVE%27&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0/query?f=json&where=STATUT%20%3D%20%27PUBLIC%27&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_PMI/FeatureServer/0/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_de_Vienne_Autonomie_Conseils/FeatureServer/0/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Si%C3%A8ges_de_Vienne_Autonomie_Conseils/FeatureServer/0/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=pbf&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=4000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A464561.5%2C%22ymin%22%3A6553190.800000001%2C%22xmax%22%3A562803.6000000015%2C%22ymax%22%3A6679313.6000000015%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=pbf&where=(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20%20adultes%20Handicap%C3%A9s%20Vieillissants%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20avec%20H%C3%A9bergement%20Sourds%20Aveugles%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20vie%20de%20jour%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20avec%20H%C3%A9bergement%27)&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=8000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A475349.46049307263%2C%22ymin%22%3A6557819.938845422%2C%22xmax%22%3A537457.710749203%2C%22ymax%22%3A6661646.103234442%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=pbf&where=(CATEGORIE%20%3D%20%27Foyer%20d%27%27H%C3%A9bergement%20CART%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20Hebergement%20Continu%20Adultes%20Handicap%C3%A9s%27)%20OR%20(ADRESSE%20%3D%20%27Foyer%20Hebergement%20%20Non%20continu%20Adultes%20Handicap%C3%A9s%27)&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=8000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A475349.46049307263%2C%22ymin%22%3A6557819.938845422%2C%22xmax%22%3A537457.710749203%2C%22ymax%22%3A6661646.103234442%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=pbf&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=4000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A464561.5%2C%22ymin%22%3A6553190.800000001%2C%22xmax%22%3A562803.6000000015%2C%22ymax%22%3A6679313.6000000015%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_PMI/FeatureServer/0/query?f=pbf&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=8000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A477874.6102000028%2C%22ymin%22%3A6560570.2184999995%2C%22xmax%22%3A536785.5676999986%2C%22ymax%22%3A6660518.015299998%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
     }
   ],
   "cookies": [],
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 25 Aug 2024 02:05:56 GMT",
+    "date": "Sun, 01 Sep 2024 02:20:03 GMT",
     "etag": "W/\"62dfabae-2ad5\"",
     "last-modified": "Tue, 26 Jul 2022 08:54:06 GMT",
     "server": "nginx",
@@ -791,61 +875,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "64.233.180.95",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "fonts.gstatic.com",
-      "ip": "142.251.167.94",
+      "ip": "142.251.167.95",
       "geoip": {
         "city": {
           "geoname_id": 5116931,
@@ -924,8 +954,62 @@
       }
     },
     {
+      "hostname": "fonts.gstatic.com",
+      "ip": "172.253.63.94",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
       "hostname": "js.arcgis.com",
-      "ip": "18.67.65.48",
+      "ip": "18.67.65.88",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -979,7 +1063,7 @@
     },
     {
       "hostname": "www.arcgis.com",
-      "ip": "54.210.18.219",
+      "ip": "18.234.22.250",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -1023,7 +1107,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
+          "accuracy_radius": 1000,
           "latitude": 39.0469,
           "longitude": -77.4903,
           "metro_code": 511,
@@ -1066,168 +1150,6 @@
     },
     {
       "hostname": "services.arcgisonline.com",
-      "ip": "99.86.229.127",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "cdn.arcgis.com",
-      "ip": "13.32.151.4",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "static.arcgis.com",
-      "ip": "13.32.151.89",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "server.arcgisonline.com",
       "ip": "99.86.229.41",
       "geoip": {
         "continent": {
@@ -1281,8 +1203,170 @@
       }
     },
     {
+      "hostname": "cdn.arcgis.com",
+      "ip": "13.32.151.54",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "static.arcgis.com",
+      "ip": "13.32.151.64",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "server.arcgisonline.com",
+      "ip": "99.86.229.55",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
       "hostname": "basemaps.arcgis.com",
-      "ip": "3.162.112.98",
+      "ip": "3.162.112.20",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1336,7 +1420,7 @@
     },
     {
       "hostname": "services-eu1.arcgis.com",
-      "ip": "99.86.229.101",
+      "ip": "99.86.229.69",
       "geoip": {
         "continent": {
           "code": "NA",
