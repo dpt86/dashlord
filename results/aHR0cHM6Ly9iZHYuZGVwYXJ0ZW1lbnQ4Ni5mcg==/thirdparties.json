@@ -2,23 +2,23 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/OFnCQMoARUS4zdR4kU0O1A2/9782262103415/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/Rr4FvpAIFypcT-T4lN8FQg2/9782747072236/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/Px1C4QVXy4r-4MhR96l36w2/9782365693530/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/ASEcY5MChrrsrBnPM1DqHA2/9782262103415/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/_0zp1M9Dwsc-YzyGKTHX7g2/9782221198674/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/EffS36hFdo6XyPpOdHuJqQ2/9782365693530/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/AUDI/9M8vkoB1eBu4nLSTLiD5kg2/3516628422423/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fAUDI_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/WDm8NJGsfQsFUCeVL53pGA2/9782221198674/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://www.cvs-mediatheques.com/ws/wsgetimg.php?N=a0CJ1647&C=3655&D=1233984&A=59074&W=300&F=0.jpg"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/AUDI/fyokooWk_PzHc3sWoygzwg2/3516628422423/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fAUDI_MEDIUM.png"
     },
     {
       "type": "unknown",
@@ -26,11 +26,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/c4e0b3feeeee36f695c44ab80f925dbfc0efb2d3afa5637a651d5c65c139a674.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=083681&h=1&m=21&s=48&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=de8e6c3f2adeef9b&_idn=1&send_image=0&_refts=0&pv_id=cwhiaT&pf_net=1219&pf_srv=412&pf_tfr=430&pf_dm1=1385&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://media.electre-ng.com/images/image-id/d9e6e737dd7f62489a58004df2d507179009f81a93bb1a74c5a6568dce08ebd6.jpg"
     },
     {
       "type": "unknown",
@@ -39,6 +35,14 @@
     {
       "type": "unknown",
       "url": "https://media.electre-ng.com/images/image-id/d5990b5ad54287c8b73c419b86965b5e142962baf5f5c359ca511364c84af8f8.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=693048&h=1&m=37&s=4&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=6d7ce9f038bf78d1&_idn=1&send_image=0&_refts=0&pv_id=wpILD2&pf_net=514&pf_srv=384&pf_tfr=178&pf_dm1=1241&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/c4e0b3feeeee36f695c44ab80f925dbfc0efb2d3afa5637a651d5c65c139a674.jpg"
     }
   ],
   "cookies": [
@@ -47,7 +51,7 @@
       "value": "1",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1724550708,
+      "expires": 1725156424,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +63,10 @@
     },
     {
       "name": "_pk_id.7.151b",
-      "value": "de8e6c3f2adeef9b.1724548909.",
+      "value": "6d7ce9f038bf78d1.1725154625.",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1758504109,
+      "expires": 1759109825,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -104,10 +108,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "04cf4c49-eb58-4cda-bbdb-a9a30a594e57",
+      "value": "4e26ccb1-4fb5-4662-b5bb-00134eae880c",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1724550706.037687,
+      "expires": 1725156422.860782,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -122,16 +126,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "41158",
+    "content-length": "40731",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 25 Aug 2024 01:21:45 GMT",
+    "date": "Sun, 01 Sep 2024 01:37:02 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=04cf4c49-eb58-4cda-bbdb-a9a30a594e57; domain=departement86.fr; expires=Sun, 25-Aug-2024 01:51:45 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=4e26ccb1-4fb5-4662-b5bb-00134eae880c; domain=departement86.fr; expires=Sun, 01-Sep-2024 02:07:02 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -241,62 +245,6 @@
     {
       "hostname": "covers.syracuse.cloud",
       "ip": "79.137.46.4",
-      "geoip": {
-        "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
-          "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
-          }
-        },
-        "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
-          "time_zone": "Europe/Paris"
-        },
-        "registered_country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "www.cvs-mediatheques.com",
-      "ip": "5.196.212.151",
       "geoip": {
         "continent": {
           "code": "EU",
