@@ -18,7 +18,23 @@
     },
     {
       "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/8e/8e6d99b2-b43b-4ed2-869e-537e8ab55fed.png"
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/bf/bf1ff2cb-31ea-4b43-a1de-e1fbb72a90e6.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/79/7911de20-653d-4f12-ba6c-4081c6ac9b96.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/17/170e111f-bb74-4414-acc3-bee7887241be.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/01/015277b6-4939-452d-8a92-dfce6ad42110.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/b2/b2152c4e-0f30-4952-a69d-e78a3eda83b8.jpg"
     },
     {
       "type": "unknown",
@@ -26,27 +42,11 @@
     },
     {
       "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/8e/8e6d99b2-b43b-4ed2-869e-537e8ab55fed.png"
+    },
+    {
+      "type": "unknown",
       "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/7b/7bd3e9b0-db51-472c-8651-8c5b619d5393.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/81/81f3b319-b7a9-4bf5-898f-f29910960532.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/85/854add91-7490-4766-beed-88d91b3b6ba1.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/dc/dcaf0c95-1e39-430c-9102-243042a80c57.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/9e/9ecc4c6c-1484-4b04-b7e9-fddf5989a228.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/da/dae28ac3-bd0b-4167-b931-0c28f1624176.png"
     },
     {
       "type": "google tag manager",
@@ -90,7 +90,7 @@
     },
     {
       "type": "xiti",
-      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m08wh24qvkrcw07b",
+      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m0ix56yqw7y3tdmj",
       "details": {
         "id": "xiti",
         "message": "Use hosted Matomo instance"
@@ -100,11 +100,11 @@
   "cookies": [
     {
       "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAGYAPAEZQAVgHMAngB9%2BABgAcAdwAWAJgAsMkAF8gA",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAOYB2AMYAmSoQCeAH34AGegA8ArADZp0kAF8gA",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1758677883,
-      "size": 120,
+      "expires": 1759283670,
+      "size": 114,
       "httpOnly": false,
       "secure": true,
       "session": false,
@@ -115,7 +115,7 @@
     },
     {
       "name": "HA2",
-      "value": "front-03",
+      "value": "front-01",
       "domain": "www.emploi86.com",
       "path": "/",
       "expires": -1,
@@ -129,10 +129,10 @@
     },
     {
       "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22m08wh24qvkrcw07b%22%2C%22_t%22%3A%22mfxbejgx%7Cm08wh24x%22%7D",
+      "value": "%7B%22browserId%22%3A%22m0ix56yqw7y3tdmj%22%2C%22_t%22%3A%22mg7c2oax%7Cm0ix56yx%22%7D",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1758677883,
+      "expires": 1759283670,
       "size": 90,
       "httpOnly": false,
       "secure": true,
@@ -147,7 +147,7 @@
       "value": "%22exempt%22",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1758677883,
+      "expires": 1759283670,
       "size": 22,
       "httpOnly": false,
       "secure": true,
@@ -159,11 +159,11 @@
     },
     {
       "name": "mb_departement_vienne_user",
-      "value": "BGNWbVBqVGdQaAVhATIDMwc3ADZQMQZhXDoDZFVkVzACNwBuUz0GYwo%2FUDNUN1FkAnhUcgYzDGVcKFYpVWZSMQRnVm9QPFQyUGkFOAFsA2A%3D",
+      "value": "UTYMN1lkA2IDYAM%2FXT1QNAU1D2tRNlVhATQBYQk5VzZVNAI4A2xTMVdhAGFRZgMzBX9Vc1BlBG1UIAl2AzACYVEyDDRZMQNkAzYDMF0%2BUDg%3D",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1756085882.394657,
-      "size": 138,
+      "expires": 1756691670.08454,
+      "size": 140,
       "httpOnly": true,
       "secure": true,
       "session": false,
@@ -173,7 +173,7 @@
     },
     {
       "name": "mb_departement_vienne",
-      "value": "15gam1dckhs0gbf9aihknuq4in",
+      "value": "732pflcko6fb1jeendi4lp3tsf",
       "domain": "www.emploi86.com",
       "path": "/",
       "expires": -1,
@@ -190,13 +190,16 @@
   "headers": {
     "cache-control": "no-store, no-cache, must-revalidate",
     "content-encoding": "gzip",
-    "content-length": "12640",
+    "content-length": "12702",
+    "content-security-policy-report-only": "default-src 'self' ; connect-src 'self' sentry.jobijoba.net module.hellocv.com ; script-src 'unsafe-eval' 'unsafe-inline' 'self' module.hellocv.com www.googletagmanager.com cdn.ravenjs.com www.google.com www.gstatic.com tag.aticdn.net 'wasm-unsafe-eval' https://cdn.jsdelivr.net/npm/; style-src 'unsafe-inline' 'self' module.hellocv.com ; img-src data: 'unsafe-eval' * ; media-src 'self' * ; font-src 'self'  cdn.jobijoba.com fonts.gstatic.com ; frame-src 'self' www.google.com www.googletagmanager.com www.youtube.com maps.google.com www.facebook.com syndication.twitter.com ; worker-src blob: ; child-src blob: ; object-src 'none' ; base-uri 'none' ;frame-ancestors 'none' ; upgrade-insecure-requests ; report-uri https://www.emploi86.com/.csp-report",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 25 Aug 2024 01:38:02 GMT",
+    "date": "Sun, 01 Sep 2024 01:54:29 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
+    "report-to": "{'group':'csp-endpoint-report-only','max_age':86400,'endpoints':[{'url':'https://www.emploi86.com/.csp-report'}]}",
+    "reporting-endpoints": "csp-endpoint-report-only=\"https://www.emploi86.com/.csp-report\"",
     "server": "Apache",
-    "set-cookie": "mb_departement_vienne=15gam1dckhs0gbf9aihknuq4in; path=/; secure; HttpOnly; SameSite=None\nmb_departement_vienne_user=BGNWbVBqVGdQaAVhATIDMwc3ADZQMQZhXDoDZFVkVzACNwBuUz0GYwo%2FUDNUN1FkAnhUcgYzDGVcKFYpVWZSMQRnVm9QPFQyUGkFOAFsA2A%3D; expires=Mon, 25-Aug-2025 01:38:02 GMT; Max-Age=31536000; path=/; secure; HttpOnly\nHA2=front-03; path=/; HttpOnly; Secure",
+    "set-cookie": "mb_departement_vienne=732pflcko6fb1jeendi4lp3tsf; path=/; secure; HttpOnly; SameSite=None\nmb_departement_vienne_user=UTYMN1lkA2IDYAM%2FXT1QNAU1D2tRNlVhATQBYQk5VzZVNAI4A2xTMVdhAGFRZgMzBX9Vc1BlBG1UIAl2AzACYVEyDDRZMQNkAzYDMF0%2BUDg%3D; expires=Mon, 01-Sep-2025 01:54:29 GMT; Max-Age=31536000; path=/; secure; HttpOnly\nHA2=front-01; path=/; HttpOnly; Secure",
     "strict-transport-security": "max-age=63072000",
     "vary": "partner,Accept-Encoding",
     "x-content-type-options": "nosniff"
@@ -260,59 +263,8 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "146.75.77.229",
+      "ip": "104.18.186.31",
       "geoip": {
-        "city": {
-          "geoname_id": 4887398,
-          "names": {
-            "de": "Chicago",
-            "en": "Chicago",
-            "es": "Chicago",
-            "fr": "Chicago",
-            "ja": "シカゴ",
-            "pt-BR": "Chicago",
-            "ru": "Чикаго",
-            "zh-CN": "芝加哥"
-          }
-        },
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 41.8874,
-          "longitude": -87.6318,
-          "metro_code": 602,
-          "time_zone": "America/Chicago"
-        },
-        "postal": {
-          "code": "60602"
-        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
@@ -326,28 +278,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4896861,
-            "iso_code": "IL",
-            "names": {
-              "de": "Illinois",
-              "en": "Illinois",
-              "es": "Illinois",
-              "fr": "Illinois",
-              "ja": "イリノイ州",
-              "pt-BR": "Ilinóis",
-              "ru": "Иллинойс",
-              "zh-CN": "伊利诺伊州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "cdn.ravenjs.com",
-      "ip": "151.101.2.217",
+      "ip": "151.101.194.217",
       "geoip": {
         "city": {
           "geoname_id": 5391959,
@@ -531,8 +467,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.190.8",
+      "ip": "142.251.167.97",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -563,9 +505,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -580,7 +526,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -682,7 +644,7 @@
     },
     {
       "hostname": "tag.aticdn.net",
-      "ip": "18.67.17.57",
+      "ip": "18.160.18.16",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -736,7 +698,7 @@
     },
     {
       "hostname": "logs1412.xiti.com",
-      "ip": "18.160.233.60",
+      "ip": "18.154.229.58",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -768,8 +730,8 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
+          "latitude": 41.8764,
+          "longitude": -87.6133,
           "time_zone": "America/Chicago"
         },
         "registered_country": {
@@ -785,7 +747,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4896861,
+            "iso_code": "IL",
+            "names": {
+              "de": "Illinois",
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
+            }
+          }
+        ]
       }
     }
   ]

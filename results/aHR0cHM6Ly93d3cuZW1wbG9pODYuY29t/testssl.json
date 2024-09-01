@@ -346,7 +346,7 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "120 >= 60 days"
+              "finding"      : "113 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,14 +542,14 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1724550483"
+              "finding"      : "1725156216"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -620,6 +620,13 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Content-Security-Policy-Report-Only",
+              "ip"           : "www.emploi86.com/91.121.52.142",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "default-src 'self' ; connect-src 'self' sentry.jobijoba.net module.hellocv.com ; script-src 'unsafe-eval' 'unsafe-inline' 'self' module.hellocv.com www.googletagmanager.com cdn.ravenjs.com www.google.com www.gstatic.com tag.aticdn.net 'wasm-unsafe-eval' https://cdn.jsdelivr.net/npm/; style-src 'unsafe-inline' 'self' module.hellocv.com ; img-src data: 'unsafe-eval' * ; media-src 'self' * ; font-src 'self'  cdn.jobijoba.com fonts.gstatic.com ; frame-src 'self' www.google.com www.googletagmanager.com www.youtube.com maps.google.com www.facebook.com syndication.twitter.com ; worker-src blob: ; child-src blob: ; object-src 'none' ; base-uri 'none' ;frame-ancestors 'none' ; upgrade-insecure-requests ; report-uri https://www.emploi86.com/.csp-report"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1140,6 +1147,6 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "54"
           }
 ]
