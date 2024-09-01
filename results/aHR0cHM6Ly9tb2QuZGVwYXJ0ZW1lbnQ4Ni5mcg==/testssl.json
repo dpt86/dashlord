@@ -542,7 +542,7 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "313 >= 60 days"
+              "finding"      : "306 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -822,14 +822,14 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+2015 seconds from localtime"
+              "finding"      : "+2031 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1724553793"
+              "finding"      : "1725159323"
           }
 ,         {
               "id"           : "HSTS",
@@ -1427,6 +1427,6 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "195"
+              "finding"      : "134"
           }
 ]
