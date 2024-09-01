@@ -100,7 +100,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "p68ruf6rpof6aeigpajk4epu86",
+      "value": "17ue8487mht8i6b446a7fnk2u1",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 25 Aug 2024 02:21:37 GMT",
+    "date": "Sun, 01 Sep 2024 02:36:16 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=p68ruf6rpof6aeigpajk4epu86; path=/\nUTB_S=deleted; expires=Sat, 26-Aug-2023 02:21:36 GMT; path=/",
+    "set-cookie": "PHPSESSID=17ue8487mht8i6b446a7fnk2u1; path=/\nUTB_S=deleted; expires=Sat, 02-Sep-2023 02:36:15 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -256,7 +256,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.190.10",
+      "ip": "172.217.14.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -310,8 +310,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.106",
+      "ip": "142.250.68.74",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -341,10 +347,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -359,7 +369,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -384,7 +410,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.195",
+      "ip": "172.217.14.67",
       "geoip": {
         "continent": {
           "code": "NA",
