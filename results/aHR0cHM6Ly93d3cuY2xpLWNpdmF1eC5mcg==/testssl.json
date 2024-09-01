@@ -346,7 +346,7 @@
               "ip"           : "www.cli-civaux.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "225 >= 60 days"
+              "finding"      : "218 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "www.cli-civaux.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1724551143"
+              "finding"      : "1725156791"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.cli-civaux.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "60"
           }
 ]
