@@ -100,7 +100,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "17ue8487mht8i6b446a7fnk2u1",
+      "value": "idefugsp53igm1fpvpngn1vmu3",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 01 Sep 2024 02:36:16 GMT",
+    "date": "Sun, 08 Sep 2024 02:26:30 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=17ue8487mht8i6b446a7fnk2u1; path=/\nUTB_S=deleted; expires=Sat, 02-Sep-2023 02:36:15 GMT; path=/",
+    "set-cookie": "PHPSESSID=idefugsp53igm1fpvpngn1vmu3; path=/\nUTB_S=deleted; expires=Sat, 09-Sep-2023 02:26:29 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -236,7 +236,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -256,7 +256,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "172.217.14.74",
+      "ip": "142.250.190.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -310,14 +310,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.68.74",
+      "ip": "142.250.191.234",
       "geoip": {
-        "city": {
-          "geoname_id": 5131638,
-          "names": {
-            "en": "Plainview"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -347,14 +341,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11803"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -369,23 +359,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -410,7 +384,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.14.67",
+      "ip": "142.250.190.99",
       "geoip": {
         "continent": {
           "code": "NA",
