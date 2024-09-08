@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
-        "size": 13486.741,
-        "nodes": 2445,
-        "requests": 348,
-        "grade": "G",
-        "score": 5.0,
-        "ges": 2.9,
-        "water": 4.35,
+        "size": 3725.627,
+        "nodes": 1387,
+        "requests": 202,
+        "grade": "F",
+        "score": 15.0,
+        "ges": 2.7,
+        "water": 4.05,
         "ecoindex_version": "5.4.2",
-        "date": "2024-09-01 02:21:14.134510",
+        "date": "2024-09-08 02:11:07.186271",
         "page_type": "article"
     }
 ]
