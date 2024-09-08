@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://bdv.departement86.fr",
-        "size": 6752.276,
-        "nodes": 1470,
+        "size": 7214.112,
+        "nodes": 1476,
         "requests": 72,
         "grade": "E",
-        "score": 27.0,
-        "ges": 2.46,
-        "water": 3.69,
+        "score": 26.0,
+        "ges": 2.48,
+        "water": 3.72,
         "ecoindex_version": "5.4.2",
-        "date": "2024-09-01 01:38:12.869631",
+        "date": "2024-09-08 01:26:33.838814",
         "page_type": "article"
     }
 ]
