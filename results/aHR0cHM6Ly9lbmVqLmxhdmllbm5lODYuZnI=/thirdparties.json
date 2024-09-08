@@ -110,9 +110,9 @@
     "content-encoding": "gzip",
     "content-type": "text/html",
     "cross-origin-opener-policy": "same-origin",
-    "date": "Sun, 01 Sep 2024 01:56:27 GMT",
-    "etag": "W/\"66d03ff4-e2c1\"",
-    "last-modified": "Thu, 29 Aug 2024 09:31:32 GMT",
+    "date": "Sun, 08 Sep 2024 01:45:39 GMT",
+    "etag": "W/\"66d5e1b0-e2c1\"",
+    "last-modified": "Mon, 02 Sep 2024 16:02:56 GMT",
     "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),clipboard-write=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "nginx/1.18.0",
@@ -156,7 +156,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 500,
           "latitude": 48.8582,
           "longitude": 2.3387,
           "time_zone": "Europe/Paris"
@@ -180,7 +180,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.31.94",
+      "ip": "142.250.189.195",
       "geoip": {
         "continent": {
           "code": "NA",
