@@ -2,14 +2,6 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/457/4927457.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/457/4860457.jpg"
-    },
-    {
-      "type": "unknown",
       "url": "https://media.mediatheques.fr/res/medias/album/400p/618/4887618.jpg"
     },
     {
@@ -102,35 +94,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/182/4868182.jpg"
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/742/4935742.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/323/4850323.jpg"
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/476/4871476.jpg?2"
     },
     {
       "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/474/4871474.jpg?2"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/931/4766931.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/243/4948243.jpg?3"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/618/4879618.jpg?3"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/913/4885913.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/174/4868174.jpg?3"
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/311/4978311.jpg"
     },
     {
       "type": "unknown",
@@ -199,6 +171,38 @@
     {
       "type": "unknown",
       "url": "https://media.mediatheques.fr/res/medias/album/400p/315/4778315.jpg?2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/472/4871472.jpg?2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/018/4970018.jpg?3"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/664/4903664.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/015/4897015.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/024/4860024.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/963/4901963.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/954/4901954.jpg?2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.mediatheques.fr/res/medias/album/400p/214/4948214.jpg"
     },
     {
       "type": "unknown",
@@ -314,10 +318,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.mediatheques.fr/res/medias/album/400p/142/1088142.jpg?2"
-    },
-    {
-      "type": "unknown",
       "url": "https://couverture.numilog.com/9782702164884_W300.jpg"
     },
     {
@@ -335,10 +335,6 @@
     {
       "type": "unknown",
       "url": "https://couverture.numilog.com/9782702164211_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/19/f994f473e7f2d08bb6b41d90f40fd59c29b1bd.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
@@ -517,56 +513,12 @@
       "url": "https://assets.edenlivres.fr/medias/85/ca2836ec2a4f9b075a226253512d11a3febc0c.jpg?h=-&w=1000"
     },
     {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/664648b87a8d0a4a3b2ea96a1da4b5f5ba6ae070.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782368126967_W300.jpg"
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/99c5a280eb1ec1d8d019eb6de6e8e9e0419c4982.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/011c310f58619181f896ad2e7bda7a501ac79299.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/9a1f55f433e492448300e303bfd4177be674bb53.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/a3fe68edb934b42863ab6b18168199c3a583482e.jpeg",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/a9e078939e39521ba57700215460f7a17e3af4a8.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/20d28f681a299b242d303a0f3099b9210fad19e2.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/2f27dcfa524922383a95e5a17c5a5f87700cd9e2.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -582,7 +534,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/2350252e2554f95d4e66c48ade98bc39090fe8f3.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/d9ab05d86ff679f9698fe470fcfa0932e053cdb2.jpeg",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -590,7 +542,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/d079728416a0db45574c3e6e83f185bcfa714c14.jpeg",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/eff0110094b2bdecd942340278953ece2ae691ae.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -598,7 +550,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/13/b6fe9deb422c05215e788223eeffac0da7c6e8ed.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/04987344a004f4a51704bfb090332902aab848bf.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -606,7 +558,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/0b142b00965b483ae27a8d6014c06c592f132af5.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/e98004ff60f3ce45b7621d3259d0773fbed2491f.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -614,7 +566,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/1519b89dace5aa448b1d354e4b0ead5583c1825b.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/2a4b602b4147b817f87dede6c2681a8584c7ee38.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -622,7 +574,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/e79221129f5d3a2a89800486bdc036ad94bb57b3.jpeg",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/615541e94c4a1f9784735a4088100ecb8e2e7c29.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -630,7 +582,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/a85b169e29a59832b5e019ae33f36e77b567323e.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/00cfb58a2a8c4b88dcce248a2b6e1c92cddd17ad.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -638,7 +590,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/3ac935d700b73bd9e42ba47c0ed854b848e8849b.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/fdc62d9151efc9a23c2232bbe96fbfa3fa58158f.jpeg",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -646,7 +598,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/bc5849e41211d79d3f352544f67147e5784c46d5.jpeg",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/15/584324dd3be13b287d1d352b8b89eb16d7e980bf.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -654,7 +606,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/d2f9637b328831dc25f81c2b97eef78dc3d44217.jpeg",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/664648b87a8d0a4a3b2ea96a1da4b5f5ba6ae070.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -662,7 +614,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/bbeaf81a61a381c48001992156310c7a65137b6e.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/77d4d6cf5aaaca8fdeb6b8fc328ca61fe2818b22.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -670,7 +622,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/6001defe47923f84054222e0b8a1c195712d25af.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/f39ea2c4c62087b3f039ff31f8e92ac7dc1deffd.jpeg",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -678,7 +630,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/09/de6cee4b1f7262775b7d480ab548ff66760791d3.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/7485e433b7d04a803835206417df054af2df52a6.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -686,7 +638,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/d191f3eb477be1597848419a90875ff839d18277.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/32479c1ca23ee0b6c2cc45372f4f84b367216658.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -694,7 +646,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/80eea135622c21b522f89bdc84cdbb7a42dfeb47.jpeg",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/f0af16ae4b9c99aa63295781c7ff681ea51e24ba.jpeg",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -702,7 +654,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/05b7eddaa0d68da3307eb80b1f97a274b5e61fa8.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/53fa26719e3e88cacbf965ee913e1431c4c4da05.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -710,7 +662,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/06/2791acda07e47bb47c986767b450cdfcc73e52b7.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/599ac96d421602aa1922e53ef977ffbcab156744.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -718,79 +670,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/9f13f78af9969c6911cf706a8bb7d760e6ae5de1.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/c3b70a9026c6fdf7b188fcce81acb52bcd3702c8.jpeg",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/ed1071380a0ee3b4c74bd37fc5c48a677e797f90.jpeg",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/293d96775cd1ed218ba26319929754ae2cbd6abe.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/5b8307ab3800f5ccdbb2e652f683c99486d428cc.jpeg",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/8c897f799b1120ed49d407880b290b5c8d8b9880.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/985410d14eafa90349874c603121150d1fc683f3.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/75e30bc4e100a79c5803bf9085944c912eea8d94.png",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/af45b82cf7bdfa968d2c82ef08cfab062d0e8bef.jpeg",
-      "details": {
-        "id": "cloudfront",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/9b56db870c11627d7a13c0943352a96ea7bfce8a.jpeg",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/66e399c648bde81d3785ee3f1ee492a16539b061.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -806,7 +686,7 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/131b96cc5733225f327a902e44f4f556c66c78a1.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/ccc7f12cf42b08959c220fbebd84ffebefc7b399.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -814,7 +694,135 @@
     },
     {
       "type": "cloudfront",
-      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/11/899f3bf7d6d5359f97e20f4789d1b61f4ebd3cbd.png",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/15/47f79d4c967c4d234e5f513d44fbc3057d9f76ae.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/7591eabf507a58c8b0877c32f0291dc0a2322a7c.jpeg",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/a2348ce3a4e51e9390f9544fb65b6f67431a61c2.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/bbbae0fdcdd1a2925248f1931e3cf9245878ecf4.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/6334f76e8116459177e79db2208895c741bf50ec.jpeg",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/dd577b770630eeaaa102030e6817e1704a8acbd4.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/05/300742f8254a235d51a9e5e660635de0f7646b59.jpeg",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/4f44addc81c6d334d370e3834c7103c2106c9a20.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/d366c43dd075436fe8f5b848416d6700f5995dbc.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/caa989cba74d3229ae88f649f63cbe0668f916ed.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/6e8ff725aba5dfc7d815df70c544bfb9661ad93f.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/12/bbeaf81a61a381c48001992156310c7a65137b6e.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/a8e232bef160ab0818754345ed315713610af1f9.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/41d6ceb6414a7e7b9bbeeecef752dae708630ec2.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/14/d2f53abfbcd63605a29fa4859a4de2a8fd2050e3.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/13/49bac8d68ccc0a6a1925991558bf7f6ed616bf43.png",
+      "details": {
+        "id": "cloudfront",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "cloudfront",
+      "url": "https://d1ye1pkjd8d7nc.cloudfront.net/public_item/0001/17/5d3f1242c1320c0a3e93ad8e4fdc0be3a900c2f3.png",
       "details": {
         "id": "cloudfront",
         "message": "Host files locally"
@@ -830,19 +838,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=0AF685A5-D9A9-45ED-AE06-B42E8393C794"
-    },
-    {
-      "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=804CAB4A-E1A9-4C6D-808E-3C4960AB6402"
-    },
-    {
-      "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=99F084A7-6DC8-4861-8029-C60DBBB084BD"
-    },
-    {
-      "type": "unknown",
-      "url": "https://mediatheque-lussacleschateaux.departement86.fr/basicimagedownload.ashx?itemGuid=D388FB7E-5BEE-4F60-95DE-3609EFA28CAA"
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=70858305-9E3E-4D77-87E3-9CDD63E17FFE"
     },
     {
       "type": "unknown",
@@ -854,11 +850,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=8705F9A7-AA7A-436B-8B03-17277F97E850"
+      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=0CF182A7-CF44-4934-B632-4B3D1FC67533"
     },
     {
       "type": "unknown",
       "url": "https://mediatheque-lussacleschateaux.departement86.fr/basicimagedownload.ashx?itemGuid=857C7F78-7C3B-4017-AEF1-2C0546F9B4FB"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=166CCEA0-2F9B-479E-8772-8CC540AA3F35"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=99B39695-AEAB-4AA9-A8D4-032DF3391AB3"
     },
     {
       "type": "unknown",
@@ -882,11 +886,43 @@
     },
     {
       "type": "unknown",
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=B9FE5E98-D72D-40DC-9EF0-1D8D1EC5D1FC"
+    },
+    {
+      "type": "unknown",
       "url": "https://mediatheque-lussacleschateaux.departement86.fr/basicimagedownload.ashx?itemGuid=9C27F6AE-804B-41BE-B716-20B1DEC21EA2"
     },
     {
       "type": "unknown",
+      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=8705F9A7-AA7A-436B-8B03-17277F97E850"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=6CF757BA-056A-4C8C-B68D-06B67E3076D7"
+    },
+    {
+      "type": "unknown",
       "url": "https://mediatheque-lussacleschateaux.departement86.fr/basicimagedownload.ashx?itemGuid=35672FD9-27D4-4985-A319-7207CBA9A132"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=4491F848-3932-4996-ADCF-2B62338AF452"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=D8729BE2-5DFF-4059-BF84-F3A06226D920"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheque-gencaysaintmaurice.departement86.fr/basicimagedownload.ashx?itemGuid=E101EF6A-324A-4F37-B9A1-3DD0E0B80C14"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=568BB07F-B895-4973-91C7-8D8E6BF8680D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=E9A00983-CE4E-4379-B13F-4A83D7F15EC2"
     },
     {
       "type": "unknown",
@@ -898,39 +934,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=69D51D92-D603-4805-BF46-A6B3EDFE3183"
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=FA879EFE-8301-4C61-BDE5-5923053A0FAF"
     },
     {
       "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=47E68C0A-80AA-461D-8211-8F266F958D07"
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=C40F89CE-976A-45FE-B5F0-3D3EEF1E5FBD"
     },
     {
       "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=6E02D546-3288-4CD9-BE63-B546639E5875"
+      "url": "https://bibliotheques-valleesduclain.departement86.fr/basicimagedownload.ashx?itemGuid=F904BD07-AA15-4316-87E8-53E033CD12E9"
     },
     {
       "type": "unknown",
-      "url": "https://mediatheque-lussacleschateaux.departement86.fr/basicimagedownload.ashx?itemGuid=F6A36A20-EB21-4EC1-BB1A-153A7451E11A"
-    },
-    {
-      "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=73C16770-E5D5-4241-8426-3EDB2314861B"
-    },
-    {
-      "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=3F379D59-F8F6-4225-A8E2-7D786943530C"
-    },
-    {
-      "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=ECAB82F5-3FCF-4BE9-BE76-3EEBC7D9F9D4"
-    },
-    {
-      "type": "unknown",
-      "url": "https://bibliotheques-hautpoitou.departement86.fr/basicimagedownload.ashx?itemGuid=8DB74EBF-83AE-4804-B776-39729EA20196"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Page%20d%27accueil%20-%20Lire%20en%20Vienne&idsite=7&rec=1&r=354332&h=2&m=14&s=52&url=https%3A%2F%2Flireenvienne.fr%2F&_id=f80a1c7bd6d8f55a&_idn=1&send_image=0&_refts=0&pv_id=z5vaFf&pf_net=390&pf_srv=1057&pf_tfr=374&pf_dm1=1280&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://bm-terce.departement86.fr/basicimagedownload.ashx?itemGuid=0D22F030-6551-47C6-AAF8-DBD2892559AB"
     },
     {
       "type": "unknown",
@@ -982,23 +998,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/0c/c7f8457139c248522079bcabe04393e047e7eb.jpg?h=-&w=1000"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Page%20d%27accueil%20-%20Lire%20en%20Vienne&idsite=7&rec=1&r=477282&h=2&m=15&s=4&url=https%3A%2F%2Flireenvienne.fr%2F&_id=caeaf7cbfbbcb5a7&_idn=1&send_image=0&_refts=0&pv_id=1T8h6u&pf_net=471&pf_srv=1103&pf_tfr=472&pf_dm1=1401&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/3e/af4a0ae99b589314ade2be7fe0a894551a2ba1.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/93/788f6314023ee035e5038103c1c9c9803a6542.png?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/7f/53f562391dfbe0a0e4523e891e949400418fba.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/53/c26c631d9bd7d6c58d3ce7b29d7e65c81b27c8.jpg?h=-&w=1000"
+      "url": "https://assets.edenlivres.fr/medias/74/891cc904144948cfbac1e53948347ed2affcec.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
@@ -1006,35 +1010,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/f4/c99c15fed6715207c18fd45f72f6b8e53e72cc.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/83/6a599d9ca80926270c614c433cfe36084fe924.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/33/28731cf6ac3c266d8e5e976c9c9e0ee91b12d9.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://images.immateriel.fr/covers/NTQGW32.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/c6/be83b675ce02b47736158f73f53337573d3070.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/a4/1a4b4c727eb56a81129cf5a0ca67a3f640ddd8.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782226491428_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.cantook.net/medias/0c/05d0895324220954b19152032cad341e4dd3da.jpg?h=-&w=1000"
+      "url": "https://couverture.numilog.com/9782226472731_W300.jpg"
     },
     {
       "type": "unknown",
@@ -1042,19 +1018,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/f6/25827898fccb9be8e017a17ad1362986945fd3.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/be/b244ded4e97ca361c904812cda376b375928e2.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782226489784_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782226472731_W300.jpg"
+      "url": "https://assets.edenlivres.fr/medias/0a/c38c9f0c0000a9ea5226a5202d4647eed3ea14.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
@@ -1062,119 +1026,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/55/606035ca6c68f4032fa1571d94048f9ab5ba95.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/d8/04f2306cf3c4fc4ad54c09384a6a164d24c9aa.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/60/f7545a483d7c5676e84bef2c251a0443b4d19d.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/0a/c38c9f0c0000a9ea5226a5202d4647eed3ea14.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782226454119_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.cantook.net/medias/75/7f9b2556db20a01d0eea77afd377818d57f358.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/e2/39fb4b196d3ee9b13606370264a458047af824.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
       "url": "https://couverture.numilog.com/9782493816443_W300.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/52/d062ca735b5c1a6770b3400b4efc87dd482c7d.jpg?h=-&w=1000"
+      "url": "https://assets.edenlivres.fr/medias/74/69494e7021985d3da582c086b8d3c217c48e11.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/42/04d2e25be6ea8921f03c5b70fe57bb95677943.jpg?h=-&w=1000"
+      "url": "https://assets.edenlivres.fr/medias/4f/60d6e682800a7a00f6bc7476794a1228a8437c.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://couverture.numilog.com/9782824637464_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782226481221_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782226478757_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/9a/3c277175b533e9e35520d8ad07992dee0c7cb1.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/2a/e36f804b5185aea033ac21e7d50bf8c17464a9.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/3a/94b8cffde5d479a748c6497cc7f967360d136b.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782824622743_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.cantook.net/medias/e1/b4788cce749a9858e32dc01b7d2dcea7e981dc.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782824621456_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.cantook.net/medias/a3/cd967a41ebe396faa3a021a00323c2364466c4.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/e8/80b47f503bb2b76726deca6c9bd286701ae649.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/94/55976ed05470b5e777cc90a66e458de2a96b65.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/b7/148ec7fc06082a19dde65fc7ade64fe3d008e9.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/65/4cfb5fee8cb29a9415bde6dcd8759910d33e33.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/1a/25060840e59d5100ff0d7f1d230b6265f75fa5.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782824623474_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.cantook.net/medias/76/a0aec47af32bace767c18eee41ee5d5c4b302b.jpg?h=-&w=1000"
-    },
-    {
-      "type": "unknown",
-      "url": "https://couverture.numilog.com/9782416013331_W300.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/2d/3d53b87cc9bdbb9dfc3db195e78c5d99af3eaf.jpg?h=-&w=1000"
+      "url": "https://assets.cantook.net/medias/1c/7ea959f779ad9b65882db7554fa97e6c4f94ac.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
@@ -1182,23 +1046,47 @@
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/d8/c387cd6f72342596ba2061454fa9dbcca5b51b.jpg?h=-&w=1000"
+      "url": "https://assets.edenlivres.fr/medias/6a/370438efb28a7b8f18cf71e2dc96cb6f2a2c08.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://couverture.numilog.com/9782381225241_W300.jpg"
+      "url": "https://assets.edenlivres.fr/medias/ce/986f09b62d3f316d95371bd66b1dc6c0541ce7.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/ac/0bc55127c70bc21baf0eec5631168aa2ab2c0b.jpg?h=-&w=1000"
+      "url": "https://assets.edenlivres.fr/medias/55/606035ca6c68f4032fa1571d94048f9ab5ba95.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/c0/6b3140d88e08027081a9982b2859bcb281c34f.jpg?h=-&w=1000"
+      "url": "https://assets.cantook.net/medias/75/7f9b2556db20a01d0eea77afd377818d57f358.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://couverture.numilog.com/9782493816214_W300.jpg"
+      "url": "https://assets.edenlivres.fr/medias/e7/faef7d49432cdd3f17c86e93103fb4478b7051.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/93/788f6314023ee035e5038103c1c9c9803a6542.png?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/2a/e36f804b5185aea033ac21e7d50bf8c17464a9.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/53/c26c631d9bd7d6c58d3ce7b29d7e65c81b27c8.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782700284935_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/1a/25060840e59d5100ff0d7f1d230b6265f75fa5.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782864973348_W300.jpg"
     },
     {
       "type": "unknown",
@@ -1206,11 +1094,143 @@
     },
     {
       "type": "unknown",
-      "url": "https://assets.edenlivres.fr/medias/20/3a5629a17b55596e91791301c61a0b6c701bd5.png?h=-&w=1000"
+      "url": "https://assets.edenlivres.fr/medias/e1/53f27354ea0755f8c1bc31ca0433b83bbcdda3.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
-      "url": "https://images.immateriel.fr/covers/NTQGW32.main.png"
+      "url": "https://assets.edenlivres.fr/medias/c0/6b3140d88e08027081a9982b2859bcb281c34f.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9791036357930_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/58/61730cb24e4939d58d4a772313ac2fdad37220.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.cantook.net/medias/76/4dc0729a5b12ad337703514c0b42578fd58cf4.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/f4/c99c15fed6715207c18fd45f72f6b8e53e72cc.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9791036366482_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/9a/3c277175b533e9e35520d8ad07992dee0c7cb1.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/b7/058120f72909b58f9955a157de1e774d43339f.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/f6/25827898fccb9be8e017a17ad1362986945fd3.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/02/7ba7c6a841b61d9018031c763cf2dd3b60a70a.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/e2/39fb4b196d3ee9b13606370264a458047af824.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/fc/e4b152cde16a183e3fab89f486b76fbcaab0ec.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/94/55976ed05470b5e777cc90a66e458de2a96b65.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782416013331_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.cantook.net/medias/37/bfabb35372555e1f6986c1a661265f8d7b20d6.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/ee/72184380da88c6570f4be06b4cdb20fcb9995c.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.cantook.net/medias/56/92ee94fe0612f98170d19bc3e9f8c6a4e643b0.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/68/304235140873801f6f1bc1c77076a600c6a2ec.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/a6/977175b5481a0e53eeb27088e50c9790c0927c.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/42/04d2e25be6ea8921f03c5b70fe57bb95677943.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/95/e9c1d10bcf704e61a4343f1b35eef403b377cd.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.cantook.net/medias/a2/a55ec6e6df80bd16d013561c1d737917bec951.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/3e/af4a0ae99b589314ade2be7fe0a894551a2ba1.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782226491428_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/d8/431469c063f63aef42ef889027cfb0d3698550.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782381225241_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782408039684_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/0f/a758560c9c1d069c6ab8855538473eb88a0859.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782824623474_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/60/f7545a483d7c5676e84bef2c251a0443b4d19d.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/84/26bd60397e2c53d4d7cb158ef083709e3bebeb.jpg?h=-&w=1000"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782278128709_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://couverture.numilog.com/9782700282443_W300.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://assets.edenlivres.fr/medias/d8/c387cd6f72342596ba2061454fa9dbcca5b51b.jpg?h=-&w=1000"
     },
     {
       "type": "unknown",
@@ -1223,7 +1243,7 @@
       "value": "1",
       "domain": "lireenvienne.fr",
       "path": "/",
-      "expires": 1725763492,
+      "expires": 1726368304,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -1235,10 +1255,10 @@
     },
     {
       "name": "_pk_id.7.3081",
-      "value": "f80a1c7bd6d8f55a.1725761692.",
+      "value": "caeaf7cbfbbcb5a7.1726366505.",
       "domain": "lireenvienne.fr",
       "path": "/",
-      "expires": 1759716892,
+      "expires": 1760321705,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -1280,10 +1300,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "758fbe51-c0e7-4f2a-9747-90eeb46b6578",
+      "value": "73e3a8c5-1c91-417b-b0bd-be3342a1a81e",
       "domain": "lireenvienne.fr",
       "path": "/",
-      "expires": 1725763490.116706,
+      "expires": 1726368300.85831,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -1298,16 +1318,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "60776",
+    "content-length": "60354",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Sep 2024 02:14:49 GMT",
+    "date": "Sun, 15 Sep 2024 02:15:01 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=758fbe51-c0e7-4f2a-9747-90eeb46b6578; expires=Sun, 08-Sep-2024 02:44:49 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONLIREENVIENNE=lireenvienne; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=73e3a8c5-1c91-417b-b0bd-be3342a1a81e; expires=Sun, 15-Sep-2024 02:45:00 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONLIREENVIENNE=lireenvienne; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "1; mode=block"
@@ -1358,7 +1378,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -1474,9 +1494,12 @@
       "ip": "81.93.2.116",
       "geoip": {
         "city": {
-          "geoname_id": 3017208,
+          "geoname_id": 3036572,
           "names": {
-            "en": "Frépillon"
+            "en": "Asnières-sur-Seine",
+            "ja": "アニエール＝シュル＝セーヌ",
+            "ru": "Аньер-сюр-Сен",
+            "zh-CN": "塞纳河畔阿涅勒"
           }
         },
         "continent": {
@@ -1509,13 +1532,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 49.0548,
-          "longitude": 2.2028,
+          "accuracy_radius": 20,
+          "latitude": 48.9119,
+          "longitude": 2.2875,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "95740"
+          "code": "92600"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -1548,17 +1571,17 @@
             }
           },
           {
-            "geoname_id": 2971071,
-            "iso_code": "95",
+            "geoname_id": 3013657,
+            "iso_code": "92",
             "names": {
-              "de": "Val d'Oise",
-              "en": "Val d'Oise",
-              "es": "Valle de Oise",
-              "fr": "Val-d'Oise",
-              "ja": "ヴァル＝ドワーズ県",
-              "pt-BR": "Val-d'Oise",
-              "ru": "Валь-д’Уаз",
-              "zh-CN": "瓦兹河谷省"
+              "de": "Hauts-de-Seine",
+              "en": "Hauts-de-Seine",
+              "es": "Altos de Sena",
+              "fr": "Hauts-de-Seine",
+              "ja": "オー＝ド＝セーヌ県",
+              "pt-BR": "Altos do Sena",
+              "ru": "О-де-Сен",
+              "zh-CN": "上塞纳省"
             }
           }
         ]
@@ -1730,14 +1753,6 @@
       "hostname": "images.immateriel.fr",
       "ip": "77.247.182.217",
       "geoip": {
-        "city": {
-          "geoname_id": 2746804,
-          "names": {
-            "de": "Steenbergen",
-            "en": "Steenbergen",
-            "fr": "Steenbergen"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -1768,13 +1783,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 51.5857,
-          "longitude": 4.3238,
+          "accuracy_radius": 1000,
+          "latitude": 52.3824,
+          "longitude": 4.8995,
           "time_zone": "Europe/Amsterdam"
-        },
-        "postal": {
-          "code": "4651"
         },
         "registered_country": {
           "geoname_id": 2750405,
@@ -1790,28 +1802,12 @@
             "ru": "Нидерланды",
             "zh-CN": "荷兰"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 2749990,
-            "iso_code": "NB",
-            "names": {
-              "de": "Nordbrabant",
-              "en": "North Brabant",
-              "es": "Brabante Septentrional",
-              "fr": "Brabant-Septentrional",
-              "ja": "北ブラバント州",
-              "pt-BR": "Brabante do Norte",
-              "ru": "Северный Брабант",
-              "zh-CN": "北布拉班特省"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "d1ye1pkjd8d7nc.cloudfront.net",
-      "ip": "18.160.0.231",
+      "ip": "54.192.121.24",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1920,6 +1916,106 @@
       }
     },
     {
+      "hostname": "bibliotheques-valleesduclain.departement86.fr",
+      "ip": "83.206.130.186",
+      "geoip": {
+        "city": {
+          "geoname_id": 3023924,
+          "names": {
+            "de": "Conflans-Sainte-Honorine",
+            "en": "Conflans-Sainte-Honorine",
+            "fr": "Conflans-Sainte-Honorine",
+            "ja": "コンフラン＝サントノリーヌ",
+            "ru": "Конфлан-Сент-Онорин",
+            "zh-CN": "孔夫朗-圣奥诺里讷"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 200,
+          "latitude": 48.9999,
+          "longitude": 2.092,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "78700"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2967196,
+            "iso_code": "78",
+            "names": {
+              "de": "Yvelines",
+              "en": "Yvelines",
+              "es": "Yvelines",
+              "fr": "Yvelines",
+              "ja": "イヴリーヌ県",
+              "pt-BR": "Yvelines",
+              "ru": "Ивелин",
+              "zh-CN": "伊夫林省"
+            }
+          }
+        ]
+      }
+    },
+    {
       "hostname": "bibliotheques-hautpoitou.departement86.fr",
       "ip": "83.206.130.186",
       "geoip": {
@@ -1964,7 +2060,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -2064,7 +2160,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -2164,7 +2260,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -2220,7 +2316,7 @@
       }
     },
     {
-      "hostname": "bibliotheques-valleesduclain.departement86.fr",
+      "hostname": "bibliotheque-gencaysaintmaurice.departement86.fr",
       "ip": "83.206.130.186",
       "geoip": {
         "city": {
@@ -2264,7 +2360,107 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
+          "latitude": 48.9999,
+          "longitude": 2.092,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "78700"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2967196,
+            "iso_code": "78",
+            "names": {
+              "de": "Yvelines",
+              "en": "Yvelines",
+              "es": "Yvelines",
+              "fr": "Yvelines",
+              "ja": "イヴリーヌ県",
+              "pt-BR": "Yvelines",
+              "ru": "Ивелин",
+              "zh-CN": "伊夫林省"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "bm-terce.departement86.fr",
+      "ip": "83.206.130.186",
+      "geoip": {
+        "city": {
+          "geoname_id": 3023924,
+          "names": {
+            "de": "Conflans-Sainte-Honorine",
+            "en": "Conflans-Sainte-Honorine",
+            "fr": "Conflans-Sainte-Honorine",
+            "ja": "コンフラン＝サントノリーヌ",
+            "ru": "Конфлан-Сент-Онорин",
+            "zh-CN": "孔夫朗-圣奥诺里讷"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -2321,7 +2517,7 @@
     },
     {
       "hostname": "cdn1.cafeyn.co",
-      "ip": "13.32.151.64",
+      "ip": "3.168.51.10",
       "geoip": {
         "continent": {
           "code": "NA",
