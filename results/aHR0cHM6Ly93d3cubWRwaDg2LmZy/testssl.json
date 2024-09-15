@@ -1,70 +1,77 @@
 [
          {
               "id"           : "service",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No 128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "SSLv3",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "TLS1_3",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not offered + downgraded to weaker protocol"
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
           }
 ,         {
               "id"           : "ALPN",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http/1.1"
           }
 ,         {
               "id"           : "cipherlist_NULL",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -72,7 +79,7 @@
           }
 ,         {
               "id"           : "cipherlist_aNULL",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -80,7 +87,7 @@
           }
 ,         {
               "id"           : "cipherlist_EXPORT",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -88,7 +95,7 @@
           }
 ,         {
               "id"           : "cipherlist_LOW",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -96,7 +103,7 @@
           }
 ,         {
               "id"           : "cipherlist_3DES_IDEA",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-310",
@@ -104,7 +111,7 @@
           }
 ,         {
               "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "LOW",
               "cwe"          : "CWE-310",
@@ -112,721 +119,455 @@
           }
 ,         {
               "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_FS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "cipher_order-tls1_2",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "NOT a cipher order configured"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc030",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc028",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc014",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9f",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x6b",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x39",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc077",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH 521   Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc4",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc4     DHE-RSA-CAMELLIA256-SHA256        DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x88",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x88     DHE-RSA-CAMELLIA256-SHA           DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9d",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x3d",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x35",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc0",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc0     CAMELLIA256-SHA256                RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x84",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc02f",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc027",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc013",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9e",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x67",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x33",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc076",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH 521   Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xbe",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xbe     DHE-RSA-CAMELLIA128-SHA256        DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x45",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x45     DHE-RSA-CAMELLIA128-SHA           DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9c",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x3c",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x2f",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xba",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xba     CAMELLIA128-SHA256                RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x41",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
-          }
-,         {
-              "id"           : "supportedciphers_TLSv1_2",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA256-SHA384 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA AES256-GCM-SHA384 AES256-SHA256 AES256-SHA CAMELLIA256-SHA256 CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA AES128-GCM-SHA256 AES128-SHA256 AES128-SHA CAMELLIA128-SHA256 CAMELLIA128-SHA"
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "cipher_order",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "NOT a cipher order configured"
+              "severity"     : "OK",
+              "finding"      : "server"
           }
 ,         {
               "id"           : "FS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "FS_ciphers",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA128-SHA256 ECDHE-RSA-CAMELLIA256-SHA384"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "prime256v1 secp384r1 secp521r1"
           }
 ,         {
               "id"           : "TLS_extensions",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 300 seconds only (<daily)"
+              "finding"      : "valid for 86400 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "yes"
           }
 ,         {
               "id"           : "sessionresumption_ticket",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "random"
           }
 ,         {
-              "id"           : "cert_compression",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "id"           : "certificate_compression",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "N/A"
+              "finding"      : "none"
           }
 ,         {
               "id"           : "clientAuth",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "none"
           }
 ,         {
               "id"           : "cert_numbers",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1"
           }
 ,         {
               "id"           : "cert_signatureAlgorithm",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SHA384 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "RSA 2048 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Digital Signature, Key Encipherment"
           }
 ,         {
               "id"           : "cert_extKeyUsage",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "4391CB782E53B01754BFD537D689E32C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "16"
           }
 ,         {
               "id"           : "cert_fingerprintSHA1",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "7B357686556DAB198F01BDA9EF13A6B84044F8FA"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1739DCA4E3E7189AC49A830A5EF0ED393C507CB78501E1144DFFE48AC836E56E"
           }
 ,         {
               "id"           : "cert",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "www.mdph86.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "*.portailagents86.fr"
+              "finding"      : "*.lavienne86.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "www.mdph86.fr mdph86.fr"
           }
 ,         {
               "id"           : "cert_trust",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_expirationStatus",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "211 >= 60 days"
+              "finding"      : "204 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2024-03-21 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "2025-04-07 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "certificate has no extended life time according to browser forum"
           }
 ,         {
               "id"           : "cert_eTLS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not present"
           }
 ,         {
               "id"           : "cert_crlDistributionPoints",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http://crl.sectigo.com/TBSRSAOrganizationValidationSecureServerCA3.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http://ocsp.sectigo.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "cert_mustStapleExtension",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
               "id"           : "DNS_CAArecord",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "--"
           }
 ,         {
               "id"           : "certificate_transparency",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "yes (certificate extension)"
           }
 ,         {
               "id"           : "certs_countServer",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_caIssuers",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TBS RSA Organization Validation Secure Server CA 3 (TBS Internet Ltd from GB)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1F1B69BF37D3E228B3A0F4E89EC47831C98F38A845391B614FED5908705CC5DD"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2023-08-02 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "2033-08-01 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TBS RSA Organization Validation Secure Server CA 3 <-- USERTrust RSA Certification Authority"
           }
 ,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFgTCCBGmgAwIBAgIQOXJEOvkit1HX02wQ3TE1lTANBgkqhkiG9w0BAQwFADB7MQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UEAwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4MTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sIs9CsVw127c0n00ytUINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnGvDoZtF+mvX2do2NCtnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQIjy8/hPwhxR79uQfjtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfbIWax1Jt4A8BQOujM8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0tyA9yn8iNK5+O2hmAUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97Exwzf4TKuzJM7UXiVZ4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNVicQNwZNUMBkTrNN9N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5D9kCnusSTJV882sFqV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJWBp/kjbmUZIO8yZ9HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ5lhCLkMaTLTwJUdZ+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzGKAgEJTm4Diup8kyXHAc/DVL17e8vgg8CAwEAAaOB8jCB7zAfBgNVHSMEGDAWgBSgEQojPpbxB+zirynvgqV/0DCktDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMA0GCSqGSIb3DQEBDAUAA4IBAQAYh1HcdCE9nIrgJ7cz0C7M7PDmy14R3iJvm3WOnnL+5Nb+qh+cli3vA0p+rvSNb3I8QzvAP+u431yqqcau8vzY7qN7Q/aGNnwU4M309z/+3ri0ivCRlv79Q2R+/czSAaF9ffgZGclCKxO/WIu6pKJmBHaIkU4MiRTOok3JMrO66BQavHHxW/BBC5gACiIDEOUMsfnNkjcZ7Tvx5Dq2+UUTJnWvu6rvP3t3O9LEApE9GQDTF1w52z97GA1FzZOFli9d31kWTz9RvdVFGD/tSo7oBmF0Ixa1DVBzJ0RHfxBdiSprhTEUxOipakyAvGp4z7h/jnZymQyd/teRCBaho1+V\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "68B9C761219A5B1F0131784474665DB61BBDB109E00F05CA9F74244EE5F5F52B"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2019-03-12 00:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2028-12-31 23:59"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "USERTrust RSA Certification Authority <-- AAA Certificate Services"
-          }
-,         {
               "id"           : "intermediate_cert_badOCSP",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
               "id"           : "HTTP_status_code",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
+              "finding"      : "301 Moved Permanently ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+2047 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1725763237"
+              "finding"      : "1726365466"
           }
 ,         {
-              "id"           : "HSTS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "id"           : "HSTS_time",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
+              "severity"     : "OK",
+              "finding"      : "365 days (=31536000 seconds) > 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "only for this domain"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "domain is NOT marked for preloading"
           }
 ,         {
               "id"           : "HPKP",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No support for HTTP Public Key Pinning"
           }
 ,         {
               "id"           : "banner_server",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "nginx"
           }
 ,         {
               "id"           : "banner_application",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No application banner found"
           }
 ,         {
               "id"           : "cookie_count",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2 at '/'"
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
           }
 ,         {
-              "id"           : "cookie_secure",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "id"           : "security_headers",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/2 at '/' marked as secure"
-          }
-,         {
-              "id"           : "cookie_httponly",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/2 at '/' marked as HttpOnly"
-          }
-,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "X-XSS-Protection",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1; mode=block"
-          }
-,         {
-              "id"           : "Cache-Control",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-          }
-,         {
-              "id"           : "Pragma",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-cache"
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
           }
 ,         {
               "id"           : "banner_reverseproxy",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
@@ -834,7 +575,7 @@
           }
 ,         {
               "id"           : "heartbleed",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0160",
@@ -843,7 +584,7 @@
           }
 ,         {
               "id"           : "CCS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0224",
@@ -852,7 +593,7 @@
           }
 ,         {
               "id"           : "ticketbleed",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
@@ -861,16 +602,16 @@
           }
 ,         {
               "id"           : "ROBOT",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
               "cwe"          : "CWE-203",
-              "finding"      : "not vulnerable"
+              "finding"      : "not vulnerable, no RSA key transport cipher"
           }
 ,         {
               "id"           : "secure_renego",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-310",
@@ -878,7 +619,7 @@
           }
 ,         {
               "id"           : "secure_client_renego",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
@@ -887,7 +628,7 @@
           }
 ,         {
               "id"           : "CRIME_TLS",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
@@ -896,16 +637,16 @@
           }
 ,         {
               "id"           : "BREACH",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-3566",
@@ -914,14 +655,14 @@
           }
 ,         {
               "id"           : "fallback_SCSV",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-2183 CVE-2016-6329",
@@ -930,7 +671,7 @@
           }
 ,         {
               "id"           : "FREAK",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-0204",
@@ -939,7 +680,7 @@
           }
 ,         {
               "id"           : "DROWN",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -948,7 +689,7 @@
           }
 ,         {
               "id"           : "DROWN_hint",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -956,17 +697,8 @@
               "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1739DCA4E3E7189AC49A830A5EF0ED393C507CB78501E1144DFFE48AC836E56E"
           }
 ,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "RFC3526/Oakley Group 14"
-          }
-,         {
               "id"           : "LOGJAM",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-4000",
@@ -974,8 +706,17 @@
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
           }
 ,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
               "id"           : "BEAST",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
@@ -984,7 +725,7 @@
           }
 ,         {
               "id"           : "LUCKY13",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "LOW",
               "cve"          : "CVE-2013-0169",
@@ -993,7 +734,7 @@
           }
 ,         {
               "id"           : "winshock",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-6321",
@@ -1002,7 +743,7 @@
           }
 ,         {
               "id"           : "RC4",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2013-2566 CVE-2015-2808",
@@ -1011,331 +752,324 @@
           }
 ,         {
               "id"           : "clientsimulation-android_60",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_11",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-android_12",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-chrome_79_win10",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-chrome_101_win10",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_6_xp",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win7",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 AES128-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_101_win10_21h2",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-safari_121_ios_122",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-safari_130_osx_10146",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java_7u25",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1703",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
-              "id"           : "clientsimulation-go_1178",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-libressl_283",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
-          }
-,         {
               "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_303",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-apple_mail_16_0",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_91_9",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "rating_spec",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
           }
 ,         {
               "id"           : "rating_doc",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
           }
 ,         {
               "id"           : "protocol_support_score",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "90"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "27"
           }
 ,         {
               "id"           : "cipher_strength_score",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "60"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "36"
+              "finding"      : "24"
           }
 ,         {
               "id"           : "final_score",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "81"
           }
 ,         {
               "id"           : "overall_grade",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS is not offered"
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "scanTime",
-              "ip"           : "www.mdph86.fr/83.206.130.186",
+              "ip"           : "www.mdph86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "201"
+              "finding"      : "54"
           }
 ]
