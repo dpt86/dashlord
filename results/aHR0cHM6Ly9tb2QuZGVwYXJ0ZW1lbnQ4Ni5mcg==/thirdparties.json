@@ -102,6 +102,14 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
       "details": {
         "id": "google fonts",
@@ -111,14 +119,6 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -168,7 +168,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "fa8ma14pl7uhdhjsoh1bl0vmd0",
+      "value": "1nmn9udc427pq76sshesa5a695",
       "domain": "mod.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -190,12 +190,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 08 Sep 2024 02:36:28 GMT",
+    "date": "Sun, 15 Sep 2024 02:39:13 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=fa8ma14pl7uhdhjsoh1bl0vmd0; path=/\nUTB_S=deleted; expires=Sat, 09-Sep-2023 02:36:28 GMT; path=/",
+    "set-cookie": "PHPSESSID=1nmn9udc427pq76sshesa5a695; path=/\nUTB_S=deleted; expires=Sat, 16-Sep-2023 02:39:12 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -247,7 +247,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -324,7 +324,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.188.234",
+      "ip": "142.250.190.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -378,7 +378,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.40.42",
+      "ip": "172.217.4.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -488,7 +488,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.14.67",
+      "ip": "142.250.190.3",
       "geoip": {
         "continent": {
           "code": "NA",
