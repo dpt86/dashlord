@@ -2,27 +2,27 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/oojz2RbS30Dd-pysHIPr7w2/9782258195301/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/tVoTL87Twg5r7IDBwqDXyQ2/9791040804444/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/D9YEkEw4lutz0J1tpDJaTg2/9782258118621/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/LJ1QINh_ccUBQbEyuTB1Ug2/9782747050050/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/UcNUaatlYELiCOcPHJbOZA2/9782258092785/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/M80beWkdfDu2wp8slzFQUA2/9782258195301/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/aefKl1SkVj1QHSitcY25hw2/9782092492307/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/UcN33qyRZ-_Gf98-J0PwHw2/9782258207554/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/_sb-erZ9J3NqA0FjQLJUtA2/9782258118621/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
       "url": "https://statistique.lavienne86.fr/matomo.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/28e2664df0ef2373408b3f2963a17db60d36f4f46ecd76eb96f0cafc5529f26a.jpg"
     },
     {
       "type": "unknown",
@@ -34,19 +34,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/e10aa945dc3c044b024bece7d834964db1417cc957046a32caf220ccae595321.jpg"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=774534&h=1&m=34&s=56&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=6935474f6a5cb063&_idn=1&send_image=0&_refts=0&pv_id=H62069&pf_net=720&pf_srv=215&pf_tfr=145&pf_dm1=1272&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/6b74ac2871c2fe03aebf30b487d51a8909f689e5ac99ee5a59ea803b3227c476.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/bfb3d52eb8567a7d35a0e39ffaf43ca52876c2b104d732b685cf7afbe6092ae7.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=109778&h=1&m=27&s=55&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=9df9d1d30b639380&_idn=1&send_image=0&_refts=0&pv_id=auzIUj&pf_net=619&pf_srv=395&pf_tfr=169&pf_dm1=1477&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://media.electre-ng.com/images/image-id/5d7c9c64831ce239efa5e74043f276f449f9ef9b05b23478ccb5103a7a406948.jpg"
     }
   ],
   "cookies": [
@@ -55,7 +47,7 @@
       "value": "1",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1726365475,
+      "expires": 1726970696,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -67,10 +59,10 @@
     },
     {
       "name": "_pk_id.7.151b",
-      "value": "9df9d1d30b639380.1726363675.",
+      "value": "6935474f6a5cb063.1726968896.",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1760318875,
+      "expires": 1760924096,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -112,10 +104,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "57def580-82f7-4458-914c-9f51004e3b5b",
+      "value": "58f3f355-7b46-477a-946c-7ac8ba63f592",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1726365473.313812,
+      "expires": 1726970695.303817,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -130,16 +122,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "39913",
+    "content-length": "40744",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 15 Sep 2024 01:27:52 GMT",
+    "date": "Sun, 22 Sep 2024 01:34:53 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=57def580-82f7-4458-914c-9f51004e3b5b; domain=departement86.fr; expires=Sun, 15-Sep-2024 01:57:52 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=58f3f355-7b46-477a-946c-7ac8ba63f592; domain=departement86.fr; expires=Sun, 22-Sep-2024 02:04:54 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
