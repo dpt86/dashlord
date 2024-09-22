@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=345952&h=1&m=56&s=50&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=7fb0398402c9bc51&_idn=0&send_image=0&_refts=0&pv_id=WcXHfY&pf_net=368&pf_srv=255&pf_tfr=1&pf_dm1=671&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=994058&h=2&m=2&s=25&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=10fff211812e042b&_idn=0&send_image=0&_refts=0&pv_id=DX2ETW&pf_net=422&pf_srv=279&pf_tfr=1&pf_dm1=675&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1726367210,
+      "expires": 1726972345,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.4.c1bf",
-      "value": "7fb0398402c9bc51.1726365410.",
+      "value": "10fff211812e042b.1726970545.",
       "domain": "www.cli-civaux.fr",
       "path": "/",
-      "expires": 1760061410,
+      "expires": 1760666545,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 15 Sep 2024 01:56:49 GMT",
+    "date": "Sun, 22 Sep 2024 02:02:23 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -369,7 +369,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.62.94",
+      "ip": "142.250.31.94",
       "geoip": {
         "continent": {
           "code": "NA",
