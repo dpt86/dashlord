@@ -306,11 +306,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/_assets/e0c6a75b4312172dfffe0ab5547c1bc8/JavaScript/Library/Tarteaucitron/lang/tarteaucitron.fr.js?v=20201017"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=213026&h=1&m=59&s=54&url=https%3A%2F%2Fmdph86.fr%2F&_id=f0fe08e80e7ae5b3&_idn=0&send_image=0&_refts=0&pv_id=S1AhxZ&pf_net=0&pf_srv=324&pf_tfr=1&pf_dm1=632&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=971769&h=1&m=52&s=5&url=https%3A%2F%2Fmdph86.fr%2F&_id=d869461c7adc57d2&_idn=0&send_image=0&_refts=0&pv_id=1v5Rw1&pf_net=0&pf_srv=336&pf_tfr=1&pf_dm1=894&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://mdph86.fr/_assets/e0c6a75b4312172dfffe0ab5547c1bc8/JavaScript/Library/Tarteaucitron/lang/tarteaucitron.fr.js?v=20201017"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1726366925,
+      "expires": 1726972194,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "d869461c7adc57d2.1726365125.",
+      "value": "f0fe08e80e7ae5b3.1726970395.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1760061125,
+      "expires": 1760666395,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 15 Sep 2024 01:52:03 GMT",
+    "date": "Sun, 22 Sep 2024 01:59:53 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -570,7 +570,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.62.95",
+      "ip": "172.253.122.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -680,7 +680,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.16.94",
+      "ip": "172.253.62.94",
       "geoip": {
         "continent": {
           "code": "NA",
