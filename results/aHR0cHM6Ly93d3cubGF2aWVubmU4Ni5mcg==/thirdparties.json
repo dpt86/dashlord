@@ -46,7 +46,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -54,7 +54,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -78,7 +78,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -86,7 +86,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -142,31 +142,16 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=772087&h=1&m=34&s=55&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=35355456b3b4f7f4&_idn=0&send_image=0&_refts=0&pv_id=mAbW6L&pf_net=479&pf_srv=372&pf_tfr=81&pf_dm1=758&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=737617&h=1&m=36&s=19&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=819e5bd6487c0340&_idn=0&send_image=0&_refts=0&pv_id=xxWTpe&pf_net=338&pf_srv=396&pf_tfr=102&pf_dm1=791&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
     {
-      "name": "_pk_ses.2.8b02",
-      "value": "1",
-      "domain": "www.lavienne86.fr",
-      "path": "/",
-      "expires": 1726970695,
-      "size": 15,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
       "name": "_pk_id.2.8b02",
-      "value": "35355456b3b4f7f4.1726968896.",
+      "value": "819e5bd6487c0340.1727573779.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1760664896,
+      "expires": 1761269779,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -177,8 +162,23 @@
       "sourcePort": 443
     },
     {
-      "name": "__Secure-typo3nonce_oILjG-ttJyBuQrvsiQvi3Q",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImRZbkFWMFhSeXMyc1dJcWROSmlzZmpwbFBjQkZsSkdCVE11LWpVaDZlcVM0TDF2VWx6YmFBUSIsInRpbWUiOiIyMDI0LTA5LTIyVDAzOjM0OjU0KzAyOjAwIn0.xT0QMnTn8OeODht_WDfT-vRZvdx7OhMadvcIcGQAYKo",
+      "name": "_pk_ses.2.8b02",
+      "value": "1",
+      "domain": "www.lavienne86.fr",
+      "path": "/",
+      "expires": 1727575579,
+      "size": 15,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "__Secure-typo3nonce__8NqmCOjqDHdkKFFWhNIqg",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ik95UEFKWXVOd2lpZFRxTXVEYUo2YVZOZXpFekpETWF3ZWdWVHl0d2xkLUlCRjhiSXFRWENrZyIsInRpbWUiOiIyMDI0LTA5LTI5VDAzOjM2OjE3KzAyOjAwIn0.N_Mu2ny7y4z7ZJSkrSTZyGK-r9yR0-6oiX0-Lo2LHTM",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -197,9 +197,9 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 22 Sep 2024 01:34:54 GMT",
+    "date": "Sun, 29 Sep 2024 01:36:17 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=deleted; expires=Sat, 23 Sep 2023 01:34:53 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_oILjG-ttJyBuQrvsiQvi3Q=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImRZbkFWMFhSeXMyc1dJcWROSmlzZmpwbFBjQkZsSkdCVE11LWpVaDZlcVM0TDF2VWx6YmFBUSIsInRpbWUiOiIyMDI0LTA5LTIyVDAzOjM0OjU0KzAyOjAwIn0.xT0QMnTn8OeODht_WDfT-vRZvdx7OhMadvcIcGQAYKo; path=/; secure; httponly; samesite=strict",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 30 Sep 2023 01:36:16 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce__8NqmCOjqDHdkKFFWhNIqg=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ik95UEFKWXVOd2lpZFRxTXVEYUo2YVZOZXpFekpETWF3ZWdWVHl0d2xkLUlCRjhiSXFRWENrZyIsInRpbWUiOiIyMDI0LTA5LTI5VDAzOjM2OjE3KzAyOjAwIn0.N_Mu2ny7y4z7ZJSkrSTZyGK-r9yR0-6oiX0-Lo2LHTM; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -263,7 +263,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -283,7 +283,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.167.95",
+      "ip": "172.217.0.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -393,7 +393,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.167.94",
+      "ip": "142.250.191.227",
       "geoip": {
         "continent": {
           "code": "NA",
