@@ -110,9 +110,9 @@
     "content-encoding": "gzip",
     "content-type": "text/html",
     "cross-origin-opener-policy": "same-origin",
-    "date": "Sun, 22 Sep 2024 01:53:58 GMT",
-    "etag": "W/\"66d5e1b0-e2c1\"",
-    "last-modified": "Mon, 02 Sep 2024 16:02:56 GMT",
+    "date": "Sun, 29 Sep 2024 01:54:18 GMT",
+    "etag": "W/\"66f685f0-e2c1\"",
+    "last-modified": "Fri, 27 Sep 2024 10:16:16 GMT",
     "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),clipboard-write=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "nginx/1.18.0",
@@ -180,7 +180,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
+      "ip": "142.250.190.3",
       "geoip": {
         "continent": {
           "code": "NA",
