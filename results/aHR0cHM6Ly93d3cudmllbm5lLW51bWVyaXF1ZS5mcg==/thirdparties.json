@@ -73,14 +73,6 @@
       }
     },
     {
-      "type": "bootstrapcdn",
-      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
-      "details": {
-        "id": "bootstrapcdn",
-        "message": "Host files locally"
-      }
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
@@ -95,12 +87,20 @@
         "id": "bootstrapcdn",
         "message": "Host files locally"
       }
+    },
+    {
+      "type": "bootstrapcdn",
+      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "details": {
+        "id": "bootstrapcdn",
+        "message": "Host files locally"
+      }
     }
   ],
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "21fhsaql5mpb4elih8omo5sm70",
+      "value": "7sn0q9gfo949ijojpj8k0diqu5",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 22 Sep 2024 02:36:39 GMT",
+    "date": "Sun, 29 Sep 2024 02:36:37 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=21fhsaql5mpb4elih8omo5sm70; path=/\nUTB_S=deleted; expires=Sat, 23-Sep-2023 02:36:38 GMT; path=/",
+    "set-cookie": "PHPSESSID=7sn0q9gfo949ijojpj8k0diqu5; path=/\nUTB_S=deleted; expires=Sat, 30-Sep-2023 02:36:36 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -179,7 +179,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 50,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -236,7 +236,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -256,7 +256,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.191.234",
+      "ip": "142.250.189.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -310,7 +310,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.1.106",
+      "ip": "142.250.72.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -384,7 +384,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.195",
+      "ip": "142.250.72.163",
       "geoip": {
         "continent": {
           "code": "NA",
