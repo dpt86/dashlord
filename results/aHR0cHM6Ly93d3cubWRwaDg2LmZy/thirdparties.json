@@ -118,11 +118,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/fileadmin/_processed_/9/3/csm_pass_sport_5857792fda.jpg"
+      "url": "https://mdph86.fr/fileadmin/_processed_/6/9/csm_Groupe_de_paroles_31_mai_2024_ad0c0b6346.jpg"
     },
     {
       "type": "unknown",
       "url": "https://mdph86.fr/fileadmin/_processed_/2/6/csm_duoday-3.02859f44_715c4848a3.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://mdph86.fr/fileadmin/_processed_/6/6/csm_pass_sport_1d2d92e2e7.jpg"
     },
     {
       "type": "unknown",
@@ -131,10 +135,6 @@
     {
       "type": "unknown",
       "url": "https://mdph86.fr/fileadmin/_processed_/9/d/csm_Le_rdv_des_aidants_082024__1__19cef29e25.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://mdph86.fr/fileadmin/_processed_/1/1/csm_Actualit%C3%A9_JEFpsy_e1166af099.jpg"
     },
     {
       "type": "unknown",
@@ -254,6 +254,22 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
       "details": {
         "id": "google fonts",
@@ -285,28 +301,12 @@
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
+      "type": "unknown",
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=516993&h=2&m=0&s=22&url=https%3A%2F%2Fmdph86.fr%2F&_id=92bdb696ec26dd3b&_idn=0&send_image=0&_refts=0&pv_id=fyeKnT&pf_net=0&pf_srv=364&pf_tfr=1&pf_dm1=720&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
       "url": "https://www.mobiledition.com/verifToken.php"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=213026&h=1&m=59&s=54&url=https%3A%2F%2Fmdph86.fr%2F&_id=f0fe08e80e7ae5b3&_idn=0&send_image=0&_refts=0&pv_id=S1AhxZ&pf_net=0&pf_srv=324&pf_tfr=1&pf_dm1=632&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1726972194,
+      "expires": 1727577022,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "f0fe08e80e7ae5b3.1726970395.",
+      "value": "92bdb696ec26dd3b.1727575223.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1760666395,
+      "expires": 1761271223,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 22 Sep 2024 01:59:53 GMT",
+    "date": "Sun, 29 Sep 2024 02:00:21 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -570,7 +570,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "142.251.111.95",
       "geoip": {
         "continent": {
           "code": "NA",
