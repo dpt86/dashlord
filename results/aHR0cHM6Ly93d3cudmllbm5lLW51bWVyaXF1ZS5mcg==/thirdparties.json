@@ -100,7 +100,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "7sn0q9gfo949ijojpj8k0diqu5",
+      "value": "2njoo2djtcnkcadm5re0fi8st3",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 29 Sep 2024 02:36:37 GMT",
+    "date": "Sun, 06 Oct 2024 02:36:04 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=7sn0q9gfo949ijojpj8k0diqu5; path=/\nUTB_S=deleted; expires=Sat, 30-Sep-2023 02:36:36 GMT; path=/",
+    "set-cookie": "PHPSESSID=2njoo2djtcnkcadm5re0fi8st3; path=/\nUTB_S=deleted; expires=Sat, 07-Oct-2023 02:36:03 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -256,7 +256,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.189.10",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -310,7 +310,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.170",
+      "ip": "142.251.111.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -384,7 +384,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.72.163",
+      "ip": "142.251.179.94",
       "geoip": {
         "continent": {
           "code": "NA",
