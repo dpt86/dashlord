@@ -346,7 +346,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "43 >= 30 days"
+              "finding"      : "36 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1727575154"
+              "finding"      : "1728179969"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -570,7 +570,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),clipboard-write=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()"
+              "finding"      : "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1091,6 +1091,6 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "96"
           }
 ]
