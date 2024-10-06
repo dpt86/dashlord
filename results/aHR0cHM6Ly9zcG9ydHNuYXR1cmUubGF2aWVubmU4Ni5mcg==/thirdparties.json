@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=008476&h=2&m=6&s=57&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=e1ce9291d6958b9d&_idn=0&send_image=0&_refts=0&pv_id=mYrSjF&pf_net=448&pf_srv=282&pf_tfr=1&pf_dm1=805&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=083074&h=2&m=7&s=15&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=1c9c7ec245a8d222&_idn=0&send_image=0&_refts=0&pv_id=WBWmCc&pf_net=297&pf_srv=273&pf_tfr=1&pf_dm1=635&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1727577417,
+      "expires": 1728182235,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.17.1881",
-      "value": "e1ce9291d6958b9d.1727575617.",
+      "value": "1c9c7ec245a8d222.1728180435.",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1761271617,
+      "expires": 1761876435,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 29 Sep 2024 02:06:56 GMT",
+    "date": "Sun, 06 Oct 2024 02:07:14 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -259,7 +259,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.4.74",
+      "ip": "142.251.163.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -369,7 +369,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.4.67",
+      "ip": "142.251.179.94",
       "geoip": {
         "continent": {
           "code": "NA",
