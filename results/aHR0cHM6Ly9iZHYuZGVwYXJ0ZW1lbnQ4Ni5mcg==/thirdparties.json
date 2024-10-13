@@ -2,19 +2,23 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/f6BQ_su3u4JIeleAzuPIyQ2/9782841119882/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/eiRJn7Cin2CqXrjEOr5Jcw2/9782266313438/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/VZgvJ0Jr78sFCk0tudHgzg2/9782226465269/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/u3nofn4Y3s82_y6Egl8ExA2/9782075196192/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/bpfGLMQPLJRgec-iXJ-UBQ2/9791040804444/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/tYJNSkefjy9GETIOlIysBA2/9782811212063/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
-      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/QZxoRhd6sQzQsK2v55961Q2/9782747050050/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/MXLmQtFgJu9OgZQCh_9Ujw2/9782344038048/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://covers.syracuse.cloud/Cover/CG86/MONO/u0US1-pYfTOKFPS1ZXTLQg2/9782841119882/MEDIUM?fallback=https%3a%2f%2fbdv.departement86.fr%2fui%2fskins%2fdefault%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png"
     },
     {
       "type": "unknown",
@@ -22,11 +26,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/79936725f998c16c23660bd1ca6f95746cb2f452961cac1c21bc1fda67f8b2c5.jpg"
+      "url": "https://media.electre-ng.com/images/image-id/5fbc62f90735130995553110a2ba33c4bf9caab05501e5e0f4c05cac6cf1b026.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/28e2664df0ef2373408b3f2963a17db60d36f4f46ecd76eb96f0cafc5529f26a.jpg"
+      "url": "https://media.electre-ng.com/images/image-id/6ed0adf45217abfdd28d85d13233337043a4a21b7454d43a594e430358254a50.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/983933f2ab5f90f5fe0fa24a352ffd6f0960a46e66980f9caada4e75f7eb2aa6.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://media.electre-ng.com/images/image-id/9a522689f1109b1034f4f73b7eb218f0f8ae092feb7a6f75f27c5b1843f8c13e.jpg"
     },
     {
       "type": "unknown",
@@ -34,11 +46,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://media.electre-ng.com/images/image-id/5d7c9c64831ce239efa5e74043f276f449f9ef9b05b23478ccb5103a7a406948.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=281043&h=1&m=35&s=56&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=59f3a44e570095a2&_idn=1&send_image=0&_refts=0&pv_id=2Rzdr3&pf_net=380&pf_srv=336&pf_tfr=127&pf_dm1=819&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/matomo.php?action_name=Accueil%20-%20Biblioth%C3%A8que%20D%C3%A9partementale%20de%20la%20Vienne&idsite=7&rec=1&r=053251&h=1&m=35&s=25&url=https%3A%2F%2Fbdv.departement86.fr%2F&_id=5f9cb914a585eb1f&_idn=1&send_image=0&_refts=0&pv_id=9ZFfBz&pf_net=485&pf_srv=195&pf_tfr=119&pf_dm1=899&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -47,7 +55,7 @@
       "value": "1",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1728180356,
+      "expires": 1728785125,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +67,10 @@
     },
     {
       "name": "_pk_id.7.151b",
-      "value": "59f3a44e570095a2.1728178557.",
+      "value": "5f9cb914a585eb1f.1728783326.",
       "domain": "bdv.departement86.fr",
       "path": "/",
-      "expires": 1762133757,
+      "expires": 1762738526,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -104,10 +112,10 @@
     },
     {
       "name": "_syrSessGuid",
-      "value": "91984c4b-49ad-4a79-9b5d-cd257c773236",
+      "value": "505bf94f-30b3-4142-866c-d3f234388430",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1728180354.833711,
+      "expires": 1728785123.731879,
       "size": 48,
       "httpOnly": true,
       "secure": false,
@@ -122,16 +130,16 @@
     "cache-control": "no-cache, no-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "40805",
+    "content-length": "39887",
     "content-security-policy": "default-src 'self' https:   blob: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; style-src https: 'self' 'unsafe-inline'; img-src https: 'self' data: blob:; font-src 'self' data: https:; frame-src 'self' https:   ; frame-ancestors 'self' https:   ;connect-src 'self' http:",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 06 Oct 2024 01:35:54 GMT",
+    "date": "Sun, 13 Oct 2024 01:35:23 GMT",
     "expires": "-1",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "Apache",
-    "set-cookie": "_syrSessGuid=91984c4b-49ad-4a79-9b5d-cd257c773236; domain=departement86.fr; expires=Sun, 06-Oct-2024 02:05:54 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
+    "set-cookie": "_syrSessGuid=505bf94f-30b3-4142-866c-d3f234388430; domain=departement86.fr; expires=Sun, 13-Oct-2024 02:05:23 GMT; path=/; HttpOnly; SameSite=Lax\nInstanceTH=EXPLOITATIONDefault=bdv; domain=departement86.fr; path=/; HttpOnly; SameSite=Strict",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -243,14 +251,16 @@
       "ip": "79.137.46.4",
       "geoip": {
         "city": {
-          "geoname_id": 2998975,
+          "geoname_id": 2988507,
           "names": {
-            "de": "Levallois-Perret",
-            "en": "Levallois-Perret",
-            "fr": "Levallois-Perret",
-            "ja": "ルヴァロワ＝ペレ",
-            "ru": "Леваллуа-Перре",
-            "zh-CN": "勒瓦卢瓦-佩雷"
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
           }
         },
         "continent": {
@@ -284,12 +294,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8948,
-          "longitude": 2.2874,
+          "latitude": 48.8323,
+          "longitude": 2.4075,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "92300"
+          "code": "75017"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -322,17 +332,13 @@
             }
           },
           {
-            "geoname_id": 3013657,
-            "iso_code": "92",
+            "geoname_id": 2968815,
+            "iso_code": "75",
             "names": {
-              "de": "Hauts-de-Seine",
-              "en": "Hauts-de-Seine",
-              "es": "Altos de Sena",
-              "fr": "Hauts-de-Seine",
-              "ja": "オー＝ド＝セーヌ県",
-              "pt-BR": "Altos do Sena",
-              "ru": "О-де-Сен",
-              "zh-CN": "上塞纳省"
+              "de": "Paris",
+              "en": "Paris",
+              "es": "Paris",
+              "fr": "Paris"
             }
           }
         ]

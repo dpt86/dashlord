@@ -395,7 +395,7 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -542,7 +542,7 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "271 >= 60 days"
+              "finding"      : "264 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -822,14 +822,14 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728179514"
+              "finding"      : "1728784286"
           }
 ,         {
               "id"           : "HSTS",
@@ -1441,6 +1441,6 @@
               "ip"           : "bdv.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "130"
+              "finding"      : "139"
           }
 ]
