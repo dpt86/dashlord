@@ -269,7 +269,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03AB663C53C8A50DF2658F3F5568904E4585"
+              "finding"      : "04D433E477F5CD81F4776AD3543CC7BE188C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7B7E58DF1698F436DD5EB66E9CA387E9008431D7"
+              "finding"      : "6DF23A87C5DE18F43FDC082476A072304BFE19A9"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CD923329AB8D22FF6F7185691EB974BB9B33D06E080A2642F9277C8BD558E632"
+              "finding"      : "F74FB3393ADCF2A49F7E22FFB19D4CD8CE004623D9F5DE439CA711D1A5212DB6"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE9jCCA96gAwIBAgISA6tmPFPIpQ3yZY8/VWiQTkWFMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQwODEzMjMwNjExWhcNMjQxMTExMjMwNjEwWjAdMRswGQYDVQQDExJlbmVqLmxhdmllbm5lODYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeXbbwOIVqSEe72zsk47lfTu6IzkN3DAnm+ZxRntsJdw5h6EixfoZLU3z5DH6tjk3XElPgu+9lZBO3JwMuQ23mpCCPiGrIsk4QZqkaVovbxCRyoLOsDfb/5n+psrcNns4DdTk5qujRQSFs7fF3HfqOXByImlIZhThlWsAFcNP3HBpmM3szy3OkUbv42U1DgE9Wh0wkDRRmRRuhbhfP4CuUNqiDMVSLeCztsTFHkD1ZLBJapUeBzWq/4FuePowlfHkgatZHf8H6RPIzVqnbT23hMrMPQWR2In7AbtyQ0oTb8oeQAhCxDidh6vakt3PJhotcZfgFdHTTKzNyfsMOemU5AgMBAAGjggIYMIICFDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFN5UN+rpfL3kuwzoI4YIilPJOX/dMB8GA1UdIwQYMBaAFLu8w0el5LypxsOkcgwQjaI14cjoMFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMC5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMC5pLmxlbmNyLm9yZy8wHQYDVR0RBBYwFIISZW5lai5sYXZpZW5uZTg2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBgYKKwYBBAHWeQIEAgSB9wSB9ADyAHcAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGRTjN2FAAABAMASDBGAiEAt4ZIiKVMitcqtKcR4prG9ye+0MVavA1zF2ky/+Jr1wsCIQD9pepPys0p6nyeEzn5mWHAbNdBsCW6qcSHTuIWEsjd3gB3AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABkU4zdhgAAAQDAEgwRgIhAM9CdX/R2Z7OoXrlL1FTcDJRobZrIb75aD8wma9rViXeAiEA2+9GweW1zuTMFP0HOk5TWWJUtq12g1hH7rvHEw+5oLAwDQYJKoZIhvcNAQELBQADggEBAACnrfpUb75mhDd7q94HDkz+0efHObE8yT91m/ck1WyVkuraUW17GTjVxhQWGvwI94HJiw0Mjzk3klHCUpIr/lZEgCH6WYqGj+DvSpPcL5XIMEtfjvMV8naFDhtEUMxhetCTryrC2+qwPl3hpAs2RT5TGLxNu9UI7OLLJOyuwL69y0rL6Kwc5vQWKTfEjQbmnou9zebHIJvhu4Smu08T/Aja/ZHgbjGu/DJzyYE+Aemlmg/g7BYODqeweXOiitSNSZvoJRPV/MZp3T5c+YzFUBWuyovEuJu0XqMk5Mr86Z1bpRmmyyS09LrVR42fWGf35yXCg/7VYM4nuLZPN+oW54E=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE8jCCA9qgAwIBAgISBNQz5Hf1zYH0d2rTVDzHvhiMMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMDEyMjMwNTA1WhcNMjUwMTEwMjMwNTA0WjAdMRswGQYDVQQDExJlbmVqLmxhdmllbm5lODYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEvZbo8Gr4tOGgMgnD1yv3iK37i3PzUCcDLjFlLmWChCHv8VzcmXvR5SVAzJg0RiSYx7ktWdHNHGxah6IqL66Q30LRIPeWTkhEvkURiZG/+yDkM+36atcJzpgCyRMOhlo8oP7jpu3y+hnpxL3TCbr4K327ZwJJEQiPLrFL/v3TWVb29oRQs9MCgUY1QlouG0wnUPXnl7cwmp13QMvOmQn6qyocJ+PdGHtfmpFLZN1W1G8zwTDBxY2UUwTdc6pWtu4jMOH4R2ezfA5xvzhEM7UOp9nZIad0AKbTM1Ifw1rZx9iQbuwDQwguh9Cu3OclBeDc+Zb8PHNXcKuxpQ0d/6vnAgMBAAGjggIUMIICEDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMPbn8bzA5ZZ8Q0xgP0fFz+ZV6bkMB8GA1UdIwQYMBaAFLu8w0el5LypxsOkcgwQjaI14cjoMFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMC5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMC5pLmxlbmNyLm9yZy8wHQYDVR0RBBYwFIISZW5lai5sYXZpZW5uZTg2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAgYKKwYBBAHWeQIEAgSB8wSB8ADuAHUAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGSgzAGZwAABAMARjBEAiAbXeUaaO3IPOkh84TFPveVYARo1PJnY1ILYT5+fCDZNAIgO7+8kISFyiX2DvygqN9USzPTrmgPbQzNJQaC+KWMPYwAdQATSt8atZhCCXgMb+9MepGkFrcjSc5YV2rfrtqnwqvgIgAAAZKDMAcaAAAEAwBGMEQCIAnYmBq0r8H6oFMXrbEglq6rnmz5gyycZAHIfZ81Ej/vAiA1BhzzHtuHy7O+bFyl+vC3uGbLY0Y+cIrVlaJH0BGVGTANBgkqhkiG9w0BAQsFAAOCAQEAHkJ5zi8uDB5kC4dsNhYCoH/GBxSEh5KMsi3cxLG2Qh9qDmhEF2Bg9q/TSd0PdpuP1qlmUHAJDwRqnwp3hPOpTpB0V6cc6uoOOvuvWwBaNYxAie3WRRu/6zVP5+S9eli3VKX1BdL2QYXrqesqATviNvW6KBtI0MqmSOVyto8dVrd3trQFe8duEhnIUeW3GzHluUdeXWBTu1cvUp/2BtfBxBkk2Y/EvKNixUjySeq7mLagcUHq1oZob/eaJClqQQqxcQWQfMvGpVHSNF5Rg6/Y1gUJ1i0PAARcV/Fcs38GGk2bZYoSQUaksSmHnLfzFImYDj4jWXNihfjAabLvfClCxA==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "finding"      : "89 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-08-13 23:06"
+              "finding"      : "2024-10-12 23:05"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-11 23:06"
+              "finding"      : "2025-01-10 23:05"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,7 +507,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728179969"
+              "finding"      : "1728784722"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=CD923329AB8D22FF6F7185691EB974BB9B33D06E080A2642F9277C8BD558E632"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F74FB3393ADCF2A49F7E22FFB19D4CD8CE004623D9F5DE439CA711D1A5212DB6"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1091,6 +1091,6 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "51"
           }
 ]
