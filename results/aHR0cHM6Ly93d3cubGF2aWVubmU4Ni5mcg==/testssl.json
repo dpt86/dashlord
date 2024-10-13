@@ -352,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.lavienne86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "63 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (56)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -366,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.lavienne86.fr/91.188.65.186",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-12-08 23:59"
           }
 ,         {
@@ -556,7 +556,7 @@
               "ip"           : "www.lavienne86.fr/91.188.65.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728179464"
+              "finding"      : "1728784232"
           }
 ,         {
               "id"           : "HSTS_time",
