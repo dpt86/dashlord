@@ -38,14 +38,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3_-gs51os.woff2",
       "details": {
         "id": "google fonts",
@@ -55,14 +47,6 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -110,9 +94,9 @@
     "content-encoding": "gzip",
     "content-type": "text/html",
     "cross-origin-opener-policy": "same-origin",
-    "date": "Sun, 13 Oct 2024 01:53:36 GMT",
-    "etag": "W/\"66f685f0-e2c1\"",
-    "last-modified": "Fri, 27 Sep 2024 10:16:16 GMT",
+    "date": "Sun, 20 Oct 2024 01:58:03 GMT",
+    "etag": "W/\"670f7b41-e017\"",
+    "last-modified": "Wed, 16 Oct 2024 08:37:21 GMT",
     "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "nginx/1.18.0",
@@ -180,7 +164,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.63.94",
+      "ip": "142.251.40.35",
       "geoip": {
         "continent": {
           "code": "NA",
