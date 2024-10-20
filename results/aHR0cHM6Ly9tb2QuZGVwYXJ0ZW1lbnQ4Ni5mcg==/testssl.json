@@ -3,8 +3,8 @@
               "id"           : "service",
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "HTTP"
+              "severity"     : "DEBUG",
+              "finding"      : "Couldn't determine service, skipping all HTTP checks"
           }
 ,         {
               "id"           : "pre_128cipher",
@@ -388,14 +388,14 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -542,7 +542,7 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "264 >= 60 days"
+              "finding"      : "257 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -811,119 +811,6 @@
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
-              "id"           : "HTTP_status_code",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
-          }
-,         {
-              "id"           : "HTTP_clock_skew",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "+2117 seconds from localtime"
-          }
-,         {
-              "id"           : "HTTP_headerTime",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1728787970"
-          }
-,         {
-              "id"           : "HSTS",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "HPKP",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No support for HTTP Public Key Pinning"
-          }
-,         {
-              "id"           : "banner_server",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Apache"
-          }
-,         {
-              "id"           : "banner_application",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No application banner found"
-          }
-,         {
-              "id"           : "cookie_count",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2 at '/'"
-          }
-,         {
-              "id"           : "cookie_secure",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/2 at '/' marked as secure"
-          }
-,         {
-              "id"           : "cookie_httponly",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/2 at '/' marked as HttpOnly"
-          }
-,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "X-XSS-Protection",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1; mode=block"
-          }
-,         {
-              "id"           : "Cache-Control",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-          }
-,         {
-              "id"           : "Pragma",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-cache"
-          }
-,         {
-              "id"           : "banner_reverseproxy",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cwe"          : "CWE-200",
-              "finding"      : "--"
-          }
-,         {
               "id"           : "heartbleed",
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
@@ -945,10 +832,10 @@
               "id"           : "ticketbleed",
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "INFO",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "not vulnerable"
+              "finding"      : "not applicable, not HTTP"
           }
 ,         {
               "id"           : "ROBOT",
@@ -983,16 +870,7 @@
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "BREACH",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2013-3587",
-              "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "not vulnerable (not using HTTP anyway)"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1413,20 +1291,13 @@
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "mod.departement86.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS is not offered"
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "mod.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "175"
+              "finding"      : "207"
           }
 ]
