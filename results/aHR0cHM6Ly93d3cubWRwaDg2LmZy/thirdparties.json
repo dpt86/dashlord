@@ -6,11 +6,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-e4d384c77a5c0a7fb70d4a76fd999a77-620cddf57099a10cadd461cec07d3ed2.css?1719389415"
+      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-97651c247073f648e2b5922e24c97641-2fb24f4b512b58371e9927fa370a7774.css?1728890664"
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-c36871b19cd67129d6f4c37973c8284f-fe800403a1d776788f03b6ae9c283334.css?1719389461"
+      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-f7d94e177fb18344717b4bac314edad0-3e6d303d8af6aaacb7d29c6e2a7629ee.css?1728890664"
     },
     {
       "type": "unknown",
@@ -302,11 +302,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.mobiledition.com/verifToken.php"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=894445&h=2&m=2&s=23&url=https%3A%2F%2Fmdph86.fr%2F&_id=921137f8eee112ea&_idn=0&send_image=0&_refts=0&pv_id=E76ihX&pf_net=0&pf_srv=547&pf_tfr=2&pf_dm1=1080&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=063086&h=1&m=59&s=55&url=https%3A%2F%2Fmdph86.fr%2F&_id=613222870be94538&_idn=0&send_image=0&_refts=0&pv_id=glaua4&pf_net=0&pf_srv=358&pf_tfr=1&pf_dm1=843&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://www.mobiledition.com/verifToken.php"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1728786595,
+      "expires": 1729391543,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "613222870be94538.1728784795.",
+      "value": "921137f8eee112ea.1729389743.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1762480795,
+      "expires": 1763085743,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 13 Oct 2024 01:59:53 GMT",
+    "date": "Sun, 20 Oct 2024 02:02:21 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -570,7 +570,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.4.202",
+      "ip": "142.251.214.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -680,7 +680,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.131",
+      "ip": "142.251.214.131",
       "geoip": {
         "continent": {
           "code": "NA",
