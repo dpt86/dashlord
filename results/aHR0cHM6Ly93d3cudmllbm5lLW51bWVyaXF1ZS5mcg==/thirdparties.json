@@ -100,7 +100,7 @@
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "rmo307gpj7dqboi05ftqmnuku3",
+      "value": "am28ouhe73hs65s9m66c7mf2c2",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 20 Oct 2024 02:38:09 GMT",
+    "date": "Sun, 27 Oct 2024 02:37:44 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=rmo307gpj7dqboi05ftqmnuku3; path=/\nUTB_S=deleted; expires=Sat, 21-Oct-2023 02:38:08 GMT; path=/",
+    "set-cookie": "PHPSESSID=am28ouhe73hs65s9m66c7mf2c2; path=/\nUTB_S=deleted; expires=Sat, 28-Oct-2023 02:37:43 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -236,7 +236,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -256,7 +256,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.31.95",
+      "ip": "172.253.62.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -310,7 +310,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "142.251.167.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -364,7 +364,7 @@
     },
     {
       "hostname": "netdna.bootstrapcdn.com",
-      "ip": "104.18.11.207",
+      "ip": "104.18.10.207",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -384,7 +384,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.63.94",
+      "ip": "142.251.16.94",
       "geoip": {
         "continent": {
           "code": "NA",
