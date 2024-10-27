@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=836107&h=1&m=37&s=29&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=6144e30c5fbff728&_idn=0&send_image=0&_refts=0&pv_id=5l5VRD&pf_net=626&pf_srv=527&pf_tfr=132&pf_dm1=869&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=468762&h=1&m=36&s=27&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=90528ba80691e5a7&_idn=0&send_image=0&_refts=0&pv_id=u7Rh74&pf_net=445&pf_srv=434&pf_tfr=102&pf_dm1=694&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1729390049,
+      "expires": 1729994787,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +163,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "6144e30c5fbff728.1729388250.",
+      "value": "90528ba80691e5a7.1729992987.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1763084250,
+      "expires": 1763688987,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -177,8 +177,8 @@
       "sourcePort": 443
     },
     {
-      "name": "__Secure-typo3nonce_1UggsfZJa_o7hMFFPL-pxw",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ikk4NmVSZ2kyUjBoOEczQ2htVzV2cmZRU2loRXV5QzVuem1kY3Fqd3owZDk5Zm1uakNUOExaUSIsInRpbWUiOiIyMDI0LTEwLTIwVDAzOjM3OjI4KzAyOjAwIn0.Z9LL9P6PebhCGcib5JH5x_PRCDGniJl5CarER2Ob9wg",
+      "name": "__Secure-typo3nonce_8PRj2owB1fLGNa-16MTjeA",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InFvaG1xTzFlc0lkNEp5Q2MwY2FJc0JPbEdDYkhEZ3FGNVU0WTg5WUR5R3lYVnpIQUR6YlNBUSIsInRpbWUiOiIyMDI0LTEwLTI3VDAyOjM2OjI1KzAxOjAwIn0.FMuhSYJnHMx3TXsHon5NmLF9-5f2fTPfgQVmosT4ses",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -197,9 +197,9 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 20 Oct 2024 01:37:28 GMT",
+    "date": "Sun, 27 Oct 2024 01:36:25 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=deleted; expires=Sat, 21 Oct 2023 01:37:27 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_1UggsfZJa_o7hMFFPL-pxw=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ikk4NmVSZ2kyUjBoOEczQ2htVzV2cmZRU2loRXV5QzVuem1kY3Fqd3owZDk5Zm1uakNUOExaUSIsInRpbWUiOiIyMDI0LTEwLTIwVDAzOjM3OjI4KzAyOjAwIn0.Z9LL9P6PebhCGcib5JH5x_PRCDGniJl5CarER2Ob9wg; path=/; secure; httponly; samesite=strict",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 28 Oct 2023 01:36:24 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_8PRj2owB1fLGNa-16MTjeA=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InFvaG1xTzFlc0lkNEp5Q2MwY2FJc0JPbEdDYkhEZ3FGNVU0WTg5WUR5R3lYVnpIQUR6YlNBUSIsInRpbWUiOiIyMDI0LTEwLTI3VDAyOjM2OjI1KzAxOjAwIn0.FMuhSYJnHMx3TXsHon5NmLF9-5f2fTPfgQVmosT4ses; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -263,7 +263,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -283,7 +283,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.138",
+      "ip": "142.250.191.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -393,7 +393,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.189.3",
+      "ip": "142.250.190.35",
       "geoip": {
         "continent": {
           "code": "NA",
