@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "64 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (57)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-12-23 23:59"
           }
 ,         {
@@ -542,14 +542,14 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1729389703"
+              "finding"      : "1729994495"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -584,7 +584,7 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "nginx"
           }
 ,         {
               "id"           : "banner_application",
@@ -598,21 +598,14 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3 at '/'"
+              "finding"      : "0 at '/'"
           }
 ,         {
-              "id"           : "cookie_secure",
+              "id"           : "X-Frame-Options",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "All (3) at '/' marked as secure"
-          }
-,         {
-              "id"           : "cookie_httponly",
-              "ip"           : "www.emploi86.com/91.121.52.142",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "All (3) at '/' marked as HttpOnly"
+              "finding"      : "DENY"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -622,25 +615,39 @@
               "finding"      : "nosniff"
           }
 ,         {
+              "id"           : "Content-Security-Policy",
+              "ip"           : "www.emploi86.com/91.121.52.142",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-SNp4dZxN7Ex9+aJq2fmFfQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-SNp4dZxN7Ex9+aJq2fmFfQ=='; upgrade-insecure-requests; report-uri /.csp-report"
+          }
+,         {
+              "id"           : "X-Content-Security-Policy",
+              "ip"           : "www.emploi86.com/91.121.52.142",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-SNp4dZxN7Ex9+aJq2fmFfQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-SNp4dZxN7Ex9+aJq2fmFfQ=='; upgrade-insecure-requests; report-uri /.csp-report"
+          }
+,         {
               "id"           : "Content-Security-Policy-Report-Only",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self' ; connect-src 'self' sentry.jobijoba.net module.hellocv.com ; script-src 'unsafe-eval' 'unsafe-inline' 'self' module.hellocv.com www.googletagmanager.com cdn.ravenjs.com www.google.com www.gstatic.com tag.aticdn.net 'wasm-unsafe-eval' https://cdn.jsdelivr.net/npm/; style-src 'unsafe-inline' 'self' module.hellocv.com ; img-src data: 'unsafe-eval' * ; media-src 'self' * ; font-src 'self'  cdn.jobijoba.com fonts.gstatic.com ; frame-src 'self' www.google.com www.googletagmanager.com www.youtube.com maps.google.com www.facebook.com syndication.twitter.com ; worker-src blob: ; child-src blob: ; object-src 'none' ; base-uri 'none' ;frame-ancestors 'none' ; upgrade-insecure-requests ; report-uri https://www.emploi86.com/.csp-report"
+              "finding"      : "report-uri /.csp-report"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "www.emploi86.com/91.121.52.142",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-referrer, same-origin"
           }
 ,         {
               "id"           : "Cache-Control",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "no-store, no-cache, must-revalidate"
-          }
-,         {
-              "id"           : "Pragma",
-              "ip"           : "www.emploi86.com/91.121.52.142",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-cache"
+              "finding"      : "max-age=0, must-revalidate, private"
           }
 ,         {
               "id"           : "banner_reverseproxy",
