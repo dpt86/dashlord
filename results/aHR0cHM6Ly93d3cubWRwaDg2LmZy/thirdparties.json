@@ -118,7 +118,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/fileadmin/_processed_/6/9/csm_Groupe_de_paroles_31_mai_2024_ad0c0b6346.jpg"
+      "url": "https://mdph86.fr/fileadmin/_processed_/8/f/csm_SEEPH_2024_d782e3ef99.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://mdph86.fr/fileadmin/_processed_/6/9/csm_Groupe_de_paroles_31_mai_2024_377bc3c980.jpg"
     },
     {
       "type": "unknown",
@@ -127,10 +131,6 @@
     {
       "type": "unknown",
       "url": "https://mdph86.fr/fileadmin/_processed_/6/6/csm_pass_sport_1d2d92e2e7.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://mdph86.fr/fileadmin/_processed_/2/9/csm_RePairs_Aidants_en_ligne_082024_59256bc326.jpg"
     },
     {
       "type": "unknown",
@@ -262,6 +262,22 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
@@ -285,24 +301,8 @@
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=894445&h=2&m=2&s=23&url=https%3A%2F%2Fmdph86.fr%2F&_id=921137f8eee112ea&_idn=0&send_image=0&_refts=0&pv_id=E76ihX&pf_net=0&pf_srv=547&pf_tfr=2&pf_dm1=1080&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=065829&h=1&m=57&s=59&url=https%3A%2F%2Fmdph86.fr%2F&_id=ea4e89bb80cb93ba&_idn=0&send_image=0&_refts=0&pv_id=dYGF6W&pf_net=0&pf_srv=421&pf_tfr=1&pf_dm1=899&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1729391543,
+      "expires": 1730600879,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "921137f8eee112ea.1729389743.",
+      "value": "ea4e89bb80cb93ba.1730599079.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1763085743,
+      "expires": 1764295079,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 20 Oct 2024 02:02:21 GMT",
+    "date": "Sun, 03 Nov 2024 01:57:57 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -515,7 +515,7 @@
     },
     {
       "hostname": "www.numanis.net",
-      "ip": "46.105.204.21",
+      "ip": "5.196.77.48",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -532,24 +532,25 @@
           }
         },
         "country": {
-          "geoname_id": 2635167,
-          "iso_code": "GB",
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
           "names": {
-            "de": "UK",
-            "en": "United Kingdom",
-            "es": "Reino Unido",
-            "fr": "Royaume-Uni",
-            "ja": "英国",
-            "pt-BR": "Reino Unido",
-            "ru": "Британия",
-            "zh-CN": "英国"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 51.4964,
-          "longitude": -0.1224,
-          "time_zone": "Europe/London"
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -570,7 +571,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.214.138",
+      "ip": "142.250.217.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -680,7 +681,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.214.131",
+      "ip": "172.217.12.131",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -734,7 +735,7 @@
     },
     {
       "hostname": "www.mobiledition.com",
-      "ip": "46.105.204.6",
+      "ip": "5.196.77.48",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -751,24 +752,25 @@
           }
         },
         "country": {
-          "geoname_id": 2635167,
-          "iso_code": "GB",
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
           "names": {
-            "de": "UK",
-            "en": "United Kingdom",
-            "es": "Reino Unido",
-            "fr": "Royaume-Uni",
-            "ja": "英国",
-            "pt-BR": "Reino Unido",
-            "ru": "Британия",
-            "zh-CN": "英国"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 51.4964,
-          "longitude": -0.1224,
-          "time_zone": "Europe/London"
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -791,17 +793,6 @@
       "hostname": "www.lisio-solution.com",
       "ip": "141.95.159.103",
       "geoip": {
-        "city": {
-          "geoname_id": 3036386,
-          "names": {
-            "de": "Aubervilliers",
-            "en": "Aubervilliers",
-            "fr": "Aubervilliers",
-            "ja": "オーベルヴィリエ",
-            "ru": "Обервилье",
-            "zh-CN": "奥贝维埃"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -832,13 +823,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 48.9163,
-          "longitude": 2.3869,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "93300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -854,37 +842,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          },
-          {
-            "geoname_id": 2975246,
-            "iso_code": "93",
-            "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
-            }
-          }
-        ]
+        }
       }
     }
   ]
