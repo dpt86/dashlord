@@ -388,14 +388,14 @@
               "ip"           : "bdv-cabri.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "bdv-cabri.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -542,7 +542,7 @@
               "ip"           : "bdv-cabri.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "250 >= 60 days"
+              "finding"      : "243 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -822,14 +822,14 @@
               "ip"           : "bdv-cabri.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "bdv-cabri.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1729995978"
+              "finding"      : "1730600430"
           }
 ,         {
               "id"           : "HSTS",
@@ -1406,6 +1406,6 @@
               "ip"           : "bdv-cabri.departement86.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "177"
+              "finding"      : "148"
           }
 ]
