@@ -46,6 +46,22 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
       "details": {
         "id": "google fonts",
@@ -54,39 +70,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -111,6 +95,22 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -142,7 +142,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=875265&h=1&m=36&s=34&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=979975bc91dbca71&_idn=0&send_image=0&_refts=0&pv_id=WYpHSr&pf_net=504&pf_srv=442&pf_tfr=130&pf_dm1=872&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=262774&h=1&m=27&s=16&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=c6714ed5cf3ed52a&_idn=0&send_image=0&_refts=0&pv_id=mzyAe1&pf_net=500&pf_srv=358&pf_tfr=90&pf_dm1=921&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1730599594,
+      "expires": 1731203836,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +163,10 @@
     },
     {
       "name": "_pk_id.2.8b02",
-      "value": "979975bc91dbca71.1730597794.",
+      "value": "c6714ed5cf3ed52a.1731202037.",
       "domain": "www.lavienne86.fr",
       "path": "/",
-      "expires": 1764293794,
+      "expires": 1764898037,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -177,8 +177,8 @@
       "sourcePort": 443
     },
     {
-      "name": "__Secure-typo3nonce_oV0QKZVsXjzctGRH3tv8Ow",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ilh2STNDaUpaejlEZVE2OC1Ra3dDT3FLbXg1dVhvbHpiMGltY2ZGMUVPOUhnVXNwNzQwbjh3ZyIsInRpbWUiOiIyMDI0LTExLTAzVDAyOjM2OjMyKzAxOjAwIn0.iwbw5xPO2WpJCPrkK7WAFANuVnjUPz3NcM1eJViRx44",
+      "name": "__Secure-typo3nonce_HL_ALZnF0itoGhBM2QgK0A",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IlgzaUF0RTdxaERjNldRSld4OGVRdEo1ay1ieWlMSGg3a1dOZl9JSXVuVkJpOXJfaXlDdlhGUSIsInRpbWUiOiIyMDI0LTExLTEwVDAyOjI3OjE1KzAxOjAwIn0.jWtqoNMsnz3I_yi3YrcvvkM3Bp_y3tYlSd5HKdINWUU",
       "domain": "www.lavienne86.fr",
       "path": "/",
       "expires": -1,
@@ -197,9 +197,9 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 03 Nov 2024 01:36:32 GMT",
+    "date": "Sun, 10 Nov 2024 01:27:15 GMT",
     "server": "nginx",
-    "set-cookie": "fe_typo_user=deleted; expires=Sat, 04 Nov 2023 01:36:31 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_oV0QKZVsXjzctGRH3tv8Ow=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ilh2STNDaUpaejlEZVE2OC1Ra3dDT3FLbXg1dVhvbHpiMGltY2ZGMUVPOUhnVXNwNzQwbjh3ZyIsInRpbWUiOiIyMDI0LTExLTAzVDAyOjM2OjMyKzAxOjAwIn0.iwbw5xPO2WpJCPrkK7WAFANuVnjUPz3NcM1eJViRx44; path=/; secure; httponly; samesite=strict",
+    "set-cookie": "fe_typo_user=deleted; expires=Sat, 11 Nov 2023 01:27:14 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_HL_ALZnF0itoGhBM2QgK0A=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IlgzaUF0RTdxaERjNldRSld4OGVRdEo1ay1ieWlMSGg3a1dOZl9JSXVuVkJpOXJfaXlDdlhGUSIsInRpbWUiOiIyMDI0LTExLTEwVDAyOjI3OjE1KzAxOjAwIn0.jWtqoNMsnz3I_yi3YrcvvkM3Bp_y3tYlSd5HKdINWUU; path=/; secure; httponly; samesite=strict",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
     "x-typo3-parsetime": "0ms"
@@ -283,7 +283,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.217.138",
+      "ip": "142.251.16.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -393,7 +393,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.217.131",
+      "ip": "142.251.163.94",
       "geoip": {
         "continent": {
           "code": "NA",
