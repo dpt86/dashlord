@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=745596&h=2&m=5&s=21&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=5c144fdf53be9830&_idn=0&send_image=0&_refts=0&pv_id=cqbH9b&pf_net=544&pf_srv=368&pf_tfr=1&pf_dm1=932&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=673820&h=1&m=58&s=13&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=d29a053a7c671edd&_idn=0&send_image=0&_refts=0&pv_id=YtQ0uh&pf_net=415&pf_srv=252&pf_tfr=1&pf_dm1=774&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1730601321,
+      "expires": 1731205693,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.17.1881",
-      "value": "5c144fdf53be9830.1730599522.",
+      "value": "d29a053a7c671edd.1731203894.",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1764295522,
+      "expires": 1764899894,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 03 Nov 2024 02:05:20 GMT",
+    "date": "Sun, 10 Nov 2024 01:58:12 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -259,8 +259,19 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.138",
+      "ip": "172.253.63.95",
       "geoip": {
+        "city": {
+          "geoname_id": 5375480,
+          "names": {
+            "de": "Mountain View",
+            "en": "Mountain View",
+            "fr": "Mountain View",
+            "ja": "マウンテンビュー",
+            "ru": "Маунтин-Вью",
+            "zh-CN": "芒廷维尤"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -290,10 +301,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 20,
+          "latitude": 37.3891,
+          "longitude": -122.0867,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "94035"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -308,7 +323,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     },
     {
@@ -369,7 +400,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.12.131",
+      "ip": "64.233.180.94",
       "geoip": {
         "continent": {
           "code": "NA",
