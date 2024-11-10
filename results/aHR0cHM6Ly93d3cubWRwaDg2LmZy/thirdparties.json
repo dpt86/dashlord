@@ -6,11 +6,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-97651c247073f648e2b5922e24c97641-2fb24f4b512b58371e9927fa370a7774.css?1728890664"
+      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-a2170aaf701fab02e3123c551f83e8f9-3593ae763ac8efdda2e009fc959144f9.css?1730898921"
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-f7d94e177fb18344717b4bac314edad0-3e6d303d8af6aaacb7d29c6e2a7629ee.css?1728890664"
+      "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-96e2eedf5fbcb120c670b8b447bf4db9-c624defc1df1ad79aab68ae8e9894ec4.css?1730898921"
     },
     {
       "type": "unknown",
@@ -262,22 +262,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
@@ -301,8 +285,24 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=065829&h=1&m=57&s=59&url=https%3A%2F%2Fmdph86.fr%2F&_id=ea4e89bb80cb93ba&_idn=0&send_image=0&_refts=0&pv_id=dYGF6W&pf_net=0&pf_srv=421&pf_tfr=1&pf_dm1=899&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=802717&h=1&m=50&s=45&url=https%3A%2F%2Fmdph86.fr%2F&_id=3f450842bb372d21&_idn=0&send_image=0&_refts=0&pv_id=oteOq4&pf_net=0&pf_srv=378&pf_tfr=1&pf_dm1=875&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1730600879,
+      "expires": 1731205245,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "ea4e89bb80cb93ba.1730599079.",
+      "value": "3f450842bb372d21.1731203445.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1764295079,
+      "expires": 1764899445,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 03 Nov 2024 01:57:57 GMT",
+    "date": "Sun, 10 Nov 2024 01:50:43 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -495,7 +495,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -571,7 +571,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.217.138",
+      "ip": "172.217.2.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -681,7 +681,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.12.131",
+      "ip": "142.250.191.163",
       "geoip": {
         "continent": {
           "code": "NA",
