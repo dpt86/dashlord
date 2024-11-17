@@ -6,6 +6,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://i.hellowork.com/2m6F6aPO3-c7BEulB0FYgcY5cO8V15z0UamlbtAsvU4/q:85/bG9jYWw6Ly8vc21h/cnRmb3J1bS9tYl9k/ZXBhcnRlbWVudF92/aWVubmUvY292ZXIt/RW1wbG9pODYtMi1k/cnZOTmtMZkMycnBX/SDg4LmpwZw"
+    },
+    {
+      "type": "unknown",
       "url": "https://i.hellowork.com/CwiNpgz6GhOznbxUPHKnXy8JGKJUsNU-qLYggSjVzmM/q:85/bG9jYWw6Ly8vc21h/cnRmb3J1bS9tYl9k/ZXBhcnRlbWVudF92/aWVubmUvY292ZXIt/bW9iaWxlLWVtcGxv/aTg2LUI5cXQ0R1d1/RWRFU3MydGQuanBn"
     },
     {
@@ -30,15 +34,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/ce/ce585bea-dbd6-491e-af3f-1131ce0219cf.png"
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/47/4737a957-085d-47cf-81d7-74ad1cab6a1b.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/ad/ad8d369a-f8b9-4f1a-aa08-3404a28f2e25.png"
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/49/49baf80f-0465-4690-954d-813be0fcd428.png"
     },
     {
       "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/cc/cc7b55c5-fe69-4ae3-987f-a4149e6ce427.jpg"
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/73/731ae6b1-6393-4874-9e0e-eb9b9fa825a0.png"
     },
     {
       "type": "unknown",
@@ -62,7 +66,7 @@
     },
     {
       "type": "xiti",
-      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m3axl0o6mndc3q75",
+      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m3ky3ej9db4if4a3",
       "details": {
         "id": "xiti",
         "message": "Use hosted Matomo instance"
@@ -72,11 +76,11 @@
   "cookies": [
     {
       "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbegC8AxvXoAGKAB9%2BAZkIAPVBMpQQAXyA",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAFYBOVgAYAbhIDmAH34BmANYBPBVEHSQAXyA",
       "domain": ".emploi86.com",
       "path": "/",
-      "expires": 1765331026,
-      "size": 110,
+      "expires": 1765936546,
+      "size": 112,
       "httpOnly": false,
       "secure": true,
       "session": false,
@@ -87,10 +91,10 @@
     },
     {
       "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22m3axl0o6mndc3q75%22%2C%22_t%22%3A%22mizcii0c%7Cm3axl0oc%22%7D",
+      "value": "%7B%22browserId%22%3A%22m3ky3ej9db4if4a3%22%2C%22_t%22%3A%22mj9d0vve%7Cm3ky3eje%22%7D",
       "domain": ".emploi86.com",
       "path": "/",
-      "expires": 1765331026,
+      "expires": 1765936546,
       "size": 90,
       "httpOnly": false,
       "secure": true,
@@ -105,7 +109,7 @@
       "value": "%22exempt%22",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1765331026,
+      "expires": 1765936546,
       "size": 22,
       "httpOnly": false,
       "secure": true,
@@ -117,7 +121,7 @@
     },
     {
       "name": "HA2",
-      "value": "front-02",
+      "value": "front-03",
       "domain": "www.emploi86.com",
       "path": "/",
       "expires": -1,
@@ -133,17 +137,17 @@
   "headers": {
     "cache-control": "max-age=0, must-revalidate, private",
     "content-encoding": "gzip",
-    "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-RjdIe9+kBEfR3UPnbcBPaA=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-RjdIe9+kBEfR3UPnbcBPaA=='; upgrade-insecure-requests; report-uri /.csp-report",
+    "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; upgrade-insecure-requests; report-uri /.csp-report",
     "content-security-policy-report-only": "report-uri /.csp-report",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 10 Nov 2024 01:43:46 GMT",
-    "expires": "Sun, 10 Nov 2024 01:43:46 GMT",
-    "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.d2329e12.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.d627bb23.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
+    "date": "Sun, 17 Nov 2024 01:55:45 GMT",
+    "expires": "Sun, 17 Nov 2024 01:55:45 GMT",
+    "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.e1561179.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.05d937e4.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
     "referrer-policy": "no-referrer, same-origin",
     "server": "nginx",
     "strict-transport-security": "max-age=63072000",
     "vary": "Accept-Encoding",
-    "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-RjdIe9+kBEfR3UPnbcBPaA=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-RjdIe9+kBEfR3UPnbcBPaA=='; upgrade-insecure-requests; report-uri /.csp-report",
+    "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; upgrade-insecure-requests; report-uri /.csp-report",
     "x-content-security-policy-report-only": "report-uri /.csp-report",
     "x-content-type-options": "nosniff",
     "x-frame-options": "DENY"
@@ -401,7 +405,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.63.97",
+      "ip": "142.251.16.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -455,7 +459,7 @@
     },
     {
       "hostname": "tag.aticdn.net",
-      "ip": "18.160.18.10",
+      "ip": "18.160.18.104",
       "geoip": {
         "city": {
           "geoname_id": 5809844,
