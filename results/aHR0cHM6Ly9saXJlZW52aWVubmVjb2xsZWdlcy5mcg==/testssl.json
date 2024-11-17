@@ -535,7 +535,7 @@
               "ip"           : "lireenviennecolleges.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "92 >= 60 days"
+              "finding"      : "85 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -815,14 +815,14 @@
               "ip"           : "lireenviennecolleges.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-2 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "lireenviennecolleges.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731205961"
+              "finding"      : "1731811453"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1434,6 +1434,6 @@
               "ip"           : "lireenviennecolleges.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "223"
+              "finding"      : "195"
           }
 ]
