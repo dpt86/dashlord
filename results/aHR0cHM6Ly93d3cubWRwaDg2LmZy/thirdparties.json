@@ -262,22 +262,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
       "details": {
         "id": "google fonts",
@@ -301,12 +285,28 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://www.mobiledition.com/verifToken.php"
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=387941&h=2&m=2&s=52&url=https%3A%2F%2Fmdph86.fr%2F&_id=659c18f50c6070b4&_idn=0&send_image=0&_refts=0&pv_id=UzsIhX&pf_net=0&pf_srv=532&pf_tfr=1&pf_dm1=1006&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=836458&h=2&m=4&s=24&url=https%3A%2F%2Fmdph86.fr%2F&_id=123d206f97a58d17&_idn=0&send_image=0&_refts=0&pv_id=1x5mWt&pf_net=0&pf_srv=502&pf_tfr=2&pf_dm1=621&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.mobiledition.com/verifToken.php"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1731810772,
+      "expires": 1732415664,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "659c18f50c6070b4.1731808973.",
+      "value": "123d206f97a58d17.1732413864.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1765504973,
+      "expires": 1766109864,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 17 Nov 2024 02:02:51 GMT",
+    "date": "Sun, 24 Nov 2024 02:04:23 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -571,7 +571,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.190.42",
+      "ip": "172.253.63.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -681,7 +681,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.99",
+      "ip": "64.233.180.94",
       "geoip": {
         "continent": {
           "code": "NA",
