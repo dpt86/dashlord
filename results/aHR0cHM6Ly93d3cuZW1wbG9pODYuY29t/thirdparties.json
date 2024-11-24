@@ -34,15 +34,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/47/4737a957-085d-47cf-81d7-74ad1cab6a1b.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/49/49baf80f-0465-4690-954d-813be0fcd428.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/73/731ae6b1-6393-4874-9e0e-eb9b9fa825a0.png"
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/de/de2c9d4d-c758-4653-986f-5fd475c89b30.jpg"
     },
     {
       "type": "unknown",
@@ -66,7 +58,7 @@
     },
     {
       "type": "xiti",
-      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m3ky3ej9db4if4a3",
+      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m3uy9ittefvqgbfy",
       "details": {
         "id": "xiti",
         "message": "Use hosted Matomo instance"
@@ -76,10 +68,10 @@
   "cookies": [
     {
       "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAFYBOVgAYAbhIDmAH34BmANYBPBVEHSQAXyA",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAFaDWAdgAMANgCMAH34BmMAE8AnPTDSQAXyA",
       "domain": ".emploi86.com",
       "path": "/",
-      "expires": 1765936546,
+      "expires": 1766541493,
       "size": 112,
       "httpOnly": false,
       "secure": true,
@@ -91,10 +83,10 @@
     },
     {
       "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22m3ky3ej9db4if4a3%22%2C%22_t%22%3A%22mj9d0vve%7Cm3ky3eje%22%7D",
+      "value": "%7B%22browserId%22%3A%22m3uy9ittefvqgbfy%22%2C%22_t%22%3A%22mjjd705z%7Cm3uy9itz%22%7D",
       "domain": ".emploi86.com",
       "path": "/",
-      "expires": 1765936546,
+      "expires": 1766541493,
       "size": 90,
       "httpOnly": false,
       "secure": true,
@@ -109,7 +101,7 @@
       "value": "%22exempt%22",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1765936546,
+      "expires": 1766541493,
       "size": 22,
       "httpOnly": false,
       "secure": true,
@@ -137,17 +129,17 @@
   "headers": {
     "cache-control": "max-age=0, must-revalidate, private",
     "content-encoding": "gzip",
-    "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; upgrade-insecure-requests; report-uri /.csp-report",
+    "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; upgrade-insecure-requests; report-uri /.csp-report",
     "content-security-policy-report-only": "report-uri /.csp-report",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 17 Nov 2024 01:55:45 GMT",
-    "expires": "Sun, 17 Nov 2024 01:55:45 GMT",
-    "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.e1561179.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.05d937e4.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
+    "date": "Sun, 24 Nov 2024 01:58:12 GMT",
+    "expires": "Sun, 24 Nov 2024 01:58:12 GMT",
+    "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.d3c61a88.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.7b593ad0.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
     "referrer-policy": "no-referrer, same-origin",
     "server": "nginx",
     "strict-transport-security": "max-age=63072000",
     "vary": "Accept-Encoding",
-    "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-a8HMuVky4Ps6iVrxWF0EzQ=='; upgrade-insecure-requests; report-uri /.csp-report",
+    "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; upgrade-insecure-requests; report-uri /.csp-report",
     "x-content-security-policy-report-only": "report-uri /.csp-report",
     "x-content-type-options": "nosniff",
     "x-frame-options": "DENY"
@@ -405,7 +397,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.16.97",
+      "ip": "172.217.2.40",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -459,7 +451,61 @@
     },
     {
       "hostname": "tag.aticdn.net",
-      "ip": "18.160.18.104",
+      "ip": "108.156.91.114",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "logs1412.xiti.com",
+      "ip": "18.160.233.60",
       "geoip": {
         "city": {
           "geoname_id": 5809844,
@@ -538,76 +584,6 @@
               "pt-BR": "Washington",
               "ru": "Вашингтон",
               "zh-CN": "华盛顿州"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "logs1412.xiti.com",
-      "ip": "18.154.229.58",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 41.8764,
-          "longitude": -87.6133,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4896861,
-            "iso_code": "IL",
-            "names": {
-              "de": "Illinois",
-              "en": "Illinois",
-              "es": "Illinois",
-              "fr": "Illinois",
-              "ja": "イリノイ州",
-              "pt-BR": "Ilinóis",
-              "ru": "Иллинойс",
-              "zh-CN": "伊利诺伊州"
             }
           }
         ]
