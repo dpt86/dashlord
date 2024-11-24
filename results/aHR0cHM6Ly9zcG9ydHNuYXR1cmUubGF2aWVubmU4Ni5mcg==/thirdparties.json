@@ -110,14 +110,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
@@ -133,8 +125,16 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=645823&h=2&m=9&s=56&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=7fd173801374e200&_idn=0&send_image=0&_refts=0&pv_id=9HYb3X&pf_net=435&pf_srv=347&pf_tfr=1&pf_dm1=701&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=542469&h=2&m=11&s=30&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=0ce07359e22305df&_idn=0&send_image=0&_refts=0&pv_id=xw1Kl6&pf_net=394&pf_srv=277&pf_tfr=1&pf_dm1=690&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1731811196,
+      "expires": 1732416090,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.17.1881",
-      "value": "7fd173801374e200.1731809396.",
+      "value": "0ce07359e22305df.1732414290.",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1765505396,
+      "expires": 1766110290,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 17 Nov 2024 02:09:55 GMT",
+    "date": "Sun, 24 Nov 2024 02:11:29 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -239,7 +239,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -259,7 +259,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.62.95",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -369,7 +369,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
+      "ip": "172.253.62.94",
       "geoip": {
         "continent": {
           "code": "NA",
