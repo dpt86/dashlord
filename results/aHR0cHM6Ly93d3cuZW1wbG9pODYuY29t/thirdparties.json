@@ -38,6 +38,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://f.hellowork.com/smartforum-marqueblanche/mb_departement_vienne/articles_cover_picture/57/5778c6b3-006c-4412-a4b2-c29e00caa9c1.png"
+    },
+    {
+      "type": "unknown",
       "url": "https://f.hellowork.com/smartforum/mb_departement_vienne/logo-footer-FutoXAzV9PYDXTiY.png"
     },
     {
@@ -58,7 +62,7 @@
     },
     {
       "type": "xiti",
-      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m3uy9ittefvqgbfy",
+      "url": "https://logs1412.xiti.com/event?s=637373&idclient=m44ypiy4tdvmyb4h",
       "details": {
         "id": "xiti",
         "message": "Use hosted Matomo instance"
@@ -68,10 +72,10 @@
   "cookies": [
     {
       "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAFaDWAdgAMANgCMAH34BmMAE8AnPTDSQAXyA",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAFb5WSAAyEAxgB9%2BAFjkBPAA71FkkAF8gA",
       "domain": ".emploi86.com",
       "path": "/",
-      "expires": 1766541493,
+      "expires": 1767146902,
       "size": 112,
       "httpOnly": false,
       "secure": true,
@@ -83,10 +87,10 @@
     },
     {
       "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22m3uy9ittefvqgbfy%22%2C%22_t%22%3A%22mjjd705z%7Cm3uy9itz%22%7D",
+      "value": "%7B%22browserId%22%3A%22m44ypiy4tdvmyb4h%22%2C%22_t%22%3A%22mjtdn0aa%7Cm44ypiya%22%7D",
       "domain": ".emploi86.com",
       "path": "/",
-      "expires": 1766541493,
+      "expires": 1767146902,
       "size": 90,
       "httpOnly": false,
       "secure": true,
@@ -101,7 +105,7 @@
       "value": "%22exempt%22",
       "domain": "www.emploi86.com",
       "path": "/",
-      "expires": 1766541493,
+      "expires": 1767146902,
       "size": 22,
       "httpOnly": false,
       "secure": true,
@@ -113,7 +117,7 @@
     },
     {
       "name": "HA2",
-      "value": "front-03",
+      "value": "front-02",
       "domain": "www.emploi86.com",
       "path": "/",
       "expires": -1,
@@ -129,17 +133,17 @@
   "headers": {
     "cache-control": "max-age=0, must-revalidate, private",
     "content-encoding": "gzip",
-    "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; upgrade-insecure-requests; report-uri /.csp-report",
+    "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-Lpowu6USAvNoqGcAsm25tQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-Lpowu6USAvNoqGcAsm25tQ=='; upgrade-insecure-requests; report-uri /.csp-report",
     "content-security-policy-report-only": "report-uri /.csp-report",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 24 Nov 2024 01:58:12 GMT",
-    "expires": "Sun, 24 Nov 2024 01:58:12 GMT",
-    "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.d3c61a88.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.7b593ad0.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
+    "date": "Sun, 01 Dec 2024 02:08:19 GMT",
+    "expires": "Sun, 01 Dec 2024 02:08:19 GMT",
+    "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.6a94af72.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.885aeec7.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
     "referrer-policy": "no-referrer, same-origin",
     "server": "nginx",
     "strict-transport-security": "max-age=63072000",
     "vary": "Accept-Encoding",
-    "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-nIneNxmxLRM4pQcHCokKWQ=='; upgrade-insecure-requests; report-uri /.csp-report",
+    "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-Lpowu6USAvNoqGcAsm25tQ=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-Lpowu6USAvNoqGcAsm25tQ=='; upgrade-insecure-requests; report-uri /.csp-report",
     "x-content-security-policy-report-only": "report-uri /.csp-report",
     "x-content-type-options": "nosniff",
     "x-frame-options": "DENY"
@@ -397,7 +401,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.2.40",
+      "ip": "142.251.32.40",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -451,7 +455,7 @@
     },
     {
       "hostname": "tag.aticdn.net",
-      "ip": "108.156.91.114",
+      "ip": "18.244.214.15",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -505,20 +509,8 @@
     },
     {
       "hostname": "logs1412.xiti.com",
-      "ip": "18.160.233.60",
+      "ip": "18.238.193.55",
       "geoip": {
-        "city": {
-          "geoname_id": 5809844,
-          "names": {
-            "de": "Seattle",
-            "en": "Seattle",
-            "es": "Seattle",
-            "fr": "Seattle",
-            "ja": "シアトル",
-            "pt-BR": "Seattle",
-            "ru": "Сиэтл"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -549,13 +541,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 47.6109,
-          "longitude": -122.3303,
-          "metro_code": 819,
-          "time_zone": "America/Los_Angeles"
-        },
-        "postal": {
-          "code": "98101"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -570,23 +558,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5815135,
-            "iso_code": "WA",
-            "names": {
-              "de": "Washington",
-              "en": "Washington",
-              "es": "Washington",
-              "fr": "Washington",
-              "ja": "ワシントン州",
-              "pt-BR": "Washington",
-              "ru": "Вашингтон",
-              "zh-CN": "华盛顿州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
