@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=98822893&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=1147213545&gjid=630441928&cid=1247297749.1732415302&tid=UA-XXXXX-X&_gid=960061285.1732415302&_r=1&_slc=1&z=1830548216",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=50421984&t=pageview&_s=1&dl=https%3A%2F%2Fbdv-cabri.departement86.fr%2Fopac%2F&ul=en-us&de=UTF-8&dt=Accueil%20-%20Poitiers&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=IEBAAEABAAAAACAAI~&jid=1313424273&gjid=1542343469&cid=2058917221.1733020585&tid=UA-XXXXX-X&_gid=160730340.1733020585&_r=1&_slc=1&z=864023465",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -23,7 +23,7 @@
       "value": "1",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1732415362,
+      "expires": 1733020644,
       "size": 5,
       "httpOnly": false,
       "secure": false,
@@ -34,10 +34,10 @@
     },
     {
       "name": "_gid",
-      "value": "GA1.2.960061285.1732415302",
+      "value": "GA1.2.160730340.1733020585",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1732501702,
+      "expires": 1733106984,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.2.1247297749.1732415302",
+      "value": "GA1.2.2058917221.1733020585",
       "domain": ".departement86.fr",
       "path": "/",
-      "expires": 1795487302,
+      "expires": 1796092584,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -62,7 +62,7 @@
     },
     {
       "name": "a9d4c84db54b6aa83d99150bcd423ddc",
-      "value": "jnlthd235htnja92j6ggn6cb3o",
+      "value": "qf91ijrd0l7a1nhu6a2n8qgg1t",
       "domain": "bdv-cabri.departement86.fr",
       "path": "/",
       "expires": -1,
@@ -80,17 +80,17 @@
     "cache-control": "no-store,no-cache,must-revalidate,post-check=0,pre-check=0",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "6795",
+    "content-length": "6798",
     "content-security-policy": "frame-ancestors 'self' *.departement86.fr;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 24 Nov 2024 02:28:20 GMT",
+    "date": "Sun, 01 Dec 2024 02:36:23 GMT",
     "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
     "keep-alive": "timeout=5, max=499",
-    "last-modified": "Sun, 24 Nov 2024 02:28:20 GMT",
+    "last-modified": "Sun, 01 Dec 2024 02:36:23 GMT",
     "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
     "pragma": "no-cache",
     "server": "Microsoft-IIS/8.5",
-    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=jnlthd235htnja92j6ggn6cb3o; path=/; HttpOnly",
+    "set-cookie": "a9d4c84db54b6aa83d99150bcd423ddc=qf91ijrd0l7a1nhu6a2n8qgg1t; path=/; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-frame-options": "ALLOW-FROM *.departement86.fr",
@@ -142,7 +142,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.9999,
           "longitude": 2.092,
           "time_zone": "Europe/Paris"
@@ -199,7 +199,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.250.190.110",
+      "ip": "142.251.179.138",
       "geoip": {
         "continent": {
           "code": "NA",
