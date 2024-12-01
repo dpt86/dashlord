@@ -94,7 +94,7 @@
     "content-encoding": "gzip",
     "content-type": "text/html",
     "cross-origin-opener-policy": "same-origin",
-    "date": "Sun, 24 Nov 2024 01:58:17 GMT",
+    "date": "Sun, 01 Dec 2024 02:08:19 GMT",
     "etag": "W/\"6734be5d-e017\"",
     "last-modified": "Wed, 13 Nov 2024 14:57:33 GMT",
     "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
@@ -164,7 +164,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.167.94",
+      "ip": "142.251.179.94",
       "geoip": {
         "continent": {
           "code": "NA",
