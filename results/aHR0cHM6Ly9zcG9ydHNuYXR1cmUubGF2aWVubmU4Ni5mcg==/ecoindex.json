@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 4282.23,
-        "nodes": 764,
-        "requests": 60,
+        "size": 4244.673,
+        "nodes": 733,
+        "requests": 59,
         "grade": "D",
-        "score": 43.0,
-        "ges": 2.14,
-        "water": 3.21,
+        "score": 44.0,
+        "ges": 2.12,
+        "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-01 02:26:37.865410",
+        "date": "2024-12-08 02:17:56.400026",
         "page_type": "article"
     }
 ]

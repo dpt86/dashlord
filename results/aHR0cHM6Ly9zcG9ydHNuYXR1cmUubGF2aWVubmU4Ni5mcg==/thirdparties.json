@@ -134,7 +134,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=579526&h=2&m=25&s=37&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=8c3042c4e24dc8da&_idn=0&send_image=0&_refts=0&pv_id=A8Z3Xd&pf_net=375&pf_srv=289&pf_tfr=2&pf_dm1=824&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=647382&h=2&m=16&s=55&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=f7c792e8dbb40e1d&_idn=0&send_image=0&_refts=0&pv_id=iothmN&pf_net=381&pf_srv=288&pf_tfr=1&pf_dm1=669&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [
@@ -143,7 +143,7 @@
       "value": "1",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1733021737,
+      "expires": 1733626015,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -155,10 +155,10 @@
     },
     {
       "name": "_pk_id.17.1881",
-      "value": "8c3042c4e24dc8da.1733019938.",
+      "value": "f7c792e8dbb40e1d.1733624215.",
       "domain": "sportsnature.lavienne86.fr",
       "path": "/",
-      "expires": 1766715938,
+      "expires": 1767320215,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -174,7 +174,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 01 Dec 2024 02:25:36 GMT",
+    "date": "Sun, 08 Dec 2024 02:16:54 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -259,7 +259,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.16.95",
+      "ip": "172.253.63.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -369,7 +369,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "64.233.180.94",
+      "ip": "172.253.122.94",
       "geoip": {
         "continent": {
           "code": "NA",
