@@ -302,7 +302,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=836458&h=2&m=4&s=24&url=https%3A%2F%2Fmdph86.fr%2F&_id=123d206f97a58d17&_idn=0&send_image=0&_refts=0&pv_id=1x5mWt&pf_net=0&pf_srv=502&pf_tfr=2&pf_dm1=621&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=398005&h=2&m=2&s=14&url=https%3A%2F%2Fmdph86.fr%2F&_id=652adbb193360ad6&_idn=0&send_image=0&_refts=0&pv_id=6v65Eq&pf_net=0&pf_srv=458&pf_tfr=1&pf_dm1=717&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1732415664,
+      "expires": 1733625134,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "123d206f97a58d17.1732413864.",
+      "value": "652adbb193360ad6.1733623335.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1766109864,
+      "expires": 1767319335,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 24 Nov 2024 02:04:23 GMT",
+    "date": "Sun, 08 Dec 2024 02:02:13 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -495,7 +495,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -571,7 +571,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.63.95",
+      "ip": "172.217.2.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -681,7 +681,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "64.233.180.94",
+      "ip": "142.250.190.131",
       "geoip": {
         "continent": {
           "code": "NA",
