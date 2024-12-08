@@ -346,7 +346,7 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (22)"
+              "finding"      : "expires < 30 days (15)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1733019937"
+              "finding"      : "1733624305"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -619,14 +619,14 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-ayi69DZjFfL8O/S8uY1mRw=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-ayi69DZjFfL8O/S8uY1mRw=='; upgrade-insecure-requests; report-uri /.csp-report"
+              "finding"      : "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-jaS4/j76vveGXEbYVnDCXg=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-jaS4/j76vveGXEbYVnDCXg=='; upgrade-insecure-requests; report-uri /.csp-report"
           }
 ,         {
               "id"           : "X-Content-Security-Policy",
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-ayi69DZjFfL8O/S8uY1mRw=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-ayi69DZjFfL8O/S8uY1mRw=='; upgrade-insecure-requests; report-uri /.csp-report"
+              "finding"      : "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-jaS4/j76vveGXEbYVnDCXg=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-jaS4/j76vveGXEbYVnDCXg=='; upgrade-insecure-requests; report-uri /.csp-report"
           }
 ,         {
               "id"           : "Content-Security-Policy-Report-Only",
@@ -1154,6 +1154,6 @@
               "ip"           : "www.emploi86.com/91.121.52.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "101"
+              "finding"      : "56"
           }
 ]
