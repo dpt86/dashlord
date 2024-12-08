@@ -54,39 +54,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/style/style.css"
+      "url": "https://login.ac-poitiers.fr/proxy-sso/logout"
     },
     {
       "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/style/responsive.css"
+      "url": "https://login.ac-poitiers.fr/idp/profile/Logout"
     },
     {
       "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/images/bandeau_gauche_poitiers.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/images/titre.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/images/titre_reduit.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/images/titre_small.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/style/images/titre_small.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/images/contour_bleu_vert_top_left.gif"
-    },
-    {
-      "type": "unknown",
-      "url": "https://id.ac-poitiers.fr/login/images/contour_bleu_vert_bottom_right.gif"
+      "url": "https://login.ac-poitiers.fr/idp/profile/Logout?execution=e1s1"
     }
   ],
   "cookies": [],
@@ -94,9 +70,9 @@
     "content-encoding": "gzip",
     "content-type": "text/html",
     "cross-origin-opener-policy": "same-origin",
-    "date": "Sun, 01 Dec 2024 02:08:19 GMT",
-    "etag": "W/\"6734be5d-e017\"",
-    "last-modified": "Wed, 13 Nov 2024 14:57:33 GMT",
+    "date": "Sun, 08 Dec 2024 02:01:47 GMT",
+    "etag": "W/\"67504beb-ea74\"",
+    "last-modified": "Wed, 04 Dec 2024 12:32:43 GMT",
     "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "nginx/1.18.0",
@@ -164,7 +140,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.179.94",
+      "ip": "142.250.191.99",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -219,6 +195,91 @@
     {
       "hostname": "id.ac-poitiers.fr",
       "ip": "195.83.13.17",
+      "geoip": {
+        "city": {
+          "geoname_id": 3029365,
+          "names": {
+            "en": "Buxerolles"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 10,
+          "latitude": 46.6167,
+          "longitude": 0.4833,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "86180"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071620,
+            "iso_code": "NAQ",
+            "names": {
+              "en": "Nouvelle-Aquitaine",
+              "fr": "Nouvelle-Aquitaine"
+            }
+          },
+          {
+            "geoname_id": 2969280,
+            "iso_code": "86",
+            "names": {
+              "de": "Vienne",
+              "en": "Vienne",
+              "es": "Viena",
+              "fr": "Vienne"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "login.ac-poitiers.fr",
+      "ip": "195.83.13.12",
       "geoip": {
         "city": {
           "geoname_id": 3029365,
