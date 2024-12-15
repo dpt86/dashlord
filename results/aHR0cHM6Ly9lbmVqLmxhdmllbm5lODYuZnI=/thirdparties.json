@@ -70,7 +70,7 @@
     "content-encoding": "gzip",
     "content-type": "text/html",
     "cross-origin-opener-policy": "same-origin",
-    "date": "Sun, 08 Dec 2024 02:01:47 GMT",
+    "date": "Sun, 15 Dec 2024 02:02:00 GMT",
     "etag": "W/\"67504beb-ea74\"",
     "last-modified": "Wed, 04 Dec 2024 12:32:43 GMT",
     "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
@@ -140,7 +140,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.99",
+      "ip": "142.251.32.35",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -197,9 +197,15 @@
       "ip": "195.83.13.17",
       "geoip": {
         "city": {
-          "geoname_id": 3029365,
+          "geoname_id": 2972315,
           "names": {
-            "en": "Buxerolles"
+            "de": "Toulouse",
+            "en": "Toulouse",
+            "es": "Toulouse",
+            "fr": "Toulouse",
+            "ja": "トゥールーズ",
+            "pt-BR": "Toulouse",
+            "ru": "Тулуза"
           }
         },
         "continent": {
@@ -232,13 +238,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 10,
-          "latitude": 46.6167,
-          "longitude": 0.4833,
+          "accuracy_radius": 5,
+          "latitude": 43.6046,
+          "longitude": 1.4451,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "86180"
+          "code": "31300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -257,21 +263,21 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 11071620,
-            "iso_code": "NAQ",
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
             "names": {
-              "en": "Nouvelle-Aquitaine",
-              "fr": "Nouvelle-Aquitaine"
+              "en": "Occitanie",
+              "fr": "Occitanie"
             }
           },
           {
-            "geoname_id": 2969280,
-            "iso_code": "86",
+            "geoname_id": 3013767,
+            "iso_code": "31",
             "names": {
-              "de": "Vienne",
-              "en": "Vienne",
-              "es": "Viena",
-              "fr": "Vienne"
+              "de": "Haute-Garonne",
+              "en": "Upper Garonne",
+              "es": "Alto Garona",
+              "fr": "Haute-Garonne"
             }
           }
         ]
@@ -282,9 +288,15 @@
       "ip": "195.83.13.12",
       "geoip": {
         "city": {
-          "geoname_id": 3029365,
+          "geoname_id": 2972315,
           "names": {
-            "en": "Buxerolles"
+            "de": "Toulouse",
+            "en": "Toulouse",
+            "es": "Toulouse",
+            "fr": "Toulouse",
+            "ja": "トゥールーズ",
+            "pt-BR": "Toulouse",
+            "ru": "Тулуза"
           }
         },
         "continent": {
@@ -317,13 +329,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 10,
-          "latitude": 46.6167,
-          "longitude": 0.4833,
+          "accuracy_radius": 5,
+          "latitude": 43.6046,
+          "longitude": 1.4451,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "86180"
+          "code": "31300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -342,21 +354,21 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 11071620,
-            "iso_code": "NAQ",
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
             "names": {
-              "en": "Nouvelle-Aquitaine",
-              "fr": "Nouvelle-Aquitaine"
+              "en": "Occitanie",
+              "fr": "Occitanie"
             }
           },
           {
-            "geoname_id": 2969280,
-            "iso_code": "86",
+            "geoname_id": 3013767,
+            "iso_code": "31",
             "names": {
-              "de": "Vienne",
-              "en": "Vienne",
-              "es": "Viena",
-              "fr": "Vienne"
+              "de": "Haute-Garonne",
+              "en": "Upper Garonne",
+              "es": "Alto Garona",
+              "fr": "Haute-Garonne"
             }
           }
         ]
