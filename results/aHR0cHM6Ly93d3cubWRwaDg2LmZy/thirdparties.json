@@ -122,11 +122,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/fileadmin/_processed_/7/2/csm_Groupe_de_paroles_13_dec_2024_VB__1__9befb17312.jpg"
+      "url": "https://mdph86.fr/fileadmin/_processed_/7/0/csm_Capture_d%E2%80%99%C3%A9cran_2024-12-12_0858502_2daf2b71ab.png"
     },
     {
       "type": "unknown",
-      "url": "https://mdph86.fr/fileadmin/_processed_/8/f/csm_SEEPH_2024_01d9430d23.jpg"
+      "url": "https://mdph86.fr/fileadmin/_processed_/7/2/csm_Groupe_de_paroles_13_dec_2024_VB__1__9befb17312.jpg"
     },
     {
       "type": "unknown",
@@ -205,12 +205,28 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-solid-900.woff2"
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "unknown",
       "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-regular-400.woff2"
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-solid-900.woff2"
     },
     {
       "type": "google fonts",
@@ -229,24 +245,32 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-solid-900.woff2"
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "unknown",
       "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-regular-400.woff2"
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
+      "type": "unknown",
+      "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-solid-900.woff2"
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -255,22 +279,6 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -286,15 +294,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -302,7 +302,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=398005&h=2&m=2&s=14&url=https%3A%2F%2Fmdph86.fr%2F&_id=652adbb193360ad6&_idn=0&send_image=0&_refts=0&pv_id=6v65Eq&pf_net=0&pf_srv=458&pf_tfr=1&pf_dm1=717&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=002085&h=2&m=2&s=11&url=https%3A%2F%2Fmdph86.fr%2F&_id=56039af5d148140c&_idn=0&send_image=0&_refts=0&pv_id=4gicDE&pf_net=0&pf_srv=489&pf_tfr=1&pf_dm1=788&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "unknown",
@@ -343,7 +343,7 @@
       "value": "1",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1733625134,
+      "expires": 1734229931,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -355,10 +355,10 @@
     },
     {
       "name": "_pk_id.5.5122",
-      "value": "652adbb193360ad6.1733623335.",
+      "value": "56039af5d148140c.1734228132.",
       "domain": "mdph86.fr",
       "path": "/",
-      "expires": 1767319335,
+      "expires": 1767924132,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -374,7 +374,7 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Dec 2024 02:02:13 GMT",
+    "date": "Sun, 15 Dec 2024 02:02:10 GMT",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000;",
     "vary": "Accept-Encoding",
@@ -571,7 +571,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.2.42",
+      "ip": "142.250.191.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -681,7 +681,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.131",
+      "ip": "142.250.190.99",
       "geoip": {
         "continent": {
           "code": "NA",
