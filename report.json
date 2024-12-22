@@ -570,7 +570,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "363 >= 60 days"
+        "finding": "356 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -766,14 +766,14 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734228005"
+        "finding": "1734832323"
       },
       {
         "id": "HSTS_time",
@@ -1401,7 +1401,7 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
           "details": {
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -1409,7 +1409,7 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
           "details": {
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -1433,14 +1433,6 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
           "details": {
             "id": "google fonts",
@@ -1465,6 +1457,22 @@
         },
         {
           "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
           "details": {
             "id": "google fonts",
@@ -1480,32 +1488,25 @@
           }
         },
         {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
           "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=229481&h=1&m=44&s=55&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=cf95e292562f562c&_idn=0&send_image=0&_refts=0&pv_id=rzfsDI&pf_net=370&pf_srv=368&pf_tfr=87&pf_dm1=737&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=423965&h=1&m=37&s=2&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=579c2c45095d6f1d&_idn=0&send_image=0&_refts=0&pv_id=SitvP9&pf_net=289&pf_srv=388&pf_tfr=87&pf_dm1=726&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [
         {
-          "name": "_pk_ses.2.8b02",
-          "value": "1",
-          "domain": "www.lavienne86.fr",
-          "path": "/",
-          "expires": 1734228895,
-          "size": 15,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
           "name": "_pk_id.2.8b02",
-          "value": "cf95e292562f562c.1734227095.",
+          "value": "579c2c45095d6f1d.1734831422.",
           "domain": "www.lavienne86.fr",
           "path": "/",
-          "expires": 1767923095,
+          "expires": 1768527422,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -1516,8 +1517,23 @@
           "sourcePort": 443
         },
         {
-          "name": "__Secure-typo3nonce__pU99lsf1oPU7yqhz7t5-w",
-          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ik0wMFZ3NGdCaWxDSnJicm9uQ1BpaUxsZk1NT1NYOFZOR1Q2dU1Xdjd0bWZPNkNnLVk3bFk2ZyIsInRpbWUiOiIyMDI0LTEyLTE1VDAyOjQ0OjUzKzAxOjAwIn0.PKKM3Jh9CuOh3RFraUkNGX-YNM-B6WDHmc7Za95u0f0",
+          "name": "_pk_ses.2.8b02",
+          "value": "1",
+          "domain": "www.lavienne86.fr",
+          "path": "/",
+          "expires": 1734833222,
+          "size": 15,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "sameSite": "Lax",
+          "sameParty": false,
+          "sourceScheme": "Secure",
+          "sourcePort": 443
+        },
+        {
+          "name": "__Secure-typo3nonce__cpVYI21C_EB3JWZrD4xEA",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InVVSTFPWXJHNkZwbUVHbzdOUlVrcDUzNFZTTlVkVTFrcmRhZTNtRUJvLTU4d21YZlBhNkFZUSIsInRpbWUiOiIyMDI0LTEyLTIyVDAyOjM3OjAxKzAxOjAwIn0.tXKqGqjrll99q9fZt9ITShGZBVRigWM_IOXPEkGVgLE",
           "domain": "www.lavienne86.fr",
           "path": "/",
           "expires": -1,
@@ -1536,9 +1552,9 @@
         "content-encoding": "gzip",
         "content-language": "fr-FR",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 15 Dec 2024 01:44:53 GMT",
+        "date": "Sun, 22 Dec 2024 01:37:01 GMT",
         "server": "nginx",
-        "set-cookie": "fe_typo_user=deleted; expires=Sat, 16 Dec 2023 01:44:52 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce__pU99lsf1oPU7yqhz7t5-w=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ik0wMFZ3NGdCaWxDSnJicm9uQ1BpaUxsZk1NT1NYOFZOR1Q2dU1Xdjd0bWZPNkNnLVk3bFk2ZyIsInRpbWUiOiIyMDI0LTEyLTE1VDAyOjQ0OjUzKzAxOjAwIn0.PKKM3Jh9CuOh3RFraUkNGX-YNM-B6WDHmc7Za95u0f0; path=/; secure; httponly; samesite=strict",
+        "set-cookie": "fe_typo_user=deleted; expires=Sat, 23 Dec 2023 01:37:00 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce__cpVYI21C_EB3JWZrD4xEA=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InVVSTFPWXJHNkZwbUVHbzdOUlVrcDUzNFZTTlVkVTFrcmRhZTNtRUJvLTU4d21YZlBhNkFZUSIsInRpbWUiOiIyMDI0LTEyLTIyVDAyOjM3OjAxKzAxOjAwIn0.tXKqGqjrll99q9fZt9ITShGZBVRigWM_IOXPEkGVgLE; path=/; secure; httponly; samesite=strict",
         "strict-transport-security": "max-age=31536000;",
         "vary": "Accept-Encoding",
         "x-typo3-parsetime": "0ms"
@@ -1602,7 +1618,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
+          "ip": "104.17.24.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -1622,7 +1638,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.253.63.95",
+          "ip": "142.251.16.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1732,7 +1748,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "64.233.180.94",
+          "ip": "142.251.163.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2132,7 +2148,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2024-12-15T01:59:10.425Z",
+        "fetchTime": "2024-12-22T01:51:09.850Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2143,7 +2159,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.44
+            "score": 0.49
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2154,7 +2170,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.92
+            "score": 0.85
           },
           "best-practices": {
             "title": "Best Practices",
@@ -2195,53 +2211,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15984,
+            "numericValue": 15656,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5099,
-                  "firstMeaningfulPaint": 11425,
-                  "largestContentfulPaint": 8524,
-                  "interactive": 15984,
-                  "speedIndex": 8836,
-                  "totalBlockingTime": 222,
-                  "maxPotentialFID": 402,
-                  "cumulativeLayoutShift": 0.017038994047376844,
-                  "cumulativeLayoutShiftMainFrame": 0.017038994047376844,
-                  "totalCumulativeLayoutShift": 0.017038994047376844,
+                  "firstContentfulPaint": 4649,
+                  "firstMeaningfulPaint": 11812,
+                  "largestContentfulPaint": 5501,
+                  "interactive": 15656,
+                  "speedIndex": 8350,
+                  "totalBlockingTime": 187,
+                  "maxPotentialFID": 338,
+                  "cumulativeLayoutShift": 0.0977538187238905,
+                  "cumulativeLayoutShiftMainFrame": 0.0977538187238905,
+                  "totalCumulativeLayoutShift": 0.0977538187238905,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1164787945,
+                  "observedTimeOriginTs": 1324222382,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1164787945,
-                  "observedFirstPaint": 1093,
-                  "observedFirstPaintTs": 1165880525,
-                  "observedFirstContentfulPaint": 1093,
-                  "observedFirstContentfulPaintTs": 1165880525,
-                  "observedFirstContentfulPaintAllFrames": 1093,
-                  "observedFirstContentfulPaintAllFramesTs": 1165880525,
-                  "observedFirstMeaningfulPaint": 1437,
-                  "observedFirstMeaningfulPaintTs": 1166224636,
-                  "observedLargestContentfulPaint": 1109,
-                  "observedLargestContentfulPaintTs": 1165897297,
-                  "observedLargestContentfulPaintAllFrames": 1109,
-                  "observedLargestContentfulPaintAllFramesTs": 1165897297,
-                  "observedTraceEnd": 3851,
-                  "observedTraceEndTs": 1168639153,
-                  "observedLoad": 1450,
-                  "observedLoadTs": 1166238233,
-                  "observedDomContentLoaded": 1389,
-                  "observedDomContentLoadedTs": 1166177224,
-                  "observedCumulativeLayoutShift": 0.017038994047376844,
-                  "observedCumulativeLayoutShiftMainFrame": 0.017038994047376844,
-                  "observedTotalCumulativeLayoutShift": 0.017038994047376844,
-                  "observedFirstVisualChange": 1648,
-                  "observedFirstVisualChangeTs": 1166435945,
-                  "observedLastVisualChange": 2398,
-                  "observedLastVisualChangeTs": 1167185945,
-                  "observedSpeedIndex": 2090,
-                  "observedSpeedIndexTs": 1166877823
+                  "observedNavigationStartTs": 1324222382,
+                  "observedFirstPaint": 1038,
+                  "observedFirstPaintTs": 1325259932,
+                  "observedFirstContentfulPaint": 1038,
+                  "observedFirstContentfulPaintTs": 1325259932,
+                  "observedFirstContentfulPaintAllFrames": 1038,
+                  "observedFirstContentfulPaintAllFramesTs": 1325259932,
+                  "observedFirstMeaningfulPaint": 1362,
+                  "observedFirstMeaningfulPaintTs": 1325584481,
+                  "observedLargestContentfulPaint": 1038,
+                  "observedLargestContentfulPaintTs": 1325259932,
+                  "observedLargestContentfulPaintAllFrames": 1038,
+                  "observedLargestContentfulPaintAllFramesTs": 1325259932,
+                  "observedTraceEnd": 3776,
+                  "observedTraceEndTs": 1327998539,
+                  "observedLoad": 1373,
+                  "observedLoadTs": 1325595372,
+                  "observedDomContentLoaded": 1307,
+                  "observedDomContentLoadedTs": 1325529831,
+                  "observedCumulativeLayoutShift": 0.0977538187238905,
+                  "observedCumulativeLayoutShiftMainFrame": 0.0977538187238905,
+                  "observedTotalCumulativeLayoutShift": 0.0977538187238905,
+                  "observedFirstVisualChange": 1574,
+                  "observedFirstVisualChangeTs": 1325796382,
+                  "observedLastVisualChange": 2324,
+                  "observedLastVisualChangeTs": 1326546382,
+                  "observedSpeedIndex": 2017,
+                  "observedSpeedIndexTs": 1326239115
                 },
                 {
                   "lcpInvalidated": false
@@ -2259,23 +2275,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 65,
+                  "numRequests": 63,
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1338,
+                  "numTasks": 1314,
                   "numTasksOver10ms": 10,
-                  "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 4,
+                  "numTasksOver25ms": 5,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.3750000000000004,
-                  "throughput": 46761067.198581405,
-                  "maxRtt": 86.15,
-                  "maxServerLatency": 91.576,
-                  "totalByteWeight": 2836690,
-                  "totalTaskTime": 745.4350000000012,
-                  "mainDocumentTransferSize": 62112
+                  "rtt": 0,
+                  "throughput": 43424771.72995444,
+                  "maxRtt": 86.233,
+                  "maxServerLatency": 93.746,
+                  "totalByteWeight": 2664468,
+                  "totalTaskTime": 645.095000000001,
+                  "mainDocumentTransferSize": 62102
                 }
               ]
             }
@@ -2299,15 +2315,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 4145.274,
-        "nodes": 1741,
-        "requests": 64,
+        "size": 3981.214,
+        "nodes": 1696,
+        "requests": 62,
         "grade": "E",
-        "score": 28,
-        "ges": 2.44,
-        "water": 3.66,
+        "score": 29,
+        "ges": 2.42,
+        "water": 3.63,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 01:45:56.611791",
+        "date": "2024-12-22 01:38:01.618014",
         "page_type": "article"
       }
     ],
@@ -2321,10 +2337,10 @@
       "cookiesGrade": "C",
       "cookiesCount": 3,
       "trackersGrade": "F",
-      "trackersCount": 17,
-      "lighthouse_performance": 0.44,
+      "trackersCount": 19,
+      "lighthouse_performance": 0.49,
       "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.92,
+      "lighthouse_accessibility": 0.85,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
       "lighthouse_best-practicesGrade": "B",
@@ -10513,7 +10529,7 @@
         "ip": "www.emploi86.com/91.121.52.142",
         "port": "443",
         "severity": "HIGH",
-        "finding": "expires < 30 days (8)"
+        "finding": "expires < 30 days (1)"
       },
       {
         "id": "cert_notBefore",
@@ -10709,14 +10725,14 @@
         "ip": "www.emploi86.com/91.121.52.142",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.emploi86.com/91.121.52.142",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734229087"
+        "finding": "1734833390"
       },
       {
         "id": "HSTS_time",
@@ -10786,14 +10802,14 @@
         "ip": "www.emploi86.com/91.121.52.142",
         "port": "443",
         "severity": "OK",
-        "finding": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-TyOU4XhOLDvaeX0tOFmfKw=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-TyOU4XhOLDvaeX0tOFmfKw=='; upgrade-insecure-requests; report-uri /.csp-report"
+        "finding": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-+qSPIyIa9AkwuY/2TkT6dw=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-+qSPIyIa9AkwuY/2TkT6dw=='; upgrade-insecure-requests; report-uri /.csp-report"
       },
       {
         "id": "X-Content-Security-Policy",
         "ip": "www.emploi86.com/91.121.52.142",
         "port": "443",
         "severity": "OK",
-        "finding": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-TyOU4XhOLDvaeX0tOFmfKw=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-TyOU4XhOLDvaeX0tOFmfKw=='; upgrade-insecure-requests; report-uri /.csp-report"
+        "finding": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-+qSPIyIa9AkwuY/2TkT6dw=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-+qSPIyIa9AkwuY/2TkT6dw=='; upgrade-insecure-requests; report-uri /.csp-report"
       },
       {
         "id": "Content-Security-Policy-Report-Only",
@@ -11321,7 +11337,7 @@
         "ip": "www.emploi86.com/91.121.52.142",
         "port": "443",
         "severity": "INFO",
-        "finding": "66"
+        "finding": "57"
       }
     ],
     "thirdparties": {
@@ -11380,7 +11396,7 @@
         },
         {
           "type": "xiti",
-          "url": "https://logs1412.xiti.com/event?s=637373&idclient=m4oymfas90r18o21",
+          "url": "https://logs1412.xiti.com/event?s=637373&idclient=m4yyexxfvmoyytp6",
           "details": {
             "id": "xiti",
             "message": "Use hosted Matomo instance"
@@ -11390,10 +11406,10 @@
       "cookies": [
         {
           "name": "_pctx",
-          "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbANatWAKwDu-AF4AffgBZKAT34AzQlJABfIA",
+          "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbANZJWAYwBmATn4AffgBYAnoqgAPVfxABfIA",
           "domain": ".emploi86.com",
           "path": "/",
-          "expires": 1768356080,
+          "expires": 1768960393,
           "size": 111,
           "httpOnly": false,
           "secure": true,
@@ -11405,10 +11421,10 @@
         },
         {
           "name": "_pcid",
-          "value": "%7B%22browserId%22%3A%22m4oymfas90r18o21%22%2C%22_t%22%3A%22mkddjwmy%7Cm4oymfay%22%7D",
+          "value": "%7B%22browserId%22%3A%22m4yyexxfvmoyytp6%22%2C%22_t%22%3A%22mkndcf9l%7Cm4yyexxl%22%7D",
           "domain": ".emploi86.com",
           "path": "/",
-          "expires": 1768356080,
+          "expires": 1768960393,
           "size": 90,
           "httpOnly": false,
           "secure": true,
@@ -11423,7 +11439,7 @@
           "value": "%22exempt%22",
           "domain": "www.emploi86.com",
           "path": "/",
-          "expires": 1768356080,
+          "expires": 1768960393,
           "size": 22,
           "httpOnly": false,
           "secure": true,
@@ -11435,7 +11451,7 @@
         },
         {
           "name": "HA2",
-          "value": "front-01",
+          "value": "front-03",
           "domain": "www.emploi86.com",
           "path": "/",
           "expires": -1,
@@ -11451,17 +11467,17 @@
       "headers": {
         "cache-control": "max-age=0, must-revalidate, private",
         "content-encoding": "gzip",
-        "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-qbSmQQW+4z1gj82Zc6xQjg=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-qbSmQQW+4z1gj82Zc6xQjg=='; upgrade-insecure-requests; report-uri /.csp-report",
+        "content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-V/g1ye4OwIV3+OugGVCDzg=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-V/g1ye4OwIV3+OugGVCDzg=='; upgrade-insecure-requests; report-uri /.csp-report",
         "content-security-policy-report-only": "report-uri /.csp-report",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 15 Dec 2024 02:01:20 GMT",
-        "expires": "Sun, 15 Dec 2024 02:01:20 GMT",
-        "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.48df9246.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.f61a0bd1.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
+        "date": "Sun, 22 Dec 2024 01:53:12 GMT",
+        "expires": "Sun, 22 Dec 2024 01:53:12 GMT",
+        "link": "</build-v2/runtime.ed2c3abe.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/470.55e7a457.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.5ed4d02c.js>; rel=\"preload\"; as=\"script\"; crossorigin=\"anonymous\",</build-v2/app.72d1f6ee.css>; rel=\"preload\"; as=\"style\"; crossorigin=\"anonymous\"",
         "referrer-policy": "no-referrer, same-origin",
         "server": "nginx",
         "strict-transport-security": "max-age=63072000",
         "vary": "Accept-Encoding",
-        "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-qbSmQQW+4z1gj82Zc6xQjg=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-qbSmQQW+4z1gj82Zc6xQjg=='; upgrade-insecure-requests; report-uri /.csp-report",
+        "x-content-security-policy": "base-uri 'none'; connect-src 'self' www.googletagmanager.com https://logs1412.xiti.com ws: wss:; img-src 'self' data: https://f-preprod.hellowork.com https://f.hellowork.com https://i-preprod.hellowork.com https://i.hellowork.com www.googletagmanager.com; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' 'nonce-V/g1ye4OwIV3+OugGVCDzg=='; style-src 'self' https://admin.smartforum.io 'unsafe-inline' 'nonce-V/g1ye4OwIV3+OugGVCDzg=='; upgrade-insecure-requests; report-uri /.csp-report",
         "x-content-security-policy-report-only": "report-uri /.csp-report",
         "x-content-type-options": "nosniff",
         "x-frame-options": "DENY"
@@ -11719,7 +11735,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.250.190.136",
+          "ip": "142.251.179.97",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -11773,61 +11789,7 @@
         },
         {
           "hostname": "tag.aticdn.net",
-          "ip": "108.156.91.114",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "logs1412.xiti.com",
-          "ip": "18.160.233.60",
+          "ip": "18.160.18.10",
           "geoip": {
             "city": {
               "geoname_id": 5809844,
@@ -11906,6 +11868,76 @@
                   "pt-BR": "Washington",
                   "ru": "Вашингтон",
                   "zh-CN": "华盛顿州"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "hostname": "logs1412.xiti.com",
+          "ip": "18.154.229.58",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 41.8764,
+              "longitude": -87.6133,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "subdivisions": [
+              {
+                "geoname_id": 4896861,
+                "iso_code": "IL",
+                "names": {
+                  "de": "Illinois",
+                  "en": "Illinois",
+                  "es": "Illinois",
+                  "fr": "Illinois",
+                  "ja": "イリノイ州",
+                  "pt-BR": "Ilinóis",
+                  "ru": "Иллинойс",
+                  "zh-CN": "伊利诺伊州"
                 }
               }
             ]
@@ -12059,7 +12091,7 @@
       {
         "requestedUrl": "https://www.emploi86.com/",
         "finalUrl": "https://www.emploi86.com/",
-        "fetchTime": "2024-12-15T02:16:01.404Z",
+        "fetchTime": "2024-12-22T02:07:50.892Z",
         "runWarnings": [
           "The page loaded too slowly to finish within the time limit. Results may be incomplete."
         ],
@@ -12124,53 +12156,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 5096,
+            "numericValue": 5004,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1439,
-                  "firstMeaningfulPaint": 4659,
-                  "largestContentfulPaint": 9680,
-                  "interactive": 5096,
-                  "speedIndex": 2455,
-                  "totalBlockingTime": 108,
+                  "firstContentfulPaint": 1285,
+                  "firstMeaningfulPaint": 4680,
+                  "largestContentfulPaint": 9492,
+                  "interactive": 5004,
+                  "speedIndex": 2345,
+                  "totalBlockingTime": 129,
                   "maxPotentialFID": 164,
-                  "cumulativeLayoutShift": 0.015160947799682618,
-                  "cumulativeLayoutShiftMainFrame": 0.015160947799682618,
-                  "totalCumulativeLayoutShift": 0.015160947799682618,
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0,
+                  "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1156047207,
+                  "observedTimeOriginTs": 1364777466,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1156047207,
-                  "observedFirstPaint": 907,
-                  "observedFirstPaintTs": 1156954520,
-                  "observedFirstContentfulPaint": 907,
-                  "observedFirstContentfulPaintTs": 1156954520,
-                  "observedFirstContentfulPaintAllFrames": 907,
-                  "observedFirstContentfulPaintAllFramesTs": 1156954520,
-                  "observedFirstMeaningfulPaint": 1064,
-                  "observedFirstMeaningfulPaintTs": 1157110901,
-                  "observedLargestContentfulPaint": 1276,
-                  "observedLargestContentfulPaintTs": 1157323499,
-                  "observedLargestContentfulPaintAllFrames": 1276,
-                  "observedLargestContentfulPaintAllFramesTs": 1157323499,
-                  "observedTraceEnd": 45011,
-                  "observedTraceEndTs": 1201057766,
-                  "observedLoad": 1420,
-                  "observedLoadTs": 1157466714,
-                  "observedDomContentLoaded": 1047,
-                  "observedDomContentLoadedTs": 1157094438,
-                  "observedCumulativeLayoutShift": 0.015160947799682618,
-                  "observedCumulativeLayoutShiftMainFrame": 0.015160947799682618,
-                  "observedTotalCumulativeLayoutShift": 0.015160947799682618,
-                  "observedFirstVisualChange": 906,
-                  "observedFirstVisualChangeTs": 1156953207,
-                  "observedLastVisualChange": 1539,
-                  "observedLastVisualChangeTs": 1157586207,
-                  "observedSpeedIndex": 1238,
-                  "observedSpeedIndexTs": 1157284873
+                  "observedNavigationStartTs": 1364777466,
+                  "observedFirstPaint": 800,
+                  "observedFirstPaintTs": 1365577579,
+                  "observedFirstContentfulPaint": 800,
+                  "observedFirstContentfulPaintTs": 1365577579,
+                  "observedFirstContentfulPaintAllFrames": 800,
+                  "observedFirstContentfulPaintAllFramesTs": 1365577579,
+                  "observedFirstMeaningfulPaint": 924,
+                  "observedFirstMeaningfulPaintTs": 1365701709,
+                  "observedLargestContentfulPaint": 1063,
+                  "observedLargestContentfulPaintTs": 1365840819,
+                  "observedLargestContentfulPaintAllFrames": 1063,
+                  "observedLargestContentfulPaintAllFramesTs": 1365840819,
+                  "observedTraceEnd": 45012,
+                  "observedTraceEndTs": 1409789325,
+                  "observedLoad": 1164,
+                  "observedLoadTs": 1365941276,
+                  "observedDomContentLoaded": 904,
+                  "observedDomContentLoadedTs": 1365681326,
+                  "observedCumulativeLayoutShift": 0,
+                  "observedCumulativeLayoutShiftMainFrame": 0,
+                  "observedTotalCumulativeLayoutShift": 0,
+                  "observedFirstVisualChange": 801,
+                  "observedFirstVisualChangeTs": 1365578466,
+                  "observedLastVisualChange": 1067,
+                  "observedLastVisualChangeTs": 1365844466,
+                  "observedSpeedIndex": 1033,
+                  "observedSpeedIndexTs": 1365810865
                 },
                 {
                   "lcpInvalidated": false
@@ -12192,19 +12224,19 @@
                   "numScripts": 8,
                   "numStylesheets": 2,
                   "numFonts": 6,
-                  "numTasks": 681,
-                  "numTasksOver10ms": 4,
+                  "numTasks": 672,
+                  "numTasksOver10ms": 5,
                   "numTasksOver25ms": 2,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.024,
-                  "throughput": 19103043.826160084,
-                  "maxRtt": 103.983,
-                  "maxServerLatency": 113.606,
-                  "totalByteWeight": 2287320,
-                  "totalTaskTime": 218.68199999999894,
-                  "mainDocumentTransferSize": 16542
+                  "rtt": 5.747,
+                  "throughput": 24276751.396235578,
+                  "maxRtt": 84.875,
+                  "maxServerLatency": 77.14799999999998,
+                  "totalByteWeight": 2287878,
+                  "totalTaskTime": 232.448999999999,
+                  "mainDocumentTransferSize": 16555
                 }
               ]
             }
@@ -12254,7 +12286,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.emploi86.com",
-        "size": 2429.838,
+        "size": 2430.456,
         "nodes": 310,
         "requests": 29,
         "grade": "C",
@@ -12262,7 +12294,7 @@
         "ges": 1.6,
         "water": 2.4,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:02:24.685462",
+        "date": "2024-12-22 01:54:15.972642",
         "page_type": null
       }
     ],
@@ -12818,7 +12850,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "86 >= 30 days"
+        "finding": "79 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -12979,7 +13011,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734228461"
+        "finding": "1734832734"
       },
       {
         "id": "HSTS_time",
@@ -13563,7 +13595,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "98"
+        "finding": "54"
       }
     ],
     "thirdparties": {
@@ -13638,7 +13670,7 @@
         "content-encoding": "gzip",
         "content-type": "text/html",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Sun, 15 Dec 2024 02:02:00 GMT",
+        "date": "Sun, 22 Dec 2024 01:54:10 GMT",
         "etag": "W/\"67504beb-ea74\"",
         "last-modified": "Wed, 04 Dec 2024 12:32:43 GMT",
         "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
@@ -13708,7 +13740,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.32.35",
+          "ip": "142.251.16.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -13806,7 +13838,7 @@
               }
             },
             "location": {
-              "accuracy_radius": 5,
+              "accuracy_radius": 100,
               "latitude": 43.6046,
               "longitude": 1.4451,
               "time_zone": "Europe/Paris"
@@ -13897,7 +13929,7 @@
               }
             },
             "location": {
-              "accuracy_radius": 5,
+              "accuracy_radius": 100,
               "latitude": 43.6046,
               "longitude": 1.4451,
               "time_zone": "Europe/Paris"
@@ -14086,7 +14118,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2024-12-15T02:06:25.200Z",
+        "fetchTime": "2024-12-22T01:58:14.954Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -14099,7 +14131,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.56
+            "score": 0.6
           },
           "accessibility": {
             "title": "Accessibility",
@@ -14151,53 +14183,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4880,
+            "numericValue": 4281,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4880,
-                  "firstMeaningfulPaint": 4880,
-                  "largestContentfulPaint": 7412,
-                  "interactive": 4880,
-                  "speedIndex": 9151,
+                  "firstContentfulPaint": 4281,
+                  "firstMeaningfulPaint": 4281,
+                  "largestContentfulPaint": 6904,
+                  "interactive": 4281,
+                  "speedIndex": 6886,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.002806905110677083,
                   "cumulativeLayoutShiftMainFrame": 0.002806905110677083,
                   "totalCumulativeLayoutShift": 0.002806905110677083,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 534843582,
+                  "observedTimeOriginTs": 667106811,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 534843582,
-                  "observedFirstPaint": 3319,
-                  "observedFirstPaintTs": 538162308,
-                  "observedFirstContentfulPaint": 3319,
-                  "observedFirstContentfulPaintTs": 538162308,
-                  "observedFirstContentfulPaintAllFrames": 3319,
-                  "observedFirstContentfulPaintAllFramesTs": 538162308,
-                  "observedFirstMeaningfulPaint": 3319,
-                  "observedFirstMeaningfulPaintTs": 538162308,
-                  "observedLargestContentfulPaint": 3319,
-                  "observedLargestContentfulPaintTs": 538162308,
-                  "observedLargestContentfulPaintAllFrames": 3319,
-                  "observedLargestContentfulPaintAllFramesTs": 538162308,
-                  "observedTraceEnd": 5796,
-                  "observedTraceEndTs": 540639514,
-                  "observedLoad": 2313,
-                  "observedLoadTs": 537156842,
-                  "observedDomContentLoaded": 1659,
-                  "observedDomContentLoadedTs": 536502681,
+                  "observedNavigationStartTs": 667106811,
+                  "observedFirstPaint": 2012,
+                  "observedFirstPaintTs": 669118444,
+                  "observedFirstContentfulPaint": 2012,
+                  "observedFirstContentfulPaintTs": 669118444,
+                  "observedFirstContentfulPaintAllFrames": 2012,
+                  "observedFirstContentfulPaintAllFramesTs": 669118444,
+                  "observedFirstMeaningfulPaint": 2012,
+                  "observedFirstMeaningfulPaintTs": 669118444,
+                  "observedLargestContentfulPaint": 2012,
+                  "observedLargestContentfulPaintTs": 669118444,
+                  "observedLargestContentfulPaintAllFrames": 2012,
+                  "observedLargestContentfulPaintAllFramesTs": 669118444,
+                  "observedTraceEnd": 4409,
+                  "observedTraceEndTs": 671515460,
+                  "observedLoad": 1382,
+                  "observedLoadTs": 668489010,
+                  "observedDomContentLoaded": 1013,
+                  "observedDomContentLoadedTs": 668119660,
                   "observedCumulativeLayoutShift": 0.002806905110677083,
                   "observedCumulativeLayoutShiftMainFrame": 0.002806905110677083,
                   "observedTotalCumulativeLayoutShift": 0.002806905110677083,
-                  "observedFirstVisualChange": 3318,
-                  "observedFirstVisualChangeTs": 538161582,
-                  "observedLastVisualChange": 3501,
-                  "observedLastVisualChangeTs": 538344582,
-                  "observedSpeedIndex": 3344,
-                  "observedSpeedIndexTs": 538187138
+                  "observedFirstVisualChange": 2016,
+                  "observedFirstVisualChangeTs": 669122811,
+                  "observedLastVisualChange": 2116,
+                  "observedLastVisualChangeTs": 669222811,
+                  "observedSpeedIndex": 2029,
+                  "observedSpeedIndexTs": 669135900
                 },
                 {
                   "lcpInvalidated": false
@@ -14215,23 +14247,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 77,
+                  "numRequests": 86,
                   "numScripts": 36,
                   "numStylesheets": 1,
                   "numFonts": 4,
-                  "numTasks": 33,
+                  "numTasks": 35,
                   "numTasksOver10ms": 0,
                   "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 148.802,
-                  "throughput": 14515687.311961725,
-                  "maxRtt": 163.486,
-                  "maxServerLatency": 11.483000000000004,
-                  "totalByteWeight": 1165730,
-                  "totalTaskTime": 6.749999999999999,
-                  "mainDocumentTransferSize": 8275
+                  "rtt": 85.63799999999999,
+                  "throughput": 27566536.502868418,
+                  "maxRtt": 92.548,
+                  "maxServerLatency": 4.275000000000006,
+                  "totalByteWeight": 1172201,
+                  "totalTaskTime": 2.678999999999999,
+                  "mainDocumentTransferSize": 8266
                 }
               ]
             }
@@ -14274,7 +14306,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1280.736,
+        "size": 1280.805,
         "nodes": 107,
         "requests": 54,
         "grade": "B",
@@ -14282,7 +14314,7 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:03:07.534507",
+        "date": "2024-12-22 01:55:12.734135",
         "page_type": null
       }
     ],
@@ -14298,7 +14330,7 @@
       "cookiesCount": 0,
       "trackersGrade": "C",
       "trackersCount": 10,
-      "lighthouse_performance": 0.56,
+      "lighthouse_performance": 0.6,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
@@ -17753,7 +17785,7 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "112 >= 60 days"
+        "finding": "105 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -17949,14 +17981,14 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2229 seconds from localtime"
+        "finding": "+2246 (± 1.5) seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734231138"
+        "finding": "1734835454"
       },
       {
         "id": "HSTS",
@@ -18554,7 +18586,7 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "126"
+        "finding": "179"
       }
     ],
     "thirdparties": {
@@ -18632,14 +18664,6 @@
           }
         },
         {
-          "type": "bootstrapcdn",
-          "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
-          "details": {
-            "id": "bootstrapcdn",
-            "message": "Host files locally"
-          }
-        },
-        {
           "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
           "details": {
@@ -18654,12 +18678,20 @@
             "id": "bootstrapcdn",
             "message": "Host files locally"
           }
+        },
+        {
+          "type": "bootstrapcdn",
+          "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+          "details": {
+            "id": "bootstrapcdn",
+            "message": "Host files locally"
+          }
         }
       ],
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "5q8vdqt9p7hotpp7j6h2bngr60",
+          "value": "6ndpn3mics5uk3otrvpkhso782",
           "domain": "www.vienne-numerique.fr",
           "path": "/",
           "expires": -1,
@@ -18681,12 +18713,12 @@
         "content-language": "fr",
         "content-script-type": "text/javascript",
         "content-style-type": "text/css",
-        "date": "Sun, 15 Dec 2024 02:46:13 GMT",
+        "date": "Sun, 22 Dec 2024 02:37:31 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "keep-alive": "timeout=5, max=500",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "PHPSESSID=5q8vdqt9p7hotpp7j6h2bngr60; path=/\nUTB_S=deleted; expires=Sat, 16-Dec-2023 02:46:12 GMT; path=/",
+        "set-cookie": "PHPSESSID=6ndpn3mics5uk3otrvpkhso782; path=/\nUTB_S=deleted; expires=Sat, 23-Dec-2023 02:37:30 GMT; path=/",
         "vary": "Accept-Encoding,User-Agent",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
@@ -18789,7 +18821,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.24.14",
+          "ip": "104.17.25.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -18809,7 +18841,7 @@
         },
         {
           "hostname": "ajax.googleapis.com",
-          "ip": "142.251.16.95",
+          "ip": "172.217.4.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -18863,7 +18895,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.111.95",
+          "ip": "142.250.191.106",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -18937,7 +18969,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.31.94",
+          "ip": "142.250.191.163",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -19238,7 +19270,7 @@
       {
         "requestedUrl": "https://www.vienne-numerique.fr/",
         "finalUrl": "https://www.vienne-numerique.fr/",
-        "fetchTime": "2024-12-15T02:14:05.137Z",
+        "fetchTime": "2024-12-22T02:05:17.855Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -19249,7 +19281,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.55
+            "score": 0.57
           },
           "accessibility": {
             "title": "Accessibility",
@@ -19301,53 +19333,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 8173,
+            "numericValue": 7440,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4928,
-                  "firstMeaningfulPaint": 5762,
-                  "largestContentfulPaint": 8352,
-                  "interactive": 8173,
-                  "speedIndex": 6386,
-                  "totalBlockingTime": 54,
-                  "maxPotentialFID": 158,
-                  "cumulativeLayoutShift": 0.00748848385281033,
-                  "cumulativeLayoutShiftMainFrame": 0.00748848385281033,
-                  "totalCumulativeLayoutShift": 0.00748848385281033,
+                  "firstContentfulPaint": 4380,
+                  "firstMeaningfulPaint": 4380,
+                  "largestContentfulPaint": 6573,
+                  "interactive": 7440,
+                  "speedIndex": 6597,
+                  "totalBlockingTime": 19,
+                  "maxPotentialFID": 88,
+                  "cumulativeLayoutShift": 0.012525344848632812,
+                  "cumulativeLayoutShiftMainFrame": 0.012525344848632812,
+                  "totalCumulativeLayoutShift": 0.012525344848632812,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 511670864,
+                  "observedTimeOriginTs": 641699925,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 511670864,
-                  "observedFirstPaint": 952,
-                  "observedFirstPaintTs": 512623097,
-                  "observedFirstContentfulPaint": 952,
-                  "observedFirstContentfulPaintTs": 512623097,
-                  "observedFirstContentfulPaintAllFrames": 952,
-                  "observedFirstContentfulPaintAllFramesTs": 512623097,
-                  "observedFirstMeaningfulPaint": 968,
-                  "observedFirstMeaningfulPaintTs": 512639070,
-                  "observedLargestContentfulPaint": 1760,
-                  "observedLargestContentfulPaintTs": 513430537,
-                  "observedLargestContentfulPaintAllFrames": 1760,
-                  "observedLargestContentfulPaintAllFramesTs": 513430537,
-                  "observedTraceEnd": 4241,
-                  "observedTraceEndTs": 515911928,
-                  "observedLoad": 1744,
-                  "observedLoadTs": 513414998,
-                  "observedDomContentLoaded": 1209,
-                  "observedDomContentLoadedTs": 512880182,
-                  "observedCumulativeLayoutShift": 0.00748848385281033,
-                  "observedCumulativeLayoutShiftMainFrame": 0.00748848385281033,
-                  "observedTotalCumulativeLayoutShift": 0.00748848385281033,
-                  "observedFirstVisualChange": 958,
-                  "observedFirstVisualChangeTs": 512628864,
-                  "observedLastVisualChange": 2441,
-                  "observedLastVisualChangeTs": 514111864,
-                  "observedSpeedIndex": 2055,
-                  "observedSpeedIndexTs": 513726117
+                  "observedNavigationStartTs": 641699925,
+                  "observedFirstPaint": 1126,
+                  "observedFirstPaintTs": 642825805,
+                  "observedFirstContentfulPaint": 1126,
+                  "observedFirstContentfulPaintTs": 642825805,
+                  "observedFirstContentfulPaintAllFrames": 1126,
+                  "observedFirstContentfulPaintAllFramesTs": 642825805,
+                  "observedFirstMeaningfulPaint": 1131,
+                  "observedFirstMeaningfulPaintTs": 642831133,
+                  "observedLargestContentfulPaint": 1781,
+                  "observedLargestContentfulPaintTs": 643481120,
+                  "observedLargestContentfulPaintAllFrames": 1781,
+                  "observedLargestContentfulPaintAllFramesTs": 643481120,
+                  "observedTraceEnd": 4513,
+                  "observedTraceEndTs": 646212703,
+                  "observedLoad": 1971,
+                  "observedLoadTs": 643670858,
+                  "observedDomContentLoaded": 1551,
+                  "observedDomContentLoadedTs": 643251116,
+                  "observedCumulativeLayoutShift": 0.012525344848632812,
+                  "observedCumulativeLayoutShiftMainFrame": 0.012525344848632812,
+                  "observedTotalCumulativeLayoutShift": 0.012525344848632812,
+                  "observedFirstVisualChange": 1124,
+                  "observedFirstVisualChangeTs": 642823925,
+                  "observedLastVisualChange": 2957,
+                  "observedLastVisualChangeTs": 644656925,
+                  "observedSpeedIndex": 2500,
+                  "observedSpeedIndexTs": 644199731
                 },
                 {
                   "lcpInvalidated": false
@@ -19369,18 +19401,18 @@
                   "numScripts": 17,
                   "numStylesheets": 7,
                   "numFonts": 2,
-                  "numTasks": 699,
+                  "numTasks": 714,
                   "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 1,
+                  "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 5844973.4375924235,
-                  "maxRtt": 92.523,
-                  "maxServerLatency": 30.956999999999997,
-                  "totalByteWeight": 961192,
-                  "totalTaskTime": 214.84400000000005,
+                  "throughput": 3327904.5973634613,
+                  "maxRtt": 110.822,
+                  "maxServerLatency": 21.890999999999995,
+                  "totalByteWeight": 703794,
+                  "totalTaskTime": 201.60299999999992,
                   "mainDocumentTransferSize": 5801
                 }
               ]
@@ -19425,7 +19457,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.vienne-numerique.fr",
-        "size": 848.83,
+        "size": 848.831,
         "nodes": 334,
         "requests": 37,
         "grade": "B",
@@ -19433,7 +19465,7 @@
         "ges": 1.54,
         "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:10:05.838785",
+        "date": "2024-12-22 02:01:12.623419",
         "page_type": null
       }
     ],
@@ -19449,7 +19481,7 @@
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 12,
-      "lighthouse_performance": 0.55,
+      "lighthouse_performance": 0.57,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.93,
       "lighthouse_accessibilityGrade": "A",
@@ -20240,7 +20272,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "113 >= 60 days"
+        "finding": "106 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -20436,14 +20468,14 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734229120"
+        "finding": "1734833929"
       },
       {
         "id": "HSTS_time",
@@ -21006,7 +21038,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "90"
+        "finding": "88"
       }
     ],
     "thirdparties": {
@@ -21121,6 +21153,14 @@
         },
         {
           "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
           "details": {
             "id": "google fonts",
@@ -21136,16 +21176,8 @@
           }
         },
         {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
           "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=654612&h=2&m=9&s=10&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=9627756fae359a4d&_idn=0&send_image=0&_refts=0&pv_id=IfJbVk&pf_net=528&pf_srv=276&pf_tfr=1&pf_dm1=857&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=888072&h=2&m=9&s=13&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=3c42e703ad80035a&_idn=0&send_image=0&_refts=0&pv_id=rAyTnM&pf_net=457&pf_srv=345&pf_tfr=1&pf_dm1=762&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [
@@ -21154,7 +21186,7 @@
           "value": "1",
           "domain": "www.cli-civaux.fr",
           "path": "/",
-          "expires": 1734230350,
+          "expires": 1734835153,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -21166,10 +21198,10 @@
         },
         {
           "name": "_pk_id.4.c1bf",
-          "value": "9627756fae359a4d.1734228551.",
+          "value": "3c42e703ad80035a.1734833353.",
           "domain": "www.cli-civaux.fr",
           "path": "/",
-          "expires": 1767924551,
+          "expires": 1768529353,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -21185,7 +21217,7 @@
         "content-encoding": "gzip",
         "content-language": "fr-FR",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 15 Dec 2024 02:09:09 GMT",
+        "date": "Sun, 22 Dec 2024 02:09:11 GMT",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000;",
         "vary": "Accept-Encoding",
@@ -21270,7 +21302,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.191.170",
+          "ip": "142.250.190.106",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -21380,7 +21412,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.191.195",
+          "ip": "142.250.190.99",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -21726,7 +21758,7 @@
       {
         "requestedUrl": "https://www.cli-civaux.fr/",
         "finalUrl": "https://www.cli-civaux.fr/",
-        "fetchTime": "2024-12-15T02:17:32.493Z",
+        "fetchTime": "2024-12-22T02:17:44.972Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -21737,7 +21769,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.48
+            "score": 0.47
           },
           "accessibility": {
             "title": "Accessibility",
@@ -21789,53 +21821,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 13871,
+            "numericValue": 13886,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6081,
-                  "firstMeaningfulPaint": 6081,
-                  "largestContentfulPaint": 7737,
-                  "interactive": 13871,
-                  "speedIndex": 9290,
-                  "totalBlockingTime": 95,
-                  "maxPotentialFID": 239,
+                  "firstContentfulPaint": 6050,
+                  "firstMeaningfulPaint": 6050,
+                  "largestContentfulPaint": 7235,
+                  "interactive": 13886,
+                  "speedIndex": 9258,
+                  "totalBlockingTime": 140,
+                  "maxPotentialFID": 232,
                   "cumulativeLayoutShift": 0.04071164576212565,
                   "cumulativeLayoutShiftMainFrame": 0.04071164576212565,
                   "totalCumulativeLayoutShift": 0.04071164576212565,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 772029287,
+                  "observedTimeOriginTs": 1138492424,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 772029287,
-                  "observedFirstPaint": 1238,
-                  "observedFirstPaintTs": 773267029,
-                  "observedFirstContentfulPaint": 1238,
-                  "observedFirstContentfulPaintTs": 773267029,
-                  "observedFirstContentfulPaintAllFrames": 1238,
-                  "observedFirstContentfulPaintAllFramesTs": 773267029,
-                  "observedFirstMeaningfulPaint": 1238,
-                  "observedFirstMeaningfulPaintTs": 773267029,
-                  "observedLargestContentfulPaint": 1238,
-                  "observedLargestContentfulPaintTs": 773267029,
-                  "observedLargestContentfulPaintAllFrames": 1238,
-                  "observedLargestContentfulPaintAllFramesTs": 773267029,
-                  "observedTraceEnd": 3965,
-                  "observedTraceEndTs": 775993945,
-                  "observedLoad": 1546,
-                  "observedLoadTs": 773575446,
-                  "observedDomContentLoaded": 1452,
-                  "observedDomContentLoadedTs": 773480811,
+                  "observedNavigationStartTs": 1138492424,
+                  "observedFirstPaint": 1201,
+                  "observedFirstPaintTs": 1139693301,
+                  "observedFirstContentfulPaint": 1201,
+                  "observedFirstContentfulPaintTs": 1139693301,
+                  "observedFirstContentfulPaintAllFrames": 1201,
+                  "observedFirstContentfulPaintAllFramesTs": 1139693301,
+                  "observedFirstMeaningfulPaint": 1201,
+                  "observedFirstMeaningfulPaintTs": 1139693301,
+                  "observedLargestContentfulPaint": 1201,
+                  "observedLargestContentfulPaintTs": 1139693301,
+                  "observedLargestContentfulPaintAllFrames": 1201,
+                  "observedLargestContentfulPaintAllFramesTs": 1139693301,
+                  "observedTraceEnd": 3991,
+                  "observedTraceEndTs": 1142483692,
+                  "observedLoad": 1572,
+                  "observedLoadTs": 1140064025,
+                  "observedDomContentLoaded": 1536,
+                  "observedDomContentLoadedTs": 1140028923,
                   "observedCumulativeLayoutShift": 0.04071164576212565,
                   "observedCumulativeLayoutShiftMainFrame": 0.04071164576212565,
                   "observedTotalCumulativeLayoutShift": 0.04071164576212565,
-                  "observedFirstVisualChange": 1539,
-                  "observedFirstVisualChangeTs": 773568287,
-                  "observedLastVisualChange": 2506,
-                  "observedLastVisualChangeTs": 774535287,
-                  "observedSpeedIndex": 2153,
-                  "observedSpeedIndexTs": 774182365
+                  "observedFirstVisualChange": 1528,
+                  "observedFirstVisualChangeTs": 1140020424,
+                  "observedLastVisualChange": 2528,
+                  "observedLastVisualChangeTs": 1141020424,
+                  "observedSpeedIndex": 2105,
+                  "observedSpeedIndexTs": 1140597874
                 },
                 {
                   "lcpInvalidated": false
@@ -21857,18 +21889,18 @@
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 920,
-                  "numTasksOver10ms": 9,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 896,
+                  "numTasksOver10ms": 7,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 22803853.890280254,
-                  "maxRtt": 109.248,
-                  "maxServerLatency": 17.088,
-                  "totalByteWeight": 2185185,
-                  "totalTaskTime": 544.349999999999,
+                  "throughput": 29919545.97421673,
+                  "maxRtt": 108.707,
+                  "maxServerLatency": 17.523999999999997,
+                  "totalByteWeight": 2185189,
+                  "totalTaskTime": 415.2339999999979,
                   "mainDocumentTransferSize": 9318
                 }
               ]
@@ -21922,7 +21954,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cli-civaux.fr",
-        "size": 2642.318,
+        "size": 2642.311,
         "nodes": 485,
         "requests": 46,
         "grade": "C",
@@ -21930,7 +21962,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:10:13.651436",
+        "date": "2024-12-22 02:10:16.442355",
         "page_type": "article"
       }
     ],
@@ -21946,7 +21978,7 @@
       "cookiesCount": 2,
       "trackersGrade": "F",
       "trackersCount": 18,
-      "lighthouse_performance": 0.48,
+      "lighthouse_performance": 0.47,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -22134,6 +22166,25 @@
         },
         "link": "https://sportsnature.lavienne86.fr/typo3temp/Images/loading.svg",
         "line": "https://sportsnature.lavienne86.fr/typo3temp/Images/loading.svg",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "sportsnature.lavienne86.fr",
+          "port": null,
+          "hostname": "sportsnature.lavienne86.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
+          "path": "/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
+          "href": "https://sportsnature.lavienne86.fr/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics"
+        },
+        "link": "https://sportsnature.lavienne86.fr/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
+        "line": "https://sportsnature.lavienne86.fr/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
         "broken": true
       },
       {
@@ -22786,7 +22837,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "363 >= 60 days"
+        "finding": "356 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -22989,7 +23040,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734229425"
+        "finding": "1734833841"
       },
       {
         "id": "HSTS_time",
@@ -23552,7 +23603,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "84"
+        "finding": "63"
       }
     ],
     "thirdparties": {
@@ -23667,14 +23718,6 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
           "details": {
             "id": "google fonts",
@@ -23690,8 +23733,16 @@
           }
         },
         {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
           "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=198876&h=2&m=17&s=6&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=ba5e3163ca9ad5cd&_idn=0&send_image=0&_refts=0&pv_id=zZAdwm&pf_net=388&pf_srv=292&pf_tfr=1&pf_dm1=806&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=635844&h=2&m=11&s=3&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=08d2940e5cbe99c8&_idn=0&send_image=0&_refts=0&pv_id=AHaqYI&pf_net=493&pf_srv=287&pf_tfr=1&pf_dm1=755&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [
@@ -23700,7 +23751,7 @@
           "value": "1",
           "domain": "sportsnature.lavienne86.fr",
           "path": "/",
-          "expires": 1734230826,
+          "expires": 1734835263,
           "size": 16,
           "httpOnly": false,
           "secure": false,
@@ -23712,10 +23763,10 @@
         },
         {
           "name": "_pk_id.17.1881",
-          "value": "ba5e3163ca9ad5cd.1734229027.",
+          "value": "08d2940e5cbe99c8.1734833464.",
           "domain": "sportsnature.lavienne86.fr",
           "path": "/",
-          "expires": 1767925027,
+          "expires": 1768529464,
           "size": 42,
           "httpOnly": false,
           "secure": false,
@@ -23731,7 +23782,7 @@
         "content-encoding": "gzip",
         "content-language": "fr-FR",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 15 Dec 2024 02:17:05 GMT",
+        "date": "Sun, 22 Dec 2024 02:11:02 GMT",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000;",
         "vary": "Accept-Encoding",
@@ -23796,7 +23847,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
+          "ip": "104.17.24.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -23816,7 +23867,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.217.2.42",
+          "ip": "172.253.115.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -23926,7 +23977,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.191.195",
+          "ip": "172.253.63.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -24290,7 +24341,7 @@
       {
         "requestedUrl": "https://sportsnature.lavienne86.fr/",
         "finalUrl": "https://sportsnature.lavienne86.fr/",
-        "fetchTime": "2024-12-15T02:22:42.001Z",
+        "fetchTime": "2024-12-22T02:16:32.552Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -24353,53 +24404,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15616,
+            "numericValue": 14657,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6041,
-                  "firstMeaningfulPaint": 6041,
-                  "largestContentfulPaint": 7992,
-                  "interactive": 15616,
-                  "speedIndex": 9858,
-                  "totalBlockingTime": 144,
-                  "maxPotentialFID": 194,
-                  "cumulativeLayoutShift": 0.03317971907721626,
-                  "cumulativeLayoutShiftMainFrame": 0.03317971907721626,
-                  "totalCumulativeLayoutShift": 0.03317971907721626,
+                  "firstContentfulPaint": 4922,
+                  "firstMeaningfulPaint": 4922,
+                  "largestContentfulPaint": 7790,
+                  "interactive": 14657,
+                  "speedIndex": 9310,
+                  "totalBlockingTime": 173,
+                  "maxPotentialFID": 214,
+                  "cumulativeLayoutShift": 0.038489119635687935,
+                  "cumulativeLayoutShiftMainFrame": 0.038489119635687935,
+                  "totalCumulativeLayoutShift": 0.038489119635687935,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 642695166,
+                  "observedTimeOriginTs": 646702125,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 642695166,
-                  "observedFirstPaint": 1201,
-                  "observedFirstPaintTs": 643896089,
-                  "observedFirstContentfulPaint": 1201,
-                  "observedFirstContentfulPaintTs": 643896089,
-                  "observedFirstContentfulPaintAllFrames": 1201,
-                  "observedFirstContentfulPaintAllFramesTs": 643896089,
-                  "observedFirstMeaningfulPaint": 1201,
-                  "observedFirstMeaningfulPaintTs": 643896089,
-                  "observedLargestContentfulPaint": 1201,
-                  "observedLargestContentfulPaintTs": 643896089,
-                  "observedLargestContentfulPaintAllFrames": 1201,
-                  "observedLargestContentfulPaintAllFramesTs": 643896089,
-                  "observedTraceEnd": 3910,
-                  "observedTraceEndTs": 646604823,
-                  "observedLoad": 1490,
-                  "observedLoadTs": 644184697,
-                  "observedDomContentLoaded": 1425,
-                  "observedDomContentLoadedTs": 644119736,
-                  "observedCumulativeLayoutShift": 0.03317971907721626,
-                  "observedCumulativeLayoutShiftMainFrame": 0.03317971907721626,
-                  "observedTotalCumulativeLayoutShift": 0.03317971907721626,
-                  "observedFirstVisualChange": 1445,
-                  "observedFirstVisualChangeTs": 644140166,
-                  "observedLastVisualChange": 2462,
-                  "observedLastVisualChangeTs": 645157166,
-                  "observedSpeedIndex": 2155,
-                  "observedSpeedIndexTs": 644849872
+                  "observedNavigationStartTs": 646702125,
+                  "observedFirstPaint": 1114,
+                  "observedFirstPaintTs": 647815813,
+                  "observedFirstContentfulPaint": 1114,
+                  "observedFirstContentfulPaintTs": 647815813,
+                  "observedFirstContentfulPaintAllFrames": 1114,
+                  "observedFirstContentfulPaintAllFramesTs": 647815813,
+                  "observedFirstMeaningfulPaint": 1114,
+                  "observedFirstMeaningfulPaintTs": 647815813,
+                  "observedLargestContentfulPaint": 1114,
+                  "observedLargestContentfulPaintTs": 647815813,
+                  "observedLargestContentfulPaintAllFrames": 1114,
+                  "observedLargestContentfulPaintAllFramesTs": 647815813,
+                  "observedTraceEnd": 3738,
+                  "observedTraceEndTs": 650439975,
+                  "observedLoad": 1325,
+                  "observedLoadTs": 648026752,
+                  "observedDomContentLoaded": 1315,
+                  "observedDomContentLoadedTs": 648016867,
+                  "observedCumulativeLayoutShift": 0.038489119635687935,
+                  "observedCumulativeLayoutShiftMainFrame": 0.038489119635687935,
+                  "observedTotalCumulativeLayoutShift": 0.038489119635687935,
+                  "observedFirstVisualChange": 1321,
+                  "observedFirstVisualChangeTs": 648023125,
+                  "observedLastVisualChange": 2288,
+                  "observedLastVisualChangeTs": 648990125,
+                  "observedSpeedIndex": 1895,
+                  "observedSpeedIndexTs": 648597388
                 },
                 {
                   "lcpInvalidated": false
@@ -24417,23 +24468,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 55,
+                  "numRequests": 54,
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 1074,
-                  "numTasksOver10ms": 11,
+                  "numTasks": 970,
+                  "numTasksOver10ms": 10,
                   "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 0,
+                  "numTasksOver50ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 32601994.379380222,
-                  "maxRtt": 106.21199999999999,
-                  "maxServerLatency": 140.671,
-                  "totalByteWeight": 2940814,
-                  "totalTaskTime": 503.86299999999807,
-                  "mainDocumentTransferSize": 10667
+                  "throughput": 41877563.765947126,
+                  "maxRtt": 87.605,
+                  "maxServerLatency": 93.64,
+                  "totalByteWeight": 2581600,
+                  "totalTaskTime": 497.41299999999825,
+                  "mainDocumentTransferSize": 10593
                 }
               ]
             }
@@ -24483,22 +24534,22 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 4031.319,
-        "nodes": 596,
-        "requests": 55,
+        "size": 3670.054,
+        "nodes": 579,
+        "requests": 54,
         "grade": "D",
-        "score": 50,
-        "ges": 2,
-        "water": 3,
+        "score": 51,
+        "ges": 1.98,
+        "water": 2.97,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:18:08.628861",
+        "date": "2024-12-22 02:12:04.713937",
         "page_type": "article"
       }
     ],
     "sonarcloud": null,
     "dsfr": null,
     "summary": {
-      "404": 15,
+      "404": 16,
       "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
@@ -29191,7 +29242,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "201 >= 60 days"
+        "finding": "194 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -29471,14 +29522,14 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2233 (± 1.5) seconds from localtime"
+        "finding": "+2241 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734231898"
+        "finding": "1734836296"
       },
       {
         "id": "HSTS",
@@ -30076,7 +30127,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "189"
+        "finding": "137"
       }
     ],
     "thirdparties": {
@@ -30249,7 +30300,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "0bl3dum2gk1i4e87to8ve31b80",
+          "value": "8vhbuhndbfimivog77rkdmqd00",
           "domain": "mod.departement86.fr",
           "path": "/",
           "expires": -1,
@@ -30271,12 +30322,12 @@
         "content-language": "fr",
         "content-script-type": "text/javascript",
         "content-style-type": "text/css",
-        "date": "Sun, 15 Dec 2024 02:56:34 GMT",
+        "date": "Sun, 22 Dec 2024 02:51:12 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "keep-alive": "timeout=5, max=500",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "PHPSESSID=0bl3dum2gk1i4e87to8ve31b80; path=/\nUTB_S=deleted; expires=Sat, 16-Dec-2023 02:56:33 GMT; path=/",
+        "set-cookie": "PHPSESSID=8vhbuhndbfimivog77rkdmqd00; path=/\nUTB_S=deleted; expires=Sat, 23-Dec-2023 02:51:11 GMT; path=/",
         "vary": "Accept-Encoding,User-Agent",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
@@ -30379,7 +30430,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
+          "ip": "104.17.24.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -30399,7 +30450,7 @@
         },
         {
           "hostname": "ajax.googleapis.com",
-          "ip": "142.250.191.202",
+          "ip": "142.251.163.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -30453,7 +30504,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.191.202",
+          "ip": "142.251.179.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -30563,7 +30614,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "172.217.2.35",
+          "ip": "142.251.179.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -30936,7 +30987,7 @@
       {
         "requestedUrl": "https://mod.departement86.fr/",
         "finalUrl": "https://mod.departement86.fr/",
-        "fetchTime": "2024-12-15T02:26:13.545Z",
+        "fetchTime": "2024-12-22T02:19:50.531Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -30999,53 +31050,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9497,
+            "numericValue": 9934,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 8008,
-                  "firstMeaningfulPaint": 8026,
-                  "largestContentfulPaint": 8059,
-                  "interactive": 9497,
-                  "speedIndex": 11374,
-                  "totalBlockingTime": 68,
-                  "maxPotentialFID": 178,
+                  "firstContentfulPaint": 8133,
+                  "firstMeaningfulPaint": 8152,
+                  "largestContentfulPaint": 8392,
+                  "interactive": 9934,
+                  "speedIndex": 8464,
+                  "totalBlockingTime": 93,
+                  "maxPotentialFID": 230,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 977638329,
+                  "observedTimeOriginTs": 555767897,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 977638329,
-                  "observedFirstPaint": 3167,
-                  "observedFirstPaintTs": 980805739,
-                  "observedFirstContentfulPaint": 3167,
-                  "observedFirstContentfulPaintTs": 980805739,
-                  "observedFirstContentfulPaintAllFrames": 3167,
-                  "observedFirstContentfulPaintAllFramesTs": 980805739,
-                  "observedFirstMeaningfulPaint": 3167,
-                  "observedFirstMeaningfulPaintTs": 980805739,
-                  "observedLargestContentfulPaint": 3167,
-                  "observedLargestContentfulPaintTs": 980805739,
-                  "observedLargestContentfulPaintAllFrames": 3167,
-                  "observedLargestContentfulPaintAllFramesTs": 980805739,
-                  "observedTraceEnd": 6923,
-                  "observedTraceEndTs": 984561308,
-                  "observedLoad": 3732,
-                  "observedLoadTs": 981370600,
-                  "observedDomContentLoaded": 3177,
-                  "observedDomContentLoadedTs": 980814931,
+                  "observedNavigationStartTs": 555767897,
+                  "observedFirstPaint": 1391,
+                  "observedFirstPaintTs": 557158860,
+                  "observedFirstContentfulPaint": 1391,
+                  "observedFirstContentfulPaintTs": 557158860,
+                  "observedFirstContentfulPaintAllFrames": 1391,
+                  "observedFirstContentfulPaintAllFramesTs": 557158860,
+                  "observedFirstMeaningfulPaint": 1391,
+                  "observedFirstMeaningfulPaintTs": 557158860,
+                  "observedLargestContentfulPaint": 1391,
+                  "observedLargestContentfulPaintTs": 557158860,
+                  "observedLargestContentfulPaintAllFrames": 1391,
+                  "observedLargestContentfulPaintAllFramesTs": 557158860,
+                  "observedTraceEnd": 4693,
+                  "observedTraceEndTs": 560460729,
+                  "observedLoad": 1668,
+                  "observedLoadTs": 557435695,
+                  "observedDomContentLoaded": 1402,
+                  "observedDomContentLoadedTs": 557170006,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 3172,
-                  "observedFirstVisualChangeTs": 980810329,
-                  "observedLastVisualChange": 4222,
-                  "observedLastVisualChangeTs": 981860329,
-                  "observedSpeedIndex": 3905,
-                  "observedSpeedIndexTs": 981543403
+                  "observedFirstVisualChange": 1393,
+                  "observedFirstVisualChangeTs": 557160897,
+                  "observedLastVisualChange": 2293,
+                  "observedLastVisualChangeTs": 558060897,
+                  "observedSpeedIndex": 2013,
+                  "observedSpeedIndexTs": 557781188
                 },
                 {
                   "lcpInvalidated": false
@@ -31067,18 +31118,18 @@
                   "numScripts": 18,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 864,
+                  "numTasks": 743,
                   "numTasksOver10ms": 5,
                   "numTasksOver25ms": 2,
                   "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 0,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 2776586.958694363,
-                  "maxRtt": 120.827,
-                  "maxServerLatency": 17.945,
-                  "totalByteWeight": 1094110,
-                  "totalTaskTime": 263.51199999999943,
+                  "throughput": 10750859.380028225,
+                  "maxRtt": 90.055,
+                  "maxServerLatency": 16.466,
+                  "totalByteWeight": 1351545,
+                  "totalTaskTime": 276.1409999999987,
                   "mainDocumentTransferSize": 14914
                 }
               ]
@@ -31130,7 +31181,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mod.departement86.fr",
-        "size": 1365.316,
+        "size": 1365.33,
         "nodes": 266,
         "requests": 42,
         "grade": "B",
@@ -31138,7 +31189,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:20:35.003790",
+        "date": "2024-12-22 02:14:54.166241",
         "page_type": null
       }
     ],
@@ -33890,7 +33941,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "363 >= 60 days"
+        "finding": "356 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -34086,14 +34137,14 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734229668"
+        "finding": "1734834403"
       },
       {
         "id": "HSTS_time",
@@ -34670,7 +34721,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "91"
+        "finding": "114"
       }
     ],
     "thirdparties": {
@@ -34781,11 +34832,11 @@
         },
         {
           "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/40a505d209a44392bffaaa4fa9ee426a?f=json"
+          "url": "https://js.arcgis.com/3.27/dojo/resources/blank.gif"
         },
         {
           "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/dojo/resources/blank.gif"
+          "url": "https://www.arcgis.com/sharing/rest/content/items/40a505d209a44392bffaaa4fa9ee426a?f=json"
         },
         {
           "type": "unknown",
@@ -34865,6 +34916,10 @@
         },
         {
           "type": "unknown",
+          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
+        },
+        {
+          "type": "unknown",
           "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/89/128"
         },
         {
@@ -34901,26 +34956,6 @@
         },
         {
           "type": "unknown",
-          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/layers/vectorTiles/core/workers/worker.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
-        },
-        {
-          "type": "unknown",
           "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_des_MDS_et_antennes_des_MDS_de_la_Vienne/FeatureServer/0?f=json"
         },
         {
@@ -34942,6 +34977,22 @@
         {
           "type": "unknown",
           "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_MDS2/FeatureServer/0?f=json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/layers/vectorTiles/core/workers/worker.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
         },
         {
           "type": "unknown",
@@ -35017,6 +35068,14 @@
         },
         {
           "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/SpatialFilter.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/Empty.js"
+        },
+        {
+          "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureSetCollection.js"
         },
         {
@@ -35061,14 +35120,6 @@
         },
         {
           "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/SpatialFilter.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/Empty.js"
-        },
-        {
-          "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/FeatureSet.js"
         },
         {
@@ -35093,6 +35144,10 @@
         },
         {
           "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/sql92grammar.js"
+        },
+        {
+          "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/FeatureSetIterator.js"
         },
         {
@@ -35106,10 +35161,6 @@
         {
           "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/Guid.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/sql92grammar.js"
         },
         {
           "type": "unknown",
@@ -35161,7 +35212,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/1b10aee4699d46abbf7d1f15b2888025/data?f=json"
+          "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e/data?f=json"
         },
         {
           "type": "unknown",
@@ -35169,51 +35220,11 @@
         },
         {
           "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e/data?f=json"
-        },
-        {
-          "type": "unknown",
           "url": "https://www.arcgis.com/sharing/rest/content/items/885e02a3e11945fbbe3f181c8f501f29/data?f=json"
         },
         {
           "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/120/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/128/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/3a188e130ae34a5096084b3daf111669/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/89/126"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/90/126"
-        },
-        {
-          "type": "unknown",
-          "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/91/126"
-        },
-        {
-          "type": "unknown",
-          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
+          "url": "https://www.arcgis.com/sharing/rest/content/items/1b10aee4699d46abbf7d1f15b2888025/data?f=json"
         },
         {
           "type": "unknown",
@@ -35221,87 +35232,11 @@
         },
         {
           "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
-        },
-        {
-          "type": "unknown",
           "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
         },
         {
           "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/120/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/128/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-        },
-        {
-          "type": "unknown",
           "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_PMI/FeatureServer/0?f=json"
         },
         {
           "type": "unknown",
@@ -35329,6 +35264,10 @@
         },
         {
           "type": "unknown",
+          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
+        },
+        {
+          "type": "unknown",
           "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
         },
         {
@@ -35338,6 +35277,10 @@
         {
           "type": "unknown",
           "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
         },
         {
           "type": "unknown",
@@ -35370,81 +35313,13 @@
         {
           "type": "unknown",
           "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_de_Vienne_Autonomie_Conseils/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Si%C3%A8ges_de_Vienne_Autonomie_Conseils/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20%20adultes%20Handicap%C3%A9s%20Vieillissants%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20avec%20H%C3%A9bergement%20Sourds%20Aveugles%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20vie%20de%20jour%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20de%20Vie%20avec%20H%C3%A9bergement%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Foyer%20d%27%27Accueil%20M%C3%A9dicalis%C3%A9%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20d%27%27Accueil%20M%C3%A9dicalis%C3%A9%20de%20jour%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Foyer%20d%27%27H%C3%A9bergement%20CART%27)%20OR%20(CATEGORIE%20%3D%20%27Foyer%20Hebergement%20Continu%20Adultes%20Handicap%C3%A9s%27)%20OR%20(ADRESSE%20%3D%20%27Foyer%20Hebergement%20%20Non%20continu%20Adultes%20Handicap%C3%A9s%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=CATEGORIE%20%3D%20%27Service%20d%27%27Accompagnement%20deTravailleurs%20d%27%27ESAT%20accueil%20familial%27&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=CATEGORIE%20%3D%20%27Service%20d%27%27Accompagnement%20deTravailleurs%20d%27%27ESAT%27&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_DHV_PERS_HAND_H/FeatureServer/0/query?f=json&where=(CATEGORIE%20%3D%20%27Section%20Annexe%20avec%20H%C3%A9bergement%27)%20OR%20(CATEGORIE%20%3D%20%27Section%20Annexe%20de%20Jour%27)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_PMI/FeatureServer/0/query?f=json&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22exceedslimit%22%2C%22outStatisticFieldName%22%3A%22exceedslimit%22%2C%22maxPointCount%22%3A4000%2C%22maxRecordCount%22%3A2000%2C%22maxVertexCount%22%3A250000%7D%5D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Sectorisation_des_coll%C3%A8ges_de_la_Vienne_%C3%A0_partir_de_la_rentr%C3%A9e_2021/FeatureServer/1?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/ADMINISTRATIF_GEOFLA/FeatureServer/1?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Coll%C3%A8ges_de_la_Vienne/FeatureServer/0?f=json"
         }
       ],
       "cookies": [],
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 15 Dec 2024 02:22:10 GMT",
+        "date": "Sun, 22 Dec 2024 02:20:14 GMT",
         "etag": "W/\"62dfabae-2ad5\"",
         "last-modified": "Tue, 26 Jul 2022 08:54:06 GMT",
         "server": "nginx",
@@ -35510,7 +35385,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.190.10",
+          "ip": "172.217.12.106",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35564,7 +35439,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.191.163",
+          "ip": "142.251.32.35",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35618,20 +35493,8 @@
         },
         {
           "hostname": "js.arcgis.com",
-          "ip": "18.160.213.61",
+          "ip": "108.138.246.80",
           "geoip": {
-            "city": {
-              "geoname_id": 5809844,
-              "names": {
-                "de": "Seattle",
-                "en": "Seattle",
-                "es": "Seattle",
-                "fr": "Seattle",
-                "ja": "シアトル",
-                "pt-BR": "Seattle",
-                "ru": "Сиэтл"
-              }
-            },
             "continent": {
               "code": "NA",
               "geoname_id": 6255149,
@@ -35662,13 +35525,9 @@
             },
             "location": {
               "accuracy_radius": 1000,
-              "latitude": 47.6109,
-              "longitude": -122.3303,
-              "metro_code": 819,
-              "time_zone": "America/Los_Angeles"
-            },
-            "postal": {
-              "code": "98101"
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -35683,23 +35542,7 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 5815135,
-                "iso_code": "WA",
-                "names": {
-                  "de": "Washington",
-                  "en": "Washington",
-                  "es": "Washington",
-                  "fr": "Washington",
-                  "ja": "ワシントン州",
-                  "pt-BR": "Washington",
-                  "ru": "Вашингтон",
-                  "zh-CN": "华盛顿州"
-                }
-              }
-            ]
+            }
           }
         },
         {
@@ -35791,20 +35634,8 @@
         },
         {
           "hostname": "services.arcgisonline.com",
-          "ip": "18.160.249.41",
+          "ip": "99.86.229.55",
           "geoip": {
-            "city": {
-              "geoname_id": 5809844,
-              "names": {
-                "de": "Seattle",
-                "en": "Seattle",
-                "es": "Seattle",
-                "fr": "Seattle",
-                "ja": "シアトル",
-                "pt-BR": "Seattle",
-                "ru": "Сиэтл"
-              }
-            },
             "continent": {
               "code": "NA",
               "geoname_id": 6255149,
@@ -35835,13 +35666,9 @@
             },
             "location": {
               "accuracy_radius": 1000,
-              "latitude": 47.6109,
-              "longitude": -122.3303,
-              "metro_code": 819,
-              "time_zone": "America/Los_Angeles"
-            },
-            "postal": {
-              "code": "98101"
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -35856,28 +35683,12 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 5815135,
-                "iso_code": "WA",
-                "names": {
-                  "de": "Washington",
-                  "en": "Washington",
-                  "es": "Washington",
-                  "fr": "Washington",
-                  "ja": "ワシントン州",
-                  "pt-BR": "Washington",
-                  "ru": "Вашингтон",
-                  "zh-CN": "华盛顿州"
-                }
-              }
-            ]
+            }
           }
         },
         {
           "hostname": "cdn.arcgis.com",
-          "ip": "3.168.40.61",
+          "ip": "108.138.246.76",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35931,7 +35742,7 @@
         },
         {
           "hostname": "static.arcgis.com",
-          "ip": "52.85.247.7",
+          "ip": "18.173.121.55",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35985,18 +35796,18 @@
         },
         {
           "hostname": "server.arcgisonline.com",
-          "ip": "18.160.249.105",
+          "ip": "65.8.161.41",
           "geoip": {
             "city": {
-              "geoname_id": 5809844,
+              "geoname_id": 5511077,
               "names": {
-                "de": "Seattle",
-                "en": "Seattle",
-                "es": "Seattle",
-                "fr": "Seattle",
-                "ja": "シアトル",
-                "pt-BR": "Seattle",
-                "ru": "Сиэтл"
+                "de": "Reno",
+                "en": "Reno",
+                "es": "Reno",
+                "fr": "Reno",
+                "ja": "リノ",
+                "pt-BR": "Reno",
+                "ru": "Рино"
               }
             },
             "continent": {
@@ -36028,14 +35839,14 @@
               }
             },
             "location": {
-              "accuracy_radius": 1000,
-              "latitude": 47.6109,
-              "longitude": -122.3303,
-              "metro_code": 819,
+              "accuracy_radius": 20,
+              "latitude": 39.3714,
+              "longitude": -119.6855,
+              "metro_code": 811,
               "time_zone": "America/Los_Angeles"
             },
             "postal": {
-              "code": "98101"
+              "code": "89521"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -36053,17 +35864,17 @@
             },
             "subdivisions": [
               {
-                "geoname_id": 5815135,
-                "iso_code": "WA",
+                "geoname_id": 5509151,
+                "iso_code": "NV",
                 "names": {
-                  "de": "Washington",
-                  "en": "Washington",
-                  "es": "Washington",
-                  "fr": "Washington",
-                  "ja": "ワシントン州",
-                  "pt-BR": "Washington",
-                  "ru": "Вашингтон",
-                  "zh-CN": "华盛顿州"
+                  "de": "Nevada",
+                  "en": "Nevada",
+                  "es": "Nevada",
+                  "fr": "Nevada",
+                  "ja": "ネバダ州",
+                  "pt-BR": "Nevada",
+                  "ru": "Невада",
+                  "zh-CN": "内华达州"
                 }
               }
             ]
@@ -36071,7 +35882,7 @@
         },
         {
           "hostname": "basemaps.arcgis.com",
-          "ip": "108.156.107.57",
+          "ip": "3.162.112.71",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -36125,7 +35936,7 @@
         },
         {
           "hostname": "services-eu1.arcgis.com",
-          "ip": "52.84.52.111",
+          "ip": "18.239.199.113",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -36423,7 +36234,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
         "finalUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/",
-        "fetchTime": "2024-12-15T02:26:30.913Z",
+        "fetchTime": "2024-12-22T02:24:46.066Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive) was redirected to https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/. Try testing the second URL directly."
         ],
@@ -36436,7 +36247,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.19
+            "score": 0.18
           },
           "accessibility": {
             "title": "Accessibility",
@@ -36488,53 +36299,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 29616,
+            "numericValue": 32827,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2741,
-                  "firstMeaningfulPaint": 9835,
-                  "largestContentfulPaint": 13603,
-                  "interactive": 29616,
-                  "speedIndex": 23082,
-                  "totalBlockingTime": 17300,
-                  "maxPotentialFID": 1653,
+                  "firstContentfulPaint": 2888,
+                  "firstMeaningfulPaint": 11176,
+                  "largestContentfulPaint": 15596,
+                  "interactive": 32827,
+                  "speedIndex": 25940,
+                  "totalBlockingTime": 20159,
+                  "maxPotentialFID": 1907,
                   "cumulativeLayoutShift": 0.11219042205810548,
                   "cumulativeLayoutShiftMainFrame": 0.11219042205810548,
                   "totalCumulativeLayoutShift": 0.1586035525004069,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 503819972,
+                  "observedTimeOriginTs": 509696177,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 503819972,
-                  "observedFirstPaint": 505,
-                  "observedFirstPaintTs": 504324764,
-                  "observedFirstContentfulPaint": 563,
-                  "observedFirstContentfulPaintTs": 504382946,
-                  "observedFirstContentfulPaintAllFrames": 563,
-                  "observedFirstContentfulPaintAllFramesTs": 504382946,
-                  "observedFirstMeaningfulPaint": 9156,
-                  "observedFirstMeaningfulPaintTs": 512976220,
-                  "observedLargestContentfulPaint": 3296,
-                  "observedLargestContentfulPaintTs": 507116465,
-                  "observedLargestContentfulPaintAllFrames": 3296,
-                  "observedLargestContentfulPaintAllFramesTs": 507116465,
-                  "observedTraceEnd": 11631,
-                  "observedTraceEndTs": 515451334,
-                  "observedLoad": 2178,
-                  "observedLoadTs": 505998283,
-                  "observedDomContentLoaded": 557,
-                  "observedDomContentLoadedTs": 504376702,
+                  "observedNavigationStartTs": 509696177,
+                  "observedFirstPaint": 692,
+                  "observedFirstPaintTs": 510388612,
+                  "observedFirstContentfulPaint": 804,
+                  "observedFirstContentfulPaintTs": 510500503,
+                  "observedFirstContentfulPaintAllFrames": 804,
+                  "observedFirstContentfulPaintAllFramesTs": 510500503,
+                  "observedFirstMeaningfulPaint": 10722,
+                  "observedFirstMeaningfulPaintTs": 520418085,
+                  "observedLargestContentfulPaint": 4236,
+                  "observedLargestContentfulPaintTs": 513931748,
+                  "observedLargestContentfulPaintAllFrames": 4236,
+                  "observedLargestContentfulPaintAllFramesTs": 513931748,
+                  "observedTraceEnd": 14160,
+                  "observedTraceEndTs": 523855921,
+                  "observedLoad": 3117,
+                  "observedLoadTs": 512813204,
+                  "observedDomContentLoaded": 803,
+                  "observedDomContentLoadedTs": 510499166,
                   "observedCumulativeLayoutShift": 0.11219042205810548,
                   "observedCumulativeLayoutShiftMainFrame": 0.11219042205810548,
                   "observedTotalCumulativeLayoutShift": 0.1586035525004069,
-                  "observedFirstVisualChange": 826,
-                  "observedFirstVisualChangeTs": 504645972,
-                  "observedLastVisualChange": 9476,
-                  "observedLastVisualChangeTs": 513295972,
-                  "observedSpeedIndex": 7089,
-                  "observedSpeedIndexTs": 510908730
+                  "observedFirstVisualChange": 916,
+                  "observedFirstVisualChangeTs": 510612177,
+                  "observedLastVisualChange": 10882,
+                  "observedLastVisualChangeTs": 520578177,
+                  "observedSpeedIndex": 7949,
+                  "observedSpeedIndexTs": 517644960
                 },
                 {
                   "lcpInvalidated": false
@@ -36556,18 +36367,18 @@
                   "numScripts": 71,
                   "numStylesheets": 4,
                   "numFonts": 6,
-                  "numTasks": 4092,
-                  "numTasksOver10ms": 75,
-                  "numTasksOver25ms": 42,
-                  "numTasksOver50ms": 26,
-                  "numTasksOver100ms": 19,
+                  "numTasks": 4250,
+                  "numTasksOver10ms": 98,
+                  "numTasksOver25ms": 48,
+                  "numTasksOver50ms": 32,
+                  "numTasksOver100ms": 20,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 28041795.646393217,
-                  "maxRtt": 105.989,
-                  "maxServerLatency": 188.495,
-                  "totalByteWeight": 3106173,
-                  "totalTaskTime": 7418.312999999961,
+                  "rtt": 1.1829999999999998,
+                  "throughput": 22829482.285419855,
+                  "maxRtt": 155.763,
+                  "maxServerLatency": 200.77900000000002,
+                  "totalByteWeight": 3106950,
+                  "totalTaskTime": 8618.703000000036,
                   "mainDocumentTransferSize": 3721
                 }
               ]
@@ -36611,15 +36422,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
-        "size": 3520.575,
-        "nodes": 1683,
-        "requests": 286,
+        "size": 3282.06,
+        "nodes": 1404,
+        "requests": 197,
         "grade": "F",
-        "score": 11,
-        "ges": 2.78,
-        "water": 4.17,
+        "score": 15,
+        "ges": 2.7,
+        "water": 4.05,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:23:20.374585",
+        "date": "2024-12-22 02:21:26.830292",
         "page_type": "article"
       }
     ],
@@ -36634,8 +36445,8 @@
       "cookiesGrade": "A",
       "cookiesCount": 0,
       "trackersGrade": "F",
-      "trackersCount": 188,
-      "lighthouse_performance": 0.19,
+      "trackersCount": 144,
+      "lighthouse_performance": 0.18,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
