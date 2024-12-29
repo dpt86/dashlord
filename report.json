@@ -570,7 +570,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "356 >= 60 days"
+        "finding": "349 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -766,14 +766,14 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734832323"
+        "finding": "1735437239"
       },
       {
         "id": "HSTS_time",
@@ -1350,7 +1350,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "63"
+        "finding": "114"
       }
     ],
     "thirdparties": {
@@ -1433,14 +1433,6 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
           "details": {
             "id": "google fonts",
@@ -1458,6 +1450,14 @@
         {
           "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_A8s52Hs.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
           "details": {
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -1497,31 +1497,16 @@
         },
         {
           "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=423965&h=1&m=37&s=2&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=579c2c45095d6f1d&_idn=0&send_image=0&_refts=0&pv_id=SitvP9&pf_net=289&pf_srv=388&pf_tfr=87&pf_dm1=726&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20La%20Vienne%20le%20d%C3%A9partement&idsite=2&rec=1&r=057962&h=1&m=37&s=54&url=https%3A%2F%2Fwww.lavienne86.fr%2F&_id=0f131314859e1cf6&_idn=0&send_image=0&_refts=0&pv_id=9nfd6F&pf_net=681&pf_srv=519&pf_tfr=157&pf_dm1=924&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [
-        {
-          "name": "_pk_id.2.8b02",
-          "value": "579c2c45095d6f1d.1734831422.",
-          "domain": "www.lavienne86.fr",
-          "path": "/",
-          "expires": 1768527422,
-          "size": 41,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
         {
           "name": "_pk_ses.2.8b02",
           "value": "1",
           "domain": "www.lavienne86.fr",
           "path": "/",
-          "expires": 1734833222,
+          "expires": 1735438074,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -1532,8 +1517,23 @@
           "sourcePort": 443
         },
         {
-          "name": "__Secure-typo3nonce__cpVYI21C_EB3JWZrD4xEA",
-          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InVVSTFPWXJHNkZwbUVHbzdOUlVrcDUzNFZTTlVkVTFrcmRhZTNtRUJvLTU4d21YZlBhNkFZUSIsInRpbWUiOiIyMDI0LTEyLTIyVDAyOjM3OjAxKzAxOjAwIn0.tXKqGqjrll99q9fZt9ITShGZBVRigWM_IOXPEkGVgLE",
+          "name": "_pk_id.2.8b02",
+          "value": "0f131314859e1cf6.1735436274.",
+          "domain": "www.lavienne86.fr",
+          "path": "/",
+          "expires": 1769132274,
+          "size": 41,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "sameSite": "Lax",
+          "sameParty": false,
+          "sourceScheme": "Secure",
+          "sourcePort": 443
+        },
+        {
+          "name": "__Secure-typo3nonce_oH59Vwgisg4xbjpNjtSGRw",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IlRWV1RUSm9YTnJEYzZyaG1fZFBSMXJwOU03dGN4TTgwb3R5UkgwandRQ1c1MGJrQ0Y2c3hPQSIsInRpbWUiOiIyMDI0LTEyLTI5VDAyOjM3OjUyKzAxOjAwIn0.Vo7BPCEaJacVn4_ebZDb7Ni2CQql0BX5qo9qtFop8BA",
           "domain": "www.lavienne86.fr",
           "path": "/",
           "expires": -1,
@@ -1552,9 +1552,9 @@
         "content-encoding": "gzip",
         "content-language": "fr-FR",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 22 Dec 2024 01:37:01 GMT",
+        "date": "Sun, 29 Dec 2024 01:37:52 GMT",
         "server": "nginx",
-        "set-cookie": "fe_typo_user=deleted; expires=Sat, 23 Dec 2023 01:37:00 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce__cpVYI21C_EB3JWZrD4xEA=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InVVSTFPWXJHNkZwbUVHbzdOUlVrcDUzNFZTTlVkVTFrcmRhZTNtRUJvLTU4d21YZlBhNkFZUSIsInRpbWUiOiIyMDI0LTEyLTIyVDAyOjM3OjAxKzAxOjAwIn0.tXKqGqjrll99q9fZt9ITShGZBVRigWM_IOXPEkGVgLE; path=/; secure; httponly; samesite=strict",
+        "set-cookie": "fe_typo_user=deleted; expires=Sat, 30 Dec 2023 01:37:51 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax\n__Secure-typo3nonce_oH59Vwgisg4xbjpNjtSGRw=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IlRWV1RUSm9YTnJEYzZyaG1fZFBSMXJwOU03dGN4TTgwb3R5UkgwandRQ1c1MGJrQ0Y2c3hPQSIsInRpbWUiOiIyMDI0LTEyLTI5VDAyOjM3OjUyKzAxOjAwIn0.Vo7BPCEaJacVn4_ebZDb7Ni2CQql0BX5qo9qtFop8BA; path=/; secure; httponly; samesite=strict",
         "strict-transport-security": "max-age=31536000;",
         "vary": "Accept-Encoding",
         "x-typo3-parsetime": "0ms"
@@ -1638,7 +1638,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.16.95",
+          "ip": "142.251.46.234",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1748,7 +1748,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.163.94",
+          "ip": "142.250.189.227",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2148,7 +2148,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2024-12-22T01:51:09.850Z",
+        "fetchTime": "2024-12-29T01:52:26.279Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2159,7 +2159,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.49
+            "score": 0.43
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2211,53 +2211,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15656,
+            "numericValue": 16104,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4649,
-                  "firstMeaningfulPaint": 11812,
-                  "largestContentfulPaint": 5501,
-                  "interactive": 15656,
-                  "speedIndex": 8350,
-                  "totalBlockingTime": 187,
-                  "maxPotentialFID": 338,
-                  "cumulativeLayoutShift": 0.0977538187238905,
-                  "cumulativeLayoutShiftMainFrame": 0.0977538187238905,
-                  "totalCumulativeLayoutShift": 0.0977538187238905,
+                  "firstContentfulPaint": 6515,
+                  "firstMeaningfulPaint": 12255,
+                  "largestContentfulPaint": 7336,
+                  "interactive": 16104,
+                  "speedIndex": 9619,
+                  "totalBlockingTime": 202,
+                  "maxPotentialFID": 362,
+                  "cumulativeLayoutShift": 0.09134600565168591,
+                  "cumulativeLayoutShiftMainFrame": 0.09134600565168591,
+                  "totalCumulativeLayoutShift": 0.09134600565168591,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1324222382,
+                  "observedTimeOriginTs": 1227452080,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1324222382,
-                  "observedFirstPaint": 1038,
-                  "observedFirstPaintTs": 1325259932,
-                  "observedFirstContentfulPaint": 1038,
-                  "observedFirstContentfulPaintTs": 1325259932,
-                  "observedFirstContentfulPaintAllFrames": 1038,
-                  "observedFirstContentfulPaintAllFramesTs": 1325259932,
-                  "observedFirstMeaningfulPaint": 1362,
-                  "observedFirstMeaningfulPaintTs": 1325584481,
-                  "observedLargestContentfulPaint": 1038,
-                  "observedLargestContentfulPaintTs": 1325259932,
-                  "observedLargestContentfulPaintAllFrames": 1038,
-                  "observedLargestContentfulPaintAllFramesTs": 1325259932,
-                  "observedTraceEnd": 3776,
-                  "observedTraceEndTs": 1327998539,
-                  "observedLoad": 1373,
-                  "observedLoadTs": 1325595372,
-                  "observedDomContentLoaded": 1307,
-                  "observedDomContentLoadedTs": 1325529831,
-                  "observedCumulativeLayoutShift": 0.0977538187238905,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0977538187238905,
-                  "observedTotalCumulativeLayoutShift": 0.0977538187238905,
-                  "observedFirstVisualChange": 1574,
-                  "observedFirstVisualChangeTs": 1325796382,
-                  "observedLastVisualChange": 2324,
-                  "observedLastVisualChangeTs": 1326546382,
-                  "observedSpeedIndex": 2017,
-                  "observedSpeedIndexTs": 1326239115
+                  "observedNavigationStartTs": 1227452080,
+                  "observedFirstPaint": 1524,
+                  "observedFirstPaintTs": 1228976198,
+                  "observedFirstContentfulPaint": 1524,
+                  "observedFirstContentfulPaintTs": 1228976198,
+                  "observedFirstContentfulPaintAllFrames": 1524,
+                  "observedFirstContentfulPaintAllFramesTs": 1228976198,
+                  "observedFirstMeaningfulPaint": 2002,
+                  "observedFirstMeaningfulPaintTs": 1229454305,
+                  "observedLargestContentfulPaint": 1524,
+                  "observedLargestContentfulPaintTs": 1228976198,
+                  "observedLargestContentfulPaintAllFrames": 1524,
+                  "observedLargestContentfulPaintAllFramesTs": 1228976198,
+                  "observedTraceEnd": 4480,
+                  "observedTraceEndTs": 1231932247,
+                  "observedLoad": 2008,
+                  "observedLoadTs": 1229460368,
+                  "observedDomContentLoaded": 1945,
+                  "observedDomContentLoadedTs": 1229396795,
+                  "observedCumulativeLayoutShift": 0.09134600565168591,
+                  "observedCumulativeLayoutShiftMainFrame": 0.09134600565168591,
+                  "observedTotalCumulativeLayoutShift": 0.09134600565168591,
+                  "observedFirstVisualChange": 1682,
+                  "observedFirstVisualChangeTs": 1229134080,
+                  "observedLastVisualChange": 2965,
+                  "observedLastVisualChangeTs": 1230417080,
+                  "observedSpeedIndex": 2659,
+                  "observedSpeedIndexTs": 1230110627
                 },
                 {
                   "lcpInvalidated": false
@@ -2275,23 +2275,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 63,
+                  "numRequests": 62,
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1314,
-                  "numTasksOver10ms": 10,
+                  "numTasks": 1321,
+                  "numTasksOver10ms": 12,
                   "numTasksOver25ms": 5,
                   "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
+                  "numTasksOver100ms": 3,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 43424771.72995444,
-                  "maxRtt": 86.233,
-                  "maxServerLatency": 93.746,
-                  "totalByteWeight": 2664468,
-                  "totalTaskTime": 645.095000000001,
-                  "mainDocumentTransferSize": 62102
+                  "throughput": 23036508.32646076,
+                  "maxRtt": 155.675,
+                  "maxServerLatency": 168.375,
+                  "totalByteWeight": 2660662,
+                  "totalTaskTime": 798.3820000000018,
+                  "mainDocumentTransferSize": 62028
                 }
               ]
             }
@@ -2315,15 +2315,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 3981.214,
-        "nodes": 1696,
-        "requests": 62,
+        "size": 3976.459,
+        "nodes": 1691,
+        "requests": 61,
         "grade": "E",
         "score": 29,
         "ges": 2.42,
         "water": 3.63,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 01:38:01.618014",
+        "date": "2024-12-29 01:38:59.949995",
         "page_type": "article"
       }
     ],
@@ -2338,7 +2338,7 @@
       "cookiesCount": 3,
       "trackersGrade": "F",
       "trackersCount": 19,
-      "lighthouse_performance": 0.49,
+      "lighthouse_performance": 0.43,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.85,
       "lighthouse_accessibilityGrade": "A",
@@ -12850,7 +12850,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "79 >= 30 days"
+        "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -13011,7 +13011,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734832734"
+        "finding": "1735437596"
       },
       {
         "id": "HSTS_time",
@@ -13595,7 +13595,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "54"
+        "finding": "53"
       }
     ],
     "thirdparties": {
@@ -13670,7 +13670,7 @@
         "content-encoding": "gzip",
         "content-type": "text/html",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Sun, 22 Dec 2024 01:54:10 GMT",
+        "date": "Sun, 29 Dec 2024 01:55:05 GMT",
         "etag": "W/\"67504beb-ea74\"",
         "last-modified": "Wed, 04 Dec 2024 12:32:43 GMT",
         "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
@@ -13740,7 +13740,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.16.94",
+          "ip": "172.253.63.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -14118,7 +14118,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2024-12-22T01:58:14.954Z",
+        "fetchTime": "2024-12-29T01:59:16.220Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -14183,53 +14183,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4281,
+            "numericValue": 4288,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4281,
-                  "firstMeaningfulPaint": 4281,
-                  "largestContentfulPaint": 6904,
-                  "interactive": 4281,
-                  "speedIndex": 6886,
+                  "firstContentfulPaint": 4288,
+                  "firstMeaningfulPaint": 4288,
+                  "largestContentfulPaint": 6905,
+                  "interactive": 4288,
+                  "speedIndex": 7038,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.002806905110677083,
                   "cumulativeLayoutShiftMainFrame": 0.002806905110677083,
                   "totalCumulativeLayoutShift": 0.002806905110677083,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 667106811,
+                  "observedTimeOriginTs": 577792098,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 667106811,
-                  "observedFirstPaint": 2012,
-                  "observedFirstPaintTs": 669118444,
-                  "observedFirstContentfulPaint": 2012,
-                  "observedFirstContentfulPaintTs": 669118444,
-                  "observedFirstContentfulPaintAllFrames": 2012,
-                  "observedFirstContentfulPaintAllFramesTs": 669118444,
-                  "observedFirstMeaningfulPaint": 2012,
-                  "observedFirstMeaningfulPaintTs": 669118444,
-                  "observedLargestContentfulPaint": 2012,
-                  "observedLargestContentfulPaintTs": 669118444,
-                  "observedLargestContentfulPaintAllFrames": 2012,
-                  "observedLargestContentfulPaintAllFramesTs": 669118444,
-                  "observedTraceEnd": 4409,
-                  "observedTraceEndTs": 671515460,
-                  "observedLoad": 1382,
-                  "observedLoadTs": 668489010,
-                  "observedDomContentLoaded": 1013,
-                  "observedDomContentLoadedTs": 668119660,
+                  "observedNavigationStartTs": 577792098,
+                  "observedFirstPaint": 2116,
+                  "observedFirstPaintTs": 579907779,
+                  "observedFirstContentfulPaint": 2116,
+                  "observedFirstContentfulPaintTs": 579907779,
+                  "observedFirstContentfulPaintAllFrames": 2116,
+                  "observedFirstContentfulPaintAllFramesTs": 579907779,
+                  "observedFirstMeaningfulPaint": 2116,
+                  "observedFirstMeaningfulPaintTs": 579907779,
+                  "observedLargestContentfulPaint": 2116,
+                  "observedLargestContentfulPaintTs": 579907779,
+                  "observedLargestContentfulPaintAllFrames": 2116,
+                  "observedLargestContentfulPaintAllFramesTs": 579907779,
+                  "observedTraceEnd": 4512,
+                  "observedTraceEndTs": 582303716,
+                  "observedLoad": 1423,
+                  "observedLoadTs": 579214617,
+                  "observedDomContentLoaded": 1024,
+                  "observedDomContentLoadedTs": 578816472,
                   "observedCumulativeLayoutShift": 0.002806905110677083,
                   "observedCumulativeLayoutShiftMainFrame": 0.002806905110677083,
                   "observedTotalCumulativeLayoutShift": 0.002806905110677083,
-                  "observedFirstVisualChange": 2016,
-                  "observedFirstVisualChangeTs": 669122811,
-                  "observedLastVisualChange": 2116,
-                  "observedLastVisualChangeTs": 669222811,
-                  "observedSpeedIndex": 2029,
-                  "observedSpeedIndexTs": 669135900
+                  "observedFirstVisualChange": 2118,
+                  "observedFirstVisualChangeTs": 579910098,
+                  "observedLastVisualChange": 2218,
+                  "observedLastVisualChangeTs": 580010098,
+                  "observedSpeedIndex": 2131,
+                  "observedSpeedIndexTs": 579922802
                 },
                 {
                   "lcpInvalidated": false
@@ -14257,12 +14257,12 @@
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 85.63799999999999,
-                  "throughput": 27566536.502868418,
-                  "maxRtt": 92.548,
-                  "maxServerLatency": 4.275000000000006,
-                  "totalByteWeight": 1172201,
-                  "totalTaskTime": 2.678999999999999,
+                  "rtt": 86.08200000000001,
+                  "throughput": 24025032.28370337,
+                  "maxRtt": 92.989,
+                  "maxServerLatency": 11.655000000000001,
+                  "totalByteWeight": 1172141,
+                  "totalTaskTime": 2.550999999999998,
                   "mainDocumentTransferSize": 8266
                 }
               ]
@@ -14306,7 +14306,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1280.805,
+        "size": 1280.724,
         "nodes": 107,
         "requests": 54,
         "grade": "B",
@@ -14314,7 +14314,7 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 01:55:12.734135",
+        "date": "2024-12-29 01:56:07.109331",
         "page_type": null
       }
     ],
@@ -17785,7 +17785,7 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "105 >= 60 days"
+        "finding": "98 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -17981,14 +17981,14 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2246 (± 1.5) seconds from localtime"
+        "finding": "+2254 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734835454"
+        "finding": "1735440014"
       },
       {
         "id": "HSTS",
@@ -18586,7 +18586,7 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "179"
+        "finding": "131"
       }
     ],
     "thirdparties": {
@@ -18664,6 +18664,14 @@
           }
         },
         {
+          "type": "bootstrapcdn",
+          "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+          "details": {
+            "id": "bootstrapcdn",
+            "message": "Host files locally"
+          }
+        },
+        {
           "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
           "details": {
@@ -18678,20 +18686,12 @@
             "id": "bootstrapcdn",
             "message": "Host files locally"
           }
-        },
-        {
-          "type": "bootstrapcdn",
-          "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
-          "details": {
-            "id": "bootstrapcdn",
-            "message": "Host files locally"
-          }
         }
       ],
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "6ndpn3mics5uk3otrvpkhso782",
+          "value": "ccu1768c9e91f63fuaciuskq21",
           "domain": "www.vienne-numerique.fr",
           "path": "/",
           "expires": -1,
@@ -18713,12 +18713,12 @@
         "content-language": "fr",
         "content-script-type": "text/javascript",
         "content-style-type": "text/css",
-        "date": "Sun, 22 Dec 2024 02:37:31 GMT",
+        "date": "Sun, 29 Dec 2024 02:34:03 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "keep-alive": "timeout=5, max=500",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "PHPSESSID=6ndpn3mics5uk3otrvpkhso782; path=/\nUTB_S=deleted; expires=Sat, 23-Dec-2023 02:37:30 GMT; path=/",
+        "set-cookie": "PHPSESSID=ccu1768c9e91f63fuaciuskq21; path=/\nUTB_S=deleted; expires=Sat, 30-Dec-2023 02:34:02 GMT; path=/",
         "vary": "Accept-Encoding,User-Agent",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
@@ -18841,7 +18841,7 @@
         },
         {
           "hostname": "ajax.googleapis.com",
-          "ip": "172.217.4.42",
+          "ip": "142.251.16.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -18895,7 +18895,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.191.106",
+          "ip": "142.250.31.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -18969,7 +18969,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.191.163",
+          "ip": "172.253.63.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -19270,7 +19270,7 @@
       {
         "requestedUrl": "https://www.vienne-numerique.fr/",
         "finalUrl": "https://www.vienne-numerique.fr/",
-        "fetchTime": "2024-12-22T02:05:17.855Z",
+        "fetchTime": "2024-12-29T02:01:32.975Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -19281,7 +19281,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.57
+            "score": 0.56
           },
           "accessibility": {
             "title": "Accessibility",
@@ -19333,53 +19333,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7440,
+            "numericValue": 7858,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4380,
-                  "firstMeaningfulPaint": 4380,
-                  "largestContentfulPaint": 6573,
-                  "interactive": 7440,
-                  "speedIndex": 6597,
-                  "totalBlockingTime": 19,
-                  "maxPotentialFID": 88,
+                  "firstContentfulPaint": 5189,
+                  "firstMeaningfulPaint": 5189,
+                  "largestContentfulPaint": 8272,
+                  "interactive": 7858,
+                  "speedIndex": 5541,
+                  "totalBlockingTime": 8,
+                  "maxPotentialFID": 66,
                   "cumulativeLayoutShift": 0.012525344848632812,
                   "cumulativeLayoutShiftMainFrame": 0.012525344848632812,
                   "totalCumulativeLayoutShift": 0.012525344848632812,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 641699925,
+                  "observedTimeOriginTs": 580365659,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 641699925,
-                  "observedFirstPaint": 1126,
-                  "observedFirstPaintTs": 642825805,
-                  "observedFirstContentfulPaint": 1126,
-                  "observedFirstContentfulPaintTs": 642825805,
-                  "observedFirstContentfulPaintAllFrames": 1126,
-                  "observedFirstContentfulPaintAllFramesTs": 642825805,
-                  "observedFirstMeaningfulPaint": 1131,
-                  "observedFirstMeaningfulPaintTs": 642831133,
-                  "observedLargestContentfulPaint": 1781,
-                  "observedLargestContentfulPaintTs": 643481120,
-                  "observedLargestContentfulPaintAllFrames": 1781,
-                  "observedLargestContentfulPaintAllFramesTs": 643481120,
-                  "observedTraceEnd": 4513,
-                  "observedTraceEndTs": 646212703,
-                  "observedLoad": 1971,
-                  "observedLoadTs": 643670858,
-                  "observedDomContentLoaded": 1551,
-                  "observedDomContentLoadedTs": 643251116,
+                  "observedNavigationStartTs": 580365659,
+                  "observedFirstPaint": 902,
+                  "observedFirstPaintTs": 581267564,
+                  "observedFirstContentfulPaint": 902,
+                  "observedFirstContentfulPaintTs": 581267564,
+                  "observedFirstContentfulPaintAllFrames": 902,
+                  "observedFirstContentfulPaintAllFramesTs": 581267564,
+                  "observedFirstMeaningfulPaint": 921,
+                  "observedFirstMeaningfulPaintTs": 581286671,
+                  "observedLargestContentfulPaint": 1149,
+                  "observedLargestContentfulPaintTs": 581514614,
+                  "observedLargestContentfulPaintAllFrames": 1149,
+                  "observedLargestContentfulPaintAllFramesTs": 581514614,
+                  "observedTraceEnd": 3634,
+                  "observedTraceEndTs": 583999611,
+                  "observedLoad": 1133,
+                  "observedLoadTs": 581499017,
+                  "observedDomContentLoaded": 977,
+                  "observedDomContentLoadedTs": 581343111,
                   "observedCumulativeLayoutShift": 0.012525344848632812,
                   "observedCumulativeLayoutShiftMainFrame": 0.012525344848632812,
                   "observedTotalCumulativeLayoutShift": 0.012525344848632812,
-                  "observedFirstVisualChange": 1124,
-                  "observedFirstVisualChangeTs": 642823925,
-                  "observedLastVisualChange": 2957,
-                  "observedLastVisualChangeTs": 644656925,
-                  "observedSpeedIndex": 2500,
-                  "observedSpeedIndexTs": 644199731
+                  "observedFirstVisualChange": 911,
+                  "observedFirstVisualChangeTs": 581276659,
+                  "observedLastVisualChange": 1694,
+                  "observedLastVisualChangeTs": 582059659,
+                  "observedSpeedIndex": 1444,
+                  "observedSpeedIndexTs": 581809560
                 },
                 {
                   "lcpInvalidated": false
@@ -19401,18 +19401,18 @@
                   "numScripts": 17,
                   "numStylesheets": 7,
                   "numFonts": 2,
-                  "numTasks": 714,
+                  "numTasks": 673,
                   "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 0,
-                  "numTasksOver50ms": 0,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 3327904.5973634613,
-                  "maxRtt": 110.822,
-                  "maxServerLatency": 21.890999999999995,
-                  "totalByteWeight": 703794,
-                  "totalTaskTime": 201.60299999999992,
+                  "throughput": 15858278.888667313,
+                  "maxRtt": 90.033,
+                  "maxServerLatency": 20.569999999999997,
+                  "totalByteWeight": 961202,
+                  "totalTaskTime": 335.0859999999989,
                   "mainDocumentTransferSize": 5801
                 }
               ]
@@ -19457,7 +19457,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.vienne-numerique.fr",
-        "size": 848.831,
+        "size": 848.824,
         "nodes": 334,
         "requests": 37,
         "grade": "B",
@@ -19465,7 +19465,7 @@
         "ges": 1.54,
         "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 02:01:12.623419",
+        "date": "2024-12-29 01:57:31.005782",
         "page_type": null
       }
     ],
@@ -19481,7 +19481,7 @@
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 12,
-      "lighthouse_performance": 0.57,
+      "lighthouse_performance": 0.56,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.93,
       "lighthouse_accessibilityGrade": "A",
@@ -20272,7 +20272,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "106 >= 60 days"
+        "finding": "99 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -20468,14 +20468,14 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734833929"
+        "finding": "1735438197"
       },
       {
         "id": "HSTS_time",
@@ -21038,7 +21038,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "88"
+        "finding": "62"
       }
     ],
     "thirdparties": {
@@ -21177,7 +21177,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=888072&h=2&m=9&s=13&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=3c42e703ad80035a&_idn=0&send_image=0&_refts=0&pv_id=rAyTnM&pf_net=457&pf_srv=345&pf_tfr=1&pf_dm1=762&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20CLI%20de%20Civaux&idsite=4&rec=1&r=825011&h=2&m=1&s=5&url=https%3A%2F%2Fwww.cli-civaux.fr%2F&_id=4a25e40bccf3c071&_idn=0&send_image=0&_refts=0&pv_id=ROabHH&pf_net=381&pf_srv=275&pf_tfr=2&pf_dm1=661&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [
@@ -21186,7 +21186,7 @@
           "value": "1",
           "domain": "www.cli-civaux.fr",
           "path": "/",
-          "expires": 1734835153,
+          "expires": 1735439465,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -21198,10 +21198,10 @@
         },
         {
           "name": "_pk_id.4.c1bf",
-          "value": "3c42e703ad80035a.1734833353.",
+          "value": "4a25e40bccf3c071.1735437666.",
           "domain": "www.cli-civaux.fr",
           "path": "/",
-          "expires": 1768529353,
+          "expires": 1769133666,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -21217,7 +21217,7 @@
         "content-encoding": "gzip",
         "content-language": "fr-FR",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 22 Dec 2024 02:09:11 GMT",
+        "date": "Sun, 29 Dec 2024 02:01:00 GMT",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000;",
         "vary": "Accept-Encoding",
@@ -21302,7 +21302,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.190.106",
+          "ip": "142.251.163.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -21412,7 +21412,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.190.99",
+          "ip": "172.253.115.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -21758,7 +21758,7 @@
       {
         "requestedUrl": "https://www.cli-civaux.fr/",
         "finalUrl": "https://www.cli-civaux.fr/",
-        "fetchTime": "2024-12-22T02:17:44.972Z",
+        "fetchTime": "2024-12-29T02:09:10.985Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -21769,7 +21769,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.47
+            "score": 0.48
           },
           "accessibility": {
             "title": "Accessibility",
@@ -21821,53 +21821,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 13886,
+            "numericValue": 13836,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6050,
-                  "firstMeaningfulPaint": 6050,
-                  "largestContentfulPaint": 7235,
-                  "interactive": 13886,
-                  "speedIndex": 9258,
-                  "totalBlockingTime": 140,
-                  "maxPotentialFID": 232,
-                  "cumulativeLayoutShift": 0.04071164576212565,
-                  "cumulativeLayoutShiftMainFrame": 0.04071164576212565,
-                  "totalCumulativeLayoutShift": 0.04071164576212565,
+                  "firstContentfulPaint": 6340,
+                  "firstMeaningfulPaint": 6340,
+                  "largestContentfulPaint": 7190,
+                  "interactive": 13836,
+                  "speedIndex": 9222,
+                  "totalBlockingTime": 92,
+                  "maxPotentialFID": 233,
+                  "cumulativeLayoutShift": 0.040803145090738936,
+                  "cumulativeLayoutShiftMainFrame": 0.040803145090738936,
+                  "totalCumulativeLayoutShift": 0.040803145090738936,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1138492424,
+                  "observedTimeOriginTs": 780613323,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1138492424,
-                  "observedFirstPaint": 1201,
-                  "observedFirstPaintTs": 1139693301,
-                  "observedFirstContentfulPaint": 1201,
-                  "observedFirstContentfulPaintTs": 1139693301,
-                  "observedFirstContentfulPaintAllFrames": 1201,
-                  "observedFirstContentfulPaintAllFramesTs": 1139693301,
-                  "observedFirstMeaningfulPaint": 1201,
-                  "observedFirstMeaningfulPaintTs": 1139693301,
-                  "observedLargestContentfulPaint": 1201,
-                  "observedLargestContentfulPaintTs": 1139693301,
-                  "observedLargestContentfulPaintAllFrames": 1201,
-                  "observedLargestContentfulPaintAllFramesTs": 1139693301,
-                  "observedTraceEnd": 3991,
-                  "observedTraceEndTs": 1142483692,
-                  "observedLoad": 1572,
-                  "observedLoadTs": 1140064025,
-                  "observedDomContentLoaded": 1536,
-                  "observedDomContentLoadedTs": 1140028923,
-                  "observedCumulativeLayoutShift": 0.04071164576212565,
-                  "observedCumulativeLayoutShiftMainFrame": 0.04071164576212565,
-                  "observedTotalCumulativeLayoutShift": 0.04071164576212565,
-                  "observedFirstVisualChange": 1528,
-                  "observedFirstVisualChangeTs": 1140020424,
-                  "observedLastVisualChange": 2528,
-                  "observedLastVisualChangeTs": 1141020424,
-                  "observedSpeedIndex": 2105,
-                  "observedSpeedIndexTs": 1140597874
+                  "observedNavigationStartTs": 780613323,
+                  "observedFirstPaint": 1059,
+                  "observedFirstPaintTs": 781672049,
+                  "observedFirstContentfulPaint": 1059,
+                  "observedFirstContentfulPaintTs": 781672049,
+                  "observedFirstContentfulPaintAllFrames": 1059,
+                  "observedFirstContentfulPaintAllFramesTs": 781672049,
+                  "observedFirstMeaningfulPaint": 1059,
+                  "observedFirstMeaningfulPaintTs": 781672049,
+                  "observedLargestContentfulPaint": 1059,
+                  "observedLargestContentfulPaintTs": 781672049,
+                  "observedLargestContentfulPaintAllFrames": 1059,
+                  "observedLargestContentfulPaintAllFramesTs": 781672049,
+                  "observedTraceEnd": 3769,
+                  "observedTraceEndTs": 784382071,
+                  "observedLoad": 1371,
+                  "observedLoadTs": 781984280,
+                  "observedDomContentLoaded": 1345,
+                  "observedDomContentLoadedTs": 781958383,
+                  "observedCumulativeLayoutShift": 0.040803145090738936,
+                  "observedCumulativeLayoutShiftMainFrame": 0.040803145090738936,
+                  "observedTotalCumulativeLayoutShift": 0.040803145090738936,
+                  "observedFirstVisualChange": 1588,
+                  "observedFirstVisualChangeTs": 782201323,
+                  "observedLastVisualChange": 2338,
+                  "observedLastVisualChangeTs": 782951323,
+                  "observedSpeedIndex": 2019,
+                  "observedSpeedIndexTs": 782632693
                 },
                 {
                   "lcpInvalidated": false
@@ -21889,18 +21889,18 @@
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 896,
+                  "numTasks": 938,
                   "numTasksOver10ms": 7,
-                  "numTasksOver25ms": 3,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 29919545.97421673,
-                  "maxRtt": 108.707,
-                  "maxServerLatency": 17.523999999999997,
-                  "totalByteWeight": 2185189,
-                  "totalTaskTime": 415.2339999999979,
+                  "throughput": 30670143.16072607,
+                  "maxRtt": 87.98700000000001,
+                  "maxServerLatency": 14.982999999999999,
+                  "totalByteWeight": 2193774,
+                  "totalTaskTime": 424.42799999999824,
                   "mainDocumentTransferSize": 9318
                 }
               ]
@@ -21954,7 +21954,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cli-civaux.fr",
-        "size": 2642.311,
+        "size": 2650.908,
         "nodes": 485,
         "requests": 46,
         "grade": "C",
@@ -21962,7 +21962,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 02:10:16.442355",
+        "date": "2024-12-29 02:02:05.665289",
         "page_type": "article"
       }
     ],
@@ -21978,7 +21978,7 @@
       "cookiesCount": 2,
       "trackersGrade": "F",
       "trackersCount": 18,
-      "lighthouse_performance": 0.47,
+      "lighthouse_performance": 0.48,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -22166,25 +22166,6 @@
         },
         "link": "https://sportsnature.lavienne86.fr/typo3temp/Images/loading.svg",
         "line": "https://sportsnature.lavienne86.fr/typo3temp/Images/loading.svg",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "sportsnature.lavienne86.fr",
-          "port": null,
-          "hostname": "sportsnature.lavienne86.fr",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
-          "path": "/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
-          "href": "https://sportsnature.lavienne86.fr/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics"
-        },
-        "link": "https://sportsnature.lavienne86.fr/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
-        "line": "https://sportsnature.lavienne86.fr/informations-transversales/agenda/la-grande-course-des-peres-noel-1-30731/calendar.ics",
         "broken": true
       },
       {
@@ -22837,7 +22818,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "356 >= 60 days"
+        "finding": "349 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -23040,7 +23021,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734833841"
+        "finding": "1735438250"
       },
       {
         "id": "HSTS_time",
@@ -23603,7 +23584,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "63"
+        "finding": "62"
       }
     ],
     "thirdparties": {
@@ -23694,14 +23675,6 @@
         },
         {
           "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
           "details": {
             "id": "google fonts",
@@ -23734,6 +23707,14 @@
         },
         {
           "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
           "details": {
             "id": "google fonts",
@@ -23742,7 +23723,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=635844&h=2&m=11&s=3&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=08d2940e5cbe99c8&_idn=0&send_image=0&_refts=0&pv_id=AHaqYI&pf_net=493&pf_srv=287&pf_tfr=1&pf_dm1=755&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=932696&h=2&m=4&s=35&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=6a5219cb827568c9&_idn=0&send_image=0&_refts=0&pv_id=kW0jTg&pf_net=378&pf_srv=280&pf_tfr=1&pf_dm1=666&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         }
       ],
       "cookies": [
@@ -23751,7 +23732,7 @@
           "value": "1",
           "domain": "sportsnature.lavienne86.fr",
           "path": "/",
-          "expires": 1734835263,
+          "expires": 1735439675,
           "size": 16,
           "httpOnly": false,
           "secure": false,
@@ -23763,10 +23744,10 @@
         },
         {
           "name": "_pk_id.17.1881",
-          "value": "08d2940e5cbe99c8.1734833464.",
+          "value": "6a5219cb827568c9.1735437876.",
           "domain": "sportsnature.lavienne86.fr",
           "path": "/",
-          "expires": 1768529464,
+          "expires": 1769133876,
           "size": 42,
           "httpOnly": false,
           "secure": false,
@@ -23782,7 +23763,7 @@
         "content-encoding": "gzip",
         "content-language": "fr-FR",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 22 Dec 2024 02:11:02 GMT",
+        "date": "Sun, 29 Dec 2024 02:04:34 GMT",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000;",
         "vary": "Accept-Encoding",
@@ -23847,7 +23828,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.24.14",
+          "ip": "104.17.25.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -23867,7 +23848,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.253.115.95",
+          "ip": "172.253.122.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -23977,7 +23958,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "172.253.63.94",
+          "ip": "142.251.179.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -24341,7 +24322,7 @@
       {
         "requestedUrl": "https://sportsnature.lavienne86.fr/",
         "finalUrl": "https://sportsnature.lavienne86.fr/",
-        "fetchTime": "2024-12-22T02:16:32.552Z",
+        "fetchTime": "2024-12-29T02:10:03.033Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -24352,7 +24333,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.46
+            "score": 0.48
           },
           "accessibility": {
             "title": "Accessibility",
@@ -24404,53 +24385,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14657,
+            "numericValue": 14485,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4922,
-                  "firstMeaningfulPaint": 4922,
-                  "largestContentfulPaint": 7790,
-                  "interactive": 14657,
-                  "speedIndex": 9310,
-                  "totalBlockingTime": 173,
-                  "maxPotentialFID": 214,
+                  "firstContentfulPaint": 6326,
+                  "firstMeaningfulPaint": 6326,
+                  "largestContentfulPaint": 8123,
+                  "interactive": 14485,
+                  "speedIndex": 9024,
+                  "totalBlockingTime": 76,
+                  "maxPotentialFID": 202,
                   "cumulativeLayoutShift": 0.038489119635687935,
                   "cumulativeLayoutShiftMainFrame": 0.038489119635687935,
                   "totalCumulativeLayoutShift": 0.038489119635687935,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 646702125,
+                  "observedTimeOriginTs": 644991396,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 646702125,
-                  "observedFirstPaint": 1114,
-                  "observedFirstPaintTs": 647815813,
-                  "observedFirstContentfulPaint": 1114,
-                  "observedFirstContentfulPaintTs": 647815813,
-                  "observedFirstContentfulPaintAllFrames": 1114,
-                  "observedFirstContentfulPaintAllFramesTs": 647815813,
-                  "observedFirstMeaningfulPaint": 1114,
-                  "observedFirstMeaningfulPaintTs": 647815813,
-                  "observedLargestContentfulPaint": 1114,
-                  "observedLargestContentfulPaintTs": 647815813,
-                  "observedLargestContentfulPaintAllFrames": 1114,
-                  "observedLargestContentfulPaintAllFramesTs": 647815813,
-                  "observedTraceEnd": 3738,
-                  "observedTraceEndTs": 650439975,
-                  "observedLoad": 1325,
-                  "observedLoadTs": 648026752,
-                  "observedDomContentLoaded": 1315,
-                  "observedDomContentLoadedTs": 648016867,
+                  "observedNavigationStartTs": 644991396,
+                  "observedFirstPaint": 1057,
+                  "observedFirstPaintTs": 646048401,
+                  "observedFirstContentfulPaint": 1057,
+                  "observedFirstContentfulPaintTs": 646048401,
+                  "observedFirstContentfulPaintAllFrames": 1057,
+                  "observedFirstContentfulPaintAllFramesTs": 646048401,
+                  "observedFirstMeaningfulPaint": 1057,
+                  "observedFirstMeaningfulPaintTs": 646048401,
+                  "observedLargestContentfulPaint": 1057,
+                  "observedLargestContentfulPaintTs": 646048401,
+                  "observedLargestContentfulPaintAllFrames": 1057,
+                  "observedLargestContentfulPaintAllFramesTs": 646048401,
+                  "observedTraceEnd": 3679,
+                  "observedTraceEndTs": 648670103,
+                  "observedLoad": 1268,
+                  "observedLoadTs": 646259248,
+                  "observedDomContentLoaded": 1257,
+                  "observedDomContentLoadedTs": 646248418,
                   "observedCumulativeLayoutShift": 0.038489119635687935,
                   "observedCumulativeLayoutShiftMainFrame": 0.038489119635687935,
                   "observedTotalCumulativeLayoutShift": 0.038489119635687935,
-                  "observedFirstVisualChange": 1321,
-                  "observedFirstVisualChangeTs": 648023125,
-                  "observedLastVisualChange": 2288,
-                  "observedLastVisualChangeTs": 648990125,
-                  "observedSpeedIndex": 1895,
-                  "observedSpeedIndexTs": 648597388
+                  "observedFirstVisualChange": 1282,
+                  "observedFirstVisualChangeTs": 646273396,
+                  "observedLastVisualChange": 2232,
+                  "observedLastVisualChangeTs": 647223396,
+                  "observedSpeedIndex": 1840,
+                  "observedSpeedIndexTs": 646831126
                 },
                 {
                   "lcpInvalidated": false
@@ -24468,23 +24449,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 54,
+                  "numRequests": 53,
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 970,
-                  "numTasksOver10ms": 10,
-                  "numTasksOver25ms": 4,
+                  "numTasks": 986,
+                  "numTasksOver10ms": 8,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 41877563.765947126,
-                  "maxRtt": 87.605,
-                  "maxServerLatency": 93.64,
-                  "totalByteWeight": 2581600,
-                  "totalTaskTime": 497.41299999999825,
-                  "mainDocumentTransferSize": 10593
+                  "throughput": 39405032.376431234,
+                  "maxRtt": 86.91,
+                  "maxServerLatency": 100.791,
+                  "totalByteWeight": 2545240,
+                  "totalTaskTime": 414.90799999999774,
+                  "mainDocumentTransferSize": 10384
                 }
               ]
             }
@@ -24534,22 +24515,22 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 3670.054,
-        "nodes": 579,
-        "requests": 54,
+        "size": 3630.854,
+        "nodes": 554,
+        "requests": 53,
         "grade": "D",
-        "score": 51,
-        "ges": 1.98,
-        "water": 2.97,
+        "score": 52,
+        "ges": 1.96,
+        "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 02:12:04.713937",
+        "date": "2024-12-29 02:05:36.809288",
         "page_type": "article"
       }
     ],
     "sonarcloud": null,
     "dsfr": null,
     "summary": {
-      "404": 16,
+      "404": 15,
       "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
@@ -24558,7 +24539,7 @@
       "cookiesCount": 2,
       "trackersGrade": "F",
       "trackersCount": 18,
-      "lighthouse_performance": 0.46,
+      "lighthouse_performance": 0.48,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
@@ -29095,7 +29076,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -29242,7 +29223,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "194 >= 60 days"
+        "finding": "187 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -29522,14 +29503,14 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2241 seconds from localtime"
+        "finding": "+2254 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734836296"
+        "finding": "1735441066"
       },
       {
         "id": "HSTS",
@@ -30127,7 +30108,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "137"
+        "finding": "212"
       }
     ],
     "thirdparties": {
@@ -30300,7 +30281,7 @@
       "cookies": [
         {
           "name": "PHPSESSID",
-          "value": "8vhbuhndbfimivog77rkdmqd00",
+          "value": "7rj5hbpoqdnljs37t2dtqah8p7",
           "domain": "mod.departement86.fr",
           "path": "/",
           "expires": -1,
@@ -30322,12 +30303,12 @@
         "content-language": "fr",
         "content-script-type": "text/javascript",
         "content-style-type": "text/css",
-        "date": "Sun, 22 Dec 2024 02:51:12 GMT",
+        "date": "Sun, 29 Dec 2024 02:48:53 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "keep-alive": "timeout=5, max=500",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "PHPSESSID=8vhbuhndbfimivog77rkdmqd00; path=/\nUTB_S=deleted; expires=Sat, 23-Dec-2023 02:51:11 GMT; path=/",
+        "set-cookie": "PHPSESSID=7rj5hbpoqdnljs37t2dtqah8p7; path=/\nUTB_S=deleted; expires=Sat, 30-Dec-2023 02:48:52 GMT; path=/",
         "vary": "Accept-Encoding,User-Agent",
         "x-content-type-options": "nosniff",
         "x-frame-options": "SAMEORIGIN",
@@ -30430,7 +30411,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.24.14",
+          "ip": "104.17.25.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -30450,7 +30431,7 @@
         },
         {
           "hostname": "ajax.googleapis.com",
-          "ip": "142.251.163.95",
+          "ip": "142.250.189.10",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -30504,7 +30485,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.179.95",
+          "ip": "142.251.40.42",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -30614,7 +30595,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.179.94",
+          "ip": "172.217.12.131",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -30987,7 +30968,7 @@
       {
         "requestedUrl": "https://mod.departement86.fr/",
         "finalUrl": "https://mod.departement86.fr/",
-        "fetchTime": "2024-12-22T02:19:50.531Z",
+        "fetchTime": "2024-12-29T02:18:29.343Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -30998,7 +30979,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.49
+            "score": 0.46
           },
           "accessibility": {
             "title": "Accessibility",
@@ -31050,53 +31031,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9934,
+            "numericValue": 11754,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 8133,
-                  "firstMeaningfulPaint": 8152,
-                  "largestContentfulPaint": 8392,
-                  "interactive": 9934,
-                  "speedIndex": 8464,
-                  "totalBlockingTime": 93,
-                  "maxPotentialFID": 230,
+                  "firstContentfulPaint": 8185,
+                  "firstMeaningfulPaint": 8201,
+                  "largestContentfulPaint": 8517,
+                  "interactive": 11754,
+                  "speedIndex": 9791,
+                  "totalBlockingTime": 159,
+                  "maxPotentialFID": 177,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 555767897,
+                  "observedTimeOriginTs": 1388535061,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 555767897,
-                  "observedFirstPaint": 1391,
-                  "observedFirstPaintTs": 557158860,
-                  "observedFirstContentfulPaint": 1391,
-                  "observedFirstContentfulPaintTs": 557158860,
-                  "observedFirstContentfulPaintAllFrames": 1391,
-                  "observedFirstContentfulPaintAllFramesTs": 557158860,
-                  "observedFirstMeaningfulPaint": 1391,
-                  "observedFirstMeaningfulPaintTs": 557158860,
-                  "observedLargestContentfulPaint": 1391,
-                  "observedLargestContentfulPaintTs": 557158860,
-                  "observedLargestContentfulPaintAllFrames": 1391,
-                  "observedLargestContentfulPaintAllFramesTs": 557158860,
-                  "observedTraceEnd": 4693,
-                  "observedTraceEndTs": 560460729,
-                  "observedLoad": 1668,
-                  "observedLoadTs": 557435695,
-                  "observedDomContentLoaded": 1402,
-                  "observedDomContentLoadedTs": 557170006,
+                  "observedNavigationStartTs": 1388535061,
+                  "observedFirstPaint": 2064,
+                  "observedFirstPaintTs": 1390598736,
+                  "observedFirstContentfulPaint": 2064,
+                  "observedFirstContentfulPaintTs": 1390598736,
+                  "observedFirstContentfulPaintAllFrames": 2064,
+                  "observedFirstContentfulPaintAllFramesTs": 1390598736,
+                  "observedFirstMeaningfulPaint": 2064,
+                  "observedFirstMeaningfulPaintTs": 1390598736,
+                  "observedLargestContentfulPaint": 2064,
+                  "observedLargestContentfulPaintTs": 1390598736,
+                  "observedLargestContentfulPaintAllFrames": 2064,
+                  "observedLargestContentfulPaintAllFramesTs": 1390598736,
+                  "observedTraceEnd": 5894,
+                  "observedTraceEndTs": 1394429123,
+                  "observedLoad": 2474,
+                  "observedLoadTs": 1391009120,
+                  "observedDomContentLoaded": 2067,
+                  "observedDomContentLoadedTs": 1390601868,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1393,
-                  "observedFirstVisualChangeTs": 557160897,
-                  "observedLastVisualChange": 2293,
-                  "observedLastVisualChangeTs": 558060897,
-                  "observedSpeedIndex": 2013,
-                  "observedSpeedIndexTs": 557781188
+                  "observedFirstVisualChange": 2075,
+                  "observedFirstVisualChangeTs": 1390610061,
+                  "observedLastVisualChange": 3142,
+                  "observedLastVisualChangeTs": 1391677061,
+                  "observedSpeedIndex": 2816,
+                  "observedSpeedIndexTs": 1391350677
                 },
                 {
                   "lcpInvalidated": false
@@ -31118,18 +31099,18 @@
                   "numScripts": 18,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 743,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 2,
-                  "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 1,
+                  "numTasks": 781,
+                  "numTasksOver10ms": 10,
+                  "numTasksOver25ms": 5,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 10750859.380028225,
-                  "maxRtt": 90.055,
-                  "maxServerLatency": 16.466,
-                  "totalByteWeight": 1351545,
-                  "totalTaskTime": 276.1409999999987,
+                  "rtt": 9.401,
+                  "throughput": 5154219.515513196,
+                  "maxRtt": 137.84099999999998,
+                  "maxServerLatency": 27.46199999999999,
+                  "totalByteWeight": 1093878,
+                  "totalTaskTime": 448.7419999999994,
                   "mainDocumentTransferSize": 14914
                 }
               ]
@@ -31181,7 +31162,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mod.departement86.fr",
-        "size": 1365.33,
+        "size": 1365.326,
         "nodes": 266,
         "requests": 42,
         "grade": "B",
@@ -31189,7 +31170,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 02:14:54.166241",
+        "date": "2024-12-29 02:12:26.868674",
         "page_type": null
       }
     ],
@@ -31205,7 +31186,7 @@
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 21,
-      "lighthouse_performance": 0.49,
+      "lighthouse_performance": 0.46,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
@@ -33941,7 +33922,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "356 >= 60 days"
+        "finding": "349 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -34144,7 +34125,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734834403"
+        "finding": "1735438714"
       },
       {
         "id": "HSTS_time",
@@ -34721,7 +34702,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "114"
+        "finding": "94"
       }
     ],
     "thirdparties": {
@@ -34832,15 +34813,15 @@
         },
         {
           "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/dojo/resources/blank.gif"
-        },
-        {
-          "type": "unknown",
           "url": "https://www.arcgis.com/sharing/rest/content/items/40a505d209a44392bffaaa4fa9ee426a?f=json"
         },
         {
           "type": "unknown",
           "url": "https://www.arcgis.com/sharing/rest/content/items/40a505d209a44392bffaaa4fa9ee426a/data?f=json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/dojo/resources/blank.gif"
         },
         {
           "type": "unknown",
@@ -34904,22 +34885,6 @@
         },
         {
           "type": "unknown",
-          "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/89/127"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/90/127"
-        },
-        {
-          "type": "unknown",
-          "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/91/127"
-        },
-        {
-          "type": "unknown",
-          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
-        },
-        {
-          "type": "unknown",
           "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/89/128"
         },
         {
@@ -34956,6 +34921,38 @@
         },
         {
           "type": "unknown",
+          "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/89/127"
+        },
+        {
+          "type": "unknown",
+          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/90/127"
+        },
+        {
+          "type": "unknown",
+          "url": "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/8/91/127"
+        },
+        {
+          "type": "unknown",
+          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/layers/vectorTiles/core/workers/worker.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
+        },
+        {
+          "type": "unknown",
+          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
+        },
+        {
+          "type": "unknown",
           "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_des_MDS_et_antennes_des_MDS_de_la_Vienne/FeatureServer/0?f=json"
         },
         {
@@ -34977,22 +34974,6 @@
         {
           "type": "unknown",
           "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_MDS2/FeatureServer/0?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/layers/vectorTiles/core/workers/worker.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
         },
         {
           "type": "unknown",
@@ -35068,35 +35049,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/SpatialFilter.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/Empty.js"
-        },
-        {
-          "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureSetCollection.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerDynamic.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerDynamicMap.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerMemoryMap.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/cache.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereClause.js"
         },
         {
           "type": "unknown",
@@ -35120,6 +35073,34 @@
         },
         {
           "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereClause.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/actions/SpatialFilter.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/Empty.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerDynamic.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerDynamicMap.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/sources/FeatureLayerMemoryMap.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/cache.js"
+        },
+        {
+          "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/FeatureSet.js"
         },
         {
@@ -35128,19 +35109,19 @@
         },
         {
           "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/stats.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/sha.js"
-        },
-        {
-          "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/StandardizedFunctions.js"
         },
         {
           "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/WhereGrammar.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/stats.js"
+        },
+        {
+          "type": "unknown",
+          "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/sha.js"
         },
         {
           "type": "unknown",
@@ -35161,165 +35142,13 @@
         {
           "type": "unknown",
           "url": "https://js.arcgis.com/3.27/esri/arcade/featureset/support/Guid.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_des_MDS_et_antennes_des_MDS_de_la_Vienne/FeatureServer/0/query?f=pbf&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=4000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A464561.50000005914%2C%22ymin%22%3A6553190.800001837%2C%22xmax%22%3A562803.6000000403%2C%22ymax%22%3A6679313.600001472%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/tasks/support/pbfDeps.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Territoires_des_Maisons_D%C3%A9partementales_des_Solidarit%C3%A9s_de_la_Vienne/FeatureServer/0/query?f=pbf&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=4000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A464561.5%2C%22ymin%22%3A6553190.800000001%2C%22xmax%22%3A562803.6000000015%2C%22ymax%22%3A6679313.6000000015%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/Permanences_sociales/FeatureServer/0/query?f=pbf&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=8000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A470098.2176980952%2C%22ymin%22%3A6560565.262390504%2C%22xmax%22%3A549484.2089897251%2C%22ymax%22%3A6666780.601037118%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services-eu1.arcgis.com/OnIxYSpYE0Airbdw/arcgis/rest/services/DGAS_MDS2/FeatureServer/0/query?f=pbf&where=(MDS%20%3D%20%27MDS%27)%20OR%20(MDS%20%3D%20%27MDSP%27)&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=102100&resultOffset=0&resultRecordCount=8000&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583354500042335%2C%22extent%22%3A%7B%22xmin%22%3A470098.2176980952%2C%22ymin%22%3A6560565.262390504%2C%22xmax%22%3A549484.2089897251%2C%22ymax%22%3A6666780.601037118%2C%22spatialReference%22%3A%7B%22wkid%22%3A102110%2C%22latestWkid%22%3A2154%7D%7D%7D"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.ttf?r2lind"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.ttf?r2lind"
-        },
-        {
-          "type": "unknown",
-          "url": "https://js.arcgis.com/3.27/esri/tasks/support/nls/pbfDeps_en-us.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/e2e384b8420e483286df5bbcd84b3110?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/1b10aee4699d46abbf7d1f15b2888025?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/885e02a3e11945fbbe3f181c8f501f29?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/7b69573222714625b09acac88018247e/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/e2e384b8420e483286df5bbcd84b3110/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/885e02a3e11945fbbe3f181c8f501f29/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/1b10aee4699d46abbf7d1f15b2888025/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/120/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/128/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/e9bc50cd6a4f4ac79a4973b5245d8e68/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/7b507b832eb941e1be5c94bea017b82e/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/styles/root.json?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/120/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/88/128/8/8?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.arcgis.com/sharing/rest/content/items/5f3188b1d2ad4e4eb4a86331ce7d3179/data?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.arcgis.com/sharing/rest/content/items/b079fb8620f945cca0019db1cf611b45/resources/sprites/sprite.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json"
         }
       ],
       "cookies": [],
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 22 Dec 2024 02:20:14 GMT",
+        "date": "Sun, 29 Dec 2024 02:12:44 GMT",
         "etag": "W/\"62dfabae-2ad5\"",
         "last-modified": "Tue, 26 Jul 2022 08:54:06 GMT",
         "server": "nginx",
@@ -35385,7 +35214,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.217.12.106",
+          "ip": "172.217.5.10",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35439,7 +35268,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.32.35",
+          "ip": "142.250.190.67",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35493,8 +35322,20 @@
         },
         {
           "hostname": "js.arcgis.com",
-          "ip": "108.138.246.80",
+          "ip": "18.160.213.27",
           "geoip": {
+            "city": {
+              "geoname_id": 5809844,
+              "names": {
+                "de": "Seattle",
+                "en": "Seattle",
+                "es": "Seattle",
+                "fr": "Seattle",
+                "ja": "シアトル",
+                "pt-BR": "Seattle",
+                "ru": "Сиэтл"
+              }
+            },
             "continent": {
               "code": "NA",
               "geoname_id": 6255149,
@@ -35525,9 +35366,13 @@
             },
             "location": {
               "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
+              "latitude": 47.6109,
+              "longitude": -122.3303,
+              "metro_code": 819,
+              "time_zone": "America/Los_Angeles"
+            },
+            "postal": {
+              "code": "98101"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -35542,12 +35387,28 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            }
+            },
+            "subdivisions": [
+              {
+                "geoname_id": 5815135,
+                "iso_code": "WA",
+                "names": {
+                  "de": "Washington",
+                  "en": "Washington",
+                  "es": "Washington",
+                  "fr": "Washington",
+                  "ja": "ワシントン州",
+                  "pt-BR": "Washington",
+                  "ru": "Вашингтон",
+                  "zh-CN": "华盛顿州"
+                }
+              }
+            ]
           }
         },
         {
           "hostname": "www.arcgis.com",
-          "ip": "18.234.22.254",
+          "ip": "18.234.22.44",
           "geoip": {
             "city": {
               "geoname_id": 4744870,
@@ -35634,7 +35495,7 @@
         },
         {
           "hostname": "services.arcgisonline.com",
-          "ip": "99.86.229.55",
+          "ip": "3.167.152.44",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35688,7 +35549,7 @@
         },
         {
           "hostname": "cdn.arcgis.com",
-          "ip": "108.138.246.76",
+          "ip": "3.168.40.123",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35742,7 +35603,7 @@
         },
         {
           "hostname": "static.arcgis.com",
-          "ip": "18.173.121.55",
+          "ip": "52.85.247.36",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35796,20 +35657,8 @@
         },
         {
           "hostname": "server.arcgisonline.com",
-          "ip": "65.8.161.41",
+          "ip": "3.167.152.105",
           "geoip": {
-            "city": {
-              "geoname_id": 5511077,
-              "names": {
-                "de": "Reno",
-                "en": "Reno",
-                "es": "Reno",
-                "fr": "Reno",
-                "ja": "リノ",
-                "pt-BR": "Reno",
-                "ru": "Рино"
-              }
-            },
             "continent": {
               "code": "NA",
               "geoname_id": 6255149,
@@ -35839,14 +35688,10 @@
               }
             },
             "location": {
-              "accuracy_radius": 20,
-              "latitude": 39.3714,
-              "longitude": -119.6855,
-              "metro_code": 811,
-              "time_zone": "America/Los_Angeles"
-            },
-            "postal": {
-              "code": "89521"
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -35861,28 +35706,12 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 5509151,
-                "iso_code": "NV",
-                "names": {
-                  "de": "Nevada",
-                  "en": "Nevada",
-                  "es": "Nevada",
-                  "fr": "Nevada",
-                  "ja": "ネバダ州",
-                  "pt-BR": "Nevada",
-                  "ru": "Невада",
-                  "zh-CN": "内华达州"
-                }
-              }
-            ]
+            }
           }
         },
         {
           "hostname": "basemaps.arcgis.com",
-          "ip": "3.162.112.71",
+          "ip": "108.156.107.125",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -35936,7 +35765,7 @@
         },
         {
           "hostname": "services-eu1.arcgis.com",
-          "ip": "18.239.199.113",
+          "ip": "52.84.52.26",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -36234,7 +36063,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
         "finalUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/",
-        "fetchTime": "2024-12-22T02:24:46.066Z",
+        "fetchTime": "2024-12-29T02:17:05.593Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive) was redirected to https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/. Try testing the second URL directly."
         ],
@@ -36247,7 +36076,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.18
+            "score": 0.19
           },
           "accessibility": {
             "title": "Accessibility",
@@ -36299,53 +36128,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 32827,
+            "numericValue": 29157,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2888,
-                  "firstMeaningfulPaint": 11176,
-                  "largestContentfulPaint": 15596,
-                  "interactive": 32827,
-                  "speedIndex": 25940,
-                  "totalBlockingTime": 20159,
-                  "maxPotentialFID": 1907,
+                  "firstContentfulPaint": 2734,
+                  "firstMeaningfulPaint": 9813,
+                  "largestContentfulPaint": 13563,
+                  "interactive": 29157,
+                  "speedIndex": 22198,
+                  "totalBlockingTime": 16407,
+                  "maxPotentialFID": 1665,
                   "cumulativeLayoutShift": 0.11219042205810548,
                   "cumulativeLayoutShiftMainFrame": 0.11219042205810548,
                   "totalCumulativeLayoutShift": 0.1586035525004069,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 509696177,
+                  "observedTimeOriginTs": 609791178,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 509696177,
-                  "observedFirstPaint": 692,
-                  "observedFirstPaintTs": 510388612,
-                  "observedFirstContentfulPaint": 804,
-                  "observedFirstContentfulPaintTs": 510500503,
-                  "observedFirstContentfulPaintAllFrames": 804,
-                  "observedFirstContentfulPaintAllFramesTs": 510500503,
-                  "observedFirstMeaningfulPaint": 10722,
-                  "observedFirstMeaningfulPaintTs": 520418085,
-                  "observedLargestContentfulPaint": 4236,
-                  "observedLargestContentfulPaintTs": 513931748,
-                  "observedLargestContentfulPaintAllFrames": 4236,
-                  "observedLargestContentfulPaintAllFramesTs": 513931748,
-                  "observedTraceEnd": 14160,
-                  "observedTraceEndTs": 523855921,
-                  "observedLoad": 3117,
-                  "observedLoadTs": 512813204,
-                  "observedDomContentLoaded": 803,
-                  "observedDomContentLoadedTs": 510499166,
+                  "observedNavigationStartTs": 609791178,
+                  "observedFirstPaint": 530,
+                  "observedFirstPaintTs": 610321303,
+                  "observedFirstContentfulPaint": 558,
+                  "observedFirstContentfulPaintTs": 610349291,
+                  "observedFirstContentfulPaintAllFrames": 558,
+                  "observedFirstContentfulPaintAllFramesTs": 610349291,
+                  "observedFirstMeaningfulPaint": 9118,
+                  "observedFirstMeaningfulPaintTs": 618909052,
+                  "observedLargestContentfulPaint": 3461,
+                  "observedLargestContentfulPaintTs": 613251715,
+                  "observedLargestContentfulPaintAllFrames": 3461,
+                  "observedLargestContentfulPaintAllFramesTs": 613251715,
+                  "observedTraceEnd": 11490,
+                  "observedTraceEndTs": 621280908,
+                  "observedLoad": 2178,
+                  "observedLoadTs": 611969070,
+                  "observedDomContentLoaded": 557,
+                  "observedDomContentLoadedTs": 610347793,
                   "observedCumulativeLayoutShift": 0.11219042205810548,
                   "observedCumulativeLayoutShiftMainFrame": 0.11219042205810548,
                   "observedTotalCumulativeLayoutShift": 0.1586035525004069,
-                  "observedFirstVisualChange": 916,
-                  "observedFirstVisualChangeTs": 510612177,
-                  "observedLastVisualChange": 10882,
-                  "observedLastVisualChangeTs": 520578177,
-                  "observedSpeedIndex": 7949,
-                  "observedSpeedIndexTs": 517644960
+                  "observedFirstVisualChange": 801,
+                  "observedFirstVisualChangeTs": 610592178,
+                  "observedLastVisualChange": 9117,
+                  "observedLastVisualChangeTs": 618908178,
+                  "observedSpeedIndex": 6698,
+                  "observedSpeedIndexTs": 616489173
                 },
                 {
                   "lcpInvalidated": false
@@ -36367,18 +36196,18 @@
                   "numScripts": 71,
                   "numStylesheets": 4,
                   "numFonts": 6,
-                  "numTasks": 4250,
-                  "numTasksOver10ms": 98,
-                  "numTasksOver25ms": 48,
-                  "numTasksOver50ms": 32,
-                  "numTasksOver100ms": 20,
+                  "numTasks": 4095,
+                  "numTasksOver10ms": 75,
+                  "numTasksOver25ms": 43,
+                  "numTasksOver50ms": 25,
+                  "numTasksOver100ms": 19,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.1829999999999998,
-                  "throughput": 22829482.285419855,
-                  "maxRtt": 155.763,
-                  "maxServerLatency": 200.77900000000002,
-                  "totalByteWeight": 3106950,
-                  "totalTaskTime": 8618.703000000036,
+                  "rtt": 1.4640000000000022,
+                  "throughput": 31732844.65528441,
+                  "maxRtt": 105.833,
+                  "maxServerLatency": 184.5,
+                  "totalByteWeight": 3106230,
+                  "totalTaskTime": 7330.6519999999855,
                   "mainDocumentTransferSize": 3721
                 }
               ]
@@ -36422,15 +36251,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
-        "size": 3282.06,
-        "nodes": 1404,
-        "requests": 197,
-        "grade": "F",
-        "score": 15,
-        "ges": 2.7,
-        "water": 4.05,
+        "size": 3536.204,
+        "nodes": 1737,
+        "requests": 312,
+        "grade": "G",
+        "score": 10,
+        "ges": 2.8,
+        "water": 4.2,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 02:21:26.830292",
+        "date": "2024-12-29 02:13:54.111803",
         "page_type": "article"
       }
     ],
@@ -36445,8 +36274,8 @@
       "cookiesGrade": "A",
       "cookiesCount": 0,
       "trackersGrade": "F",
-      "trackersCount": 144,
-      "lighthouse_performance": 0.18,
+      "trackersCount": 106,
+      "lighthouse_performance": 0.19,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
@@ -36460,7 +36289,7 @@
       "declaration-a11y": "F",
       "declaration-rgpd-ml": "F",
       "declaration-rgpd-pc": "F",
-      "ecoindexGrade": "F"
+      "ecoindexGrade": "G"
     }
   },
   {
