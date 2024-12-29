@@ -73,6 +73,14 @@
       }
     },
     {
+      "type": "bootstrapcdn",
+      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "details": {
+        "id": "bootstrapcdn",
+        "message": "Host files locally"
+      }
+    },
+    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
@@ -87,20 +95,12 @@
         "id": "bootstrapcdn",
         "message": "Host files locally"
       }
-    },
-    {
-      "type": "bootstrapcdn",
-      "url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
-      "details": {
-        "id": "bootstrapcdn",
-        "message": "Host files locally"
-      }
     }
   ],
   "cookies": [
     {
       "name": "PHPSESSID",
-      "value": "6ndpn3mics5uk3otrvpkhso782",
+      "value": "ccu1768c9e91f63fuaciuskq21",
       "domain": "www.vienne-numerique.fr",
       "path": "/",
       "expires": -1,
@@ -122,12 +122,12 @@
     "content-language": "fr",
     "content-script-type": "text/javascript",
     "content-style-type": "text/css",
-    "date": "Sun, 22 Dec 2024 02:37:31 GMT",
+    "date": "Sun, 29 Dec 2024 02:34:03 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=5, max=500",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "PHPSESSID=6ndpn3mics5uk3otrvpkhso782; path=/\nUTB_S=deleted; expires=Sat, 23-Dec-2023 02:37:30 GMT; path=/",
+    "set-cookie": "PHPSESSID=ccu1768c9e91f63fuaciuskq21; path=/\nUTB_S=deleted; expires=Sat, 30-Dec-2023 02:34:02 GMT; path=/",
     "vary": "Accept-Encoding,User-Agent",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
@@ -250,7 +250,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "172.217.4.42",
+      "ip": "142.251.16.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -304,7 +304,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.106",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -378,7 +378,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.163",
+      "ip": "172.253.63.94",
       "geoip": {
         "continent": {
           "code": "NA",
