@@ -535,7 +535,7 @@
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "98 >= 60 days"
+              "finding"      : "91 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -731,14 +731,14 @@
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+2254 seconds from localtime"
+              "finding"      : "+2268 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.vienne-numerique.fr/83.206.130.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1735440014"
+              "finding"      : "1736044920"
           }
 ,         {
               "id"           : "HSTS",
