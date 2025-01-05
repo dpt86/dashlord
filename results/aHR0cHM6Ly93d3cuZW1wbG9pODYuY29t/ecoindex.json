@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.emploi86.com",
-        "size": 2430.456,
-        "nodes": 310,
-        "requests": 29,
-        "grade": "C",
-        "score": 70.0,
-        "ges": 1.6,
-        "water": 2.4,
+        "size": 2093.412,
+        "nodes": 593,
+        "requests": 52,
+        "grade": "D",
+        "score": 54.0,
+        "ges": 1.92,
+        "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-22 01:54:15.972642",
+        "date": "2025-01-05 01:53:09.571838",
         "page_type": null
     }
 ]
