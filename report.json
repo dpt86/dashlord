@@ -570,7 +570,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "342 >= 60 days"
+        "finding": "335 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -766,14 +766,14 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736041943"
+        "finding": "1736646847"
       },
       {
         "id": "HSTS_time",
@@ -1705,7 +1705,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2025-01-05T01:51:12.976Z",
+        "fetchTime": "2025-01-12T01:52:55.173Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1716,7 +1716,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.47
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1768,53 +1768,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15367,
+            "numericValue": 15900,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5770,
-                  "firstMeaningfulPaint": 11595,
-                  "largestContentfulPaint": 6700,
-                  "interactive": 15367,
-                  "speedIndex": 9437,
-                  "totalBlockingTime": 234,
-                  "maxPotentialFID": 323,
-                  "cumulativeLayoutShift": 0.01644917763604058,
-                  "cumulativeLayoutShiftMainFrame": 0.01644917763604058,
-                  "totalCumulativeLayoutShift": 0.01644917763604058,
+                  "firstContentfulPaint": 5779,
+                  "firstMeaningfulPaint": 11745,
+                  "largestContentfulPaint": 6837,
+                  "interactive": 15900,
+                  "speedIndex": 8767,
+                  "totalBlockingTime": 189,
+                  "maxPotentialFID": 338,
+                  "cumulativeLayoutShift": 0.015791041904025607,
+                  "cumulativeLayoutShiftMainFrame": 0.015791041904025607,
+                  "totalCumulativeLayoutShift": 0.015791041904025607,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1014904824,
+                  "observedTimeOriginTs": 938122479,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1014904824,
-                  "observedFirstPaint": 1200,
-                  "observedFirstPaintTs": 1016104462,
-                  "observedFirstContentfulPaint": 1200,
-                  "observedFirstContentfulPaintTs": 1016104462,
-                  "observedFirstContentfulPaintAllFrames": 1200,
-                  "observedFirstContentfulPaintAllFramesTs": 1016104462,
-                  "observedFirstMeaningfulPaint": 1541,
-                  "observedFirstMeaningfulPaintTs": 1016446094,
-                  "observedLargestContentfulPaint": 1207,
-                  "observedLargestContentfulPaintTs": 1016111911,
-                  "observedLargestContentfulPaintAllFrames": 1207,
-                  "observedLargestContentfulPaintAllFramesTs": 1016111911,
-                  "observedTraceEnd": 3964,
-                  "observedTraceEndTs": 1018868452,
-                  "observedLoad": 1526,
-                  "observedLoadTs": 1016430904,
-                  "observedDomContentLoaded": 1498,
-                  "observedDomContentLoadedTs": 1016402459,
-                  "observedCumulativeLayoutShift": 0.01644917763604058,
-                  "observedCumulativeLayoutShiftMainFrame": 0.01644917763604058,
-                  "observedTotalCumulativeLayoutShift": 0.01644917763604058,
-                  "observedFirstVisualChange": 1204,
-                  "observedFirstVisualChangeTs": 1016108824,
-                  "observedLastVisualChange": 2487,
-                  "observedLastVisualChangeTs": 1017391824,
-                  "observedSpeedIndex": 2048,
-                  "observedSpeedIndexTs": 1016953154
+                  "observedNavigationStartTs": 938122479,
+                  "observedFirstPaint": 1172,
+                  "observedFirstPaintTs": 939294750,
+                  "observedFirstContentfulPaint": 1172,
+                  "observedFirstContentfulPaintTs": 939294750,
+                  "observedFirstContentfulPaintAllFrames": 1172,
+                  "observedFirstContentfulPaintAllFramesTs": 939294750,
+                  "observedFirstMeaningfulPaint": 1509,
+                  "observedFirstMeaningfulPaintTs": 939631824,
+                  "observedLargestContentfulPaint": 1178,
+                  "observedLargestContentfulPaintTs": 939300140,
+                  "observedLargestContentfulPaintAllFrames": 1178,
+                  "observedLargestContentfulPaintAllFramesTs": 939300140,
+                  "observedTraceEnd": 3941,
+                  "observedTraceEndTs": 942063695,
+                  "observedLoad": 1519,
+                  "observedLoadTs": 939641680,
+                  "observedDomContentLoaded": 1461,
+                  "observedDomContentLoadedTs": 939583556,
+                  "observedCumulativeLayoutShift": 0.015791041904025607,
+                  "observedCumulativeLayoutShiftMainFrame": 0.015791041904025607,
+                  "observedTotalCumulativeLayoutShift": 0.015791041904025607,
+                  "observedFirstVisualChange": 1173,
+                  "observedFirstVisualChangeTs": 939295479,
+                  "observedLastVisualChange": 2473,
+                  "observedLastVisualChangeTs": 940595479,
+                  "observedSpeedIndex": 2132,
+                  "observedSpeedIndexTs": 940254055
                 },
                 {
                   "lcpInvalidated": false
@@ -1832,23 +1832,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 61,
+                  "numRequests": 62,
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1259,
-                  "numTasksOver10ms": 10,
-                  "numTasksOver25ms": 5,
+                  "numTasks": 1305,
+                  "numTasksOver10ms": 11,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 34212344.690425456,
-                  "maxRtt": 105.897,
-                  "maxServerLatency": 113.534,
-                  "totalByteWeight": 2648925,
-                  "totalTaskTime": 625.9169999999998,
-                  "mainDocumentTransferSize": 61561
+                  "throughput": 35484795.65404462,
+                  "maxRtt": 106.19,
+                  "maxServerLatency": 119.173,
+                  "totalByteWeight": 2785898,
+                  "totalTaskTime": 649.7810000000009,
+                  "mainDocumentTransferSize": 61799
                 }
               ]
             }
@@ -1872,15 +1872,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 4084.55,
-        "nodes": 1658,
-        "requests": 60,
+        "size": 4241.903,
+        "nodes": 1708,
+        "requests": 61,
         "grade": "E",
         "score": 29,
         "ges": 2.42,
         "water": 3.63,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 01:38:03.332729",
+        "date": "2025-01-12 01:39:34.938601",
         "page_type": "article"
       }
     ],
@@ -1895,7 +1895,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.45,
+      "lighthouse_performance": 0.47,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.92,
       "lighthouse_accessibilityGrade": "A",
@@ -11620,7 +11620,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "65 >= 30 days"
+        "finding": "58 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -11781,7 +11781,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736042365"
+        "finding": "1736647264"
       },
       {
         "id": "HSTS_time",
@@ -12365,7 +12365,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "99"
+        "finding": "98"
       }
     ],
     "thirdparties": {
@@ -12516,7 +12516,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2025-01-05T01:58:08.619Z",
+        "fetchTime": "2025-01-12T01:59:48.305Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -12529,7 +12529,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.56
+            "score": 0.58
           },
           "accessibility": {
             "title": "Accessibility",
@@ -12581,53 +12581,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4906,
+            "numericValue": 4399,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4906,
-                  "firstMeaningfulPaint": 4906,
-                  "largestContentfulPaint": 7463,
-                  "interactive": 4906,
-                  "speedIndex": 9514,
+                  "firstContentfulPaint": 4399,
+                  "firstMeaningfulPaint": 4399,
+                  "largestContentfulPaint": 7013,
+                  "interactive": 4399,
+                  "speedIndex": 8780,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.002806905110677083,
                   "cumulativeLayoutShiftMainFrame": 0.002806905110677083,
                   "totalCumulativeLayoutShift": 0.002806905110677083,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 389109215,
+                  "observedTimeOriginTs": 341004691,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 389109215,
-                  "observedFirstPaint": 3558,
-                  "observedFirstPaintTs": 392666715,
-                  "observedFirstContentfulPaint": 3558,
-                  "observedFirstContentfulPaintTs": 392666715,
-                  "observedFirstContentfulPaintAllFrames": 3558,
-                  "observedFirstContentfulPaintAllFramesTs": 392666715,
-                  "observedFirstMeaningfulPaint": 3558,
-                  "observedFirstMeaningfulPaintTs": 392666715,
-                  "observedLargestContentfulPaint": 3558,
-                  "observedLargestContentfulPaintTs": 392666715,
-                  "observedLargestContentfulPaintAllFrames": 3558,
-                  "observedLargestContentfulPaintAllFramesTs": 392666715,
-                  "observedTraceEnd": 6023,
-                  "observedTraceEndTs": 395131890,
-                  "observedLoad": 2378,
-                  "observedLoadTs": 391487207,
-                  "observedDomContentLoaded": 1720,
-                  "observedDomContentLoadedTs": 390829626,
+                  "observedNavigationStartTs": 341004691,
+                  "observedFirstPaint": 3247,
+                  "observedFirstPaintTs": 344251992,
+                  "observedFirstContentfulPaint": 3247,
+                  "observedFirstContentfulPaintTs": 344251992,
+                  "observedFirstContentfulPaintAllFrames": 3247,
+                  "observedFirstContentfulPaintAllFramesTs": 344251992,
+                  "observedFirstMeaningfulPaint": 3247,
+                  "observedFirstMeaningfulPaintTs": 344251992,
+                  "observedLargestContentfulPaint": 3247,
+                  "observedLargestContentfulPaintTs": 344251992,
+                  "observedLargestContentfulPaintAllFrames": 3247,
+                  "observedLargestContentfulPaintAllFramesTs": 344251992,
+                  "observedTraceEnd": 5702,
+                  "observedTraceEndTs": 346706950,
+                  "observedLoad": 2238,
+                  "observedLoadTs": 343242914,
+                  "observedDomContentLoaded": 1639,
+                  "observedDomContentLoadedTs": 342643468,
                   "observedCumulativeLayoutShift": 0.002806905110677083,
                   "observedCumulativeLayoutShiftMainFrame": 0.002806905110677083,
                   "observedTotalCumulativeLayoutShift": 0.002806905110677083,
-                  "observedFirstVisualChange": 3558,
-                  "observedFirstVisualChangeTs": 392667215,
-                  "observedLastVisualChange": 3741,
-                  "observedLastVisualChangeTs": 392850215,
-                  "observedSpeedIndex": 3580,
-                  "observedSpeedIndexTs": 392689292
+                  "observedFirstVisualChange": 3248,
+                  "observedFirstVisualChangeTs": 344252691,
+                  "observedLastVisualChange": 3414,
+                  "observedLastVisualChangeTs": 344418691,
+                  "observedSpeedIndex": 3270,
+                  "observedSpeedIndexTs": 344274728
                 },
                 {
                   "lcpInvalidated": false
@@ -12645,7 +12645,7 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 77,
+                  "numRequests": 80,
                   "numScripts": 36,
                   "numStylesheets": 1,
                   "numFonts": 4,
@@ -12655,13 +12655,13 @@
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 151.898,
-                  "throughput": 19250334.361581296,
-                  "maxRtt": 156.364,
-                  "maxServerLatency": 11.645999999999987,
-                  "totalByteWeight": 1220521,
-                  "totalTaskTime": 2.895999999999999,
-                  "mainDocumentTransferSize": 8386
+                  "rtt": 131.74,
+                  "throughput": 19746009.741090536,
+                  "maxRtt": 146.292,
+                  "maxServerLatency": 5.076999999999998,
+                  "totalByteWeight": 1223669,
+                  "totalTaskTime": 5.432999999999997,
+                  "mainDocumentTransferSize": 8377
                 }
               ]
             }
@@ -12704,7 +12704,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1334.906,
+        "size": 1335.086,
         "nodes": 107,
         "requests": 54,
         "grade": "B",
@@ -12712,7 +12712,7 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 01:54:51.097378",
+        "date": "2025-01-12 01:56:39.405660",
         "page_type": null
       }
     ],
@@ -12728,7 +12728,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.56,
+      "lighthouse_performance": 0.58,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
@@ -13279,7 +13279,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "113 >= 60 days"
+        "finding": "85 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -13440,7 +13440,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1734228469"
+        "finding": "1736647270"
       },
       {
         "id": "HSTS_time",
@@ -14003,857 +14003,14 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "89"
+        "finding": "82"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-a2170aaf701fab02e3123c551f83e8f9-3593ae763ac8efdda2e009fc959144f9.css?1730898921"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-96e2eedf5fbcb120c670b8b447bf4db9-c624defc1df1ad79aab68ae8e9894ec4.css?1730898921"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/54cc709c9473af8954581d5cb9f277cf5465cf3d.css"
-        },
-        {
-          "type": "cloudflare",
-          "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
-          "details": {
-            "id": "cloudflare",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/4106d4a183229f5ca03bb296a16d3246/JavaScript/tarteaucitron.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/4106d4a183229f5ca03bb296a16d3246/JavaScript/tarteaucitron.services.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/4106d4a183229f5ca03bb296a16d3246/JavaScript/no-export.tarteaucitron.bundle.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/4106d4a183229f5ca03bb296a16d3246/JavaScript/cms/helper.js"
-        },
-        {
-          "type": "cloudflare",
-          "url": "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js",
-          "details": {
-            "id": "cloudflare",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.numanis.net/accessedition.js"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Barlow:300,400,700,900&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,700&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-101e9fdc4fd5e1d5478c2d09159796db-9406a847e8cc9ed6f3ad5826ea5542a5.js?1715267129"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-2354446e688e8cd9f38695401c0e576a-6e5b42891f00f258198af84090014cce.js?1715702266"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/vhs/vhs-assets-98f35ced756d5aee5422cdb7c05e0a8e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/d/d/csm_logo-MDPH23-web_8c594a6af6.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Images/logos/logo-sitefactory.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/d/8/csm_01_Vue_entree_MDPH1900x940_fd94cd7d3b.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/5/5/csm_Compte_bd9ee8ce81.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/c/1/csm_Pictos_196px-Bleu_491c62fd01.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/c/2/csm_Pictos_196px-03_d11f4da5de.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/1/5/csm_Pictos_196px-02_7810b59d93.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/8/0/csm_Pictos_196px-04_6269e4bd6f.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/e/4/csm_Pictos_196px-05_ef63762785.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/6/5/csm_Capture_d%E2%80%99%C3%A9cran_2024-11-13_144839_b77676220e.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/7/0/csm_Capture_d%E2%80%99%C3%A9cran_2024-12-12_0858502_2daf2b71ab.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/7/2/csm_Groupe_de_paroles_13_dec_2024_VB__1__9befb17312.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/2/6/csm_duoday-3.02859f44_715c4848a3.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/6/6/csm_pass_sport_1d2d92e2e7.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/f/8/csm_AdobeStock_334254254__1__453921242a.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/e/1/csm_cg86-3_b73fd1259e.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/2/9/csm_logo-caf_ef34365e51.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/6/7/csm_assurance_maladie_b76ffa3e06.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/b/5/csm_ARS_2f14d09c59.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/9/5/csm_Logo_Service-public-fr_af6db710e6.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/f/4/csm_MSA_24da86e280.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/fileadmin/_processed_/d/d/csm_logo-MDPH23-web_43f8622ea1.jpg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/Form.min-9eedfd88f42aa2c119067bd63a12c87a.js?1716389206"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/PowermailConditionCustom-c32d1d235440ab79e1b66df6fc4dc1c9.js?1715267128"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/vhs/vhs-assets-24410e189f9f30bbffcb4af1023f20b0.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/typo3temp/assets/compressed/merged-ad7d18accc664ccef1b44b6dca8ebbc6-29700294e71a0f7ce17aa905890f14d2.css?1719241191"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-regular-400.woff2"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-solid-900.woff2"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-regular-400.woff2"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Fonts/fa-solid-900.woff2"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20MDPH%2086&idsite=5&rec=1&r=002085&h=2&m=2&s=11&url=https%3A%2F%2Fmdph86.fr%2F&_id=56039af5d148140c&_idn=0&send_image=0&_refts=0&pv_id=4gicDE&pf_net=0&pf_srv=489&pf_tfr=1&pf_dm1=788&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.mobiledition.com/verifToken.php"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/e0c6a75b4312172dfffe0ab5547c1bc8/JavaScript/Library/Tarteaucitron/lang/tarteaucitron.fr.js?v=20201017"
-        },
-        {
-          "type": "unknown",
-          "url": "https://mdph86.fr/_assets/e0c6a75b4312172dfffe0ab5547c1bc8/JavaScript/Library/Tarteaucitron/tarteaucitron.services.js?v=20201017"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.lisio-solution.com/solution/lisioconfig.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.lisio-solution.com/solution/Popin.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.lisio-solution.com/solution/style_popin.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.lisio-solution.com/solution/popins/popin2024help.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://www.lisio-solution.com/widget/dist/widget_empty.html"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "_pk_ses.5.5122",
-          "value": "1",
-          "domain": "mdph86.fr",
-          "path": "/",
-          "expires": 1734229931,
-          "size": 15,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
-          "name": "_pk_id.5.5122",
-          "value": "56039af5d148140c.1734228132.",
-          "domain": "mdph86.fr",
-          "path": "/",
-          "expires": 1767924132,
-          "size": 41,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        }
-      ],
-      "headers": {
-        "cache-control": "private, no-store",
-        "content-encoding": "gzip",
-        "content-language": "fr-FR",
-        "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 15 Dec 2024 02:02:10 GMT",
-        "server": "nginx",
-        "strict-transport-security": "max-age=31536000;",
-        "vary": "Accept-Encoding",
-        "x-typo3-parsetime": "0ms"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.mdph86.fr",
-          "ip": "91.188.65.186",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "mdph86.fr",
-          "ip": "91.188.65.186",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.24.14",
-          "geoip": {
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.numanis.net",
-          "ip": "5.196.77.48",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.googleapis.com",
-          "ip": "142.250.191.138",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "statistique.lavienne86.fr",
-          "ip": "91.188.65.186",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.gstatic.com",
-          "ip": "142.250.190.99",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.mobiledition.com",
-          "ip": "5.196.77.48",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.lisio-solution.com",
-          "ip": "141.95.159.103",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null,
+      "endpoints": null
     },
     "wappalyzer": {
       "urls": {
@@ -15150,7 +14307,7 @@
       {
         "requestedUrl": "https://www.mdph86.fr/",
         "finalUrl": "https://mdph86.fr/",
-        "fetchTime": "2024-12-15T02:06:34.441Z",
+        "fetchTime": "2025-01-12T02:00:01.817Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.mdph86.fr/) was redirected to https://mdph86.fr/. Try testing the second URL directly."
         ],
@@ -15163,7 +14320,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.46
+            "score": 0.45
           },
           "accessibility": {
             "title": "Accessibility",
@@ -15174,7 +14331,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.86
+            "score": 0.98
           },
           "best-practices": {
             "title": "Best Practices",
@@ -15184,7 +14341,7 @@
               "snapshot"
             ],
             "id": "best-practices",
-            "score": 0.75
+            "score": 0.83
           },
           "seo": {
             "title": "SEO",
@@ -15195,7 +14352,7 @@
               "snapshot"
             ],
             "id": "seo",
-            "score": 0.92
+            "score": 0.93
           },
           "pwa": {
             "title": "PWA",
@@ -15215,53 +14372,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 16653,
+            "numericValue": 15726,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7249,
-                  "firstMeaningfulPaint": 7249,
-                  "largestContentfulPaint": 7798,
-                  "interactive": 16653,
-                  "speedIndex": 11231,
-                  "totalBlockingTime": 135,
-                  "maxPotentialFID": 161,
-                  "cumulativeLayoutShift": 0.021634153154161243,
-                  "cumulativeLayoutShiftMainFrame": 0.021634153154161243,
-                  "totalCumulativeLayoutShift": 0.021634153154161243,
+                  "firstContentfulPaint": 7230,
+                  "firstMeaningfulPaint": 7230,
+                  "largestContentfulPaint": 7778,
+                  "interactive": 15726,
+                  "speedIndex": 11922,
+                  "totalBlockingTime": 148,
+                  "maxPotentialFID": 223,
+                  "cumulativeLayoutShift": 0.017522267235649956,
+                  "cumulativeLayoutShiftMainFrame": 0.017522267235649956,
+                  "totalCumulativeLayoutShift": 0.017522267235649956,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 473741642,
+                  "observedTimeOriginTs": 344426128,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 473741642,
-                  "observedFirstPaint": 1411,
-                  "observedFirstPaintTs": 475152989,
-                  "observedFirstContentfulPaint": 1411,
-                  "observedFirstContentfulPaintTs": 475152989,
-                  "observedFirstContentfulPaintAllFrames": 1411,
-                  "observedFirstContentfulPaintAllFramesTs": 475152989,
-                  "observedFirstMeaningfulPaint": 1411,
-                  "observedFirstMeaningfulPaintTs": 475152989,
-                  "observedLargestContentfulPaint": 1411,
-                  "observedLargestContentfulPaintTs": 475152989,
-                  "observedLargestContentfulPaintAllFrames": 1411,
-                  "observedLargestContentfulPaintAllFramesTs": 475152989,
-                  "observedTraceEnd": 5286,
-                  "observedTraceEndTs": 479027876,
-                  "observedLoad": 2078,
-                  "observedLoadTs": 475819478,
-                  "observedDomContentLoaded": 2074,
-                  "observedDomContentLoadedTs": 475815809,
-                  "observedCumulativeLayoutShift": 0.021634153154161243,
-                  "observedCumulativeLayoutShiftMainFrame": 0.021634153154161243,
-                  "observedTotalCumulativeLayoutShift": 0.021634153154161243,
-                  "observedFirstVisualChange": 1606,
-                  "observedFirstVisualChangeTs": 475347642,
-                  "observedLastVisualChange": 3055,
-                  "observedLastVisualChangeTs": 476796642,
-                  "observedSpeedIndex": 2718,
-                  "observedSpeedIndexTs": 476459608
+                  "observedNavigationStartTs": 344426128,
+                  "observedFirstPaint": 1700,
+                  "observedFirstPaintTs": 346125791,
+                  "observedFirstContentfulPaint": 1700,
+                  "observedFirstContentfulPaintTs": 346125791,
+                  "observedFirstContentfulPaintAllFrames": 1700,
+                  "observedFirstContentfulPaintAllFramesTs": 346125791,
+                  "observedFirstMeaningfulPaint": 1700,
+                  "observedFirstMeaningfulPaintTs": 346125791,
+                  "observedLargestContentfulPaint": 1700,
+                  "observedLargestContentfulPaintTs": 346125791,
+                  "observedLargestContentfulPaintAllFrames": 1700,
+                  "observedLargestContentfulPaintAllFramesTs": 346125791,
+                  "observedTraceEnd": 5533,
+                  "observedTraceEndTs": 349958675,
+                  "observedLoad": 2395,
+                  "observedLoadTs": 346820848,
+                  "observedDomContentLoaded": 2390,
+                  "observedDomContentLoadedTs": 346815714,
+                  "observedCumulativeLayoutShift": 0.017522267235649956,
+                  "observedCumulativeLayoutShiftMainFrame": 0.017522267235649956,
+                  "observedTotalCumulativeLayoutShift": 0.017522267235649956,
+                  "observedFirstVisualChange": 1710,
+                  "observedFirstVisualChangeTs": 346136128,
+                  "observedLastVisualChange": 3343,
+                  "observedLastVisualChangeTs": 347769128,
+                  "observedSpeedIndex": 2960,
+                  "observedSpeedIndexTs": 347385771
                 },
                 {
                   "lcpInvalidated": false
@@ -15283,19 +14440,19 @@
                   "numScripts": 19,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 1148,
-                  "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 0,
+                  "numTasks": 1208,
+                  "numTasksOver10ms": 11,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.7250000000000005,
-                  "throughput": 27078043.934200924,
-                  "maxRtt": 108.524,
-                  "maxServerLatency": 105.084,
-                  "totalByteWeight": 2453108,
-                  "totalTaskTime": 489.12099999999793,
-                  "mainDocumentTransferSize": 15326
+                  "rtt": 0,
+                  "throughput": 27968298.300857868,
+                  "maxRtt": 107.219,
+                  "maxServerLatency": 106.561,
+                  "totalByteWeight": 2513591,
+                  "totalTaskTime": 553.5179999999989,
+                  "mainDocumentTransferSize": 15019
                 }
               ]
             }
@@ -15340,15 +14497,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mdph86.fr",
-        "size": 3085.291,
-        "nodes": 666,
+        "size": 3151.663,
+        "nodes": 659,
         "requests": 60,
         "grade": "D",
         "score": 47,
         "ges": 2.06,
         "water": 3.09,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-15 02:03:17.751918",
+        "date": "2025-01-12 01:56:38.058051",
         "page_type": "article"
       }
     ],
@@ -15360,17 +14517,17 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-07T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "B",
-      "cookiesCount": 2,
-      "trackersGrade": "F",
-      "trackersCount": 68,
-      "lighthouse_performance": 0.46,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
+      "lighthouse_performance": 0.45,
       "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.86,
+      "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
-      "lighthouse_best-practices": 0.75,
+      "lighthouse_best-practices": 0.83,
       "lighthouse_best-practicesGrade": "B",
-      "lighthouse_seo": 0.92,
+      "lighthouse_seo": 0.93,
       "lighthouse_seoGrade": "A",
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
@@ -16183,7 +15340,7 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "91 >= 60 days"
+        "finding": "84 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -16379,14 +15536,14 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2268 seconds from localtime"
+        "finding": "+2281 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736044920"
+        "finding": "1736649613"
       },
       {
         "id": "HSTS",
@@ -16984,7 +16141,7 @@
         "ip": "www.vienne-numerique.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "131"
+        "finding": "137"
       }
     ],
     "thirdparties": {
@@ -17240,7 +16397,7 @@
       {
         "requestedUrl": "https://www.vienne-numerique.fr/",
         "finalUrl": "https://www.vienne-numerique.fr/",
-        "fetchTime": "2025-01-05T02:03:10.698Z",
+        "fetchTime": "2025-01-12T02:00:58.679Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -17251,7 +16408,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.56
+            "score": 0.51
           },
           "accessibility": {
             "title": "Accessibility",
@@ -17303,53 +16460,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 8195,
+            "numericValue": 8562,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5162,
-                  "firstMeaningfulPaint": 5694,
-                  "largestContentfulPaint": 8486,
-                  "interactive": 8195,
-                  "speedIndex": 5552,
-                  "totalBlockingTime": 19,
-                  "maxPotentialFID": 88,
+                  "firstContentfulPaint": 5296,
+                  "firstMeaningfulPaint": 5296,
+                  "largestContentfulPaint": 7349,
+                  "interactive": 8562,
+                  "speedIndex": 10251,
+                  "totalBlockingTime": 57,
+                  "maxPotentialFID": 149,
                   "cumulativeLayoutShift": 0.010606217278374566,
                   "cumulativeLayoutShiftMainFrame": 0.010606217278374566,
                   "totalCumulativeLayoutShift": 0.010606217278374566,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 454701662,
+                  "observedTimeOriginTs": 366198479,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 454701662,
-                  "observedFirstPaint": 789,
-                  "observedFirstPaintTs": 455490833,
-                  "observedFirstContentfulPaint": 789,
-                  "observedFirstContentfulPaintTs": 455490833,
-                  "observedFirstContentfulPaintAllFrames": 789,
-                  "observedFirstContentfulPaintAllFramesTs": 455490833,
-                  "observedFirstMeaningfulPaint": 807,
-                  "observedFirstMeaningfulPaintTs": 455508320,
-                  "observedLargestContentfulPaint": 1021,
-                  "observedLargestContentfulPaintTs": 455722337,
-                  "observedLargestContentfulPaintAllFrames": 1021,
-                  "observedLargestContentfulPaintAllFramesTs": 455722337,
-                  "observedTraceEnd": 3513,
-                  "observedTraceEndTs": 458214794,
-                  "observedLoad": 1011,
-                  "observedLoadTs": 455712598,
-                  "observedDomContentLoaded": 868,
-                  "observedDomContentLoadedTs": 455569372,
+                  "observedNavigationStartTs": 366198479,
+                  "observedFirstPaint": 1237,
+                  "observedFirstPaintTs": 367435847,
+                  "observedFirstContentfulPaint": 1237,
+                  "observedFirstContentfulPaintTs": 367435847,
+                  "observedFirstContentfulPaintAllFrames": 1237,
+                  "observedFirstContentfulPaintAllFramesTs": 367435847,
+                  "observedFirstMeaningfulPaint": 1242,
+                  "observedFirstMeaningfulPaintTs": 367440908,
+                  "observedLargestContentfulPaint": 3144,
+                  "observedLargestContentfulPaintTs": 369342370,
+                  "observedLargestContentfulPaintAllFrames": 3144,
+                  "observedLargestContentfulPaintAllFramesTs": 369342370,
+                  "observedTraceEnd": 7430,
+                  "observedTraceEndTs": 373628151,
+                  "observedLoad": 4922,
+                  "observedLoadTs": 371120697,
+                  "observedDomContentLoaded": 2133,
+                  "observedDomContentLoadedTs": 368331074,
                   "observedCumulativeLayoutShift": 0.010606217278374566,
                   "observedCumulativeLayoutShiftMainFrame": 0.010606217278374566,
                   "observedTotalCumulativeLayoutShift": 0.010606217278374566,
-                  "observedFirstVisualChange": 796,
-                  "observedFirstVisualChangeTs": 455497662,
-                  "observedLastVisualChange": 1563,
-                  "observedLastVisualChangeTs": 456264662,
-                  "observedSpeedIndex": 1323,
-                  "observedSpeedIndexTs": 456024758
+                  "observedFirstVisualChange": 1236,
+                  "observedFirstVisualChangeTs": 367434479,
+                  "observedLastVisualChange": 5636,
+                  "observedLastVisualChangeTs": 371834479,
+                  "observedSpeedIndex": 4597,
+                  "observedSpeedIndexTs": 370795668
                 },
                 {
                   "lcpInvalidated": false
@@ -17371,18 +16528,18 @@
                   "numScripts": 17,
                   "numStylesheets": 7,
                   "numFonts": 2,
-                  "numTasks": 644,
+                  "numTasks": 807,
                   "numTasksOver10ms": 8,
                   "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 19978643.304203242,
-                  "maxRtt": 92.056,
-                  "maxServerLatency": 17.435000000000002,
-                  "totalByteWeight": 961200,
-                  "totalTaskTime": 304.3219999999994,
+                  "throughput": 1766822.5914403147,
+                  "maxRtt": 97.811,
+                  "maxServerLatency": 15.667000000000002,
+                  "totalByteWeight": 960890,
+                  "totalTaskTime": 316.41299999999904,
                   "mainDocumentTransferSize": 5801
                 }
               ]
@@ -17427,7 +16584,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.vienne-numerique.fr",
-        "size": 848.827,
+        "size": 848.83,
         "nodes": 334,
         "requests": 37,
         "grade": "B",
@@ -17435,7 +16592,7 @@
         "ges": 1.54,
         "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 01:59:10.354386",
+        "date": "2025-01-12 01:56:59.851807",
         "page_type": null
       }
     ],
@@ -17451,7 +16608,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.56,
+      "lighthouse_performance": 0.51,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.93,
       "lighthouse_accessibilityGrade": "A",
@@ -20367,7 +19524,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "349 >= 60 days"
+        "finding": "335 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -20570,7 +19727,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1735438250"
+        "finding": "1736647734"
       },
       {
         "id": "HSTS_time",
@@ -21137,429 +20294,10 @@
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "cloudflare",
-          "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
-          "details": {
-            "id": "cloudflare",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "cloudflare",
-          "url": "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js",
-          "details": {
-            "id": "cloudflare",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Barlow:300,400,700,900&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,700&display=swap",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.js"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4s51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-ws51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B6xHT2g.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://statistique.lavienne86.fr/piwik.php?action_name=Accueil%20-%20Sports%20Nature%20en%20Vienne&idsite=17&rec=1&r=932696&h=2&m=4&s=35&url=https%3A%2F%2Fsportsnature.lavienne86.fr%2F&_id=6a5219cb827568c9&_idn=0&send_image=0&_refts=0&pv_id=kW0jTg&pf_net=378&pf_srv=280&pf_tfr=1&pf_dm1=666&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "_pk_ses.17.1881",
-          "value": "1",
-          "domain": "sportsnature.lavienne86.fr",
-          "path": "/",
-          "expires": 1735439675,
-          "size": 16,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
-          "name": "_pk_id.17.1881",
-          "value": "6a5219cb827568c9.1735437876.",
-          "domain": "sportsnature.lavienne86.fr",
-          "path": "/",
-          "expires": 1769133876,
-          "size": 42,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        }
-      ],
-      "headers": {
-        "cache-control": "private, no-store",
-        "content-encoding": "gzip",
-        "content-language": "fr-FR",
-        "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 29 Dec 2024 02:04:34 GMT",
-        "server": "nginx",
-        "strict-transport-security": "max-age=31536000;",
-        "vary": "Accept-Encoding",
-        "x-typo3-parsetime": "0ms"
-      },
-      "endpoints": [
-        {
-          "hostname": "sportsnature.lavienne86.fr",
-          "ip": "91.188.65.186",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
-          "geoip": {
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.googleapis.com",
-          "ip": "172.253.122.95",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "statistique.lavienne86.fr",
-          "ip": "91.188.65.186",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.gstatic.com",
-          "ip": "142.251.179.94",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null,
+      "endpoints": null
     },
     "wappalyzer": {
       "urls": {
@@ -21871,7 +20609,7 @@
       {
         "requestedUrl": "https://sportsnature.lavienne86.fr/",
         "finalUrl": "https://sportsnature.lavienne86.fr/",
-        "fetchTime": "2024-12-29T02:10:03.033Z",
+        "fetchTime": "2025-01-12T02:08:01.462Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -21882,7 +20620,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.48
+            "score": 0.44
           },
           "accessibility": {
             "title": "Accessibility",
@@ -21934,53 +20672,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14485,
+            "numericValue": 17067,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6326,
-                  "firstMeaningfulPaint": 6326,
-                  "largestContentfulPaint": 8123,
-                  "interactive": 14485,
-                  "speedIndex": 9024,
-                  "totalBlockingTime": 76,
-                  "maxPotentialFID": 202,
-                  "cumulativeLayoutShift": 0.038489119635687935,
-                  "cumulativeLayoutShiftMainFrame": 0.038489119635687935,
-                  "totalCumulativeLayoutShift": 0.038489119635687935,
+                  "firstContentfulPaint": 6304,
+                  "firstMeaningfulPaint": 6304,
+                  "largestContentfulPaint": 8317,
+                  "interactive": 17067,
+                  "speedIndex": 9269,
+                  "totalBlockingTime": 208,
+                  "maxPotentialFID": 266,
+                  "cumulativeLayoutShift": 0.03319282446967231,
+                  "cumulativeLayoutShiftMainFrame": 0.03319282446967231,
+                  "totalCumulativeLayoutShift": 0.03319282446967231,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 644991396,
+                  "observedTimeOriginTs": 501843921,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 644991396,
-                  "observedFirstPaint": 1057,
-                  "observedFirstPaintTs": 646048401,
-                  "observedFirstContentfulPaint": 1057,
-                  "observedFirstContentfulPaintTs": 646048401,
-                  "observedFirstContentfulPaintAllFrames": 1057,
-                  "observedFirstContentfulPaintAllFramesTs": 646048401,
-                  "observedFirstMeaningfulPaint": 1057,
-                  "observedFirstMeaningfulPaintTs": 646048401,
-                  "observedLargestContentfulPaint": 1057,
-                  "observedLargestContentfulPaintTs": 646048401,
-                  "observedLargestContentfulPaintAllFrames": 1057,
-                  "observedLargestContentfulPaintAllFramesTs": 646048401,
-                  "observedTraceEnd": 3679,
-                  "observedTraceEndTs": 648670103,
-                  "observedLoad": 1268,
-                  "observedLoadTs": 646259248,
-                  "observedDomContentLoaded": 1257,
-                  "observedDomContentLoadedTs": 646248418,
-                  "observedCumulativeLayoutShift": 0.038489119635687935,
-                  "observedCumulativeLayoutShiftMainFrame": 0.038489119635687935,
-                  "observedTotalCumulativeLayoutShift": 0.038489119635687935,
-                  "observedFirstVisualChange": 1282,
-                  "observedFirstVisualChangeTs": 646273396,
-                  "observedLastVisualChange": 2232,
-                  "observedLastVisualChangeTs": 647223396,
-                  "observedSpeedIndex": 1840,
-                  "observedSpeedIndexTs": 646831126
+                  "observedNavigationStartTs": 501843921,
+                  "observedFirstPaint": 1144,
+                  "observedFirstPaintTs": 502987523,
+                  "observedFirstContentfulPaint": 1144,
+                  "observedFirstContentfulPaintTs": 502987523,
+                  "observedFirstContentfulPaintAllFrames": 1144,
+                  "observedFirstContentfulPaintAllFramesTs": 502987523,
+                  "observedFirstMeaningfulPaint": 1144,
+                  "observedFirstMeaningfulPaintTs": 502987523,
+                  "observedLargestContentfulPaint": 1144,
+                  "observedLargestContentfulPaintTs": 502987523,
+                  "observedLargestContentfulPaintAllFrames": 1144,
+                  "observedLargestContentfulPaintAllFramesTs": 502987523,
+                  "observedTraceEnd": 3803,
+                  "observedTraceEndTs": 505647229,
+                  "observedLoad": 1390,
+                  "observedLoadTs": 503234236,
+                  "observedDomContentLoaded": 1385,
+                  "observedDomContentLoadedTs": 503228588,
+                  "observedCumulativeLayoutShift": 0.03319282446967231,
+                  "observedCumulativeLayoutShiftMainFrame": 0.03319282446967231,
+                  "observedTotalCumulativeLayoutShift": 0.03319282446967231,
+                  "observedFirstVisualChange": 1152,
+                  "observedFirstVisualChangeTs": 502995921,
+                  "observedLastVisualChange": 2352,
+                  "observedLastVisualChangeTs": 504195921,
+                  "observedSpeedIndex": 1893,
+                  "observedSpeedIndexTs": 503737183
                 },
                 {
                   "lcpInvalidated": false
@@ -21998,23 +20736,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 53,
+                  "numRequests": 60,
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 986,
-                  "numTasksOver10ms": 8,
-                  "numTasksOver25ms": 3,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 1,
+                  "numTasks": 1107,
+                  "numTasksOver10ms": 11,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 39405032.376431234,
-                  "maxRtt": 86.91,
-                  "maxServerLatency": 100.791,
-                  "totalByteWeight": 2545240,
-                  "totalTaskTime": 414.90799999999774,
-                  "mainDocumentTransferSize": 10384
+                  "throughput": 56942249.48511121,
+                  "maxRtt": 85.64699999999999,
+                  "maxServerLatency": 96.097,
+                  "totalByteWeight": 3355742,
+                  "totalTaskTime": 558.6839999999995,
+                  "mainDocumentTransferSize": 11354
                 }
               ]
             }
@@ -22047,14 +20785,12 @@
       {
         "slug": "pc",
         "mention": "Données personnelles",
-        "maxScore": 6,
-        "score": 4,
+        "maxScore": 4,
+        "score": 3,
         "missingWords": [
           "sous-traitant (ou) sous traitant"
         ],
-        "missingTrackers": [
-          "googlefonts"
-        ],
+        "missingTrackers": [],
         "declarationUrl": "https://sportsnature.lavienne86.fr/informations-pratiques/donnees-personnelles"
       }
     ],
@@ -22064,15 +20800,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 3630.854,
-        "nodes": 554,
-        "requests": 53,
+        "size": 4464.619,
+        "nodes": 754,
+        "requests": 60,
         "grade": "D",
-        "score": 52,
-        "ges": 1.96,
-        "water": 2.94,
+        "score": 43,
+        "ges": 2.14,
+        "water": 3.21,
         "ecoindex_version": "5.4.2",
-        "date": "2024-12-29 02:05:36.809288",
+        "date": "2025-01-12 02:03:19.773824",
         "page_type": "article"
       }
     ],
@@ -22084,11 +20820,11 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "B",
-      "cookiesCount": 2,
-      "trackersGrade": "F",
-      "trackersCount": 18,
-      "lighthouse_performance": 0.48,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
+      "lighthouse_performance": 0.44,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
@@ -26696,7 +25432,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "180 >= 60 days"
+        "finding": "173 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -26976,14 +25712,14 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2268 seconds from localtime"
+        "finding": "+2281 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736045769"
+        "finding": "1736650263"
       },
       {
         "id": "HSTS",
@@ -27581,7 +26317,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "205"
+        "finding": "188"
       }
     ],
     "thirdparties": {
@@ -27909,7 +26645,7 @@
       {
         "requestedUrl": "https://mod.departement86.fr/",
         "finalUrl": "https://mod.departement86.fr/",
-        "fetchTime": "2025-01-05T02:16:25.666Z",
+        "fetchTime": "2025-01-12T02:11:18.410Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -27972,53 +26708,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 10242,
+            "numericValue": 9611,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 8708,
-                  "firstMeaningfulPaint": 8725,
-                  "largestContentfulPaint": 11597,
-                  "interactive": 10242,
-                  "speedIndex": 8708,
-                  "totalBlockingTime": 55,
-                  "maxPotentialFID": 160,
+                  "firstContentfulPaint": 7729,
+                  "firstMeaningfulPaint": 7744,
+                  "largestContentfulPaint": 8067,
+                  "interactive": 9611,
+                  "speedIndex": 9739,
+                  "totalBlockingTime": 53,
+                  "maxPotentialFID": 156,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 564832431,
+                  "observedTimeOriginTs": 512104356,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 564832431,
-                  "observedFirstPaint": 1357,
-                  "observedFirstPaintTs": 566189218,
-                  "observedFirstContentfulPaint": 1357,
-                  "observedFirstContentfulPaintTs": 566189218,
-                  "observedFirstContentfulPaintAllFrames": 1357,
-                  "observedFirstContentfulPaintAllFramesTs": 566189218,
-                  "observedFirstMeaningfulPaint": 1357,
-                  "observedFirstMeaningfulPaintTs": 566189218,
-                  "observedLargestContentfulPaint": 1798,
-                  "observedLargestContentfulPaintTs": 566630239,
-                  "observedLargestContentfulPaintAllFrames": 1798,
-                  "observedLargestContentfulPaintAllFramesTs": 566630239,
-                  "observedTraceEnd": 4729,
-                  "observedTraceEndTs": 569561627,
-                  "observedLoad": 1484,
-                  "observedLoadTs": 566316140,
-                  "observedDomContentLoaded": 1365,
-                  "observedDomContentLoadedTs": 566197616,
+                  "observedNavigationStartTs": 512104356,
+                  "observedFirstPaint": 1854,
+                  "observedFirstPaintTs": 513957874,
+                  "observedFirstContentfulPaint": 1854,
+                  "observedFirstContentfulPaintTs": 513957874,
+                  "observedFirstContentfulPaintAllFrames": 1854,
+                  "observedFirstContentfulPaintAllFramesTs": 513957874,
+                  "observedFirstMeaningfulPaint": 1854,
+                  "observedFirstMeaningfulPaintTs": 513957874,
+                  "observedLargestContentfulPaint": 1854,
+                  "observedLargestContentfulPaintTs": 513957875,
+                  "observedLargestContentfulPaintAllFrames": 1854,
+                  "observedLargestContentfulPaintAllFramesTs": 513957875,
+                  "observedTraceEnd": 5656,
+                  "observedTraceEndTs": 517760388,
+                  "observedLoad": 2259,
+                  "observedLoadTs": 514363761,
+                  "observedDomContentLoaded": 1862,
+                  "observedDomContentLoadedTs": 513965951,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1361,
-                  "observedFirstVisualChangeTs": 566193431,
-                  "observedLastVisualChange": 1978,
-                  "observedLastVisualChangeTs": 566810431,
-                  "observedSpeedIndex": 1699,
-                  "observedSpeedIndexTs": 566531838
+                  "observedFirstVisualChange": 1858,
+                  "observedFirstVisualChangeTs": 513962356,
+                  "observedLastVisualChange": 3141,
+                  "observedLastVisualChangeTs": 515245356,
+                  "observedSpeedIndex": 2774,
+                  "observedSpeedIndexTs": 514878237
                 },
                 {
                   "lcpInvalidated": false
@@ -28040,18 +26776,18 @@
                   "numScripts": 18,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 669,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 1,
+                  "numTasks": 761,
+                  "numTasksOver10ms": 13,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 15195860.159703283,
-                  "maxRtt": 128.989,
-                  "maxServerLatency": 17.25,
-                  "totalByteWeight": 1351509,
-                  "totalTaskTime": 239.258999999999,
+                  "rtt": 9.17,
+                  "throughput": 5755739.347981629,
+                  "maxRtt": 134.96099999999998,
+                  "maxServerLatency": 28.397999999999996,
+                  "totalByteWeight": 1093874,
+                  "totalTaskTime": 417.5069999999993,
                   "mainDocumentTransferSize": 14914
                 }
               ]
@@ -28101,7 +26837,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mod.departement86.fr",
-        "size": 1365.279,
+        "size": 1365.253,
         "nodes": 266,
         "requests": 42,
         "grade": "B",
@@ -28109,7 +26845,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 02:11:11.303392",
+        "date": "2025-01-12 02:05:21.640691",
         "page_type": null
       }
     ],
@@ -30861,7 +29597,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "342 >= 60 days"
+        "finding": "335 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -31064,7 +29800,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736043461"
+        "finding": "1736648540"
       },
       {
         "id": "HSTS_time",
@@ -31641,7 +30377,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "92"
+        "finding": "114"
       }
     ],
     "thirdparties": {
@@ -31894,7 +30630,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
         "finalUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/",
-        "fetchTime": "2025-01-05T02:16:17.514Z",
+        "fetchTime": "2025-01-12T02:20:41.472Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive) was redirected to https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/. Try testing the second URL directly."
         ],
@@ -31907,7 +30643,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.19
+            "score": 0.18
           },
           "accessibility": {
             "title": "Accessibility",
@@ -31959,53 +30695,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 28862,
+            "numericValue": 31460,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2733,
-                  "firstMeaningfulPaint": 10048,
-                  "largestContentfulPaint": 13411,
-                  "interactive": 28862,
-                  "speedIndex": 21929,
-                  "totalBlockingTime": 16691,
-                  "maxPotentialFID": 1613,
-                  "cumulativeLayoutShift": 0.11209100850423177,
-                  "cumulativeLayoutShiftMainFrame": 0.11209100850423177,
+                  "firstContentfulPaint": 2883,
+                  "firstMeaningfulPaint": 11511,
+                  "largestContentfulPaint": 15830,
+                  "interactive": 31460,
+                  "speedIndex": 26049,
+                  "totalBlockingTime": 17588,
+                  "maxPotentialFID": 1903,
+                  "cumulativeLayoutShift": 0.11053833134969075,
+                  "cumulativeLayoutShiftMainFrame": 0.11053833134969075,
                   "totalCumulativeLayoutShift": 0.158492429945204,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 566842963,
+                  "observedTimeOriginTs": 396640017,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 566842963,
-                  "observedFirstPaint": 495,
-                  "observedFirstPaintTs": 567338399,
-                  "observedFirstContentfulPaint": 572,
-                  "observedFirstContentfulPaintTs": 567414644,
-                  "observedFirstContentfulPaintAllFrames": 572,
-                  "observedFirstContentfulPaintAllFramesTs": 567414644,
-                  "observedFirstMeaningfulPaint": 9167,
-                  "observedFirstMeaningfulPaintTs": 576009756,
-                  "observedLargestContentfulPaint": 2986,
-                  "observedLargestContentfulPaintTs": 569829308,
-                  "observedLargestContentfulPaintAllFrames": 2986,
-                  "observedLargestContentfulPaintAllFramesTs": 569829308,
-                  "observedTraceEnd": 11505,
-                  "observedTraceEndTs": 578347750,
-                  "observedLoad": 2180,
-                  "observedLoadTs": 569022534,
-                  "observedDomContentLoaded": 556,
-                  "observedDomContentLoadedTs": 567398506,
-                  "observedCumulativeLayoutShift": 0.11209100850423177,
-                  "observedCumulativeLayoutShiftMainFrame": 0.11209100850423177,
+                  "observedNavigationStartTs": 396640017,
+                  "observedFirstPaint": 698,
+                  "observedFirstPaintTs": 397337960,
+                  "observedFirstContentfulPaint": 804,
+                  "observedFirstContentfulPaintTs": 397443857,
+                  "observedFirstContentfulPaintAllFrames": 804,
+                  "observedFirstContentfulPaintAllFramesTs": 397443857,
+                  "observedFirstMeaningfulPaint": 11657,
+                  "observedFirstMeaningfulPaintTs": 408297444,
+                  "observedLargestContentfulPaint": 4963,
+                  "observedLargestContentfulPaintTs": 401602714,
+                  "observedLargestContentfulPaintAllFrames": 4963,
+                  "observedLargestContentfulPaintAllFramesTs": 401602714,
+                  "observedTraceEnd": 14007,
+                  "observedTraceEndTs": 410647070,
+                  "observedLoad": 3209,
+                  "observedLoadTs": 399848816,
+                  "observedDomContentLoaded": 803,
+                  "observedDomContentLoadedTs": 397443478,
+                  "observedCumulativeLayoutShift": 0.11053833134969075,
+                  "observedCumulativeLayoutShiftMainFrame": 0.11053833134969075,
                   "observedTotalCumulativeLayoutShift": 0.158492429945204,
-                  "observedFirstVisualChange": 817,
-                  "observedFirstVisualChangeTs": 567659963,
-                  "observedLastVisualChange": 8784,
-                  "observedLastVisualChangeTs": 575626963,
-                  "observedSpeedIndex": 6487,
-                  "observedSpeedIndexTs": 573329899
+                  "observedFirstVisualChange": 960,
+                  "observedFirstVisualChangeTs": 397600017,
+                  "observedLastVisualChange": 10977,
+                  "observedLastVisualChangeTs": 407617017,
+                  "observedSpeedIndex": 8733,
+                  "observedSpeedIndexTs": 405373284
                 },
                 {
                   "lcpInvalidated": false
@@ -32023,22 +30759,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 304,
+                  "numRequests": 305,
                   "numScripts": 71,
                   "numStylesheets": 4,
                   "numFonts": 6,
-                  "numTasks": 4080,
-                  "numTasksOver10ms": 75,
-                  "numTasksOver25ms": 41,
-                  "numTasksOver50ms": 25,
-                  "numTasksOver100ms": 20,
+                  "numTasks": 4473,
+                  "numTasksOver10ms": 95,
+                  "numTasksOver25ms": 47,
+                  "numTasksOver50ms": 29,
+                  "numTasksOver100ms": 17,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.6059999999999999,
-                  "throughput": 20287025.46346855,
-                  "maxRtt": 105.98299999999999,
-                  "maxServerLatency": 141.50300000000001,
-                  "totalByteWeight": 3106198,
-                  "totalTaskTime": 7433.243999999979,
+                  "rtt": 2.4699999999999998,
+                  "throughput": 14799278.629182952,
+                  "maxRtt": 155.507,
+                  "maxServerLatency": 190.32,
+                  "totalByteWeight": 3105140,
+                  "totalTaskTime": 7860.626999999971,
                   "mainDocumentTransferSize": 3721
                 }
               ]
@@ -32082,15 +30818,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
-        "size": 3734.357,
-        "nodes": 1781,
-        "requests": 343,
-        "grade": "G",
-        "score": 10,
-        "ges": 2.8,
-        "water": 4.2,
+        "size": 3270.829,
+        "nodes": 1404,
+        "requests": 193,
+        "grade": "F",
+        "score": 16,
+        "ges": 2.68,
+        "water": 4.02,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 02:13:05.607414",
+        "date": "2025-01-12 02:16:43.955470",
         "page_type": "article"
       }
     ],
@@ -32106,7 +30842,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.19,
+      "lighthouse_performance": 0.18,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
@@ -32120,7 +30856,7 @@
       "declaration-a11y": "F",
       "declaration-rgpd-ml": "F",
       "declaration-rgpd-pc": "F",
-      "ecoindexGrade": "G"
+      "ecoindexGrade": "F"
     }
   },
   {
@@ -40247,7 +38983,7 @@
     "dsfr": null,
     "summary": {
       "httpGrade": "B+",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2025-02-10T23:59:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "C",
