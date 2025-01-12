@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mod.departement86.fr",
-        "size": 1365.279,
+        "size": 1365.253,
         "nodes": 266,
         "requests": 42,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 02:11:11.303392",
+        "date": "2025-01-12 02:05:21.640691",
         "page_type": null
     }
 ]
