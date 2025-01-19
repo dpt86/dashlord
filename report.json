@@ -570,7 +570,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "335 >= 60 days"
+        "finding": "328 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -766,14 +766,14 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736646847"
+        "finding": "1737251009"
       },
       {
         "id": "HSTS_time",
@@ -1350,7 +1350,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "91"
+        "finding": "115"
       }
     ],
     "thirdparties": {
@@ -1705,7 +1705,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2025-01-12T01:52:55.173Z",
+        "fetchTime": "2025-01-19T01:41:57.580Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1716,7 +1716,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.47
+            "score": 0.43
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1774,47 +1774,47 @@
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5779,
-                  "firstMeaningfulPaint": 11745,
-                  "largestContentfulPaint": 6837,
+                  "firstContentfulPaint": 6506,
+                  "firstMeaningfulPaint": 12211,
+                  "largestContentfulPaint": 7633,
                   "interactive": 15900,
-                  "speedIndex": 8767,
-                  "totalBlockingTime": 189,
-                  "maxPotentialFID": 338,
+                  "speedIndex": 9886,
+                  "totalBlockingTime": 239,
+                  "maxPotentialFID": 302,
                   "cumulativeLayoutShift": 0.015791041904025607,
                   "cumulativeLayoutShiftMainFrame": 0.015791041904025607,
                   "totalCumulativeLayoutShift": 0.015791041904025607,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 938122479,
+                  "observedTimeOriginTs": 974364313,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 938122479,
-                  "observedFirstPaint": 1172,
-                  "observedFirstPaintTs": 939294750,
-                  "observedFirstContentfulPaint": 1172,
-                  "observedFirstContentfulPaintTs": 939294750,
-                  "observedFirstContentfulPaintAllFrames": 1172,
-                  "observedFirstContentfulPaintAllFramesTs": 939294750,
-                  "observedFirstMeaningfulPaint": 1509,
-                  "observedFirstMeaningfulPaintTs": 939631824,
-                  "observedLargestContentfulPaint": 1178,
-                  "observedLargestContentfulPaintTs": 939300140,
-                  "observedLargestContentfulPaintAllFrames": 1178,
-                  "observedLargestContentfulPaintAllFramesTs": 939300140,
-                  "observedTraceEnd": 3941,
-                  "observedTraceEndTs": 942063695,
-                  "observedLoad": 1519,
-                  "observedLoadTs": 939641680,
-                  "observedDomContentLoaded": 1461,
-                  "observedDomContentLoadedTs": 939583556,
+                  "observedNavigationStartTs": 974364313,
+                  "observedFirstPaint": 1506,
+                  "observedFirstPaintTs": 975870597,
+                  "observedFirstContentfulPaint": 1506,
+                  "observedFirstContentfulPaintTs": 975870597,
+                  "observedFirstContentfulPaintAllFrames": 1506,
+                  "observedFirstContentfulPaintAllFramesTs": 975870597,
+                  "observedFirstMeaningfulPaint": 1918,
+                  "observedFirstMeaningfulPaintTs": 976282401,
+                  "observedLargestContentfulPaint": 1516,
+                  "observedLargestContentfulPaintTs": 975880037,
+                  "observedLargestContentfulPaintAllFrames": 1516,
+                  "observedLargestContentfulPaintAllFramesTs": 975880037,
+                  "observedTraceEnd": 4402,
+                  "observedTraceEndTs": 978766806,
+                  "observedLoad": 1898,
+                  "observedLoadTs": 976261924,
+                  "observedDomContentLoaded": 1869,
+                  "observedDomContentLoadedTs": 976233024,
                   "observedCumulativeLayoutShift": 0.015791041904025607,
                   "observedCumulativeLayoutShiftMainFrame": 0.015791041904025607,
                   "observedTotalCumulativeLayoutShift": 0.015791041904025607,
-                  "observedFirstVisualChange": 1173,
-                  "observedFirstVisualChangeTs": 939295479,
-                  "observedLastVisualChange": 2473,
-                  "observedLastVisualChangeTs": 940595479,
-                  "observedSpeedIndex": 2132,
-                  "observedSpeedIndexTs": 940254055
+                  "observedFirstVisualChange": 1513,
+                  "observedFirstVisualChangeTs": 975877313,
+                  "observedLastVisualChange": 2896,
+                  "observedLastVisualChangeTs": 977260313,
+                  "observedSpeedIndex": 2427,
+                  "observedSpeedIndexTs": 976790927
                 },
                 {
                   "lcpInvalidated": false
@@ -1836,19 +1836,19 @@
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1305,
+                  "numTasks": 1298,
                   "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 4,
+                  "numTasksOver25ms": 6,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 35484795.65404462,
-                  "maxRtt": 106.19,
-                  "maxServerLatency": 119.173,
-                  "totalByteWeight": 2785898,
-                  "totalTaskTime": 649.7810000000009,
-                  "mainDocumentTransferSize": 61799
+                  "throughput": 21555834.49737887,
+                  "maxRtt": 155.302,
+                  "maxServerLatency": 163.197,
+                  "totalByteWeight": 2511508,
+                  "totalTaskTime": 646.6750000000012,
+                  "mainDocumentTransferSize": 61424
                 }
               ]
             }
@@ -1872,15 +1872,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 4241.903,
-        "nodes": 1708,
+        "size": 3542.515,
+        "nodes": 1666,
         "requests": 61,
         "grade": "E",
-        "score": 29,
-        "ges": 2.42,
-        "water": 3.63,
+        "score": 30,
+        "ges": 2.4,
+        "water": 3.6,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-12 01:39:34.938601",
+        "date": "2025-01-19 01:28:35.506880",
         "page_type": "article"
       }
     ],
@@ -1895,7 +1895,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.47,
+      "lighthouse_performance": 0.43,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.92,
       "lighthouse_accessibilityGrade": "A",
@@ -9743,8 +9743,8 @@
         "id": "service",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "INFO",
-        "finding": "HTTP"
+        "severity": "DEBUG",
+        "finding": "Couldn't determine service, skipping all HTTP checks"
       },
       {
         "id": "pre_128cipher",
@@ -9846,9 +9846,9 @@
         "id": "cipherlist_OBSOLETED",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "INFO",
+        "severity": "LOW",
         "cwe": "CWE-310",
-        "finding": "not offered"
+        "finding": "offered"
       },
       {
         "id": "cipherlist_STRONG_NOFS",
@@ -9925,7 +9925,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
+        "finding": "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "FS_ECDHE_curves",
@@ -9939,7 +9939,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
+        "finding": "'key share/#51' 'supported versions/#43' 'server name/#0' 'status request/#5' 'extended master secret/#23' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35'"
       },
       {
         "id": "TLS_session_ticket",
@@ -10107,7 +10107,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "OK",
-        "finding": "361 >= 60 days"
+        "finding": "347 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -10257,84 +10257,6 @@
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
-        "id": "HTTP_status_code",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "WARN",
-        "finding": "HTTP header reply empty"
-      },
-      {
-        "id": "HTTP_status_code",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "WARN",
-        "finding": "No HTTP status code"
-      },
-      {
-        "id": "HTTP_status_code",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "301 Moved Permanently ('/')"
-      },
-      {
-        "id": "HTTP_clock_skew",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Got no HTTP time, maybe try different URL?"
-      },
-      {
-        "id": "HSTS",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "not offered"
-      },
-      {
-        "id": "HPKP",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No support for HTTP Public Key Pinning"
-      },
-      {
-        "id": "banner_server",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No Server banner line in header, interesting!"
-      },
-      {
-        "id": "banner_application",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No application banner found"
-      },
-      {
-        "id": "cookie_count",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "0 at '/' (30x detected, better try target URL of 30x)"
-      },
-      {
-        "id": "security_headers",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "MEDIUM",
-        "finding": "--"
-      },
-      {
-        "id": "banner_reverseproxy",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-200",
-        "finding": "--"
-      },
-      {
         "id": "heartbleed",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
@@ -10356,10 +10278,10 @@
         "id": "ticketbleed",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "OK",
+        "severity": "INFO",
         "cve": "CVE-2016-9244",
         "cwe": "CWE-200",
-        "finding": "not vulnerable"
+        "finding": "not applicable, not HTTP"
       },
       {
         "id": "ROBOT",
@@ -10394,16 +10316,7 @@
         "severity": "OK",
         "cve": "CVE-2012-4929",
         "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "BREACH",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2013-3587",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+        "finding": "not vulnerable (not using HTTP anyway)"
       },
       {
         "id": "POODLE_SSL",
@@ -10530,7 +10443,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-android_90",
@@ -10551,14 +10464,14 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-android_12",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_79_win10",
@@ -10698,7 +10611,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-go_1178",
@@ -10726,7 +10639,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_111d",
@@ -10754,7 +10667,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "rating_spec",
@@ -10824,21 +10737,14 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "OK",
-        "finding": "A"
-      },
-      {
-        "id": "grade_cap_reason_1",
-        "ip": "www.emploi86.com/217.70.184.56",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Grade capped to A. HSTS is not offered"
+        "finding": "A+"
       },
       {
         "id": "scanTime",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "61"
+        "finding": "96"
       }
     ],
     "thirdparties": {
@@ -10862,7 +10768,7 @@
       {
         "requestedUrl": "https://www.emploi86.com/",
         "finalUrl": "https://www.francetravail.fr/accueil/",
-        "fetchTime": "2025-01-05T01:56:24.372Z",
+        "fetchTime": "2025-01-19T01:47:02.001Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.emploi86.com/) was redirected to https://www.francetravail.fr/accueil/. Try testing the second URL directly."
         ],
@@ -10875,7 +10781,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.5
+            "score": 0.45
           },
           "accessibility": {
             "title": "Accessibility",
@@ -10927,53 +10833,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 13443,
+            "numericValue": 14545,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3848,
-                  "firstMeaningfulPaint": 3848,
-                  "largestContentfulPaint": 5410,
-                  "interactive": 13443,
-                  "speedIndex": 6968,
-                  "totalBlockingTime": 316,
-                  "maxPotentialFID": 329,
-                  "cumulativeLayoutShift": 0.00532160653008355,
-                  "cumulativeLayoutShiftMainFrame": 0.00532160653008355,
-                  "totalCumulativeLayoutShift": 0.00532160653008355,
+                  "firstContentfulPaint": 4295,
+                  "firstMeaningfulPaint": 4295,
+                  "largestContentfulPaint": 6710,
+                  "interactive": 14545,
+                  "speedIndex": 9749,
+                  "totalBlockingTime": 272,
+                  "maxPotentialFID": 276,
+                  "cumulativeLayoutShift": 0.0016028442382812502,
+                  "cumulativeLayoutShiftMainFrame": 0.0016028442382812502,
+                  "totalCumulativeLayoutShift": 0.0016729329427083335,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 378106822,
+                  "observedTimeOriginTs": 351644506,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 378106822,
-                  "observedFirstPaint": 1164,
-                  "observedFirstPaintTs": 379270989,
-                  "observedFirstContentfulPaint": 1164,
-                  "observedFirstContentfulPaintTs": 379270989,
-                  "observedFirstContentfulPaintAllFrames": 1164,
-                  "observedFirstContentfulPaintAllFramesTs": 379270989,
-                  "observedFirstMeaningfulPaint": 1164,
-                  "observedFirstMeaningfulPaintTs": 379270989,
-                  "observedLargestContentfulPaint": 1566,
-                  "observedLargestContentfulPaintTs": 379672351,
-                  "observedLargestContentfulPaintAllFrames": 1566,
-                  "observedLargestContentfulPaintAllFramesTs": 379672351,
-                  "observedTraceEnd": 5059,
-                  "observedTraceEndTs": 383166207,
-                  "observedLoad": 2401,
-                  "observedLoadTs": 380508124,
-                  "observedDomContentLoaded": 1910,
-                  "observedDomContentLoadedTs": 380017065,
-                  "observedCumulativeLayoutShift": 0.00532160653008355,
-                  "observedCumulativeLayoutShiftMainFrame": 0.00532160653008355,
-                  "observedTotalCumulativeLayoutShift": 0.00532160653008355,
-                  "observedFirstVisualChange": 1178,
-                  "observedFirstVisualChangeTs": 379284822,
-                  "observedLastVisualChange": 5011,
-                  "observedLastVisualChangeTs": 383117822,
-                  "observedSpeedIndex": 1829,
-                  "observedSpeedIndexTs": 379935802
+                  "observedNavigationStartTs": 351644506,
+                  "observedFirstPaint": 1487,
+                  "observedFirstPaintTs": 353131886,
+                  "observedFirstContentfulPaint": 1487,
+                  "observedFirstContentfulPaintTs": 353131886,
+                  "observedFirstContentfulPaintAllFrames": 1487,
+                  "observedFirstContentfulPaintAllFramesTs": 353131886,
+                  "observedFirstMeaningfulPaint": 1487,
+                  "observedFirstMeaningfulPaintTs": 353131886,
+                  "observedLargestContentfulPaint": 1944,
+                  "observedLargestContentfulPaintTs": 353588500,
+                  "observedLargestContentfulPaintAllFrames": 1944,
+                  "observedLargestContentfulPaintAllFramesTs": 353588500,
+                  "observedTraceEnd": 6856,
+                  "observedTraceEndTs": 358500677,
+                  "observedLoad": 3056,
+                  "observedLoadTs": 354700037,
+                  "observedDomContentLoaded": 2373,
+                  "observedDomContentLoadedTs": 354017221,
+                  "observedCumulativeLayoutShift": 0.0016028442382812502,
+                  "observedCumulativeLayoutShiftMainFrame": 0.0016028442382812502,
+                  "observedTotalCumulativeLayoutShift": 0.0016729329427083335,
+                  "observedFirstVisualChange": 1491,
+                  "observedFirstVisualChangeTs": 353135506,
+                  "observedLastVisualChange": 4391,
+                  "observedLastVisualChangeTs": 356035506,
+                  "observedSpeedIndex": 2668,
+                  "observedSpeedIndexTs": 354312660
                 },
                 {
                   "lcpInvalidated": false
@@ -10991,23 +10897,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 65,
+                  "numRequests": 51,
                   "numScripts": 9,
                   "numStylesheets": 2,
                   "numFonts": 6,
-                  "numTasks": 1795,
+                  "numTasks": 1445,
                   "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 3,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 6711165.258416978,
-                  "maxRtt": 108.751,
-                  "maxServerLatency": 42.418000000000006,
-                  "totalByteWeight": 1623195,
-                  "totalTaskTime": 677.0089999999982,
-                  "mainDocumentTransferSize": 44395
+                  "throughput": 7461893.443649063,
+                  "maxRtt": 156.88500000000002,
+                  "maxServerLatency": 62.556,
+                  "totalByteWeight": 1920646,
+                  "totalTaskTime": 545.6129999999984,
+                  "mainDocumentTransferSize": 43327
                 }
               ]
             }
@@ -11055,15 +10961,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.emploi86.com",
-        "size": 2093.412,
-        "nodes": 593,
-        "requests": 52,
+        "size": 2391.384,
+        "nodes": 613,
+        "requests": 51,
         "grade": "D",
-        "score": 54,
-        "ges": 1.92,
-        "water": 2.88,
+        "score": 53,
+        "ges": 1.94,
+        "water": 2.91,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 01:53:09.571838",
+        "date": "2025-01-19 01:43:43.369640",
         "page_type": null
       }
     ],
@@ -11074,12 +10980,12 @@
       "httpGrade": "C-",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-01-01T23:59:00.000Z",
-      "testsslGrade": "A",
+      "testsslGrade": "A+",
       "cookiesGrade": null,
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.5,
+      "lighthouse_performance": 0.45,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
@@ -11620,7 +11526,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "58 >= 30 days"
+        "finding": "51 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -11781,7 +11687,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736647264"
+        "finding": "1737251334"
       },
       {
         "id": "HSTS_time",
@@ -12365,7 +12271,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "98"
+        "finding": "54"
       }
     ],
     "thirdparties": {
@@ -12516,7 +12422,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2025-01-12T01:59:48.305Z",
+        "fetchTime": "2025-01-19T01:48:13.007Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -12529,7 +12435,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.58
+            "score": 0.5
           },
           "accessibility": {
             "title": "Accessibility",
@@ -12581,53 +12487,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4399,
+            "numericValue": 4297,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4399,
-                  "firstMeaningfulPaint": 4399,
-                  "largestContentfulPaint": 7013,
-                  "interactive": 4399,
-                  "speedIndex": 8780,
+                  "firstContentfulPaint": 4297,
+                  "firstMeaningfulPaint": 4297,
+                  "largestContentfulPaint": 6935,
+                  "interactive": 4297,
+                  "speedIndex": 7027,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
-                  "cumulativeLayoutShift": 0.002806905110677083,
-                  "cumulativeLayoutShiftMainFrame": 0.002806905110677083,
-                  "totalCumulativeLayoutShift": 0.002806905110677083,
+                  "cumulativeLayoutShift": 0.33714170328776044,
+                  "cumulativeLayoutShiftMainFrame": 0.33714170328776044,
+                  "totalCumulativeLayoutShift": 0.33714170328776044,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 341004691,
+                  "observedTimeOriginTs": 352118052,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 341004691,
-                  "observedFirstPaint": 3247,
-                  "observedFirstPaintTs": 344251992,
-                  "observedFirstContentfulPaint": 3247,
-                  "observedFirstContentfulPaintTs": 344251992,
-                  "observedFirstContentfulPaintAllFrames": 3247,
-                  "observedFirstContentfulPaintAllFramesTs": 344251992,
-                  "observedFirstMeaningfulPaint": 3247,
-                  "observedFirstMeaningfulPaintTs": 344251992,
-                  "observedLargestContentfulPaint": 3247,
-                  "observedLargestContentfulPaintTs": 344251992,
-                  "observedLargestContentfulPaintAllFrames": 3247,
-                  "observedLargestContentfulPaintAllFramesTs": 344251992,
-                  "observedTraceEnd": 5702,
-                  "observedTraceEndTs": 346706950,
-                  "observedLoad": 2238,
-                  "observedLoadTs": 343242914,
-                  "observedDomContentLoaded": 1639,
-                  "observedDomContentLoadedTs": 342643468,
-                  "observedCumulativeLayoutShift": 0.002806905110677083,
-                  "observedCumulativeLayoutShiftMainFrame": 0.002806905110677083,
-                  "observedTotalCumulativeLayoutShift": 0.002806905110677083,
-                  "observedFirstVisualChange": 3248,
-                  "observedFirstVisualChangeTs": 344252691,
-                  "observedLastVisualChange": 3414,
-                  "observedLastVisualChangeTs": 344418691,
-                  "observedSpeedIndex": 3270,
-                  "observedSpeedIndexTs": 344274728
+                  "observedNavigationStartTs": 352118052,
+                  "observedFirstPaint": 2103,
+                  "observedFirstPaintTs": 354221322,
+                  "observedFirstContentfulPaint": 2103,
+                  "observedFirstContentfulPaintTs": 354221322,
+                  "observedFirstContentfulPaintAllFrames": 2103,
+                  "observedFirstContentfulPaintAllFramesTs": 354221322,
+                  "observedFirstMeaningfulPaint": 2103,
+                  "observedFirstMeaningfulPaintTs": 354221322,
+                  "observedLargestContentfulPaint": 2103,
+                  "observedLargestContentfulPaintTs": 354221322,
+                  "observedLargestContentfulPaintAllFrames": 2103,
+                  "observedLargestContentfulPaintAllFramesTs": 354221322,
+                  "observedTraceEnd": 4501,
+                  "observedTraceEndTs": 356619220,
+                  "observedLoad": 1453,
+                  "observedLoadTs": 353571280,
+                  "observedDomContentLoaded": 1056,
+                  "observedDomContentLoadedTs": 353174241,
+                  "observedCumulativeLayoutShift": 0.33714170328776044,
+                  "observedCumulativeLayoutShiftMainFrame": 0.33714170328776044,
+                  "observedTotalCumulativeLayoutShift": 0.33714170328776044,
+                  "observedFirstVisualChange": 2101,
+                  "observedFirstVisualChangeTs": 354219052,
+                  "observedLastVisualChange": 2201,
+                  "observedLastVisualChangeTs": 354319052,
+                  "observedSpeedIndex": 2118,
+                  "observedSpeedIndexTs": 354235997
                 },
                 {
                   "lcpInvalidated": false
@@ -12645,23 +12551,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 80,
+                  "numRequests": 56,
                   "numScripts": 36,
                   "numStylesheets": 1,
                   "numFonts": 4,
-                  "numTasks": 38,
+                  "numTasks": 27,
                   "numTasksOver10ms": 0,
                   "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 131.74,
-                  "throughput": 19746009.741090536,
-                  "maxRtt": 146.292,
-                  "maxServerLatency": 5.076999999999998,
-                  "totalByteWeight": 1223669,
-                  "totalTaskTime": 5.432999999999997,
-                  "mainDocumentTransferSize": 8377
+                  "rtt": 87.347,
+                  "throughput": 26067709.90897289,
+                  "maxRtt": 87.88,
+                  "maxServerLatency": 11.325000000000003,
+                  "totalByteWeight": 1185987,
+                  "totalTaskTime": 5.151999999999999,
+                  "mainDocumentTransferSize": 8308
                 }
               ]
             }
@@ -12704,15 +12610,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1335.086,
-        "nodes": 107,
+        "size": 1310.248,
+        "nodes": 103,
         "requests": 54,
         "grade": "B",
         "score": 75,
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-12 01:56:39.405660",
+        "date": "2025-01-19 01:45:02.970153",
         "page_type": null
       }
     ],
@@ -12728,8 +12634,8 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.58,
-      "lighthouse_performanceGrade": "C",
+      "lighthouse_performance": 0.5,
+      "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 1,
@@ -13279,7 +13185,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "85 >= 60 days"
+        "finding": "78 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -13440,7 +13346,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736647270"
+        "finding": "1737251414"
       },
       {
         "id": "HSTS_time",
@@ -14003,7 +13909,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "82"
+        "finding": "59"
       }
     ],
     "thirdparties": {
@@ -14307,7 +14213,7 @@
       {
         "requestedUrl": "https://www.mdph86.fr/",
         "finalUrl": "https://mdph86.fr/",
-        "fetchTime": "2025-01-12T02:00:01.817Z",
+        "fetchTime": "2025-01-19T01:49:23.112Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.mdph86.fr/) was redirected to https://mdph86.fr/. Try testing the second URL directly."
         ],
@@ -14320,7 +14226,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.46
           },
           "accessibility": {
             "title": "Accessibility",
@@ -14372,53 +14278,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15726,
+            "numericValue": 15529,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7230,
-                  "firstMeaningfulPaint": 7230,
-                  "largestContentfulPaint": 7778,
-                  "interactive": 15726,
-                  "speedIndex": 11922,
-                  "totalBlockingTime": 148,
-                  "maxPotentialFID": 223,
-                  "cumulativeLayoutShift": 0.017522267235649956,
-                  "cumulativeLayoutShiftMainFrame": 0.017522267235649956,
-                  "totalCumulativeLayoutShift": 0.017522267235649956,
+                  "firstContentfulPaint": 6432,
+                  "firstMeaningfulPaint": 6432,
+                  "largestContentfulPaint": 7132,
+                  "interactive": 15529,
+                  "speedIndex": 10937,
+                  "totalBlockingTime": 155,
+                  "maxPotentialFID": 222,
+                  "cumulativeLayoutShift": 0.01777064471774631,
+                  "cumulativeLayoutShiftMainFrame": 0.01777064471774631,
+                  "totalCumulativeLayoutShift": 0.01777064471774631,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 344426128,
+                  "observedTimeOriginTs": 396229832,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 344426128,
-                  "observedFirstPaint": 1700,
-                  "observedFirstPaintTs": 346125791,
-                  "observedFirstContentfulPaint": 1700,
-                  "observedFirstContentfulPaintTs": 346125791,
-                  "observedFirstContentfulPaintAllFrames": 1700,
-                  "observedFirstContentfulPaintAllFramesTs": 346125791,
-                  "observedFirstMeaningfulPaint": 1700,
-                  "observedFirstMeaningfulPaintTs": 346125791,
-                  "observedLargestContentfulPaint": 1700,
-                  "observedLargestContentfulPaintTs": 346125791,
-                  "observedLargestContentfulPaintAllFrames": 1700,
-                  "observedLargestContentfulPaintAllFramesTs": 346125791,
-                  "observedTraceEnd": 5533,
-                  "observedTraceEndTs": 349958675,
-                  "observedLoad": 2395,
-                  "observedLoadTs": 346820848,
-                  "observedDomContentLoaded": 2390,
-                  "observedDomContentLoadedTs": 346815714,
-                  "observedCumulativeLayoutShift": 0.017522267235649956,
-                  "observedCumulativeLayoutShiftMainFrame": 0.017522267235649956,
-                  "observedTotalCumulativeLayoutShift": 0.017522267235649956,
-                  "observedFirstVisualChange": 1710,
-                  "observedFirstVisualChangeTs": 346136128,
-                  "observedLastVisualChange": 3343,
-                  "observedLastVisualChangeTs": 347769128,
-                  "observedSpeedIndex": 2960,
-                  "observedSpeedIndexTs": 347385771
+                  "observedNavigationStartTs": 396229832,
+                  "observedFirstPaint": 1242,
+                  "observedFirstPaintTs": 397471877,
+                  "observedFirstContentfulPaint": 1242,
+                  "observedFirstContentfulPaintTs": 397471877,
+                  "observedFirstContentfulPaintAllFrames": 1242,
+                  "observedFirstContentfulPaintAllFramesTs": 397471877,
+                  "observedFirstMeaningfulPaint": 1242,
+                  "observedFirstMeaningfulPaintTs": 397471877,
+                  "observedLargestContentfulPaint": 1242,
+                  "observedLargestContentfulPaintTs": 397471877,
+                  "observedLargestContentfulPaintAllFrames": 1242,
+                  "observedLargestContentfulPaintAllFramesTs": 397471877,
+                  "observedTraceEnd": 4741,
+                  "observedTraceEndTs": 400970420,
+                  "observedLoad": 1724,
+                  "observedLoadTs": 397954202,
+                  "observedDomContentLoaded": 1719,
+                  "observedDomContentLoadedTs": 397948765,
+                  "observedCumulativeLayoutShift": 0.01777064471774631,
+                  "observedCumulativeLayoutShiftMainFrame": 0.01777064471774631,
+                  "observedTotalCumulativeLayoutShift": 0.01777064471774631,
+                  "observedFirstVisualChange": 1254,
+                  "observedFirstVisualChangeTs": 397483832,
+                  "observedLastVisualChange": 2687,
+                  "observedLastVisualChangeTs": 398916832,
+                  "observedSpeedIndex": 2288,
+                  "observedSpeedIndexTs": 398517725
                 },
                 {
                   "lcpInvalidated": false
@@ -14440,18 +14346,18 @@
                   "numScripts": 19,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 1208,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 4,
+                  "numTasks": 1138,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 27968298.300857868,
-                  "maxRtt": 107.219,
-                  "maxServerLatency": 106.561,
-                  "totalByteWeight": 2513591,
-                  "totalTaskTime": 553.5179999999989,
+                  "throughput": 39289783.395329714,
+                  "maxRtt": 87.873,
+                  "maxServerLatency": 88.244,
+                  "totalByteWeight": 2516432,
+                  "totalTaskTime": 586.8699999999982,
                   "mainDocumentTransferSize": 15019
                 }
               ]
@@ -14497,7 +14403,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mdph86.fr",
-        "size": 3151.663,
+        "size": 3154.512,
         "nodes": 659,
         "requests": 60,
         "grade": "D",
@@ -14505,7 +14411,7 @@
         "ges": 2.06,
         "water": 3.09,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-12 01:56:38.058051",
+        "date": "2025-01-19 01:45:56.504898",
         "page_type": "article"
       }
     ],
@@ -14521,7 +14427,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.45,
+      "lighthouse_performance": 0.46,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -19524,7 +19430,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "335 >= 60 days"
+        "finding": "328 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -19727,7 +19633,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736647734"
+        "finding": "1737251877"
       },
       {
         "id": "HSTS_time",
@@ -20290,7 +20196,7 @@
         "ip": "sportsnature.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "62"
+        "finding": "67"
       }
     ],
     "thirdparties": {
@@ -20609,7 +20515,7 @@
       {
         "requestedUrl": "https://sportsnature.lavienne86.fr/",
         "finalUrl": "https://sportsnature.lavienne86.fr/",
-        "fetchTime": "2025-01-12T02:08:01.462Z",
+        "fetchTime": "2025-01-19T01:57:02.451Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -20620,7 +20526,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.44
+            "score": 0.43
           },
           "accessibility": {
             "title": "Accessibility",
@@ -20672,53 +20578,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 17067,
+            "numericValue": 16841,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6304,
-                  "firstMeaningfulPaint": 6304,
-                  "largestContentfulPaint": 8317,
-                  "interactive": 17067,
-                  "speedIndex": 9269,
-                  "totalBlockingTime": 208,
-                  "maxPotentialFID": 266,
-                  "cumulativeLayoutShift": 0.03319282446967231,
-                  "cumulativeLayoutShiftMainFrame": 0.03319282446967231,
-                  "totalCumulativeLayoutShift": 0.03319282446967231,
+                  "firstContentfulPaint": 6047,
+                  "firstMeaningfulPaint": 6047,
+                  "largestContentfulPaint": 11095,
+                  "interactive": 16841,
+                  "speedIndex": 10200,
+                  "totalBlockingTime": 214,
+                  "maxPotentialFID": 351,
+                  "cumulativeLayoutShift": 0.03860466681586372,
+                  "cumulativeLayoutShiftMainFrame": 0.03860466681586372,
+                  "totalCumulativeLayoutShift": 0.03860466681586372,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 501843921,
+                  "observedTimeOriginTs": 422214401,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 501843921,
-                  "observedFirstPaint": 1144,
-                  "observedFirstPaintTs": 502987523,
-                  "observedFirstContentfulPaint": 1144,
-                  "observedFirstContentfulPaintTs": 502987523,
-                  "observedFirstContentfulPaintAllFrames": 1144,
-                  "observedFirstContentfulPaintAllFramesTs": 502987523,
-                  "observedFirstMeaningfulPaint": 1144,
-                  "observedFirstMeaningfulPaintTs": 502987523,
-                  "observedLargestContentfulPaint": 1144,
-                  "observedLargestContentfulPaintTs": 502987523,
-                  "observedLargestContentfulPaintAllFrames": 1144,
-                  "observedLargestContentfulPaintAllFramesTs": 502987523,
-                  "observedTraceEnd": 3803,
-                  "observedTraceEndTs": 505647229,
-                  "observedLoad": 1390,
-                  "observedLoadTs": 503234236,
-                  "observedDomContentLoaded": 1385,
-                  "observedDomContentLoadedTs": 503228588,
-                  "observedCumulativeLayoutShift": 0.03319282446967231,
-                  "observedCumulativeLayoutShiftMainFrame": 0.03319282446967231,
-                  "observedTotalCumulativeLayoutShift": 0.03319282446967231,
-                  "observedFirstVisualChange": 1152,
-                  "observedFirstVisualChangeTs": 502995921,
-                  "observedLastVisualChange": 2352,
-                  "observedLastVisualChangeTs": 504195921,
-                  "observedSpeedIndex": 1893,
-                  "observedSpeedIndexTs": 503737183
+                  "observedNavigationStartTs": 422214401,
+                  "observedFirstPaint": 1155,
+                  "observedFirstPaintTs": 423369133,
+                  "observedFirstContentfulPaint": 1155,
+                  "observedFirstContentfulPaintTs": 423369133,
+                  "observedFirstContentfulPaintAllFrames": 1155,
+                  "observedFirstContentfulPaintAllFramesTs": 423369133,
+                  "observedFirstMeaningfulPaint": 1155,
+                  "observedFirstMeaningfulPaintTs": 423369133,
+                  "observedLargestContentfulPaint": 1155,
+                  "observedLargestContentfulPaintTs": 423369133,
+                  "observedLargestContentfulPaintAllFrames": 1155,
+                  "observedLargestContentfulPaintAllFramesTs": 423369133,
+                  "observedTraceEnd": 3913,
+                  "observedTraceEndTs": 426127703,
+                  "observedLoad": 1514,
+                  "observedLoadTs": 423727985,
+                  "observedDomContentLoaded": 1487,
+                  "observedDomContentLoadedTs": 423700986,
+                  "observedCumulativeLayoutShift": 0.03860466681586372,
+                  "observedCumulativeLayoutShiftMainFrame": 0.03860466681586372,
+                  "observedTotalCumulativeLayoutShift": 0.03860466681586372,
+                  "observedFirstVisualChange": 1168,
+                  "observedFirstVisualChangeTs": 423382401,
+                  "observedLastVisualChange": 2468,
+                  "observedLastVisualChangeTs": 424682401,
+                  "observedSpeedIndex": 2083,
+                  "observedSpeedIndexTs": 424297694
                 },
                 {
                   "lcpInvalidated": false
@@ -20740,19 +20646,19 @@
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 1107,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 4,
+                  "numTasks": 1146,
+                  "numTasksOver10ms": 10,
+                  "numTasksOver25ms": 5,
                   "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
+                  "numTasksOver100ms": 3,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 56942249.48511121,
-                  "maxRtt": 85.64699999999999,
-                  "maxServerLatency": 96.097,
-                  "totalByteWeight": 3355742,
-                  "totalTaskTime": 558.6839999999995,
-                  "mainDocumentTransferSize": 11354
+                  "rtt": 1.8760000000000003,
+                  "throughput": 53677593.647810325,
+                  "maxRtt": 86.43700000000001,
+                  "maxServerLatency": 98.078,
+                  "totalByteWeight": 3387707,
+                  "totalTaskTime": 732.1239999999995,
+                  "mainDocumentTransferSize": 11324
                 }
               ]
             }
@@ -20800,15 +20706,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 4464.619,
-        "nodes": 754,
+        "size": 4494.028,
+        "nodes": 758,
         "requests": 60,
         "grade": "D",
         "score": 43,
         "ges": 2.14,
         "water": 3.21,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-12 02:03:19.773824",
+        "date": "2025-01-19 01:52:13.334532",
         "page_type": "article"
       }
     ],
@@ -20824,7 +20730,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.44,
+      "lighthouse_performance": 0.43,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
@@ -24890,1434 +24796,18 @@
     "codescan": null,
     "testssl": [
       {
-        "id": "service",
+        "id": "scanProblem",
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
-        "severity": "INFO",
-        "finding": "HTTP"
-      },
-      {
-        "id": "pre_128cipher",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No 128 cipher limit bug"
-      },
-      {
-        "id": "SSLv2",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "not offered"
-      },
-      {
-        "id": "SSLv3",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1_1",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1_2",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "TLS1_3",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered + downgraded to weaker protocol"
-      },
-      {
-        "id": "ALPN",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http/1.1"
-      },
-      {
-        "id": "cipherlist_NULL",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_aNULL",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_EXPORT",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_LOW",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_3DES_IDEA",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-310",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_OBSOLETED",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "cwe": "CWE-310",
-        "finding": "offered"
-      },
-      {
-        "id": "cipherlist_STRONG_NOFS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "cipherlist_STRONG_FS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "cipher_order-tls1_2",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "NOT a cipher order configured"
-      },
-      {
-        "id": "cipher-tls1_2_xc030",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "cipher-tls1_2_xc028",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
-      },
-      {
-        "id": "cipher-tls1_2_xc014",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_x9f",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "cipher-tls1_2_x6b",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x39",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_xc077",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH 521   Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
-      },
-      {
-        "id": "cipher-tls1_2_xc4",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc4     DHE-RSA-CAMELLIA256-SHA256        DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x88",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x88     DHE-RSA-CAMELLIA256-SHA           DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_x9d",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "cipher-tls1_2_x3d",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x35",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_xc0",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc0     CAMELLIA256-SHA256                RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x84",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_xc02f",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_xc027",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_xc013",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_x9e",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x67",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x33",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_xc076",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH 521   Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_xbe",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xbe     DHE-RSA-CAMELLIA128-SHA256        DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x45",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x45     DHE-RSA-CAMELLIA128-SHA           DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_x9c",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x3c",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x2f",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
-      },
-      {
-        "id": "cipher-tls1_2_xba",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   xba     CAMELLIA128-SHA256                RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-      },
-      {
-        "id": "cipher-tls1_2_x41",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "TLSv1.2   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
-      },
-      {
-        "id": "supportedciphers_TLSv1_2",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA256-SHA384 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA AES256-GCM-SHA384 AES256-SHA256 AES256-SHA CAMELLIA256-SHA256 CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA AES128-GCM-SHA256 AES128-SHA256 AES128-SHA CAMELLIA128-SHA256 CAMELLIA128-SHA"
-      },
-      {
-        "id": "cipher_order",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "NOT a cipher order configured"
-      },
-      {
-        "id": "FS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "FS_ciphers",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA128-SHA256 ECDHE-RSA-CAMELLIA256-SHA384"
-      },
-      {
-        "id": "FS_ECDHE_curves",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "prime256v1 secp384r1 secp521r1"
-      },
-      {
-        "id": "TLS_extensions",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
-      },
-      {
-        "id": "TLS_session_ticket",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "valid for 300 seconds only (<daily)"
-      },
-      {
-        "id": "SSL_sessionID_support",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "yes"
-      },
-      {
-        "id": "sessionresumption_ticket",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not supported"
-      },
-      {
-        "id": "sessionresumption_ID",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not supported"
-      },
-      {
-        "id": "TLS_timestamp",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "random"
-      },
-      {
-        "id": "cert_compression",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "N/A"
-      },
-      {
-        "id": "clientAuth",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "none"
-      },
-      {
-        "id": "cert_numbers",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1"
-      },
-      {
-        "id": "cert_signatureAlgorithm",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "SHA256 with RSA"
-      },
-      {
-        "id": "cert_keySize",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "RSA 2048 bits (exponent is 65537)"
-      },
-      {
-        "id": "cert_keyUsage",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Digital Signature, Key Encipherment"
-      },
-      {
-        "id": "cert_extKeyUsage",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
-      },
-      {
-        "id": "cert_serialNumber",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "E41BCAEC6AB1EDF64F74F67A4242FB70"
-      },
-      {
-        "id": "cert_serialNumberLen",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "16"
-      },
-      {
-        "id": "cert_fingerprintSHA1",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "9638AA5BECBF0D4B8C9D0AC4FE1EE516D3D35C02"
-      },
-      {
-        "id": "cert_fingerprintSHA256",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "E35172A3D6015DC9AB49D9AA2E6E34488A29E49E9DC0AAE70A57A426D13BCFFD"
-      },
-      {
-        "id": "cert",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "cert_commonName",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "*.departement86.fr"
-      },
-      {
-        "id": "cert_commonName_wo_SNI",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "*.portailagents86.fr"
-      },
-      {
-        "id": "cert_subjectAltName",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "*.departement86.fr departement86.fr"
-      },
-      {
-        "id": "cert_trust",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "Ok via SAN wildcard and CN wildcard (SNI mandatory)"
-      },
-      {
-        "id": "cert_trust_wildcard",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "trust is via wildcard"
-      },
-      {
-        "id": "cert_chain_of_trust",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "passed."
-      },
-      {
-        "id": "cert_certificatePolicies_EV",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no"
-      },
-      {
-        "id": "cert_expirationStatus",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "173 >= 60 days"
-      },
-      {
-        "id": "cert_notBefore",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2024-06-12 00:00"
-      },
-      {
-        "id": "cert_notAfter",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2025-07-04 23:59"
-      },
-      {
-        "id": "cert_extlifeSpan",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "certificate has no extended life time according to browser forum"
-      },
-      {
-        "id": "cert_eTLS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not present"
-      },
-      {
-        "id": "cert_crlDistributionPoints",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
-      },
-      {
-        "id": "cert_ocspURL",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http://ocsp.sectigo.com"
-      },
-      {
-        "id": "OCSP_stapling",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "not offered"
-      },
-      {
-        "id": "cert_mustStapleExtension",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "--"
-      },
-      {
-        "id": "DNS_CAArecord",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "--"
-      },
-      {
-        "id": "certificate_transparency",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "yes (certificate extension)"
-      },
-      {
-        "id": "certs_countServer",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "5"
-      },
-      {
-        "id": "certs_list_ordering_problem",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "yes"
-      },
-      {
-        "id": "cert_caIssuers",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Sectigo RSA Organization Validation Secure Server CA (Sectigo Limited from GB)"
-      },
-      {
-        "id": "intermediate_cert <#1>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "72A34AC2B424AED3F6B0B04755B88CC027DCCC806FDDB22B4CD7C47773973EC0"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#1>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2018-11-02 00:00"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#1>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2030-12-31 23:59"
-      },
-      {
-        "id": "intermediate_cert_expiration <#1>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#1>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Sectigo RSA Organization Validation Secure Server CA <-- USERTrust RSA Certification Authority"
-      },
-      {
-        "id": "intermediate_cert <#2>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIFgTCCBGmgAwIBAgIQOXJEOvkit1HX02wQ3TE1lTANBgkqhkiG9w0BAQwFADB7MQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UEAwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4MTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sIs9CsVw127c0n00ytUINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnGvDoZtF+mvX2do2NCtnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQIjy8/hPwhxR79uQfjtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfbIWax1Jt4A8BQOujM8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0tyA9yn8iNK5+O2hmAUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97Exwzf4TKuzJM7UXiVZ4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNVicQNwZNUMBkTrNN9N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5D9kCnusSTJV882sFqV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJWBp/kjbmUZIO8yZ9HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ5lhCLkMaTLTwJUdZ+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzGKAgEJTm4Diup8kyXHAc/DVL17e8vgg8CAwEAAaOB8jCB7zAfBgNVHSMEGDAWgBSgEQojPpbxB+zirynvgqV/0DCktDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMA0GCSqGSIb3DQEBDAUAA4IBAQAYh1HcdCE9nIrgJ7cz0C7M7PDmy14R3iJvm3WOnnL+5Nb+qh+cli3vA0p+rvSNb3I8QzvAP+u431yqqcau8vzY7qN7Q/aGNnwU4M309z/+3ri0ivCRlv79Q2R+/czSAaF9ffgZGclCKxO/WIu6pKJmBHaIkU4MiRTOok3JMrO66BQavHHxW/BBC5gACiIDEOUMsfnNkjcZ7Tvx5Dq2+UUTJnWvu6rvP3t3O9LEApE9GQDTF1w52z97GA1FzZOFli9d31kWTz9RvdVFGD/tSo7oBmF0Ixa1DVBzJ0RHfxBdiSprhTEUxOipakyAvGp4z7h/jnZymQyd/teRCBaho1+V\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "68B9C761219A5B1F0131784474665DB61BBDB109E00F05CA9F74244EE5F5F52B"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#2>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2019-03-12 00:00"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#2>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2028-12-31 23:59"
-      },
-      {
-        "id": "intermediate_cert_expiration <#2>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#2>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "USERTrust RSA Certification Authority <-- AAA Certificate Services"
-      },
-      {
-        "id": "intermediate_cert <#3>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#3>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "72A34AC2B424AED3F6B0B04755B88CC027DCCC806FDDB22B4CD7C47773973EC0"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#3>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2018-11-02 00:00"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#3>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2030-12-31 23:59"
-      },
-      {
-        "id": "intermediate_cert_expiration <#3>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#3>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Sectigo RSA Organization Validation Secure Server CA <-- USERTrust RSA Certification Authority"
-      },
-      {
-        "id": "intermediate_cert <#4>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIFgTCCBGmgAwIBAgIQOXJEOvkit1HX02wQ3TE1lTANBgkqhkiG9w0BAQwFADB7MQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UEAwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4MTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sIs9CsVw127c0n00ytUINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnGvDoZtF+mvX2do2NCtnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQIjy8/hPwhxR79uQfjtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfbIWax1Jt4A8BQOujM8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0tyA9yn8iNK5+O2hmAUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97Exwzf4TKuzJM7UXiVZ4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNVicQNwZNUMBkTrNN9N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5D9kCnusSTJV882sFqV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJWBp/kjbmUZIO8yZ9HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ5lhCLkMaTLTwJUdZ+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzGKAgEJTm4Diup8kyXHAc/DVL17e8vgg8CAwEAAaOB8jCB7zAfBgNVHSMEGDAWgBSgEQojPpbxB+zirynvgqV/0DCktDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMA0GCSqGSIb3DQEBDAUAA4IBAQAYh1HcdCE9nIrgJ7cz0C7M7PDmy14R3iJvm3WOnnL+5Nb+qh+cli3vA0p+rvSNb3I8QzvAP+u431yqqcau8vzY7qN7Q/aGNnwU4M309z/+3ri0ivCRlv79Q2R+/czSAaF9ffgZGclCKxO/WIu6pKJmBHaIkU4MiRTOok3JMrO66BQavHHxW/BBC5gACiIDEOUMsfnNkjcZ7Tvx5Dq2+UUTJnWvu6rvP3t3O9LEApE9GQDTF1w52z97GA1FzZOFli9d31kWTz9RvdVFGD/tSo7oBmF0Ixa1DVBzJ0RHfxBdiSprhTEUxOipakyAvGp4z7h/jnZymQyd/teRCBaho1+V\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#4>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "68B9C761219A5B1F0131784474665DB61BBDB109E00F05CA9F74244EE5F5F52B"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#4>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2019-03-12 00:00"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#4>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2028-12-31 23:59"
-      },
-      {
-        "id": "intermediate_cert_expiration <#4>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#4>",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "USERTrust RSA Certification Authority <-- AAA Certificate Services"
-      },
-      {
-        "id": "intermediate_cert_badOCSP",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "intermediate certificate(s) is/are ok"
-      },
-      {
-        "id": "HTTP_status_code",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "200 OK ('/')"
-      },
-      {
-        "id": "HTTP_clock_skew",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "+2281 seconds from localtime"
-      },
-      {
-        "id": "HTTP_headerTime",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1736650263"
-      },
-      {
-        "id": "HSTS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "not offered"
-      },
-      {
-        "id": "HPKP",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No support for HTTP Public Key Pinning"
-      },
-      {
-        "id": "banner_server",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Apache"
-      },
-      {
-        "id": "banner_application",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No application banner found"
-      },
-      {
-        "id": "cookie_count",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2 at '/'"
-      },
-      {
-        "id": "cookie_secure",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "0/2 at '/' marked as secure"
-      },
-      {
-        "id": "cookie_httponly",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "0/2 at '/' marked as HttpOnly"
-      },
-      {
-        "id": "X-Frame-Options",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "SAMEORIGIN"
-      },
-      {
-        "id": "X-Content-Type-Options",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "nosniff"
-      },
-      {
-        "id": "X-XSS-Protection",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1; mode=block"
-      },
-      {
-        "id": "Cache-Control",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      },
-      {
-        "id": "Pragma",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no-cache"
-      },
-      {
-        "id": "banner_reverseproxy",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-200",
-        "finding": "--"
-      },
-      {
-        "id": "heartbleed",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-0160",
-        "cwe": "CWE-119",
-        "finding": "not vulnerable, no heartbeat extension"
-      },
-      {
-        "id": "CCS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-0224",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "ticketbleed",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-9244",
-        "cwe": "CWE-200",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "ROBOT",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
-        "cwe": "CWE-203",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "secure_renego",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-310",
-        "finding": "supported"
-      },
-      {
-        "id": "secure_client_renego",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2011-1473",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "CRIME_TLS",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2012-4929",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "BREACH",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "MEDIUM",
-        "cve": "CVE-2013-3587",
-        "cwe": "CWE-310",
-        "finding": "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
-      },
-      {
-        "id": "POODLE_SSL",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-3566",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no SSLv3"
-      },
-      {
-        "id": "fallback_SCSV",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "no protocol below TLS 1.2 offered"
-      },
-      {
-        "id": "SWEET32",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-2183 CVE-2016-6329",
-        "cwe": "CWE-327",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "FREAK",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-0204",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "DROWN",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-0800 CVE-2016-0703",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable on this host and port"
-      },
-      {
-        "id": "DROWN_hint",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "cve": "CVE-2016-0800 CVE-2016-0703",
-        "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E35172A3D6015DC9AB49D9AA2E6E34488A29E49E9DC0AAE70A57A426D13BCFFD"
-      },
-      {
-        "id": "LOGJAM-common_primes",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "RFC3526/Oakley Group 14"
-      },
-      {
-        "id": "LOGJAM",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no DH EXPORT ciphers,"
-      },
-      {
-        "id": "BEAST",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2011-3389",
-        "cwe": "CWE-20",
-        "finding": "not vulnerable, no SSL3 or TLS1"
-      },
-      {
-        "id": "LUCKY13",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "LOW",
-        "cve": "CVE-2013-0169",
-        "cwe": "CWE-310",
-        "finding": "potentially vulnerable, uses TLS CBC ciphers"
-      },
-      {
-        "id": "winshock",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-6321",
-        "cwe": "CWE-94",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "RC4",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2013-2566 CVE-2015-2808",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "clientsimulation-android_60",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_70",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_81",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_90",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_X",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_11",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_12",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-chrome_79_win10",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-chrome_101_win10",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-firefox_66_win81",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-firefox_100_win10",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-ie_6_xp",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-ie_8_win7",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-ie_8_xp",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-ie_11_win7",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-SHA384"
-      },
-      {
-        "id": "clientsimulation-ie_11_win81",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-SHA384"
-      },
-      {
-        "id": "clientsimulation-ie_11_winphone81",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 AES128-SHA256"
-      },
-      {
-        "id": "clientsimulation-ie_11_win10",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-edge_15_win10",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-safari_121_ios_122",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-safari_130_osx_10146",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-java_7u25",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-java_8u161",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-SHA384"
-      },
-      {
-        "id": "clientsimulation-java1102",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-java1703",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-go_1178",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-libressl_283",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
-      },
-      {
-        "id": "clientsimulation-openssl_102e",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_110l",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_111d",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_303",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-apple_mail_16_0",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-thunderbird_91_9",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "rating_spec",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
-      },
-      {
-        "id": "rating_doc",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
-      },
-      {
-        "id": "protocol_support_score",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "100"
-      },
-      {
-        "id": "protocol_support_score_weighted",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "30"
-      },
-      {
-        "id": "key_exchange_score",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "90"
-      },
-      {
-        "id": "key_exchange_score_weighted",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "27"
-      },
-      {
-        "id": "cipher_strength_score",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "90"
-      },
-      {
-        "id": "cipher_strength_score_weighted",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "36"
-      },
-      {
-        "id": "final_score",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "93"
-      },
-      {
-        "id": "overall_grade",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "OK",
-        "finding": "A"
-      },
-      {
-        "id": "grade_cap_reason_1",
-        "ip": "mod.departement86.fr/83.206.130.186",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Grade capped to A. HSTS is not offered"
+        "severity": "FATAL",
+        "finding": "Can't connect to '83.206.130.186:443' Make sure a firewall is not between you and your scanning target!"
       },
       {
         "id": "scanTime",
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
-        "severity": "INFO",
-        "finding": "188"
+        "severity": "WARN",
+        "finding": "Scan interrupted"
       }
     ],
     "thirdparties": {
@@ -26645,8 +25135,10 @@
       {
         "requestedUrl": "https://mod.departement86.fr/",
         "finalUrl": "https://mod.departement86.fr/",
-        "fetchTime": "2025-01-12T02:11:18.410Z",
-        "runWarnings": [],
+        "fetchTime": "2025-01-19T02:07:12.287Z",
+        "runWarnings": [
+          "The page loaded too slowly to finish within the time limit. Results may be incomplete."
+        ],
         "categories": {
           "performance": {
             "title": "Performance",
@@ -26708,53 +25200,51 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9611,
+            "numericValue": 9633,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7729,
-                  "firstMeaningfulPaint": 7744,
-                  "largestContentfulPaint": 8067,
-                  "interactive": 9611,
-                  "speedIndex": 9739,
-                  "totalBlockingTime": 53,
-                  "maxPotentialFID": 156,
+                  "firstContentfulPaint": 8533,
+                  "firstMeaningfulPaint": 8551,
+                  "largestContentfulPaint": 8767,
+                  "interactive": 9633,
+                  "speedIndex": 12042,
+                  "totalBlockingTime": 61,
+                  "maxPotentialFID": 90,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 512104356,
+                  "observedTimeOriginTs": 670164521,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 512104356,
-                  "observedFirstPaint": 1854,
-                  "observedFirstPaintTs": 513957874,
-                  "observedFirstContentfulPaint": 1854,
-                  "observedFirstContentfulPaintTs": 513957874,
-                  "observedFirstContentfulPaintAllFrames": 1854,
-                  "observedFirstContentfulPaintAllFramesTs": 513957874,
-                  "observedFirstMeaningfulPaint": 1854,
-                  "observedFirstMeaningfulPaintTs": 513957874,
-                  "observedLargestContentfulPaint": 1854,
-                  "observedLargestContentfulPaintTs": 513957875,
-                  "observedLargestContentfulPaintAllFrames": 1854,
-                  "observedLargestContentfulPaintAllFramesTs": 513957875,
-                  "observedTraceEnd": 5656,
-                  "observedTraceEndTs": 517760388,
-                  "observedLoad": 2259,
-                  "observedLoadTs": 514363761,
-                  "observedDomContentLoaded": 1862,
-                  "observedDomContentLoadedTs": 513965951,
+                  "observedNavigationStartTs": 670164521,
+                  "observedFirstPaint": 4131,
+                  "observedFirstPaintTs": 674295889,
+                  "observedFirstContentfulPaint": 4131,
+                  "observedFirstContentfulPaintTs": 674295889,
+                  "observedFirstContentfulPaintAllFrames": 4131,
+                  "observedFirstContentfulPaintAllFramesTs": 674295889,
+                  "observedFirstMeaningfulPaint": 4131,
+                  "observedFirstMeaningfulPaintTs": 674295889,
+                  "observedLargestContentfulPaint": 4131,
+                  "observedLargestContentfulPaintTs": 674295889,
+                  "observedLargestContentfulPaintAllFrames": 4131,
+                  "observedLargestContentfulPaintAllFramesTs": 674295889,
+                  "observedTraceEnd": 45009,
+                  "observedTraceEndTs": 715173939,
+                  "observedDomContentLoaded": 4140,
+                  "observedDomContentLoadedTs": 674304972,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1858,
-                  "observedFirstVisualChangeTs": 513962356,
-                  "observedLastVisualChange": 3141,
-                  "observedLastVisualChangeTs": 515245356,
-                  "observedSpeedIndex": 2774,
-                  "observedSpeedIndexTs": 514878237
+                  "observedFirstVisualChange": 4141,
+                  "observedFirstVisualChangeTs": 674305521,
+                  "observedLastVisualChange": 4758,
+                  "observedLastVisualChangeTs": 674922521,
+                  "observedSpeedIndex": 4155,
+                  "observedSpeedIndexTs": 674319359
                 },
                 {
                   "lcpInvalidated": false
@@ -26772,22 +25262,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 44,
-                  "numScripts": 18,
-                  "numStylesheets": 7,
+                  "numRequests": 33,
+                  "numScripts": 16,
+                  "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 761,
-                  "numTasksOver10ms": 13,
-                  "numTasksOver25ms": 4,
+                  "numTasks": 731,
+                  "numTasksOver10ms": 7,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 9.17,
-                  "throughput": 5755739.347981629,
-                  "maxRtt": 134.96099999999998,
-                  "maxServerLatency": 28.397999999999996,
-                  "totalByteWeight": 1093874,
-                  "totalTaskTime": 417.5069999999993,
+                  "rtt": 0,
+                  "throughput": 1709735.3690837242,
+                  "maxRtt": 164.311,
+                  "maxServerLatency": 24.487,
+                  "totalByteWeight": 985640,
+                  "totalTaskTime": 276.42399999999975,
                   "mainDocumentTransferSize": 14914
                 }
               ]
@@ -26810,25 +25300,19 @@
     "declaration-rgpd": [
       {
         "slug": "ml",
-        "mention": "Mentions légales",
-        "maxScore": 4,
-        "score": 4,
+        "mention": null,
+        "maxScore": 0,
+        "score": 0,
         "missingWords": [],
-        "missingTrackers": [],
-        "declarationUrl": "https://www.lavienne86.fr/pied-de-page/mentions-legales"
+        "missingTrackers": []
       },
       {
         "slug": "pc",
-        "mention": "Données personnelles",
-        "maxScore": 4,
-        "score": 1,
-        "missingWords": [
-          "finalité",
-          "durée de la conservation (ou) durée de conservation",
-          "sous-traitant (ou) sous traitant"
-        ],
-        "missingTrackers": [],
-        "declarationUrl": "https://www.lavienne86.fr/pied-de-page/donnees-personnelles"
+        "mention": null,
+        "maxScore": 0,
+        "score": 0,
+        "missingWords": [],
+        "missingTrackers": []
       }
     ],
     "betagouv": null,
@@ -26854,9 +25338,6 @@
     "summary": {
       "404": 202,
       "httpGrade": "F",
-      "testsslExpireSoon": false,
-      "testsslExpireDate": "2025-07-04T23:59:00.000Z",
-      "testsslGrade": "A",
       "cookiesGrade": null,
       "cookiesCount": null,
       "trackersGrade": null,
@@ -26873,8 +25354,8 @@
       "lighthouse_pwaGrade": "D",
       "statsGrade": "F",
       "declaration-a11y": "F",
-      "declaration-rgpd-ml": "A",
-      "declaration-rgpd-pc": "D",
+      "declaration-rgpd-ml": "F",
+      "declaration-rgpd-pc": "F",
       "ecoindexGrade": "B"
     }
   },
