@@ -570,7 +570,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "328 >= 60 days"
+        "finding": "321 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -773,7 +773,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1737251009"
+        "finding": "1737855587"
       },
       {
         "id": "HSTS_time",
@@ -1350,7 +1350,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "115"
+        "finding": "65"
       }
     ],
     "thirdparties": {
@@ -1705,7 +1705,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2025-01-19T01:41:57.580Z",
+        "fetchTime": "2025-01-26T01:38:49.721Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1716,7 +1716,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.43
+            "score": 0.47
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1727,7 +1727,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.92
+            "score": 0.9
           },
           "best-practices": {
             "title": "Best Practices",
@@ -1768,53 +1768,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15900,
+            "numericValue": 15019,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6506,
-                  "firstMeaningfulPaint": 12211,
-                  "largestContentfulPaint": 7633,
-                  "interactive": 15900,
-                  "speedIndex": 9886,
-                  "totalBlockingTime": 239,
-                  "maxPotentialFID": 302,
-                  "cumulativeLayoutShift": 0.015791041904025607,
-                  "cumulativeLayoutShiftMainFrame": 0.015791041904025607,
-                  "totalCumulativeLayoutShift": 0.015791041904025607,
+                  "firstContentfulPaint": 5145,
+                  "firstMeaningfulPaint": 5145,
+                  "largestContentfulPaint": 6702,
+                  "interactive": 15019,
+                  "speedIndex": 7950,
+                  "totalBlockingTime": 210,
+                  "maxPotentialFID": 366,
+                  "cumulativeLayoutShift": 0.016414657168918188,
+                  "cumulativeLayoutShiftMainFrame": 0.016414657168918188,
+                  "totalCumulativeLayoutShift": 0.016414657168918188,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 974364313,
+                  "observedTimeOriginTs": 945068417,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 974364313,
-                  "observedFirstPaint": 1506,
-                  "observedFirstPaintTs": 975870597,
-                  "observedFirstContentfulPaint": 1506,
-                  "observedFirstContentfulPaintTs": 975870597,
-                  "observedFirstContentfulPaintAllFrames": 1506,
-                  "observedFirstContentfulPaintAllFramesTs": 975870597,
-                  "observedFirstMeaningfulPaint": 1918,
-                  "observedFirstMeaningfulPaintTs": 976282401,
-                  "observedLargestContentfulPaint": 1516,
-                  "observedLargestContentfulPaintTs": 975880037,
-                  "observedLargestContentfulPaintAllFrames": 1516,
-                  "observedLargestContentfulPaintAllFramesTs": 975880037,
-                  "observedTraceEnd": 4402,
-                  "observedTraceEndTs": 978766806,
-                  "observedLoad": 1898,
-                  "observedLoadTs": 976261924,
-                  "observedDomContentLoaded": 1869,
-                  "observedDomContentLoadedTs": 976233024,
-                  "observedCumulativeLayoutShift": 0.015791041904025607,
-                  "observedCumulativeLayoutShiftMainFrame": 0.015791041904025607,
-                  "observedTotalCumulativeLayoutShift": 0.015791041904025607,
-                  "observedFirstVisualChange": 1513,
-                  "observedFirstVisualChangeTs": 975877313,
-                  "observedLastVisualChange": 2896,
-                  "observedLastVisualChangeTs": 977260313,
-                  "observedSpeedIndex": 2427,
-                  "observedSpeedIndexTs": 976790927
+                  "observedNavigationStartTs": 945068417,
+                  "observedFirstPaint": 1023,
+                  "observedFirstPaintTs": 946091111,
+                  "observedFirstContentfulPaint": 1023,
+                  "observedFirstContentfulPaintTs": 946091111,
+                  "observedFirstContentfulPaintAllFrames": 1023,
+                  "observedFirstContentfulPaintAllFramesTs": 946091111,
+                  "observedFirstMeaningfulPaint": 1023,
+                  "observedFirstMeaningfulPaintTs": 946091111,
+                  "observedLargestContentfulPaint": 1079,
+                  "observedLargestContentfulPaintTs": 946147907,
+                  "observedLargestContentfulPaintAllFrames": 1079,
+                  "observedLargestContentfulPaintAllFramesTs": 946147907,
+                  "observedTraceEnd": 3832,
+                  "observedTraceEndTs": 948900497,
+                  "observedLoad": 1432,
+                  "observedLoadTs": 946499954,
+                  "observedDomContentLoaded": 1376,
+                  "observedDomContentLoadedTs": 946444637,
+                  "observedCumulativeLayoutShift": 0.016414657168918188,
+                  "observedCumulativeLayoutShiftMainFrame": 0.016414657168918188,
+                  "observedTotalCumulativeLayoutShift": 0.016414657168918188,
+                  "observedFirstVisualChange": 1027,
+                  "observedFirstVisualChangeTs": 946095417,
+                  "observedLastVisualChange": 2443,
+                  "observedLastVisualChangeTs": 947511417,
+                  "observedSpeedIndex": 1888,
+                  "observedSpeedIndexTs": 946956787
                 },
                 {
                   "lcpInvalidated": false
@@ -1832,23 +1832,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 62,
+                  "numRequests": 63,
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1298,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 6,
+                  "numTasks": 1277,
+                  "numTasksOver10ms": 13,
+                  "numTasksOver25ms": 5,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 21555834.49737887,
-                  "maxRtt": 155.302,
-                  "maxServerLatency": 163.197,
-                  "totalByteWeight": 2511508,
-                  "totalTaskTime": 646.6750000000012,
-                  "mainDocumentTransferSize": 61424
+                  "throughput": 40488184.8194953,
+                  "maxRtt": 86.96000000000001,
+                  "maxServerLatency": 101.193,
+                  "totalByteWeight": 2645913,
+                  "totalTaskTime": 661.4350000000002,
+                  "mainDocumentTransferSize": 61810
                 }
               ]
             }
@@ -1872,15 +1872,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 3542.515,
-        "nodes": 1666,
-        "requests": 61,
+        "size": 4051.851,
+        "nodes": 1688,
+        "requests": 62,
         "grade": "E",
-        "score": 30,
-        "ges": 2.4,
-        "water": 3.6,
+        "score": 29,
+        "ges": 2.42,
+        "water": 3.63,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-19 01:28:35.506880",
+        "date": "2025-01-26 01:25:32.555760",
         "page_type": "article"
       }
     ],
@@ -1895,9 +1895,9 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.43,
+      "lighthouse_performance": 0.47,
       "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.92,
+      "lighthouse_accessibility": 0.9,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
       "lighthouse_best-practicesGrade": "B",
@@ -9743,15 +9743,15 @@
         "id": "service",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "DEBUG",
-        "finding": "Couldn't determine service, skipping all HTTP checks"
+        "severity": "INFO",
+        "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "INFO",
-        "finding": "No 128 cipher limit bug"
+        "severity": "MEDIUM",
+        "finding": "128 cipher limit bug"
       },
       {
         "id": "SSLv2",
@@ -9925,7 +9925,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384"
+        "finding": "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
       },
       {
         "id": "FS_ECDHE_curves",
@@ -9939,7 +9939,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "'key share/#51' 'supported versions/#43' 'server name/#0' 'status request/#5' 'extended master secret/#23' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35'"
+        "finding": "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
       },
       {
         "id": "TLS_session_ticket",
@@ -9967,7 +9967,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -10107,7 +10107,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "OK",
-        "finding": "347 >= 60 days"
+        "finding": "340 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -10257,6 +10257,70 @@
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
+        "id": "HTTP_status_code",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "301 Moved Permanently ('/')"
+      },
+      {
+        "id": "HTTP_clock_skew",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Got no HTTP time, maybe try different URL?"
+      },
+      {
+        "id": "HSTS",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "HPKP",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No support for HTTP Public Key Pinning"
+      },
+      {
+        "id": "banner_server",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No Server banner line in header, interesting!"
+      },
+      {
+        "id": "banner_application",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No application banner found"
+      },
+      {
+        "id": "cookie_count",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 at '/' (30x detected, better try target URL of 30x)"
+      },
+      {
+        "id": "security_headers",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "MEDIUM",
+        "finding": "--"
+      },
+      {
+        "id": "banner_reverseproxy",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-200",
+        "finding": "--"
+      },
+      {
         "id": "heartbleed",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
@@ -10278,10 +10342,10 @@
         "id": "ticketbleed",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "INFO",
+        "severity": "OK",
         "cve": "CVE-2016-9244",
         "cwe": "CWE-200",
-        "finding": "not applicable, not HTTP"
+        "finding": "not vulnerable"
       },
       {
         "id": "ROBOT",
@@ -10313,10 +10377,19 @@
         "id": "CRIME_TLS",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
-        "severity": "OK",
+        "severity": "WARN",
         "cve": "CVE-2012-4929",
         "cwe": "CWE-310",
-        "finding": "not vulnerable (not using HTTP anyway)"
+        "finding": "Check failed, couldn't connect"
+      },
+      {
+        "id": "BREACH",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-3587",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
       },
       {
         "id": "POODLE_SSL",
@@ -10443,14 +10516,14 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_90",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-android_X",
@@ -10464,7 +10537,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_12",
@@ -10485,14 +10558,14 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-firefox_66_win81",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-firefox_100_win10",
@@ -10527,7 +10600,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_win81",
@@ -10604,7 +10677,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "No connection"
       },
       {
         "id": "clientsimulation-java1703",
@@ -10737,14 +10810,21 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "OK",
-        "finding": "A+"
+        "finding": "A"
+      },
+      {
+        "id": "grade_cap_reason_1",
+        "ip": "www.emploi86.com/217.70.184.56",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Grade capped to A. HSTS is not offered"
       },
       {
         "id": "scanTime",
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "96"
+        "finding": "56"
       }
     ],
     "thirdparties": {
@@ -10768,7 +10848,7 @@
       {
         "requestedUrl": "https://www.emploi86.com/",
         "finalUrl": "https://www.francetravail.fr/accueil/",
-        "fetchTime": "2025-01-19T01:47:02.001Z",
+        "fetchTime": "2025-01-26T01:43:49.910Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.emploi86.com/) was redirected to https://www.francetravail.fr/accueil/. Try testing the second URL directly."
         ],
@@ -10781,7 +10861,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.55
           },
           "accessibility": {
             "title": "Accessibility",
@@ -10792,7 +10872,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.91
+            "score": null
           },
           "best-practices": {
             "title": "Best Practices",
@@ -10802,7 +10882,7 @@
               "snapshot"
             ],
             "id": "best-practices",
-            "score": 0.75
+            "score": 0.92
           },
           "seo": {
             "title": "SEO",
@@ -10823,7 +10903,7 @@
               "navigation"
             ],
             "id": "pwa",
-            "score": 0.3
+            "score": 0.2
           }
         },
         "audits": {
@@ -10833,53 +10913,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14545,
+            "numericValue": 10825,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4295,
-                  "firstMeaningfulPaint": 4295,
-                  "largestContentfulPaint": 6710,
-                  "interactive": 14545,
-                  "speedIndex": 9749,
-                  "totalBlockingTime": 272,
-                  "maxPotentialFID": 276,
-                  "cumulativeLayoutShift": 0.0016028442382812502,
-                  "cumulativeLayoutShiftMainFrame": 0.0016028442382812502,
-                  "totalCumulativeLayoutShift": 0.0016729329427083335,
+                  "firstContentfulPaint": 3708,
+                  "firstMeaningfulPaint": 4512,
+                  "largestContentfulPaint": 6151,
+                  "interactive": 10825,
+                  "speedIndex": 5498,
+                  "totalBlockingTime": 179,
+                  "maxPotentialFID": 119,
+                  "cumulativeLayoutShift": 0.07349420791202121,
+                  "cumulativeLayoutShiftMainFrame": 0.07349420791202121,
+                  "totalCumulativeLayoutShift": 0.07349420791202121,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 351644506,
+                  "observedTimeOriginTs": 359272819,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 351644506,
-                  "observedFirstPaint": 1487,
-                  "observedFirstPaintTs": 353131886,
-                  "observedFirstContentfulPaint": 1487,
-                  "observedFirstContentfulPaintTs": 353131886,
-                  "observedFirstContentfulPaintAllFrames": 1487,
-                  "observedFirstContentfulPaintAllFramesTs": 353131886,
-                  "observedFirstMeaningfulPaint": 1487,
-                  "observedFirstMeaningfulPaintTs": 353131886,
-                  "observedLargestContentfulPaint": 1944,
-                  "observedLargestContentfulPaintTs": 353588500,
-                  "observedLargestContentfulPaintAllFrames": 1944,
-                  "observedLargestContentfulPaintAllFramesTs": 353588500,
-                  "observedTraceEnd": 6856,
-                  "observedTraceEndTs": 358500677,
-                  "observedLoad": 3056,
-                  "observedLoadTs": 354700037,
-                  "observedDomContentLoaded": 2373,
-                  "observedDomContentLoadedTs": 354017221,
-                  "observedCumulativeLayoutShift": 0.0016028442382812502,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0016028442382812502,
-                  "observedTotalCumulativeLayoutShift": 0.0016729329427083335,
-                  "observedFirstVisualChange": 1491,
-                  "observedFirstVisualChangeTs": 353135506,
-                  "observedLastVisualChange": 4391,
-                  "observedLastVisualChangeTs": 356035506,
-                  "observedSpeedIndex": 2668,
-                  "observedSpeedIndexTs": 354312660
+                  "observedNavigationStartTs": 359272819,
+                  "observedFirstPaint": 1138,
+                  "observedFirstPaintTs": 360410480,
+                  "observedFirstContentfulPaint": 1219,
+                  "observedFirstContentfulPaintTs": 360492303,
+                  "observedFirstContentfulPaintAllFrames": 1219,
+                  "observedFirstContentfulPaintAllFramesTs": 360492303,
+                  "observedFirstMeaningfulPaint": 1535,
+                  "observedFirstMeaningfulPaintTs": 360807923,
+                  "observedLargestContentfulPaint": 1465,
+                  "observedLargestContentfulPaintTs": 360737334,
+                  "observedLargestContentfulPaintAllFrames": 1465,
+                  "observedLargestContentfulPaintAllFramesTs": 360737334,
+                  "observedTraceEnd": 5045,
+                  "observedTraceEndTs": 364318043,
+                  "observedLoad": 1849,
+                  "observedLoadTs": 361122311,
+                  "observedDomContentLoaded": 1163,
+                  "observedDomContentLoadedTs": 360435992,
+                  "observedCumulativeLayoutShift": 0.07349420791202121,
+                  "observedCumulativeLayoutShiftMainFrame": 0.07349420791202121,
+                  "observedTotalCumulativeLayoutShift": 0.07349420791202121,
+                  "observedFirstVisualChange": 1146,
+                  "observedFirstVisualChangeTs": 360418819,
+                  "observedLastVisualChange": 3246,
+                  "observedLastVisualChangeTs": 362518819,
+                  "observedSpeedIndex": 1761,
+                  "observedSpeedIndexTs": 361033725
                 },
                 {
                   "lcpInvalidated": false
@@ -10897,23 +10977,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 51,
-                  "numScripts": 9,
-                  "numStylesheets": 2,
-                  "numFonts": 6,
-                  "numTasks": 1445,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 1,
+                  "numRequests": 52,
+                  "numScripts": 17,
+                  "numStylesheets": 5,
+                  "numFonts": 5,
+                  "numTasks": 1714,
+                  "numTasksOver10ms": 18,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 0,
+                  "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 7461893.443649063,
-                  "maxRtt": 156.88500000000002,
-                  "maxServerLatency": 62.556,
-                  "totalByteWeight": 1920646,
-                  "totalTaskTime": 545.6129999999984,
-                  "mainDocumentTransferSize": 43327
+                  "throughput": 6313914.652250191,
+                  "maxRtt": 97.63900000000001,
+                  "maxServerLatency": 37.742999999999995,
+                  "totalByteWeight": 1036722,
+                  "totalTaskTime": 541.273999999996,
+                  "mainDocumentTransferSize": 5462
                 }
               ]
             }
@@ -10930,13 +11010,12 @@
     "github_repository": null,
     "budget_page": null,
     "declaration-a11y": {
-      "mention": "Accessibilité : partiellement conforme",
-      "declarationUrl": "https://www.francetravail.fr/informations/aide-et-accessibilite.html"
+      "mention": null
     },
     "declaration-rgpd": [
       {
         "slug": "ml",
-        "mention": "Mentions légales",
+        "mention": null,
         "maxScore": 0,
         "score": 0,
         "missingWords": [],
@@ -10944,15 +11023,11 @@
       },
       {
         "slug": "pc",
-        "mention": "Données personnelles",
-        "maxScore": 4,
-        "score": 2,
-        "missingWords": [
-          "durée de la conservation (ou) durée de conservation",
-          "sous-traitant (ou) sous traitant"
-        ],
-        "missingTrackers": [],
-        "declarationUrl": "https://www.francetravail.fr/informations/informations-legales-et-conditio/protection-des-donnees-personnel.html"
+        "mention": null,
+        "maxScore": 0,
+        "score": 0,
+        "missingWords": [],
+        "missingTrackers": []
       }
     ],
     "betagouv": null,
@@ -10961,15 +11036,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.emploi86.com",
-        "size": 2391.384,
-        "nodes": 613,
-        "requests": 51,
+        "size": 2143.376,
+        "nodes": 565,
+        "requests": 75,
         "grade": "D",
-        "score": 53,
-        "ges": 1.94,
-        "water": 2.91,
+        "score": 50,
+        "ges": 2,
+        "water": 3,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-19 01:43:43.369640",
+        "date": "2025-01-26 01:40:49.540331",
         "page_type": null
       }
     ],
@@ -10980,25 +11055,25 @@
       "httpGrade": "C-",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-01-01T23:59:00.000Z",
-      "testsslGrade": "A+",
+      "testsslGrade": "A",
       "cookiesGrade": null,
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.45,
-      "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.91,
-      "lighthouse_accessibilityGrade": "A",
-      "lighthouse_best-practices": 0.75,
-      "lighthouse_best-practicesGrade": "B",
+      "lighthouse_performance": 0.55,
+      "lighthouse_performanceGrade": "C",
+      "lighthouse_accessibility": null,
+      "lighthouse_accessibilityGrade": "F",
+      "lighthouse_best-practices": 0.92,
+      "lighthouse_best-practicesGrade": "A",
       "lighthouse_seo": 0.92,
       "lighthouse_seoGrade": "A",
-      "lighthouse_pwa": 0.3,
+      "lighthouse_pwa": 0.2,
       "lighthouse_pwaGrade": "E",
       "statsGrade": "A",
-      "declaration-a11y": "B",
+      "declaration-a11y": "F",
       "declaration-rgpd-ml": "F",
-      "declaration-rgpd-pc": "D",
+      "declaration-rgpd-pc": "F",
       "ecoindexGrade": "D"
     }
   },
@@ -11526,7 +11601,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "51 >= 30 days"
+        "finding": "44 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -11687,7 +11762,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1737251334"
+        "finding": "1737855803"
       },
       {
         "id": "HSTS_time",
@@ -11753,11 +11828,25 @@
         "finding": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()"
       },
       {
+        "id": "Cross-Origin-Opener-Policy",
+        "ip": "enej.lavienne86.fr/51.254.226.174",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "same-origin"
+      },
+      {
         "id": "X-XSS-Protection",
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
         "finding": "1; mode=block"
+      },
+      {
+        "id": "Permissions-Policy",
+        "ip": "enej.lavienne86.fr/51.254.226.174",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()"
       },
       {
         "id": "Referrer-Policy",
@@ -12422,7 +12511,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2025-01-19T01:48:13.007Z",
+        "fetchTime": "2025-01-26T01:42:41.390Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -12487,53 +12576,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4297,
+            "numericValue": 4289,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4297,
-                  "firstMeaningfulPaint": 4297,
-                  "largestContentfulPaint": 6935,
-                  "interactive": 4297,
-                  "speedIndex": 7027,
+                  "firstContentfulPaint": 4289,
+                  "firstMeaningfulPaint": 4289,
+                  "largestContentfulPaint": 6923,
+                  "interactive": 4289,
+                  "speedIndex": 6993,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.33714170328776044,
                   "cumulativeLayoutShiftMainFrame": 0.33714170328776044,
                   "totalCumulativeLayoutShift": 0.33714170328776044,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 352118052,
+                  "observedTimeOriginTs": 209315933,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 352118052,
-                  "observedFirstPaint": 2103,
-                  "observedFirstPaintTs": 354221322,
-                  "observedFirstContentfulPaint": 2103,
-                  "observedFirstContentfulPaintTs": 354221322,
-                  "observedFirstContentfulPaintAllFrames": 2103,
-                  "observedFirstContentfulPaintAllFramesTs": 354221322,
-                  "observedFirstMeaningfulPaint": 2103,
-                  "observedFirstMeaningfulPaintTs": 354221322,
-                  "observedLargestContentfulPaint": 2103,
-                  "observedLargestContentfulPaintTs": 354221322,
-                  "observedLargestContentfulPaintAllFrames": 2103,
-                  "observedLargestContentfulPaintAllFramesTs": 354221322,
-                  "observedTraceEnd": 4501,
-                  "observedTraceEndTs": 356619220,
-                  "observedLoad": 1453,
-                  "observedLoadTs": 353571280,
-                  "observedDomContentLoaded": 1056,
-                  "observedDomContentLoadedTs": 353174241,
+                  "observedNavigationStartTs": 209315933,
+                  "observedFirstPaint": 2071,
+                  "observedFirstPaintTs": 211386472,
+                  "observedFirstContentfulPaint": 2071,
+                  "observedFirstContentfulPaintTs": 211386472,
+                  "observedFirstContentfulPaintAllFrames": 2071,
+                  "observedFirstContentfulPaintAllFramesTs": 211386472,
+                  "observedFirstMeaningfulPaint": 2071,
+                  "observedFirstMeaningfulPaintTs": 211386472,
+                  "observedLargestContentfulPaint": 2071,
+                  "observedLargestContentfulPaintTs": 211386472,
+                  "observedLargestContentfulPaintAllFrames": 2071,
+                  "observedLargestContentfulPaintAllFramesTs": 211386472,
+                  "observedTraceEnd": 4505,
+                  "observedTraceEndTs": 213820590,
+                  "observedLoad": 1412,
+                  "observedLoadTs": 210727531,
+                  "observedDomContentLoaded": 989,
+                  "observedDomContentLoadedTs": 210304981,
                   "observedCumulativeLayoutShift": 0.33714170328776044,
                   "observedCumulativeLayoutShiftMainFrame": 0.33714170328776044,
                   "observedTotalCumulativeLayoutShift": 0.33714170328776044,
-                  "observedFirstVisualChange": 2101,
-                  "observedFirstVisualChangeTs": 354219052,
-                  "observedLastVisualChange": 2201,
-                  "observedLastVisualChangeTs": 354319052,
-                  "observedSpeedIndex": 2118,
-                  "observedSpeedIndexTs": 354235997
+                  "observedFirstVisualChange": 2075,
+                  "observedFirstVisualChangeTs": 211390933,
+                  "observedLastVisualChange": 2225,
+                  "observedLastVisualChangeTs": 211540933,
+                  "observedSpeedIndex": 2099,
+                  "observedSpeedIndexTs": 211414710
                 },
                 {
                   "lcpInvalidated": false
@@ -12555,18 +12644,18 @@
                   "numScripts": 36,
                   "numStylesheets": 1,
                   "numFonts": 4,
-                  "numTasks": 27,
+                  "numTasks": 31,
                   "numTasksOver10ms": 0,
                   "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 87.347,
-                  "throughput": 26067709.90897289,
-                  "maxRtt": 87.88,
-                  "maxServerLatency": 11.325000000000003,
-                  "totalByteWeight": 1185987,
-                  "totalTaskTime": 5.151999999999999,
+                  "rtt": 87.227,
+                  "throughput": 18333631.83252461,
+                  "maxRtt": 87.63900000000001,
+                  "maxServerLatency": 16.176000000000002,
+                  "totalByteWeight": 1186059,
+                  "totalTaskTime": 7.482999999999999,
                   "mainDocumentTransferSize": 8308
                 }
               ]
@@ -12610,7 +12699,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1310.248,
+        "size": 1310.194,
         "nodes": 103,
         "requests": 54,
         "grade": "B",
@@ -12618,7 +12707,7 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-19 01:45:02.970153",
+        "date": "2025-01-26 01:41:51.214393",
         "page_type": null
       }
     ],
@@ -13167,6 +13256,13 @@
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
+        "id": "cert_trust_wildcard",
+        "ip": "www.mdph86.fr/91.188.65.186",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "trust is via wildcard"
+      },
+      {
         "id": "cert_chain_of_trust",
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
@@ -13185,7 +13281,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "78 >= 60 days"
+        "finding": "71 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -13346,7 +13442,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1737251414"
+        "finding": "1737856089"
       },
       {
         "id": "HSTS_time",
@@ -13909,7 +14005,7 @@
         "ip": "www.mdph86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "59"
+        "finding": "76"
       }
     ],
     "thirdparties": {
@@ -14213,7 +14309,7 @@
       {
         "requestedUrl": "https://www.mdph86.fr/",
         "finalUrl": "https://mdph86.fr/",
-        "fetchTime": "2025-01-19T01:49:23.112Z",
+        "fetchTime": "2025-01-26T01:47:04.301Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.mdph86.fr/) was redirected to https://mdph86.fr/. Try testing the second URL directly."
         ],
@@ -14226,7 +14322,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.46
+            "score": 0.3
           },
           "accessibility": {
             "title": "Accessibility",
@@ -14278,53 +14374,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15529,
+            "numericValue": 16293,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6432,
-                  "firstMeaningfulPaint": 6432,
-                  "largestContentfulPaint": 7132,
-                  "interactive": 15529,
-                  "speedIndex": 10937,
-                  "totalBlockingTime": 155,
-                  "maxPotentialFID": 222,
-                  "cumulativeLayoutShift": 0.01777064471774631,
-                  "cumulativeLayoutShiftMainFrame": 0.01777064471774631,
-                  "totalCumulativeLayoutShift": 0.01777064471774631,
+                  "firstContentfulPaint": 7342,
+                  "firstMeaningfulPaint": 7342,
+                  "largestContentfulPaint": 7657,
+                  "interactive": 16293,
+                  "speedIndex": 10760,
+                  "totalBlockingTime": 209,
+                  "maxPotentialFID": 211,
+                  "cumulativeLayoutShift": 0.5896456447177463,
+                  "cumulativeLayoutShiftMainFrame": 0.5896456447177463,
+                  "totalCumulativeLayoutShift": 0.5896456447177463,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 396229832,
+                  "observedTimeOriginTs": 402392989,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 396229832,
-                  "observedFirstPaint": 1242,
-                  "observedFirstPaintTs": 397471877,
-                  "observedFirstContentfulPaint": 1242,
-                  "observedFirstContentfulPaintTs": 397471877,
-                  "observedFirstContentfulPaintAllFrames": 1242,
-                  "observedFirstContentfulPaintAllFramesTs": 397471877,
-                  "observedFirstMeaningfulPaint": 1242,
-                  "observedFirstMeaningfulPaintTs": 397471877,
-                  "observedLargestContentfulPaint": 1242,
-                  "observedLargestContentfulPaintTs": 397471877,
-                  "observedLargestContentfulPaintAllFrames": 1242,
-                  "observedLargestContentfulPaintAllFramesTs": 397471877,
-                  "observedTraceEnd": 4741,
-                  "observedTraceEndTs": 400970420,
-                  "observedLoad": 1724,
-                  "observedLoadTs": 397954202,
-                  "observedDomContentLoaded": 1719,
-                  "observedDomContentLoadedTs": 397948765,
-                  "observedCumulativeLayoutShift": 0.01777064471774631,
-                  "observedCumulativeLayoutShiftMainFrame": 0.01777064471774631,
-                  "observedTotalCumulativeLayoutShift": 0.01777064471774631,
-                  "observedFirstVisualChange": 1254,
-                  "observedFirstVisualChangeTs": 397483832,
-                  "observedLastVisualChange": 2687,
-                  "observedLastVisualChangeTs": 398916832,
-                  "observedSpeedIndex": 2288,
-                  "observedSpeedIndexTs": 398517725
+                  "observedNavigationStartTs": 402392989,
+                  "observedFirstPaint": 1317,
+                  "observedFirstPaintTs": 403710146,
+                  "observedFirstContentfulPaint": 1317,
+                  "observedFirstContentfulPaintTs": 403710146,
+                  "observedFirstContentfulPaintAllFrames": 1317,
+                  "observedFirstContentfulPaintAllFramesTs": 403710146,
+                  "observedFirstMeaningfulPaint": 1317,
+                  "observedFirstMeaningfulPaintTs": 403710146,
+                  "observedLargestContentfulPaint": 1327,
+                  "observedLargestContentfulPaintTs": 403719999,
+                  "observedLargestContentfulPaintAllFrames": 1327,
+                  "observedLargestContentfulPaintAllFramesTs": 403719999,
+                  "observedTraceEnd": 5157,
+                  "observedTraceEndTs": 407549503,
+                  "observedLoad": 2004,
+                  "observedLoadTs": 404396623,
+                  "observedDomContentLoaded": 1998,
+                  "observedDomContentLoadedTs": 404391364,
+                  "observedCumulativeLayoutShift": 0.5896456447177463,
+                  "observedCumulativeLayoutShiftMainFrame": 0.5896456447177463,
+                  "observedTotalCumulativeLayoutShift": 0.5896456447177463,
+                  "observedFirstVisualChange": 1324,
+                  "observedFirstVisualChangeTs": 403716989,
+                  "observedLastVisualChange": 2957,
+                  "observedLastVisualChangeTs": 405349989,
+                  "observedSpeedIndex": 2619,
+                  "observedSpeedIndexTs": 405011799
                 },
                 {
                   "lcpInvalidated": false
@@ -14346,19 +14442,19 @@
                   "numScripts": 19,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 1138,
+                  "numTasks": 1167,
                   "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 3,
+                  "numTasksOver25ms": 8,
                   "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 39289783.395329714,
-                  "maxRtt": 87.873,
-                  "maxServerLatency": 88.244,
-                  "totalByteWeight": 2516432,
-                  "totalTaskTime": 586.8699999999982,
-                  "mainDocumentTransferSize": 15019
+                  "throughput": 25214619.63805899,
+                  "maxRtt": 107,
+                  "maxServerLatency": 105.904,
+                  "totalByteWeight": 2264737,
+                  "totalTaskTime": 635.7189999999995,
+                  "mainDocumentTransferSize": 15037
                 }
               ]
             }
@@ -14403,15 +14499,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mdph86.fr",
-        "size": 3154.512,
+        "size": 2892.497,
         "nodes": 659,
         "requests": 60,
         "grade": "D",
-        "score": 47,
-        "ges": 2.06,
-        "water": 3.09,
+        "score": 48,
+        "ges": 2.04,
+        "water": 3.06,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-19 01:45:56.504898",
+        "date": "2025-01-26 01:43:36.573436",
         "page_type": "article"
       }
     ],
@@ -14427,8 +14523,8 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.46,
-      "lighthouse_performanceGrade": "D",
+      "lighthouse_performance": 0.3,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -16544,6 +16640,25 @@
           "hash": null,
           "search": null,
           "query": null,
+          "pathname": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-sprite.png",
+          "path": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-sprite.png",
+          "href": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-sprite.png"
+        },
+        "link": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-sprite.png",
+        "line": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-sprite.png",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "www.cli-civaux.fr",
+          "port": null,
+          "hostname": "www.cli-civaux.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
           "pathname": "/_assets/d35b4c5600cb890f80ef45504a08e042/Images/datepicker/datepicker-cursor.jpg",
           "path": "/_assets/d35b4c5600cb890f80ef45504a08e042/Images/datepicker/datepicker-cursor.jpg",
           "href": "https://www.cli-civaux.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Images/datepicker/datepicker-cursor.jpg"
@@ -16620,12 +16735,31 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/informations-pratiques/contact",
-          "path": "/informations-pratiques/contact",
-          "href": "https://www.cli-civaux.fr/informations-pratiques/contact"
+          "pathname": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-gradient.gif",
+          "path": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-gradient.gif",
+          "href": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-gradient.gif"
         },
-        "link": "https://www.cli-civaux.fr/informations-pratiques/contact",
-        "line": "https://www.cli-civaux.fr/informations-pratiques/contact",
+        "link": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-gradient.gif",
+        "line": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-gradient.gif",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "www.cli-civaux.fr",
+          "port": null,
+          "hostname": "www.cli-civaux.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-cursor.jpg",
+          "path": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-cursor.jpg",
+          "href": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-cursor.jpg"
+        },
+        "link": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-cursor.jpg",
+        "line": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-cursor.jpg",
         "broken": true
       },
       {
@@ -16645,6 +16779,25 @@
         },
         "link": "https://www.cli-civaux.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Images/datepicker/datepicker-gradient.gif",
         "line": "https://www.cli-civaux.fr/_assets/d35b4c5600cb890f80ef45504a08e042/Images/datepicker/datepicker-gradient.gif",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "www.cli-civaux.fr",
+          "port": null,
+          "hostname": "www.cli-civaux.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/informations-pratiques/contact",
+          "path": "/informations-pratiques/contact",
+          "href": "https://www.cli-civaux.fr/informations-pratiques/contact"
+        },
+        "link": "https://www.cli-civaux.fr/informations-pratiques/contact",
+        "line": "https://www.cli-civaux.fr/informations-pratiques/contact",
         "broken": true
       },
       {
@@ -16759,6 +16912,25 @@
         },
         "link": "https://www.cli-civaux.fr/typo3temp/Images/map-shadow.svg",
         "line": "https://www.cli-civaux.fr/typo3temp/Images/map-shadow.svg",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "www.cli-civaux.fr",
+          "port": null,
+          "hostname": "www.cli-civaux.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-today.gif",
+          "path": "/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-today.gif",
+          "href": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-today.gif"
+        },
+        "link": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-today.gif",
+        "line": "https://www.cli-civaux.fr/_assets/4106d4a183229f5ca03bb296a16d3246/Images/datepicker/datepicker-today.gif",
         "broken": true
       },
       {
@@ -17287,6 +17459,13 @@
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
+        "id": "cert_trust_wildcard",
+        "ip": "www.cli-civaux.fr/91.188.65.186",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "trust is via wildcard"
+      },
+      {
         "id": "cert_chain_of_trust",
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
@@ -17305,7 +17484,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "92 >= 60 days"
+        "finding": "71 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -17508,7 +17687,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736042951"
+        "finding": "1737856468"
       },
       {
         "id": "HSTS_time",
@@ -18071,7 +18250,7 @@
         "ip": "www.cli-civaux.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "64"
+        "finding": "63"
       }
     ],
     "thirdparties": {
@@ -18372,7 +18551,7 @@
       {
         "requestedUrl": "https://www.cli-civaux.fr/",
         "finalUrl": "https://www.cli-civaux.fr/",
-        "fetchTime": "2025-01-05T02:08:23.063Z",
+        "fetchTime": "2025-01-26T01:53:40.069Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -18435,53 +18614,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 13745,
+            "numericValue": 13667,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6383,
-                  "firstMeaningfulPaint": 6383,
-                  "largestContentfulPaint": 7202,
-                  "interactive": 13745,
-                  "speedIndex": 9075,
-                  "totalBlockingTime": 94,
-                  "maxPotentialFID": 238,
-                  "cumulativeLayoutShift": 0.04082719294230143,
-                  "cumulativeLayoutShiftMainFrame": 0.04082719294230143,
-                  "totalCumulativeLayoutShift": 0.04082719294230143,
+                  "firstContentfulPaint": 6062,
+                  "firstMeaningfulPaint": 6062,
+                  "largestContentfulPaint": 7684,
+                  "interactive": 13667,
+                  "speedIndex": 8788,
+                  "totalBlockingTime": 96,
+                  "maxPotentialFID": 242,
+                  "cumulativeLayoutShift": 0.03206593577067057,
+                  "cumulativeLayoutShiftMainFrame": 0.03206593577067057,
+                  "totalCumulativeLayoutShift": 0.03206593577067057,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 696541201,
+                  "observedTimeOriginTs": 582073810,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 696541201,
-                  "observedFirstPaint": 1041,
-                  "observedFirstPaintTs": 697582459,
-                  "observedFirstContentfulPaint": 1041,
-                  "observedFirstContentfulPaintTs": 697582459,
-                  "observedFirstContentfulPaintAllFrames": 1041,
-                  "observedFirstContentfulPaintAllFramesTs": 697582459,
-                  "observedFirstMeaningfulPaint": 1041,
-                  "observedFirstMeaningfulPaintTs": 697582459,
-                  "observedLargestContentfulPaint": 1041,
-                  "observedLargestContentfulPaintTs": 697582459,
-                  "observedLargestContentfulPaintAllFrames": 1041,
-                  "observedLargestContentfulPaintAllFramesTs": 697582459,
-                  "observedTraceEnd": 3728,
-                  "observedTraceEndTs": 700269327,
-                  "observedLoad": 1329,
-                  "observedLoadTs": 697870273,
-                  "observedDomContentLoaded": 1233,
-                  "observedDomContentLoadedTs": 697774168,
-                  "observedCumulativeLayoutShift": 0.04082719294230143,
-                  "observedCumulativeLayoutShiftMainFrame": 0.04082719294230143,
-                  "observedTotalCumulativeLayoutShift": 0.04082719294230143,
-                  "observedFirstVisualChange": 1564,
-                  "observedFirstVisualChangeTs": 698105201,
-                  "observedLastVisualChange": 2297,
-                  "observedLastVisualChangeTs": 698838201,
-                  "observedSpeedIndex": 1978,
-                  "observedSpeedIndexTs": 698518891
+                  "observedNavigationStartTs": 582073810,
+                  "observedFirstPaint": 1045,
+                  "observedFirstPaintTs": 583119189,
+                  "observedFirstContentfulPaint": 1045,
+                  "observedFirstContentfulPaintTs": 583119189,
+                  "observedFirstContentfulPaintAllFrames": 1045,
+                  "observedFirstContentfulPaintAllFramesTs": 583119189,
+                  "observedFirstMeaningfulPaint": 1045,
+                  "observedFirstMeaningfulPaintTs": 583119189,
+                  "observedLargestContentfulPaint": 1045,
+                  "observedLargestContentfulPaintTs": 583119189,
+                  "observedLargestContentfulPaintAllFrames": 1045,
+                  "observedLargestContentfulPaintAllFramesTs": 583119189,
+                  "observedTraceEnd": 3701,
+                  "observedTraceEndTs": 585774879,
+                  "observedLoad": 1302,
+                  "observedLoadTs": 583375899,
+                  "observedDomContentLoaded": 1234,
+                  "observedDomContentLoadedTs": 583307372,
+                  "observedCumulativeLayoutShift": 0.03206593577067057,
+                  "observedCumulativeLayoutShiftMainFrame": 0.03206593577067057,
+                  "observedTotalCumulativeLayoutShift": 0.03206593577067057,
+                  "observedFirstVisualChange": 1336,
+                  "observedFirstVisualChangeTs": 583409810,
+                  "observedLastVisualChange": 2252,
+                  "observedLastVisualChangeTs": 584325810,
+                  "observedSpeedIndex": 1881,
+                  "observedSpeedIndexTs": 583954974
                 },
                 {
                   "lcpInvalidated": false
@@ -18499,23 +18678,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 44,
+                  "numRequests": 45,
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 898,
-                  "numTasksOver10ms": 7,
+                  "numTasks": 933,
+                  "numTasksOver10ms": 8,
                   "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 31112531.15399546,
-                  "maxRtt": 89.158,
-                  "maxServerLatency": 16.147000000000002,
-                  "totalByteWeight": 2147138,
-                  "totalTaskTime": 437.4999999999977,
-                  "mainDocumentTransferSize": 9237
+                  "rtt": 1.2170000000000005,
+                  "throughput": 38394679.83538635,
+                  "maxRtt": 87.254,
+                  "maxServerLatency": 16.91,
+                  "totalByteWeight": 2186697,
+                  "totalTaskTime": 484.36499999999813,
+                  "mainDocumentTransferSize": 9183
                 }
               ]
             }
@@ -18566,22 +18745,22 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cli-civaux.fr",
-        "size": 2596.978,
+        "size": 2642.152,
         "nodes": 485,
-        "requests": 44,
+        "requests": 45,
         "grade": "C",
         "score": 59,
         "ges": 1.82,
         "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-05 02:01:33.845475",
+        "date": "2025-01-26 01:46:28.785447",
         "page_type": "article"
       }
     ],
     "sonarcloud": null,
     "dsfr": null,
     "summary": {
-      "404": 13,
+      "404": 17,
       "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-07T23:59:00.000Z",
@@ -25135,7 +25314,7 @@
       {
         "requestedUrl": "https://mod.departement86.fr/",
         "finalUrl": "https://mod.departement86.fr/",
-        "fetchTime": "2025-01-19T02:07:12.287Z",
+        "fetchTime": "2025-01-26T02:03:00.622Z",
         "runWarnings": [
           "The page loaded too slowly to finish within the time limit. Results may be incomplete."
         ],
@@ -25200,51 +25379,51 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9633,
+            "numericValue": 9555,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 8533,
-                  "firstMeaningfulPaint": 8551,
-                  "largestContentfulPaint": 8767,
-                  "interactive": 9633,
-                  "speedIndex": 12042,
-                  "totalBlockingTime": 61,
-                  "maxPotentialFID": 90,
+                  "firstContentfulPaint": 8625,
+                  "firstMeaningfulPaint": 8643,
+                  "largestContentfulPaint": 8849,
+                  "interactive": 9555,
+                  "speedIndex": 9295,
+                  "totalBlockingTime": 66,
+                  "maxPotentialFID": 96,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 670164521,
+                  "observedTimeOriginTs": 668786987,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 670164521,
-                  "observedFirstPaint": 4131,
-                  "observedFirstPaintTs": 674295889,
-                  "observedFirstContentfulPaint": 4131,
-                  "observedFirstContentfulPaintTs": 674295889,
-                  "observedFirstContentfulPaintAllFrames": 4131,
-                  "observedFirstContentfulPaintAllFramesTs": 674295889,
-                  "observedFirstMeaningfulPaint": 4131,
-                  "observedFirstMeaningfulPaintTs": 674295889,
-                  "observedLargestContentfulPaint": 4131,
-                  "observedLargestContentfulPaintTs": 674295889,
-                  "observedLargestContentfulPaintAllFrames": 4131,
-                  "observedLargestContentfulPaintAllFramesTs": 674295889,
-                  "observedTraceEnd": 45009,
-                  "observedTraceEndTs": 715173939,
-                  "observedDomContentLoaded": 4140,
-                  "observedDomContentLoadedTs": 674304972,
+                  "observedNavigationStartTs": 668786987,
+                  "observedFirstPaint": 2234,
+                  "observedFirstPaintTs": 671020715,
+                  "observedFirstContentfulPaint": 2234,
+                  "observedFirstContentfulPaintTs": 671020715,
+                  "observedFirstContentfulPaintAllFrames": 2234,
+                  "observedFirstContentfulPaintAllFramesTs": 671020715,
+                  "observedFirstMeaningfulPaint": 2234,
+                  "observedFirstMeaningfulPaintTs": 671020715,
+                  "observedLargestContentfulPaint": 2234,
+                  "observedLargestContentfulPaintTs": 671020715,
+                  "observedLargestContentfulPaintAllFrames": 2234,
+                  "observedLargestContentfulPaintAllFramesTs": 671020715,
+                  "observedTraceEnd": 45010,
+                  "observedTraceEndTs": 713797100,
+                  "observedDomContentLoaded": 2243,
+                  "observedDomContentLoadedTs": 671029863,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 4141,
-                  "observedFirstVisualChangeTs": 674305521,
-                  "observedLastVisualChange": 4758,
-                  "observedLastVisualChangeTs": 674922521,
-                  "observedSpeedIndex": 4155,
-                  "observedSpeedIndexTs": 674319359
+                  "observedFirstVisualChange": 2236,
+                  "observedFirstVisualChangeTs": 671022987,
+                  "observedLastVisualChange": 2852,
+                  "observedLastVisualChangeTs": 671638987,
+                  "observedSpeedIndex": 2252,
+                  "observedSpeedIndexTs": 671038824
                 },
                 {
                   "lcpInvalidated": false
@@ -25266,18 +25445,18 @@
                   "numScripts": 16,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 731,
-                  "numTasksOver10ms": 7,
-                  "numTasksOver25ms": 3,
-                  "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 0,
+                  "numTasks": 642,
+                  "numTasksOver10ms": 9,
+                  "numTasksOver25ms": 5,
+                  "numTasksOver50ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 1709735.3690837242,
-                  "maxRtt": 164.311,
-                  "maxServerLatency": 24.487,
-                  "totalByteWeight": 985640,
-                  "totalTaskTime": 276.42399999999975,
+                  "throughput": 3809521.7852113764,
+                  "maxRtt": 159.888,
+                  "maxServerLatency": 22.152,
+                  "totalByteWeight": 985749,
+                  "totalTaskTime": 418.9819999999995,
                   "mainDocumentTransferSize": 14914
                 }
               ]
@@ -28078,7 +28257,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "OK",
-        "finding": "335 >= 60 days"
+        "finding": "321 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -28281,7 +28460,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1736648540"
+        "finding": "1737857411"
       },
       {
         "id": "HSTS_time",
@@ -28858,7 +29037,7 @@
         "ip": "www.lavienne86.fr/91.188.65.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "114"
+        "finding": "88"
       }
     ],
     "thirdparties": {
@@ -29111,7 +29290,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
         "finalUrl": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/",
-        "fetchTime": "2025-01-12T02:20:41.472Z",
+        "fetchTime": "2025-01-26T02:08:45.034Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive) was redirected to https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive/. Try testing the second URL directly."
         ],
@@ -29124,7 +29303,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.18
+            "score": 0.19
           },
           "accessibility": {
             "title": "Accessibility",
@@ -29176,53 +29355,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 31460,
+            "numericValue": 29394,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2883,
-                  "firstMeaningfulPaint": 11511,
-                  "largestContentfulPaint": 15830,
-                  "interactive": 31460,
-                  "speedIndex": 26049,
-                  "totalBlockingTime": 17588,
-                  "maxPotentialFID": 1903,
-                  "cumulativeLayoutShift": 0.11053833134969075,
-                  "cumulativeLayoutShiftMainFrame": 0.11053833134969075,
+                  "firstContentfulPaint": 2730,
+                  "firstMeaningfulPaint": 9706,
+                  "largestContentfulPaint": 13520,
+                  "interactive": 29394,
+                  "speedIndex": 22115,
+                  "totalBlockingTime": 17046,
+                  "maxPotentialFID": 1566,
+                  "cumulativeLayoutShift": 0.11209100850423177,
+                  "cumulativeLayoutShiftMainFrame": 0.11209100850423177,
                   "totalCumulativeLayoutShift": 0.158492429945204,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 396640017,
+                  "observedTimeOriginTs": 416505568,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 396640017,
-                  "observedFirstPaint": 698,
-                  "observedFirstPaintTs": 397337960,
-                  "observedFirstContentfulPaint": 804,
-                  "observedFirstContentfulPaintTs": 397443857,
-                  "observedFirstContentfulPaintAllFrames": 804,
-                  "observedFirstContentfulPaintAllFramesTs": 397443857,
-                  "observedFirstMeaningfulPaint": 11657,
-                  "observedFirstMeaningfulPaintTs": 408297444,
-                  "observedLargestContentfulPaint": 4963,
-                  "observedLargestContentfulPaintTs": 401602714,
-                  "observedLargestContentfulPaintAllFrames": 4963,
-                  "observedLargestContentfulPaintAllFramesTs": 401602714,
-                  "observedTraceEnd": 14007,
-                  "observedTraceEndTs": 410647070,
-                  "observedLoad": 3209,
-                  "observedLoadTs": 399848816,
-                  "observedDomContentLoaded": 803,
-                  "observedDomContentLoadedTs": 397443478,
-                  "observedCumulativeLayoutShift": 0.11053833134969075,
-                  "observedCumulativeLayoutShiftMainFrame": 0.11053833134969075,
+                  "observedNavigationStartTs": 416505568,
+                  "observedFirstPaint": 506,
+                  "observedFirstPaintTs": 417011372,
+                  "observedFirstContentfulPaint": 565,
+                  "observedFirstContentfulPaintTs": 417070779,
+                  "observedFirstContentfulPaintAllFrames": 565,
+                  "observedFirstContentfulPaintAllFramesTs": 417070779,
+                  "observedFirstMeaningfulPaint": 8582,
+                  "observedFirstMeaningfulPaintTs": 425087577,
+                  "observedLargestContentfulPaint": 3130,
+                  "observedLargestContentfulPaintTs": 419635917,
+                  "observedLargestContentfulPaintAllFrames": 3130,
+                  "observedLargestContentfulPaintAllFramesTs": 419635917,
+                  "observedTraceEnd": 11209,
+                  "observedTraceEndTs": 427715019,
+                  "observedLoad": 2159,
+                  "observedLoadTs": 418664922,
+                  "observedDomContentLoaded": 550,
+                  "observedDomContentLoadedTs": 417055791,
+                  "observedCumulativeLayoutShift": 0.11209100850423177,
+                  "observedCumulativeLayoutShiftMainFrame": 0.11209100850423177,
                   "observedTotalCumulativeLayoutShift": 0.158492429945204,
-                  "observedFirstVisualChange": 960,
-                  "observedFirstVisualChangeTs": 397600017,
-                  "observedLastVisualChange": 10977,
-                  "observedLastVisualChangeTs": 407617017,
-                  "observedSpeedIndex": 8733,
-                  "observedSpeedIndexTs": 405373284
+                  "observedFirstVisualChange": 811,
+                  "observedFirstVisualChangeTs": 417316568,
+                  "observedLastVisualChange": 8977,
+                  "observedLastVisualChangeTs": 425482568,
+                  "observedSpeedIndex": 6407,
+                  "observedSpeedIndexTs": 422912749
                 },
                 {
                   "lcpInvalidated": false
@@ -29240,22 +29419,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 305,
+                  "numRequests": 304,
                   "numScripts": 71,
                   "numStylesheets": 4,
                   "numFonts": 6,
-                  "numTasks": 4473,
-                  "numTasksOver10ms": 95,
-                  "numTasksOver25ms": 47,
+                  "numTasks": 3984,
+                  "numTasksOver10ms": 73,
+                  "numTasksOver25ms": 42,
                   "numTasksOver50ms": 29,
-                  "numTasksOver100ms": 17,
+                  "numTasksOver100ms": 18,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.4699999999999998,
-                  "throughput": 14799278.629182952,
-                  "maxRtt": 155.507,
-                  "maxServerLatency": 190.32,
-                  "totalByteWeight": 3105140,
-                  "totalTaskTime": 7860.626999999971,
+                  "rtt": 1.71,
+                  "throughput": 21174799.56836425,
+                  "maxRtt": 105.19099999999999,
+                  "maxServerLatency": 129.223,
+                  "totalByteWeight": 3105452,
+                  "totalTaskTime": 7245.288999999963,
                   "mainDocumentTransferSize": 3721
                 }
               ]
@@ -29299,15 +29478,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr/ftp/cartographie/Carte_Interactive",
-        "size": 3270.829,
-        "nodes": 1404,
-        "requests": 193,
-        "grade": "F",
-        "score": 16,
-        "ges": 2.68,
-        "water": 4.02,
+        "size": 4381.572,
+        "nodes": 2356,
+        "requests": 344,
+        "grade": "G",
+        "score": 7,
+        "ges": 2.86,
+        "water": 4.29,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-12 02:16:43.955470",
+        "date": "2025-01-26 02:05:32.919856",
         "page_type": "article"
       }
     ],
@@ -29323,7 +29502,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.18,
+      "lighthouse_performance": 0.19,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
@@ -29337,7 +29516,7 @@
       "declaration-a11y": "F",
       "declaration-rgpd-ml": "F",
       "declaration-rgpd-pc": "F",
-      "ecoindexGrade": "F"
+      "ecoindexGrade": "G"
     }
   },
   {
