@@ -3,15 +3,15 @@
               "id"           : "service",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
-              "severity"     : "DEBUG",
-              "finding"      : "Couldn't determine service, skipping all HTTP checks"
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No 128 cipher limit bug"
+              "severity"     : "MEDIUM",
+              "finding"      : "128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
@@ -185,7 +185,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
@@ -199,7 +199,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'key share/#51' 'supported versions/#43' 'server name/#0' 'status request/#5' 'extended master secret/#23' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35'"
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -227,7 +227,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -367,7 +367,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "347 >= 60 days"
+              "finding"      : "340 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -517,6 +517,70 @@
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Got no HTTP time, maybe try different URL?"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
               "id"           : "heartbleed",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
@@ -538,10 +602,10 @@
               "id"           : "ticketbleed",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
-              "severity"     : "INFO",
+              "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "not applicable, not HTTP"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ROBOT",
@@ -573,10 +637,19 @@
               "id"           : "CRIME_TLS",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "WARN",
               "cve"          : "CVE-2012-4929",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable (not using HTTP anyway)"
+              "finding"      : "Check failed, couldn't connect"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -703,14 +776,14 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
@@ -724,7 +797,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_12",
@@ -745,14 +818,14 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
@@ -787,7 +860,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
@@ -864,7 +937,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java1703",
@@ -997,13 +1070,20 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A+"
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "www.emploi86.com/217.70.184.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "56"
           }
 ]
