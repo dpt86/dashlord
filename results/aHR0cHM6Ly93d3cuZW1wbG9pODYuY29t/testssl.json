@@ -10,8 +10,8 @@
               "id"           : "pre_128cipher",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "128 cipher limit bug"
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
@@ -367,7 +367,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "340 >= 60 days"
+              "finding"      : "333 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -637,10 +637,10 @@
               "id"           : "CRIME_TLS",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
-              "severity"     : "WARN",
+              "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
               "cwe"          : "CWE-310",
-              "finding"      : "Check failed, couldn't connect"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "BREACH",
@@ -783,7 +783,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
@@ -818,14 +818,14 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
@@ -937,14 +937,14 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java1703",
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
