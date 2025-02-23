@@ -346,7 +346,7 @@
               "ip"           : "www.mdph86.fr/178.32.121.190",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (50)"
+              "finding"      : "expires < 60 days (43)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.mdph86.fr/178.32.121.190",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1739670752"
+              "finding"      : "1740275687"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.mdph86.fr/178.32.121.190",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "59"
           }
 ]
