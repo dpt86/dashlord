@@ -5,212 +5,7 @@
     "tags": [
       "Institution"
     ],
-    "http": {
-      "url": "https://www.lavienne86.fr",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 01:52:19 GMT",
-      "grade": "F",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Cache-Control": "private, no-store",
-        "Connection": "keep-alive",
-        "Content-Encoding": "gzip",
-        "Content-Language": "fr-FR",
-        "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 20 Oct 2024 01:52:16 GMT",
-        "Server": "nginx",
-        "Set-Cookie": "fe_typo_user=deleted; expires=Sat, 21 Oct 2023 01:52:15 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax, __Secure-typo3nonce_972UtE6Hws5mxuLNQQlE_A=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6Ik8zdE5RSjBfVVpBU0ZMWklOTzJOQk1NSVJnSWpaOFFfaHVXSGVqcm85dl9LNHNuTzA5WHh2ZyIsInRpbWUiOiIyMDI0LTEwLTIwVDAzOjUyOjE2KzAyOjAwIn0.xLZMUnELuKv0e8iqWvuwlGmupOhrLGrhZ7gWdbKIHmo; path=/; secure; httponly; samesite=strict",
-        "Strict-Transport-Security": "max-age=31536000;",
-        "Transfer-Encoding": "chunked",
-        "Vary": "Accept-Encoding",
-        "X-TYPO3-Parsetime": "0ms"
-      },
-      "scan_id": 57047281,
-      "score": 0,
-      "start_time": "Sun, 20 Oct 2024 01:52:15 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 6,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": {
-              "__Secure-typo3nonce_972UtE6Hws5mxuLNQQlE_A": {
-                "domain": "www.lavienne86.fr",
-                "expires": null,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": "Strict",
-                "secure": true
-              },
-              "__Secure-typo3nonce_OFqXsYYbbD9YLuJRIEXE6w": {
-                "domain": "www.lavienne86.fr",
-                "expires": null,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": "Strict",
-                "secure": true
-              },
-              "__Secure-typo3nonce_lU043Ho1LGdC99mcMq3AAQ": {
-                "domain": "www.lavienne86.fr",
-                "expires": null,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": "Strict",
-                "secure": true
-              },
-              "__Secure-typo3nonce_xPF92_9hQ5ZxKnnrf3hRuA": {
-                "domain": "www.lavienne86.fr",
-                "expires": null,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": "Strict",
-                "secure": true
-              }
-            },
-            "sameSite": true
-          },
-          "pass": true,
-          "result": "cookies-secure-with-httponly-sessions-and-samesite",
-          "score_description": "All cookies use the Secure flag, session cookies use the HttpOnly flag, and cross-origin restrictions are in place via the SameSite flag",
-          "score_modifier": 5
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": null,
-            "redirects": true,
-            "route": [],
-            "status_code": null
-          },
-          "pass": true,
-          "result": "redirection-not-needed-no-http",
-          "score_description": "Not able to connect via HTTP, so no redirection necessary",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-not-implemented",
-          "score_description": "Referrer-Policy header not implemented",
-          "score_modifier": 0
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=31536000;",
-            "includeSubDomains": false,
-            "max-age": 31536000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {
-              "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              }
-            }
-          },
-          "pass": false,
-          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) not implemented, and external scripts are loaded over HTTP or use protocol-relative URLs via src=\"//...\"",
-          "score_modifier": -50
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "score_description": "X-Content-Type-Options header not implemented",
-          "score_modifier": -5
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "score_description": "X-Frame-Options (XFO) header not implemented",
-          "score_modifier": -20
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": null
-          },
-          "pass": true,
-          "result": "x-xss-protection-not-implemented",
-          "score_description": "Deprecated X-XSS-Protection header not implemented",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -570,7 +365,7 @@
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "OK",
-        "finding": "300 >= 60 days"
+        "finding": "293 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -773,14 +568,14 @@
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739669965"
+        "finding": "1740274902"
       },
       {
         "id": "HSTS",
@@ -1350,7 +1145,7 @@
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "60"
+        "finding": "110"
       }
     ],
     "thirdparties": {
@@ -1664,7 +1459,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2025-02-16T01:38:33.690Z",
+        "fetchTime": "2025-02-23T01:39:50.981Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1675,7 +1470,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.41
+            "score": 0.44
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1727,53 +1522,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 16437,
+            "numericValue": 17999,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5147,
-                  "firstMeaningfulPaint": 5147,
-                  "largestContentfulPaint": 14091,
-                  "interactive": 16437,
-                  "speedIndex": 8758,
-                  "totalBlockingTime": 315,
-                  "maxPotentialFID": 608,
-                  "cumulativeLayoutShift": 0.012723904609680176,
-                  "cumulativeLayoutShiftMainFrame": 0.012723904609680176,
-                  "totalCumulativeLayoutShift": 0.012723904609680176,
+                  "firstContentfulPaint": 5250,
+                  "firstMeaningfulPaint": 5250,
+                  "largestContentfulPaint": 11684,
+                  "interactive": 17999,
+                  "speedIndex": 9290,
+                  "totalBlockingTime": 211,
+                  "maxPotentialFID": 328,
+                  "cumulativeLayoutShift": 0.012770971616109211,
+                  "cumulativeLayoutShiftMainFrame": 0.012770971616109211,
+                  "totalCumulativeLayoutShift": 0.012770971616109211,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 264516737,
+                  "observedTimeOriginTs": 348239640,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 264516737,
-                  "observedFirstPaint": 1157,
-                  "observedFirstPaintTs": 265674053,
-                  "observedFirstContentfulPaint": 1157,
-                  "observedFirstContentfulPaintTs": 265674053,
-                  "observedFirstContentfulPaintAllFrames": 1157,
-                  "observedFirstContentfulPaintAllFramesTs": 265674053,
-                  "observedFirstMeaningfulPaint": 1157,
-                  "observedFirstMeaningfulPaintTs": 265674053,
-                  "observedLargestContentfulPaint": 1309,
-                  "observedLargestContentfulPaintTs": 265825489,
-                  "observedLargestContentfulPaintAllFrames": 1309,
-                  "observedLargestContentfulPaintAllFramesTs": 265825489,
-                  "observedTraceEnd": 4154,
-                  "observedTraceEndTs": 268670727,
-                  "observedLoad": 1750,
-                  "observedLoadTs": 266266429,
-                  "observedDomContentLoaded": 1644,
-                  "observedDomContentLoadedTs": 266160605,
-                  "observedCumulativeLayoutShift": 0.012723904609680176,
-                  "observedCumulativeLayoutShiftMainFrame": 0.012723904609680176,
-                  "observedTotalCumulativeLayoutShift": 0.012723904609680176,
-                  "observedFirstVisualChange": 1522,
-                  "observedFirstVisualChangeTs": 266038737,
-                  "observedLastVisualChange": 2739,
-                  "observedLastVisualChangeTs": 267255737,
-                  "observedSpeedIndex": 2319,
-                  "observedSpeedIndexTs": 266835326
+                  "observedNavigationStartTs": 348239640,
+                  "observedFirstPaint": 1336,
+                  "observedFirstPaintTs": 349575160,
+                  "observedFirstContentfulPaint": 1336,
+                  "observedFirstContentfulPaintTs": 349575160,
+                  "observedFirstContentfulPaintAllFrames": 1336,
+                  "observedFirstContentfulPaintAllFramesTs": 349575160,
+                  "observedFirstMeaningfulPaint": 1336,
+                  "observedFirstMeaningfulPaintTs": 349575160,
+                  "observedLargestContentfulPaint": 1501,
+                  "observedLargestContentfulPaintTs": 349740729,
+                  "observedLargestContentfulPaintAllFrames": 1501,
+                  "observedLargestContentfulPaintAllFramesTs": 349740729,
+                  "observedTraceEnd": 4350,
+                  "observedTraceEndTs": 352589792,
+                  "observedLoad": 1887,
+                  "observedLoadTs": 350126381,
+                  "observedDomContentLoaded": 1791,
+                  "observedDomContentLoadedTs": 350030636,
+                  "observedCumulativeLayoutShift": 0.012770971616109211,
+                  "observedCumulativeLayoutShiftMainFrame": 0.012770971616109211,
+                  "observedTotalCumulativeLayoutShift": 0.012770971616109211,
+                  "observedFirstVisualChange": 1529,
+                  "observedFirstVisualChangeTs": 349768640,
+                  "observedLastVisualChange": 2896,
+                  "observedLastVisualChangeTs": 351135640,
+                  "observedSpeedIndex": 2528,
+                  "observedSpeedIndexTs": 350767969
                 },
                 {
                   "lcpInvalidated": false
@@ -1791,23 +1586,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 63,
+                  "numRequests": 70,
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1292,
-                  "numTasksOver10ms": 16,
-                  "numTasksOver25ms": 8,
-                  "numTasksOver50ms": 6,
-                  "numTasksOver100ms": 3,
+                  "numTasks": 1468,
+                  "numTasksOver10ms": 14,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 43037800.6872867,
-                  "maxRtt": 87.76400000000001,
-                  "maxServerLatency": 16.903000000000006,
-                  "totalByteWeight": 3271895,
-                  "totalTaskTime": 1155.4289999999924,
-                  "mainDocumentTransferSize": 56494
+                  "throughput": 24926900.33972054,
+                  "maxRtt": 150.244,
+                  "maxServerLatency": 62.06800000000001,
+                  "totalByteWeight": 3494471,
+                  "totalTaskTime": 662.5519999999979,
+                  "mainDocumentTransferSize": 57197
                 }
               ]
             }
@@ -1850,15 +1645,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 7345.706,
-        "nodes": 1680,
-        "requests": 62,
-        "grade": "E",
-        "score": 27,
-        "ges": 2.46,
-        "water": 3.69,
+        "size": 7841.529,
+        "nodes": 1845,
+        "requests": 69,
+        "grade": "F",
+        "score": 24,
+        "ges": 2.52,
+        "water": 3.78,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:37:42.278383",
+        "date": "2025-02-23 01:39:03.838293",
         "page_type": "article"
       }
     ],
@@ -1866,7 +1661,6 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
       "testsslGrade": "A",
@@ -1874,7 +1668,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.41,
+      "lighthouse_performance": 0.44,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.9,
       "lighthouse_accessibilityGrade": "A",
@@ -1888,7 +1682,7 @@
       "declaration-a11y": "F",
       "declaration-rgpd-ml": "F",
       "declaration-rgpd-pc": "F",
-      "ecoindexGrade": "E"
+      "ecoindexGrade": "F"
     }
   },
   {
@@ -9506,216 +9300,7 @@
       "Territoire",
       "Emploi"
     ],
-    "http": {
-      "url": "https://www.emploi86.com",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 02:01:20 GMT",
-      "grade": "C-",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Cache-Control": "no-store, no-cache, must-revalidate",
-        "Content-Encoding": "gzip",
-        "Content-Length": "12781",
-        "Content-Security-Policy-Report-Only": "default-src 'self' ; connect-src 'self' sentry.jobijoba.net module.hellocv.com ; script-src 'unsafe-eval' 'unsafe-inline' 'self' module.hellocv.com www.googletagmanager.com cdn.ravenjs.com www.google.com www.gstatic.com tag.aticdn.net 'wasm-unsafe-eval' https://cdn.jsdelivr.net/npm/; style-src 'unsafe-inline' 'self' module.hellocv.com ; img-src data: 'unsafe-eval' * ; media-src 'self' * ; font-src 'self'  cdn.jobijoba.com fonts.gstatic.com ; frame-src 'self' www.google.com www.googletagmanager.com www.youtube.com maps.google.com www.facebook.com syndication.twitter.com ; worker-src blob: ; child-src blob: ; object-src 'none' ; base-uri 'none' ;frame-ancestors 'none' ; upgrade-insecure-requests ; report-uri https://www.emploi86.com/.csp-report",
-        "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 20 Oct 2024 02:01:18 GMT",
-        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-        "Pragma": "no-cache",
-        "Report-To": "{'group':'csp-endpoint-report-only','max_age':86400,'endpoints':[{'url':'https://www.emploi86.com/.csp-report'}]}",
-        "Reporting-Endpoints": "csp-endpoint-report-only=\"https://www.emploi86.com/.csp-report\"",
-        "Server": "Apache",
-        "Set-Cookie": "mb_departement_vienne=7jhsr1dag6qaik003cjm6ninsk; path=/; secure; HttpOnly; SameSite=None, mb_departement_vienne_user=UjVWbFc%2FAWcLPVZnB2QNOQRrATVXMwM%2FAGcDMwUyAmFVN1BpVzhTN1cxA2UAYQZhUStTdQcyAGldKQN8CTpUN1IxVmJXPQFrCzJWZQdlDWQ%3D; expires=Mon, 20-Oct-2025 02:01:18 GMT; Max-Age=31536000; path=/; secure; HttpOnly, HA2=front-01; path=/; HttpOnly; Secure",
-        "Strict-Transport-Security": "max-age=63072000",
-        "Vary": "partner,Accept-Encoding",
-        "X-Content-Type-Options": "nosniff"
-      },
-      "scan_id": 57047431,
-      "score": 45,
-      "start_time": "Sun, 20 Oct 2024 02:01:16 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 6,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": {
-              "HA2": {
-                "domain": "www.emploi86.com",
-                "expires": null,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": false,
-                "secure": true
-              },
-              "mb_departement_vienne": {
-                "domain": "www.emploi86.com",
-                "expires": null,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": "None",
-                "secure": true
-              },
-              "mb_departement_vienne_user": {
-                "domain": "www.emploi86.com",
-                "expires": 1760925678,
-                "httponly": true,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": false,
-                "secure": true
-              }
-            },
-            "sameSite": false
-          },
-          "pass": true,
-          "result": "cookies-secure-with-httponly-sessions",
-          "score_description": "All cookies use the Secure flag and all session cookies use the HttpOnly flag",
-          "score_modifier": 0
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": "https://www.emploi86.com/",
-            "redirects": true,
-            "route": [
-              "http://www.emploi86.com/",
-              "https://www.emploi86.com/"
-            ],
-            "status_code": 200
-          },
-          "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": "unsafe-url",
-            "http": false,
-            "meta": true
-          },
-          "pass": false,
-          "result": "referrer-policy-unsafe",
-          "score_description": "Referrer-Policy header set unsafely to \"origin\", \"origin-when-cross-origin\", or \"unsafe-url\"",
-          "score_modifier": -5
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=63072000",
-            "includeSubDomains": false,
-            "max-age": 63072000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {
-              "https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.module.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "https://cdn.ravenjs.com/3.26.2/raven.min.js": {
-                "crossorigin": "anonymous",
-                "integrity": null
-              }
-            }
-          },
-          "pass": false,
-          "result": "sri-not-implemented-but-external-scripts-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) not implemented, but all external scripts are loaded over HTTPS",
-          "score_modifier": -5
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": "nosniff"
-          },
-          "pass": true,
-          "result": "x-content-type-options-nosniff",
-          "score_description": "X-Content-Type-Options header set to \"nosniff\"",
-          "score_modifier": 0
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "score_description": "X-Frame-Options (XFO) header not implemented",
-          "score_modifier": -20
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": null
-          },
-          "pass": true,
-          "result": "x-xss-protection-not-implemented",
-          "score_description": "Deprecated X-XSS-Protection header not implemented",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -9928,7 +9513,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "valid for 300 seconds only (<daily)"
+        "finding": "valid for 299 seconds only (<daily)"
       },
       {
         "id": "SSL_sessionID_support",
@@ -10089,7 +9674,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "OK",
-        "finding": "319 >= 60 days"
+        "finding": "312 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -10806,7 +10391,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "101"
+        "finding": "102"
       }
     ],
     "thirdparties": {
@@ -10830,7 +10415,7 @@
       {
         "requestedUrl": "https://www.emploi86.com/",
         "finalUrl": "https://www.francetravail.fr/accueil/",
-        "fetchTime": "2025-02-16T01:47:02.287Z",
+        "fetchTime": "2025-02-23T01:49:51.665Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.emploi86.com/) was redirected to https://www.francetravail.fr/accueil/. Try testing the second URL directly."
         ],
@@ -10843,7 +10428,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.5
+            "score": 0.55
           },
           "accessibility": {
             "title": "Accessibility",
@@ -10864,7 +10449,7 @@
               "snapshot"
             ],
             "id": "best-practices",
-            "score": 0.92
+            "score": 1
           },
           "seo": {
             "title": "SEO",
@@ -10895,53 +10480,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 12272,
+            "numericValue": 7740,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4570,
-                  "firstMeaningfulPaint": 5511,
-                  "largestContentfulPaint": 6524,
-                  "interactive": 12272,
-                  "speedIndex": 6565,
-                  "totalBlockingTime": 196,
-                  "maxPotentialFID": 166,
-                  "cumulativeLayoutShift": 0.07350204955206976,
-                  "cumulativeLayoutShiftMainFrame": 0.07350204955206976,
-                  "totalCumulativeLayoutShift": 0.07350204955206976,
+                  "firstContentfulPaint": 4555,
+                  "firstMeaningfulPaint": 5395,
+                  "largestContentfulPaint": 6535,
+                  "interactive": 7740,
+                  "speedIndex": 6392,
+                  "totalBlockingTime": 126,
+                  "maxPotentialFID": 125,
+                  "cumulativeLayoutShift": 0.07342026095920139,
+                  "cumulativeLayoutShiftMainFrame": 0.07342026095920139,
+                  "totalCumulativeLayoutShift": 0.07342026095920139,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 266653868,
+                  "observedTimeOriginTs": 278864623,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 266653868,
-                  "observedFirstPaint": 1976,
-                  "observedFirstPaintTs": 268630109,
-                  "observedFirstContentfulPaint": 2111,
-                  "observedFirstContentfulPaintTs": 268765049,
-                  "observedFirstContentfulPaintAllFrames": 2111,
-                  "observedFirstContentfulPaintAllFramesTs": 268765049,
-                  "observedFirstMeaningfulPaint": 2606,
-                  "observedFirstMeaningfulPaintTs": 269259789,
-                  "observedLargestContentfulPaint": 2505,
-                  "observedLargestContentfulPaintTs": 269158883,
-                  "observedLargestContentfulPaintAllFrames": 2505,
-                  "observedLargestContentfulPaintAllFramesTs": 269158883,
-                  "observedTraceEnd": 5790,
-                  "observedTraceEndTs": 272443474,
-                  "observedLoad": 3320,
-                  "observedLoadTs": 269974152,
-                  "observedDomContentLoaded": 2000,
-                  "observedDomContentLoadedTs": 268654364,
-                  "observedCumulativeLayoutShift": 0.07350204955206976,
-                  "observedCumulativeLayoutShiftMainFrame": 0.07350204955206976,
-                  "observedTotalCumulativeLayoutShift": 0.07350204955206976,
-                  "observedFirstVisualChange": 1985,
-                  "observedFirstVisualChangeTs": 268638868,
-                  "observedLastVisualChange": 4518,
-                  "observedLastVisualChangeTs": 271171868,
-                  "observedSpeedIndex": 2425,
-                  "observedSpeedIndexTs": 269078903
+                  "observedNavigationStartTs": 278864623,
+                  "observedFirstPaint": 1989,
+                  "observedFirstPaintTs": 280853421,
+                  "observedFirstContentfulPaint": 2098,
+                  "observedFirstContentfulPaintTs": 280962844,
+                  "observedFirstContentfulPaintAllFrames": 2098,
+                  "observedFirstContentfulPaintAllFramesTs": 280962844,
+                  "observedFirstMeaningfulPaint": 2614,
+                  "observedFirstMeaningfulPaintTs": 281478385,
+                  "observedLargestContentfulPaint": 2511,
+                  "observedLargestContentfulPaintTs": 281375987,
+                  "observedLargestContentfulPaintAllFrames": 2511,
+                  "observedLargestContentfulPaintAllFramesTs": 281375987,
+                  "observedTraceEnd": 5836,
+                  "observedTraceEndTs": 284700527,
+                  "observedLoad": 3358,
+                  "observedLoadTs": 282222959,
+                  "observedDomContentLoaded": 2013,
+                  "observedDomContentLoadedTs": 280877428,
+                  "observedCumulativeLayoutShift": 0.07342026095920139,
+                  "observedCumulativeLayoutShiftMainFrame": 0.07342026095920139,
+                  "observedTotalCumulativeLayoutShift": 0.07342026095920139,
+                  "observedFirstVisualChange": 1990,
+                  "observedFirstVisualChangeTs": 280854623,
+                  "observedLastVisualChange": 4540,
+                  "observedLastVisualChangeTs": 283404623,
+                  "observedSpeedIndex": 2432,
+                  "observedSpeedIndexTs": 281296581
                 },
                 {
                   "lcpInvalidated": false
@@ -10959,22 +10544,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 51,
-                  "numScripts": 17,
-                  "numStylesheets": 5,
-                  "numFonts": 5,
-                  "numTasks": 1807,
-                  "numTasksOver10ms": 17,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 0,
+                  "numRequests": 46,
+                  "numScripts": 15,
+                  "numStylesheets": 4,
+                  "numFonts": 4,
+                  "numTasks": 1681,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 3354185.8052665116,
-                  "maxRtt": 158.018,
-                  "maxServerLatency": 59.92400000000001,
-                  "totalByteWeight": 989540,
-                  "totalTaskTime": 616.8619999999977,
+                  "rtt": 0.7719999999999998,
+                  "throughput": 3842856.6448916784,
+                  "maxRtt": 157.922,
+                  "maxServerLatency": 64.352,
+                  "totalByteWeight": 689550,
+                  "totalTaskTime": 538.1189999999965,
                   "mainDocumentTransferSize": 5524
                 }
               ]
@@ -11018,15 +10603,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.emploi86.com",
-        "size": 1984.454,
-        "nodes": 527,
-        "requests": 74,
+        "size": 1680.895,
+        "nodes": 519,
+        "requests": 68,
         "grade": "D",
-        "score": 52,
-        "ges": 1.96,
-        "water": 2.94,
+        "score": 54,
+        "ges": 1.92,
+        "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:46:01.858955",
+        "date": "2025-02-23 01:48:34.864910",
         "page_type": null
       }
     ],
@@ -11034,7 +10619,6 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "C-",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-01-01T23:59:00.000Z",
       "testsslGrade": "A",
@@ -11042,11 +10626,11 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.5,
-      "lighthouse_performanceGrade": "D",
+      "lighthouse_performance": 0.55,
+      "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": null,
       "lighthouse_accessibilityGrade": "F",
-      "lighthouse_best-practices": 0.92,
+      "lighthouse_best-practices": 1,
       "lighthouse_best-practicesGrade": "A",
       "lighthouse_seo": 0.92,
       "lighthouse_seoGrade": "A",
@@ -11065,172 +10649,7 @@
     "tags": [
       "Education"
     ],
-    "http": {
-      "url": "https://enej.lavienne86.fr",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 02:00:21 GMT",
-      "grade": "B",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "content-encoding": "gzip",
-        "content-type": "text/html",
-        "cross-origin-opener-policy": "same-origin",
-        "date": "Sun, 20 Oct 2024 02:00:19 GMT",
-        "etag": "W/\"670f7b41-e017\"",
-        "last-modified": "Wed, 16 Oct 2024 08:37:21 GMT",
-        "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
-        "referrer-policy": "strict-origin-when-cross-origin",
-        "server": "nginx/1.18.0",
-        "strict-transport-security": "max-age=63072000",
-        "transfer-encoding": "chunked",
-        "vary": "Accept-Encoding",
-        "x-frame-options": "SAMEORIGIN",
-        "x-xss-protection": "1; mode=block"
-      },
-      "scan_id": 57047398,
-      "score": 70,
-      "start_time": "Sun, 20 Oct 2024 02:00:18 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 2,
-      "tests_passed": 8,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": null,
-            "sameSite": null
-          },
-          "pass": true,
-          "result": "cookies-not-found",
-          "score_description": "No cookies detected",
-          "score_modifier": 0
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": "https://enej.lavienne86.fr/fr/",
-            "redirects": true,
-            "route": [
-              "http://enej.lavienne86.fr/",
-              "https://enej.lavienne86.fr/",
-              "https://enej.lavienne86.fr/fr/"
-            ],
-            "status_code": 200
-          },
-          "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": "strict-origin-when-cross-origin",
-            "http": true,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-private",
-          "score_description": "Referrer-Policy header set to \"no-referrer\", \"same-origin\", \"strict-origin\" or \"strict-origin-when-cross-origin\"",
-          "score_modifier": 5
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=63072000",
-            "includeSubDomains": false,
-            "max-age": 63072000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {}
-          },
-          "pass": true,
-          "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
-          "score_description": "Subresource Integrity (SRI) not implemented, but all scripts are loaded from a similar origin",
-          "score_modifier": 0
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "score_description": "X-Content-Type-Options header not implemented",
-          "score_modifier": -5
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": "SAMEORIGIN"
-          },
-          "pass": true,
-          "result": "x-frame-options-sameorigin-or-deny",
-          "score_description": "X-Frame-Options (XFO) header set to SAMEORIGIN or DENY",
-          "score_modifier": 0
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": "1; mode=block"
-          },
-          "pass": true,
-          "result": "x-xss-protection-enabled-mode-block",
-          "score_description": "Deprecated X-XSS-Protection header set to \"1; mode=block\"",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -11583,7 +11002,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "83 >= 30 days"
+        "finding": "76 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -11744,7 +11163,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739670724"
+        "finding": "1740275504"
       },
       {
         "id": "HSTS_time",
@@ -12342,7 +11761,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "55"
+        "finding": "54"
       }
     ],
     "thirdparties": {
@@ -12493,7 +11912,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2025-02-16T01:51:21.871Z",
+        "fetchTime": "2025-02-23T01:50:41.021Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -12558,53 +11977,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4778,
+            "numericValue": 4781,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4778,
-                  "firstMeaningfulPaint": 4778,
-                  "largestContentfulPaint": 7211,
-                  "interactive": 4778,
-                  "speedIndex": 7127,
+                  "firstContentfulPaint": 4781,
+                  "firstMeaningfulPaint": 4781,
+                  "largestContentfulPaint": 7218,
+                  "interactive": 4781,
+                  "speedIndex": 7420,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.3371522064208985,
                   "cumulativeLayoutShiftMainFrame": 0.3371522064208985,
                   "totalCumulativeLayoutShift": 0.3371522064208985,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 235553213,
+                  "observedTimeOriginTs": 226264594,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 235553213,
-                  "observedFirstPaint": 1971,
-                  "observedFirstPaintTs": 237524581,
-                  "observedFirstContentfulPaint": 1971,
-                  "observedFirstContentfulPaintTs": 237524581,
-                  "observedFirstContentfulPaintAllFrames": 1971,
-                  "observedFirstContentfulPaintAllFramesTs": 237524581,
-                  "observedFirstMeaningfulPaint": 1971,
-                  "observedFirstMeaningfulPaintTs": 237524581,
-                  "observedLargestContentfulPaint": 1971,
-                  "observedLargestContentfulPaintTs": 237524581,
-                  "observedLargestContentfulPaintAllFrames": 1971,
-                  "observedLargestContentfulPaintAllFramesTs": 237524581,
-                  "observedTraceEnd": 4397,
-                  "observedTraceEndTs": 239949793,
-                  "observedLoad": 1328,
-                  "observedLoadTs": 236881187,
-                  "observedDomContentLoaded": 953,
-                  "observedDomContentLoadedTs": 236505758,
+                  "observedNavigationStartTs": 226264594,
+                  "observedFirstPaint": 2172,
+                  "observedFirstPaintTs": 228436652,
+                  "observedFirstContentfulPaint": 2172,
+                  "observedFirstContentfulPaintTs": 228436652,
+                  "observedFirstContentfulPaintAllFrames": 2172,
+                  "observedFirstContentfulPaintAllFramesTs": 228436652,
+                  "observedFirstMeaningfulPaint": 2172,
+                  "observedFirstMeaningfulPaintTs": 228436652,
+                  "observedLargestContentfulPaint": 2172,
+                  "observedLargestContentfulPaintTs": 228436652,
+                  "observedLargestContentfulPaintAllFrames": 2172,
+                  "observedLargestContentfulPaintAllFramesTs": 228436652,
+                  "observedTraceEnd": 4594,
+                  "observedTraceEndTs": 230858381,
+                  "observedLoad": 1472,
+                  "observedLoadTs": 227736806,
+                  "observedDomContentLoaded": 1079,
+                  "observedDomContentLoadedTs": 227343333,
                   "observedCumulativeLayoutShift": 0.3371522064208985,
                   "observedCumulativeLayoutShiftMainFrame": 0.3371522064208985,
                   "observedTotalCumulativeLayoutShift": 0.3371522064208985,
-                  "observedFirstVisualChange": 1970,
-                  "observedFirstVisualChangeTs": 237523213,
-                  "observedLastVisualChange": 2103,
-                  "observedLastVisualChangeTs": 237656213,
-                  "observedSpeedIndex": 1991,
-                  "observedSpeedIndexTs": 237543831
+                  "observedFirstVisualChange": 2176,
+                  "observedFirstVisualChangeTs": 228440594,
+                  "observedLastVisualChange": 2309,
+                  "observedLastVisualChangeTs": 228573594,
+                  "observedSpeedIndex": 2197,
+                  "observedSpeedIndexTs": 228461195
                 },
                 {
                   "lcpInvalidated": false
@@ -12626,19 +12045,19 @@
                   "numScripts": 36,
                   "numStylesheets": 1,
                   "numFonts": 4,
-                  "numTasks": 23,
-                  "numTasksOver10ms": 0,
-                  "numTasksOver25ms": 0,
-                  "numTasksOver50ms": 0,
-                  "numTasksOver100ms": 0,
-                  "numTasksOver500ms": 0,
-                  "rtt": 85.378,
-                  "throughput": 24682384.679890435,
-                  "maxRtt": 86.758,
-                  "maxServerLatency": 5.608000000000004,
-                  "totalByteWeight": 1185987,
-                  "totalTaskTime": 18.443999999999996,
-                  "mainDocumentTransferSize": 8299
+                  "numTasks": 17,
+                  "numTasksOver10ms": 2,
+                  "numTasksOver25ms": 1,
+                  "numTasksOver50ms": 1,
+                  "numTasksOver100ms": 1,
+                  "numTasksOver500ms": 1,
+                  "rtt": 86.26599999999999,
+                  "throughput": 17663725.323935494,
+                  "maxRtt": 86.774,
+                  "maxServerLatency": 11.655000000000001,
+                  "totalByteWeight": 1185978,
+                  "totalTaskTime": 4220.529,
+                  "mainDocumentTransferSize": 8308
                 }
               ]
             }
@@ -12681,7 +12100,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1310.301,
+        "size": 1310.293,
         "nodes": 103,
         "requests": 54,
         "grade": "B",
@@ -12689,7 +12108,7 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:50:30.733009",
+        "date": "2025-02-23 01:49:45.678953",
         "page_type": null
       }
     ],
@@ -12697,7 +12116,6 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "B",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-05-10T23:03:00.000Z",
       "testsslGrade": "A+",
@@ -12728,182 +12146,7 @@
     "tags": [
       "Autonomie"
     ],
-    "http": {
-      "url": "https://www.mdph86.fr",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 02:07:26 GMT",
-      "grade": "F",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Cache-Control": "private, no-store",
-        "Connection": "keep-alive",
-        "Content-Encoding": "gzip",
-        "Content-Language": "fr-FR",
-        "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 20 Oct 2024 02:07:23 GMT",
-        "Server": "nginx",
-        "Strict-Transport-Security": "max-age=31536000;",
-        "Transfer-Encoding": "chunked",
-        "Vary": "Accept-Encoding",
-        "X-TYPO3-Parsetime": "0ms"
-      },
-      "scan_id": 57047541,
-      "score": 0,
-      "start_time": "Sun, 20 Oct 2024 02:07:21 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 6,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": null,
-            "sameSite": null
-          },
-          "pass": true,
-          "result": "cookies-not-found",
-          "score_description": "No cookies detected",
-          "score_modifier": 0
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": "https://mdph86.fr/",
-            "redirects": true,
-            "route": [
-              "http://www.mdph86.fr/",
-              "https://www.mdph86.fr/",
-              "https://mdph86.fr/"
-            ],
-            "status_code": 200
-          },
-          "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-not-implemented",
-          "score_description": "Referrer-Policy header not implemented",
-          "score_modifier": 0
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=31536000;",
-            "includeSubDomains": false,
-            "max-age": 31536000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {
-              "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "https://www.numanis.net/accessedition.js": {
-                "crossorigin": null,
-                "integrity": null
-              }
-            }
-          },
-          "pass": false,
-          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) not implemented, and external scripts are loaded over HTTP or use protocol-relative URLs via src=\"//...\"",
-          "score_modifier": -50
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "score_description": "X-Content-Type-Options header not implemented",
-          "score_modifier": -5
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "score_description": "X-Frame-Options (XFO) header not implemented",
-          "score_modifier": -20
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": null
-          },
-          "pass": true,
-          "result": "x-xss-protection-not-implemented",
-          "score_description": "Deprecated X-XSS-Protection header not implemented",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -13256,7 +12499,7 @@
         "ip": "www.mdph86.fr/178.32.121.190",
         "port": "443",
         "severity": "MEDIUM",
-        "finding": "expires < 60 days (50)"
+        "finding": "expires < 60 days (43)"
       },
       {
         "id": "cert_notBefore",
@@ -13466,7 +12709,7 @@
         "ip": "www.mdph86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739670752"
+        "finding": "1740275687"
       },
       {
         "id": "HSTS",
@@ -14022,7 +13265,7 @@
         "ip": "www.mdph86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "58"
+        "finding": "59"
       }
     ],
     "thirdparties": {
@@ -14285,7 +13528,7 @@
       {
         "requestedUrl": "https://www.mdph86.fr/",
         "finalUrl": "https://mdph86.fr/",
-        "fetchTime": "2025-02-16T01:51:15.344Z",
+        "fetchTime": "2025-02-23T01:53:33.870Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.mdph86.fr/) was redirected to https://mdph86.fr/. Try testing the second URL directly."
         ],
@@ -14298,7 +13541,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.42
+            "score": 0.47
           },
           "accessibility": {
             "title": "Accessibility",
@@ -14350,53 +13593,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14399,
+            "numericValue": 14223,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6234,
-                  "firstMeaningfulPaint": 6234,
-                  "largestContentfulPaint": 6820,
-                  "interactive": 14399,
-                  "speedIndex": 9072,
-                  "totalBlockingTime": 333,
-                  "maxPotentialFID": 229,
+                  "firstContentfulPaint": 5614,
+                  "firstMeaningfulPaint": 5614,
+                  "largestContentfulPaint": 6193,
+                  "interactive": 14223,
+                  "speedIndex": 8141,
+                  "totalBlockingTime": 237,
+                  "maxPotentialFID": 230,
                   "cumulativeLayoutShift": 0.01777064471774631,
                   "cumulativeLayoutShiftMainFrame": 0.01777064471774631,
                   "totalCumulativeLayoutShift": 0.01777064471774631,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 214752153,
+                  "observedTimeOriginTs": 214694931,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 214752153,
-                  "observedFirstPaint": 1015,
-                  "observedFirstPaintTs": 215766812,
-                  "observedFirstContentfulPaint": 1015,
-                  "observedFirstContentfulPaintTs": 215766812,
-                  "observedFirstContentfulPaintAllFrames": 1015,
-                  "observedFirstContentfulPaintAllFramesTs": 215766812,
-                  "observedFirstMeaningfulPaint": 1015,
-                  "observedFirstMeaningfulPaintTs": 215766812,
-                  "observedLargestContentfulPaint": 1015,
-                  "observedLargestContentfulPaintTs": 215766812,
-                  "observedLargestContentfulPaintAllFrames": 1015,
-                  "observedLargestContentfulPaintAllFramesTs": 215766812,
-                  "observedTraceEnd": 4778,
-                  "observedTraceEndTs": 219530200,
-                  "observedLoad": 1525,
-                  "observedLoadTs": 216277043,
-                  "observedDomContentLoaded": 1518,
-                  "observedDomContentLoadedTs": 216270546,
+                  "observedNavigationStartTs": 214694931,
+                  "observedFirstPaint": 1116,
+                  "observedFirstPaintTs": 215810558,
+                  "observedFirstContentfulPaint": 1116,
+                  "observedFirstContentfulPaintTs": 215810558,
+                  "observedFirstContentfulPaintAllFrames": 1116,
+                  "observedFirstContentfulPaintAllFramesTs": 215810558,
+                  "observedFirstMeaningfulPaint": 1116,
+                  "observedFirstMeaningfulPaintTs": 215810558,
+                  "observedLargestContentfulPaint": 1116,
+                  "observedLargestContentfulPaintTs": 215810558,
+                  "observedLargestContentfulPaintAllFrames": 1116,
+                  "observedLargestContentfulPaintAllFramesTs": 215810558,
+                  "observedTraceEnd": 4848,
+                  "observedTraceEndTs": 219542931,
+                  "observedLoad": 1632,
+                  "observedLoadTs": 216326590,
+                  "observedDomContentLoaded": 1625,
+                  "observedDomContentLoadedTs": 216319755,
                   "observedCumulativeLayoutShift": 0.01777064471774631,
                   "observedCumulativeLayoutShiftMainFrame": 0.01777064471774631,
                   "observedTotalCumulativeLayoutShift": 0.01777064471774631,
-                  "observedFirstVisualChange": 1022,
-                  "observedFirstVisualChangeTs": 215774153,
-                  "observedLastVisualChange": 2522,
-                  "observedLastVisualChangeTs": 217274153,
-                  "observedSpeedIndex": 2134,
-                  "observedSpeedIndexTs": 216886158
+                  "observedFirstVisualChange": 1129,
+                  "observedFirstVisualChangeTs": 215823931,
+                  "observedLastVisualChange": 2596,
+                  "observedLastVisualChangeTs": 217290931,
+                  "observedSpeedIndex": 2237,
+                  "observedSpeedIndexTs": 216932322
                 },
                 {
                   "lcpInvalidated": false
@@ -14418,19 +13661,19 @@
                   "numScripts": 19,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 1119,
-                  "numTasksOver10ms": 13,
-                  "numTasksOver25ms": 5,
+                  "numTasks": 1247,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 32992863.655801266,
-                  "maxRtt": 86.57600000000001,
-                  "maxServerLatency": 85.278,
-                  "totalByteWeight": 2112320,
-                  "totalTaskTime": 551.5289999999978,
-                  "mainDocumentTransferSize": 14003
+                  "throughput": 32535514.733736046,
+                  "maxRtt": 88.80799999999999,
+                  "maxServerLatency": 86.06599999999999,
+                  "totalByteWeight": 2105087,
+                  "totalTaskTime": 552.4359999999995,
+                  "mainDocumentTransferSize": 14345
                 }
               ]
             }
@@ -14473,7 +13716,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mdph86.fr",
-        "size": 2740.163,
+        "size": 2745.093,
         "nodes": 659,
         "requests": 60,
         "grade": "D",
@@ -14481,7 +13724,7 @@
         "ges": 2.04,
         "water": 3.06,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:50:30.595899",
+        "date": "2025-02-23 01:52:47.382493",
         "page_type": "article"
       }
     ],
@@ -14489,7 +13732,6 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-07T23:59:00.000Z",
       "testsslGrade": "A",
@@ -14497,7 +13739,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.42,
+      "lighthouse_performance": 0.47,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -16607,174 +15849,7 @@
     "tags": [
       "Territoire"
     ],
-    "http": {
-      "url": "https://www.cli-civaux.fr",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 02:13:22 GMT",
-      "grade": "F",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Cache-Control": "private, no-store",
-        "Connection": "keep-alive",
-        "Content-Encoding": "gzip",
-        "Content-Language": "fr-FR",
-        "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 20 Oct 2024 02:13:20 GMT",
-        "Server": "nginx",
-        "Strict-Transport-Security": "max-age=31536000;",
-        "Transfer-Encoding": "chunked",
-        "Vary": "Accept-Encoding",
-        "X-TYPO3-Parsetime": "0ms"
-      },
-      "scan_id": 57047608,
-      "score": 0,
-      "start_time": "Sun, 20 Oct 2024 02:13:19 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 6,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": null,
-            "sameSite": null
-          },
-          "pass": true,
-          "result": "cookies-not-found",
-          "score_description": "No cookies detected",
-          "score_modifier": 0
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": null,
-            "redirects": true,
-            "route": [],
-            "status_code": null
-          },
-          "pass": true,
-          "result": "redirection-not-needed-no-http",
-          "score_description": "Not able to connect via HTTP, so no redirection necessary",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-not-implemented",
-          "score_description": "Referrer-Policy header not implemented",
-          "score_modifier": 0
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=31536000;",
-            "includeSubDomains": false,
-            "max-age": 31536000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {
-              "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              }
-            }
-          },
-          "pass": false,
-          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) not implemented, and external scripts are loaded over HTTP or use protocol-relative URLs via src=\"//...\"",
-          "score_modifier": -50
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "score_description": "X-Content-Type-Options header not implemented",
-          "score_modifier": -5
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "score_description": "X-Frame-Options (XFO) header not implemented",
-          "score_modifier": -20
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": null
-          },
-          "pass": true,
-          "result": "x-xss-protection-not-implemented",
-          "score_description": "Deprecated X-XSS-Protection header not implemented",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -17127,7 +16202,7 @@
         "ip": "www.cli-civaux.fr/178.32.121.190",
         "port": "443",
         "severity": "MEDIUM",
-        "finding": "expires < 60 days (50)"
+        "finding": "expires < 60 days (43)"
       },
       {
         "id": "cert_notBefore",
@@ -17337,7 +16412,7 @@
         "ip": "www.cli-civaux.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739670945"
+        "finding": "1740275803"
       },
       {
         "id": "HSTS",
@@ -17893,7 +16968,7 @@
         "ip": "www.cli-civaux.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "65"
+        "finding": "105"
       }
     ],
     "thirdparties": {
@@ -18153,7 +17228,7 @@
       {
         "requestedUrl": "https://www.cli-civaux.fr/",
         "finalUrl": "https://www.cli-civaux.fr/",
-        "fetchTime": "2025-02-16T01:54:56.203Z",
+        "fetchTime": "2025-02-23T01:54:58.937Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -18164,7 +17239,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.34
+            "score": 0.52
           },
           "accessibility": {
             "title": "Accessibility",
@@ -18216,53 +17291,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14318,
+            "numericValue": 13718,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6358,
-                  "firstMeaningfulPaint": 6358,
-                  "largestContentfulPaint": 7677,
-                  "interactive": 14318,
-                  "speedIndex": 9647,
-                  "totalBlockingTime": 532,
-                  "maxPotentialFID": 632,
-                  "cumulativeLayoutShift": 0.04082719294230143,
-                  "cumulativeLayoutShiftMainFrame": 0.04082719294230143,
-                  "totalCumulativeLayoutShift": 0.04082719294230143,
+                  "firstContentfulPaint": 4679,
+                  "firstMeaningfulPaint": 4679,
+                  "largestContentfulPaint": 5403,
+                  "interactive": 13718,
+                  "speedIndex": 9266,
+                  "totalBlockingTime": 170,
+                  "maxPotentialFID": 238,
+                  "cumulativeLayoutShift": 0.03206593577067057,
+                  "cumulativeLayoutShiftMainFrame": 0.03206593577067057,
+                  "totalCumulativeLayoutShift": 0.03206593577067057,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 213660808,
+                  "observedTimeOriginTs": 419433028,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 213660808,
-                  "observedFirstPaint": 1324,
-                  "observedFirstPaintTs": 214985024,
-                  "observedFirstContentfulPaint": 1324,
-                  "observedFirstContentfulPaintTs": 214985024,
-                  "observedFirstContentfulPaintAllFrames": 1324,
-                  "observedFirstContentfulPaintAllFramesTs": 214985024,
-                  "observedFirstMeaningfulPaint": 1324,
-                  "observedFirstMeaningfulPaintTs": 214985024,
-                  "observedLargestContentfulPaint": 1324,
-                  "observedLargestContentfulPaintTs": 214985024,
-                  "observedLargestContentfulPaintAllFrames": 1324,
-                  "observedLargestContentfulPaintAllFramesTs": 214985024,
-                  "observedTraceEnd": 4227,
-                  "observedTraceEndTs": 217888031,
-                  "observedLoad": 1787,
-                  "observedLoadTs": 215447742,
-                  "observedDomContentLoaded": 1707,
-                  "observedDomContentLoadedTs": 215367806,
-                  "observedCumulativeLayoutShift": 0.04082719294230143,
-                  "observedCumulativeLayoutShiftMainFrame": 0.04082719294230143,
-                  "observedTotalCumulativeLayoutShift": 0.04082719294230143,
-                  "observedFirstVisualChange": 1663,
-                  "observedFirstVisualChangeTs": 215323808,
-                  "observedLastVisualChange": 2730,
-                  "observedLastVisualChangeTs": 216390808,
-                  "observedSpeedIndex": 2304,
-                  "observedSpeedIndexTs": 215964861
+                  "observedNavigationStartTs": 419433028,
+                  "observedFirstPaint": 1406,
+                  "observedFirstPaintTs": 420839501,
+                  "observedFirstContentfulPaint": 1406,
+                  "observedFirstContentfulPaintTs": 420839501,
+                  "observedFirstContentfulPaintAllFrames": 1406,
+                  "observedFirstContentfulPaintAllFramesTs": 420839501,
+                  "observedFirstMeaningfulPaint": 1406,
+                  "observedFirstMeaningfulPaintTs": 420839501,
+                  "observedLargestContentfulPaint": 1406,
+                  "observedLargestContentfulPaintTs": 420839501,
+                  "observedLargestContentfulPaintAllFrames": 1406,
+                  "observedLargestContentfulPaintAllFramesTs": 420839501,
+                  "observedTraceEnd": 4397,
+                  "observedTraceEndTs": 423830233,
+                  "observedLoad": 1944,
+                  "observedLoadTs": 421376694,
+                  "observedDomContentLoaded": 1694,
+                  "observedDomContentLoadedTs": 421127228,
+                  "observedCumulativeLayoutShift": 0.03206593577067057,
+                  "observedCumulativeLayoutShiftMainFrame": 0.03206593577067057,
+                  "observedTotalCumulativeLayoutShift": 0.03206593577067057,
+                  "observedFirstVisualChange": 1600,
+                  "observedFirstVisualChangeTs": 421033028,
+                  "observedLastVisualChange": 2900,
+                  "observedLastVisualChangeTs": 422333028,
+                  "observedSpeedIndex": 2503,
+                  "observedSpeedIndexTs": 421935955
                 },
                 {
                   "lcpInvalidated": false
@@ -18284,18 +17359,18 @@
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 870,
-                  "numTasksOver10ms": 15,
-                  "numTasksOver25ms": 7,
-                  "numTasksOver50ms": 4,
-                  "numTasksOver100ms": 3,
+                  "numTasks": 890,
+                  "numTasksOver10ms": 8,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 26125508.41801641,
-                  "maxRtt": 103.833,
-                  "maxServerLatency": 18.514000000000003,
-                  "totalByteWeight": 2074705,
-                  "totalTaskTime": 975.4290000000001,
+                  "rtt": 9.059000000000001,
+                  "throughput": 18062565.984671175,
+                  "maxRtt": 149.68699999999998,
+                  "maxServerLatency": 29.681,
+                  "totalByteWeight": 2074427,
+                  "totalTaskTime": 454.92999999999836,
                   "mainDocumentTransferSize": 8514
                 }
               ]
@@ -18339,7 +17414,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cli-civaux.fr",
-        "size": 2527.169,
+        "size": 2527.18,
         "nodes": 485,
         "requests": 44,
         "grade": "C",
@@ -18347,7 +17422,7 @@
         "ges": 1.82,
         "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:54:04.460720",
+        "date": "2025-02-23 01:54:10.537602",
         "page_type": "article"
       }
     ],
@@ -18355,7 +17430,6 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-07T23:59:00.000Z",
       "testsslGrade": "A",
@@ -18363,8 +17437,8 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.34,
-      "lighthouse_performanceGrade": "D",
+      "lighthouse_performance": 0.52,
+      "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -18387,177 +17461,7 @@
       "Institution",
       "Sport"
     ],
-    "http": {
-      "url": "https://sportsnature.lavienne86.fr",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 02:15:51 GMT",
-      "grade": "F",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Cache-Control": "private, no-store",
-        "Connection": "keep-alive",
-        "Content-Encoding": "gzip",
-        "Content-Language": "fr-FR",
-        "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 20 Oct 2024 02:15:49 GMT",
-        "Server": "nginx",
-        "Strict-Transport-Security": "max-age=31536000;",
-        "Transfer-Encoding": "chunked",
-        "Vary": "Accept-Encoding",
-        "X-TYPO3-Parsetime": "0ms"
-      },
-      "scan_id": 57047680,
-      "score": 0,
-      "start_time": "Sun, 20 Oct 2024 02:15:47 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 6,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": null,
-            "sameSite": null
-          },
-          "pass": true,
-          "result": "cookies-not-found",
-          "score_description": "No cookies detected",
-          "score_modifier": 0
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": "https://sportsnature.lavienne86.fr/",
-            "redirects": true,
-            "route": [
-              "http://sportsnature.lavienne86.fr/",
-              "https://sportsnature.lavienne86.fr/"
-            ],
-            "status_code": 200
-          },
-          "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-not-implemented",
-          "score_description": "Referrer-Policy header not implemented",
-          "score_modifier": 0
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=31536000;",
-            "includeSubDomains": false,
-            "max-age": 31536000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {
-              "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              }
-            }
-          },
-          "pass": false,
-          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) not implemented, and external scripts are loaded over HTTP or use protocol-relative URLs via src=\"//...\"",
-          "score_modifier": -50
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "score_description": "X-Content-Type-Options header not implemented",
-          "score_modifier": -5
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": null
-          },
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "score_description": "X-Frame-Options (XFO) header not implemented",
-          "score_modifier": -20
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": null
-          },
-          "pass": true,
-          "result": "x-xss-protection-not-implemented",
-          "score_description": "Deprecated X-XSS-Protection header not implemented",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -18917,7 +17821,7 @@
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "OK",
-        "finding": "300 >= 60 days"
+        "finding": "293 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -19120,14 +18024,14 @@
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739670964"
+        "finding": "1740275915"
       },
       {
         "id": "HSTS",
@@ -19683,7 +18587,7 @@
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "62"
+        "finding": "61"
       }
     ],
     "thirdparties": {
@@ -19961,7 +18865,7 @@
       {
         "requestedUrl": "https://sportsnature.lavienne86.fr/",
         "finalUrl": "https://sportsnature.lavienne86.fr/",
-        "fetchTime": "2025-02-16T01:55:12.793Z",
+        "fetchTime": "2025-02-23T01:57:24.577Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -19972,7 +18876,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.46
+            "score": 0.45
           },
           "accessibility": {
             "title": "Accessibility",
@@ -20024,53 +18928,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 16298,
+            "numericValue": 15719,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5324,
-                  "firstMeaningfulPaint": 5324,
-                  "largestContentfulPaint": 7058,
-                  "interactive": 16298,
-                  "speedIndex": 9172,
-                  "totalBlockingTime": 191,
-                  "maxPotentialFID": 274,
-                  "cumulativeLayoutShift": 0.03319934887356228,
-                  "cumulativeLayoutShiftMainFrame": 0.03319934887356228,
-                  "totalCumulativeLayoutShift": 0.03319934887356228,
+                  "firstContentfulPaint": 5888,
+                  "firstMeaningfulPaint": 6124,
+                  "largestContentfulPaint": 8007,
+                  "interactive": 15719,
+                  "speedIndex": 8898,
+                  "totalBlockingTime": 186,
+                  "maxPotentialFID": 271,
+                  "cumulativeLayoutShift": 0.03860466681586372,
+                  "cumulativeLayoutShiftMainFrame": 0.03860466681586372,
+                  "totalCumulativeLayoutShift": 0.03860466681586372,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 239908692,
+                  "observedTimeOriginTs": 174944506,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 239908692,
-                  "observedFirstPaint": 998,
-                  "observedFirstPaintTs": 240906226,
-                  "observedFirstContentfulPaint": 998,
-                  "observedFirstContentfulPaintTs": 240906226,
-                  "observedFirstContentfulPaintAllFrames": 998,
-                  "observedFirstContentfulPaintAllFramesTs": 240906226,
-                  "observedFirstMeaningfulPaint": 998,
-                  "observedFirstMeaningfulPaintTs": 240906226,
-                  "observedLargestContentfulPaint": 998,
-                  "observedLargestContentfulPaintTs": 240906226,
-                  "observedLargestContentfulPaintAllFrames": 998,
-                  "observedLargestContentfulPaintAllFramesTs": 240906226,
-                  "observedTraceEnd": 3690,
-                  "observedTraceEndTs": 243598963,
-                  "observedLoad": 1289,
-                  "observedLoadTs": 241197766,
-                  "observedDomContentLoaded": 1248,
-                  "observedDomContentLoadedTs": 241157111,
-                  "observedCumulativeLayoutShift": 0.03319934887356228,
-                  "observedCumulativeLayoutShiftMainFrame": 0.03319934887356228,
-                  "observedTotalCumulativeLayoutShift": 0.03319934887356228,
-                  "observedFirstVisualChange": 998,
-                  "observedFirstVisualChangeTs": 240906692,
-                  "observedLastVisualChange": 2264,
-                  "observedLastVisualChangeTs": 242172692,
-                  "observedSpeedIndex": 1928,
-                  "observedSpeedIndexTs": 241837159
+                  "observedNavigationStartTs": 174944506,
+                  "observedFirstPaint": 979,
+                  "observedFirstPaintTs": 175923614,
+                  "observedFirstContentfulPaint": 979,
+                  "observedFirstContentfulPaintTs": 175923614,
+                  "observedFirstContentfulPaintAllFrames": 979,
+                  "observedFirstContentfulPaintAllFramesTs": 175923614,
+                  "observedFirstMeaningfulPaint": 979,
+                  "observedFirstMeaningfulPaintTs": 175923614,
+                  "observedLargestContentfulPaint": 979,
+                  "observedLargestContentfulPaintTs": 175923614,
+                  "observedLargestContentfulPaintAllFrames": 979,
+                  "observedLargestContentfulPaintAllFramesTs": 175923614,
+                  "observedTraceEnd": 3647,
+                  "observedTraceEndTs": 178591656,
+                  "observedLoad": 1252,
+                  "observedLoadTs": 176196332,
+                  "observedDomContentLoaded": 1213,
+                  "observedDomContentLoadedTs": 176157601,
+                  "observedCumulativeLayoutShift": 0.03860466681586372,
+                  "observedCumulativeLayoutShiftMainFrame": 0.03860466681586372,
+                  "observedTotalCumulativeLayoutShift": 0.03860466681586372,
+                  "observedFirstVisualChange": 981,
+                  "observedFirstVisualChangeTs": 175925506,
+                  "observedLastVisualChange": 2198,
+                  "observedLastVisualChangeTs": 177142506,
+                  "observedSpeedIndex": 1827,
+                  "observedSpeedIndexTs": 176771929
                 },
                 {
                   "lcpInvalidated": false
@@ -20088,23 +18992,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 61,
+                  "numRequests": 59,
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 1187,
-                  "numTasksOver10ms": 10,
+                  "numTasks": 1156,
+                  "numTasksOver10ms": 12,
                   "numTasksOver25ms": 4,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 5.209,
-                  "throughput": 44272354.023076385,
-                  "maxRtt": 90.239,
-                  "maxServerLatency": 16.701999999999998,
-                  "totalByteWeight": 3276691,
-                  "totalTaskTime": 530.9899999999984,
-                  "mainDocumentTransferSize": 10531
+                  "rtt": 0,
+                  "throughput": 46948203.34890227,
+                  "maxRtt": 86.21799999999999,
+                  "maxServerLatency": 22.977999999999994,
+                  "totalByteWeight": 2838148,
+                  "totalTaskTime": 520.9579999999976,
+                  "mainDocumentTransferSize": 10364
                 }
               ]
             }
@@ -20147,15 +19051,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 4387.206,
-        "nodes": 768,
-        "requests": 61,
+        "size": 3943.102,
+        "nodes": 722,
+        "requests": 59,
         "grade": "D",
-        "score": 42,
-        "ges": 2.16,
-        "water": 3.24,
+        "score": 45,
+        "ges": 2.1,
+        "water": 3.15,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:54:27.251813",
+        "date": "2025-02-23 01:56:39.988427",
         "page_type": "article"
       }
     ],
@@ -20163,7 +19067,6 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
-      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
       "testsslGrade": "A",
@@ -20171,7 +19074,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.46,
+      "lighthouse_performance": 0.45,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
@@ -24034,203 +22937,7 @@
       "Institution",
       "Emploi"
     ],
-    "http": {
-      "url": "https://mod.departement86.fr",
-      "algorithm_version": 3,
-      "end_time": "Sun, 20 Oct 2024 02:23:05 GMT",
-      "grade": "F",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-        "Connection": "Keep-Alive",
-        "Content-Encoding": "gzip",
-        "Content-Length": "14211",
-        "Content-Type": "text/html; charset=utf-8",
-        "Content-language": "fr",
-        "Content-script-type": "text/javascript",
-        "Content-style-type": "text/css",
-        "Date": "Sun, 20 Oct 2024 02:58:32 GMT",
-        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-        "Keep-Alive": "timeout=5, max=500",
-        "Pragma": "no-cache",
-        "Server": "Apache",
-        "Set-Cookie": "PHPSESSID=td96t955fm9nfmm674ej3ovhf5; path=/, UTB_S=deleted; expires=Sat, 21-Oct-2023 02:58:31 GMT; path=/",
-        "Vary": "Accept-Encoding,User-Agent",
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "X-XSS-Protection": "1; mode=block"
-      },
-      "scan_id": 57047867,
-      "score": 0,
-      "start_time": "Sun, 20 Oct 2024 02:23:02 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 6,
-      "tests_quantity": 10,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false,
-            "numPolicies": 0,
-            "policy": null
-          },
-          "pass": false,
-          "result": "csp-not-implemented",
-          "score_description": "Content Security Policy (CSP) header not implemented",
-          "score_modifier": -25
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": {
-              "PHPSESSID": {
-                "domain": "mod.departement86.fr",
-                "expires": null,
-                "httponly": false,
-                "max-age": null,
-                "path": "/",
-                "port": null,
-                "samesite": false,
-                "secure": false
-              }
-            },
-            "sameSite": null
-          },
-          "pass": false,
-          "result": "cookies-session-without-secure-flag",
-          "score_description": "Session cookie set without using the Secure flag or set over HTTP",
-          "score_modifier": -40
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": "https://mod.departement86.fr/",
-            "redirects": true,
-            "route": [
-              "http://mod.departement86.fr/",
-              "https://mod.departement86.fr/"
-            ],
-            "status_code": 200
-          },
-          "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": null,
-            "http": false,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-not-implemented",
-          "score_description": "Referrer-Policy header not implemented",
-          "score_modifier": 0
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": null,
-            "includeSubDomains": false,
-            "max-age": null,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": false,
-          "result": "hsts-not-implemented",
-          "score_description": "HTTP Strict Transport Security (HSTS) header not implemented",
-          "score_modifier": -20
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {
-              "//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/i18n/jquery.ui.datepicker-fr.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              },
-              "//cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/jquery.validationEngine.min.js": {
-                "crossorigin": null,
-                "integrity": null
-              }
-            }
-          },
-          "pass": false,
-          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) not implemented, and external scripts are loaded over HTTP or use protocol-relative URLs via src=\"//...\"",
-          "score_modifier": -50
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": "nosniff"
-          },
-          "pass": true,
-          "result": "x-content-type-options-nosniff",
-          "score_description": "X-Content-Type-Options header set to \"nosniff\"",
-          "score_modifier": 0
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": "SAMEORIGIN"
-          },
-          "pass": true,
-          "result": "x-frame-options-sameorigin-or-deny",
-          "score_description": "X-Frame-Options (XFO) header set to SAMEORIGIN or DENY",
-          "score_modifier": 0
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-disabled",
-          "name": "x-xss-protection",
-          "output": {
-            "data": "1; mode=block"
-          },
-          "pass": true,
-          "result": "x-xss-protection-enabled-mode-block",
-          "score_description": "Deprecated X-XSS-Protection header set to \"1; mode=block\"",
-          "score_modifier": 0
-        }
-      }
-    },
+    "http": null,
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -24779,7 +23486,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "OK",
-        "finding": "138 >= 60 days"
+        "finding": "131 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -25059,14 +23766,14 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "+2331 seconds from localtime"
+        "finding": "+2339 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "1739673616"
+        "finding": "1740278576"
       },
       {
         "id": "HSTS",
@@ -25664,7 +24371,7 @@
         "ip": "mod.departement86.fr/83.206.130.186",
         "port": "443",
         "severity": "INFO",
-        "finding": "116"
+        "finding": "200"
       }
     ],
     "thirdparties": {
@@ -25992,7 +24699,7 @@
       {
         "requestedUrl": "https://mod.departement86.fr/",
         "finalUrl": "https://mod.departement86.fr/",
-        "fetchTime": "2025-02-16T02:00:24.611Z",
+        "fetchTime": "2025-02-23T02:01:56.093Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -26003,7 +24710,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.5
+            "score": 0.49
           },
           "accessibility": {
             "title": "Accessibility",
@@ -26055,53 +24762,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9747,
+            "numericValue": 9408,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7946,
-                  "firstMeaningfulPaint": 7962,
-                  "largestContentfulPaint": 11398,
-                  "interactive": 9747,
-                  "speedIndex": 7981,
-                  "totalBlockingTime": 59,
-                  "maxPotentialFID": 167,
+                  "firstContentfulPaint": 8234,
+                  "firstMeaningfulPaint": 8253,
+                  "largestContentfulPaint": 8525,
+                  "interactive": 9408,
+                  "speedIndex": 9084,
+                  "totalBlockingTime": 78,
+                  "maxPotentialFID": 205,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 312986913,
+                  "observedTimeOriginTs": 426892025,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 312986913,
-                  "observedFirstPaint": 1287,
-                  "observedFirstPaintTs": 314273943,
-                  "observedFirstContentfulPaint": 1287,
-                  "observedFirstContentfulPaintTs": 314273943,
-                  "observedFirstContentfulPaintAllFrames": 1287,
-                  "observedFirstContentfulPaintAllFramesTs": 314273943,
-                  "observedFirstMeaningfulPaint": 1287,
-                  "observedFirstMeaningfulPaintTs": 314273943,
-                  "observedLargestContentfulPaint": 1877,
-                  "observedLargestContentfulPaintTs": 314864299,
-                  "observedLargestContentfulPaintAllFrames": 1877,
-                  "observedLargestContentfulPaintAllFramesTs": 314864299,
-                  "observedTraceEnd": 4591,
-                  "observedTraceEndTs": 317578163,
-                  "observedLoad": 1556,
-                  "observedLoadTs": 314542834,
-                  "observedDomContentLoaded": 1293,
-                  "observedDomContentLoadedTs": 314280261,
+                  "observedNavigationStartTs": 426892025,
+                  "observedFirstPaint": 1667,
+                  "observedFirstPaintTs": 428559296,
+                  "observedFirstContentfulPaint": 1667,
+                  "observedFirstContentfulPaintTs": 428559296,
+                  "observedFirstContentfulPaintAllFrames": 1667,
+                  "observedFirstContentfulPaintAllFramesTs": 428559296,
+                  "observedFirstMeaningfulPaint": 1667,
+                  "observedFirstMeaningfulPaintTs": 428559296,
+                  "observedLargestContentfulPaint": 1667,
+                  "observedLargestContentfulPaintTs": 428559296,
+                  "observedLargestContentfulPaintAllFrames": 1667,
+                  "observedLargestContentfulPaintAllFramesTs": 428559296,
+                  "observedTraceEnd": 5192,
+                  "observedTraceEndTs": 432084315,
+                  "observedLoad": 1999,
+                  "observedLoadTs": 428890909,
+                  "observedDomContentLoaded": 1676,
+                  "observedDomContentLoadedTs": 428567852,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1300,
-                  "observedFirstVisualChangeTs": 314286913,
-                  "observedLastVisualChange": 1900,
-                  "observedLastVisualChangeTs": 314886913,
-                  "observedSpeedIndex": 1733,
-                  "observedSpeedIndexTs": 314719577
+                  "observedFirstVisualChange": 1674,
+                  "observedFirstVisualChangeTs": 428566025,
+                  "observedLastVisualChange": 2624,
+                  "observedLastVisualChangeTs": 429516025,
+                  "observedSpeedIndex": 2323,
+                  "observedSpeedIndexTs": 429214664
                 },
                 {
                   "lcpInvalidated": false
@@ -26123,18 +24830,18 @@
                   "numScripts": 18,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 724,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 1,
+                  "numTasks": 751,
+                  "numTasksOver10ms": 5,
+                  "numTasksOver25ms": 2,
                   "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 0,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 10241904.511101354,
-                  "maxRtt": 90.133,
-                  "maxServerLatency": 24.041,
-                  "totalByteWeight": 1292062,
-                  "totalTaskTime": 242.58499999999927,
+                  "throughput": 7145219.027483142,
+                  "maxRtt": 110.84599999999999,
+                  "maxServerLatency": 15.057,
+                  "totalByteWeight": 1093930,
+                  "totalTaskTime": 270.62699999999904,
                   "mainDocumentTransferSize": 14916
                 }
               ]
@@ -26190,7 +24897,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mod.departement86.fr",
-        "size": 1365.256,
+        "size": 1365.242,
         "nodes": 266,
         "requests": 42,
         "grade": "B",
@@ -26198,7 +24905,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:57:49.343388",
+        "date": "2025-02-23 01:58:59.900278",
         "page_type": null
       }
     ],
@@ -26206,7 +24913,6 @@
     "dsfr": null,
     "summary": {
       "404": 202,
-      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-07-04T23:59:00.000Z",
       "testsslGrade": "A",
@@ -26214,7 +24920,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.5,
+      "lighthouse_performance": 0.49,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
