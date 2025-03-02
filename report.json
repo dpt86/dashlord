@@ -5,7 +5,147 @@
     "tags": [
       "Institution"
     ],
-    "http": null,
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "F",
+        "error": null,
+        "score": 0,
+        "statusCode": 200,
+        "testsFailed": 6,
+        "testsPassed": 4,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "date": "Sun, 02 Mar 2025 01:40:30 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "close",
+          "vary": "Accept-Encoding",
+          "content-language": "fr-FR",
+          "cache-control": "private, no-store",
+          "set-cookie": [
+            "fe_typo_user=deleted; expires=Sat, 02 Mar 2024 01:40:29 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax",
+            "__Secure-typo3nonce_ArO15JjlxEOLNccrAGtVgw=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IkhtOUNzVWp4dEE2UnozVGpKU3ZoUG8xLTRJNURSYlRQNUdzN0JmWDlQOUk5dkR3QWFrd1kyQSIsInRpbWUiOiIyMDI1LTAzLTAyVDAyOjQwOjMwKzAxOjAwIn0.tTDuwn9YKwdHY_PMyIlw0IDflQj0GUNFKyY9A_6Oi6k; path=/; secure; httponly; samesite=strict"
+          ],
+          "x-typo3-parsetime": "0ms",
+          "x-cache-osi": "current - MISS"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": false,
+          "result": "cookies-without-secure-flag",
+          "scoreModifier": -20,
+          "data": {
+            "fe_typo_user": {
+              "domain": "www.lavienne86.fr",
+              "expires": "2024-03-02T01:40:29.000Z",
+              "httponly": true,
+              "max-age": 0,
+              "path": "/",
+              "port": null,
+              "samesite": "lax"
+            },
+            "__Secure-typo3nonce_ArO15JjlxEOLNccrAGtVgw": {
+              "domain": "www.lavienne86.fr",
+              "httponly": true,
+              "path": "/",
+              "port": null,
+              "samesite": "strict",
+              "secure": true
+            }
+          },
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://www.lavienne86.fr/",
+          "redirects": true,
+          "route": [
+            "http://www.lavienne86.fr/",
+            "https://www.lavienne86.fr/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": false,
+          "result": "hsts-not-implemented",
+          "scoreModifier": -20,
+          "data": null,
+          "includeSubDomains": false,
+          "maxAge": null,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": false,
+          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+          "scoreModifier": -50,
+          "data": {
+            "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            }
+          }
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -365,7 +505,7 @@
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "OK",
-        "finding": "293 >= 60 days"
+        "finding": "286 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -575,7 +715,7 @@
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1740274902"
+        "finding": "1740879699"
       },
       {
         "id": "HSTS",
@@ -1145,7 +1285,7 @@
         "ip": "www.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "110"
+        "finding": "111"
       }
     ],
     "thirdparties": {
@@ -1459,7 +1599,7 @@
       {
         "requestedUrl": "https://www.lavienne86.fr/",
         "finalUrl": "https://www.lavienne86.fr/",
-        "fetchTime": "2025-02-23T01:39:50.981Z",
+        "fetchTime": "2025-03-02T01:39:44.661Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1470,7 +1610,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.44
+            "score": 0.42
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1481,7 +1621,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.9
+            "score": 0.83
           },
           "best-practices": {
             "title": "Best Practices",
@@ -1522,53 +1662,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 17999,
+            "numericValue": 18278,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5250,
-                  "firstMeaningfulPaint": 5250,
-                  "largestContentfulPaint": 11684,
-                  "interactive": 17999,
-                  "speedIndex": 9290,
-                  "totalBlockingTime": 211,
-                  "maxPotentialFID": 328,
-                  "cumulativeLayoutShift": 0.012770971616109211,
-                  "cumulativeLayoutShiftMainFrame": 0.012770971616109211,
-                  "totalCumulativeLayoutShift": 0.012770971616109211,
+                  "firstContentfulPaint": 4749,
+                  "firstMeaningfulPaint": 4749,
+                  "largestContentfulPaint": 9442,
+                  "interactive": 18278,
+                  "speedIndex": 8840,
+                  "totalBlockingTime": 287,
+                  "maxPotentialFID": 490,
+                  "cumulativeLayoutShift": 0.04435274908277724,
+                  "cumulativeLayoutShiftMainFrame": 0.04435274908277724,
+                  "totalCumulativeLayoutShift": 0.04435274908277724,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 348239640,
+                  "observedTimeOriginTs": 223697420,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 348239640,
-                  "observedFirstPaint": 1336,
-                  "observedFirstPaintTs": 349575160,
-                  "observedFirstContentfulPaint": 1336,
-                  "observedFirstContentfulPaintTs": 349575160,
-                  "observedFirstContentfulPaintAllFrames": 1336,
-                  "observedFirstContentfulPaintAllFramesTs": 349575160,
-                  "observedFirstMeaningfulPaint": 1336,
-                  "observedFirstMeaningfulPaintTs": 349575160,
-                  "observedLargestContentfulPaint": 1501,
-                  "observedLargestContentfulPaintTs": 349740729,
-                  "observedLargestContentfulPaintAllFrames": 1501,
-                  "observedLargestContentfulPaintAllFramesTs": 349740729,
-                  "observedTraceEnd": 4350,
-                  "observedTraceEndTs": 352589792,
-                  "observedLoad": 1887,
-                  "observedLoadTs": 350126381,
-                  "observedDomContentLoaded": 1791,
-                  "observedDomContentLoadedTs": 350030636,
-                  "observedCumulativeLayoutShift": 0.012770971616109211,
-                  "observedCumulativeLayoutShiftMainFrame": 0.012770971616109211,
-                  "observedTotalCumulativeLayoutShift": 0.012770971616109211,
-                  "observedFirstVisualChange": 1529,
-                  "observedFirstVisualChangeTs": 349768640,
-                  "observedLastVisualChange": 2896,
-                  "observedLastVisualChangeTs": 351135640,
-                  "observedSpeedIndex": 2528,
-                  "observedSpeedIndexTs": 350767969
+                  "observedNavigationStartTs": 223697420,
+                  "observedFirstPaint": 1259,
+                  "observedFirstPaintTs": 224956591,
+                  "observedFirstContentfulPaint": 1259,
+                  "observedFirstContentfulPaintTs": 224956591,
+                  "observedFirstContentfulPaintAllFrames": 1259,
+                  "observedFirstContentfulPaintAllFramesTs": 224956591,
+                  "observedFirstMeaningfulPaint": 1259,
+                  "observedFirstMeaningfulPaintTs": 224956591,
+                  "observedLargestContentfulPaint": 1433,
+                  "observedLargestContentfulPaintTs": 225129972,
+                  "observedLargestContentfulPaintAllFrames": 1433,
+                  "observedLargestContentfulPaintAllFramesTs": 225129972,
+                  "observedTraceEnd": 4333,
+                  "observedTraceEndTs": 228030155,
+                  "observedLoad": 1878,
+                  "observedLoadTs": 225575281,
+                  "observedDomContentLoaded": 1811,
+                  "observedDomContentLoadedTs": 225508864,
+                  "observedCumulativeLayoutShift": 0.04435274908277724,
+                  "observedCumulativeLayoutShiftMainFrame": 0.04435274908277724,
+                  "observedTotalCumulativeLayoutShift": 0.04435274908277724,
+                  "observedFirstVisualChange": 1260,
+                  "observedFirstVisualChangeTs": 224957420,
+                  "observedLastVisualChange": 2876,
+                  "observedLastVisualChangeTs": 226573420,
+                  "observedSpeedIndex": 2498,
+                  "observedSpeedIndexTs": 226195785
                 },
                 {
                   "lcpInvalidated": false
@@ -1586,23 +1726,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 70,
+                  "numRequests": 69,
                   "numScripts": 14,
                   "numStylesheets": 5,
                   "numFonts": 10,
-                  "numTasks": 1468,
+                  "numTasks": 1582,
                   "numTasksOver10ms": 14,
                   "numTasksOver25ms": 7,
-                  "numTasksOver50ms": 3,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 24926900.33972054,
-                  "maxRtt": 150.244,
-                  "maxServerLatency": 62.06800000000001,
-                  "totalByteWeight": 3494471,
-                  "totalTaskTime": 662.5519999999979,
-                  "mainDocumentTransferSize": 57197
+                  "rtt": 8.971,
+                  "throughput": 25216151.164746024,
+                  "maxRtt": 149.545,
+                  "maxServerLatency": 87.81700000000001,
+                  "totalByteWeight": 3505729,
+                  "totalTaskTime": 797.0929999999988,
+                  "mainDocumentTransferSize": 57329
                 }
               ]
             }
@@ -1645,15 +1785,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 7841.529,
-        "nodes": 1845,
-        "requests": 69,
+        "size": 7854.05,
+        "nodes": 1847,
+        "requests": 68,
         "grade": "F",
-        "score": 24,
-        "ges": 2.52,
-        "water": 3.78,
+        "score": 25,
+        "ges": 2.5,
+        "water": 3.75,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:39:03.838293",
+        "date": "2025-03-02 01:38:56.531590",
         "page_type": "article"
       }
     ],
@@ -1661,6 +1801,7 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
       "testsslGrade": "A",
@@ -1668,10 +1809,10 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.44,
+      "lighthouse_performance": 0.42,
       "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.9,
-      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_accessibility": 0.83,
+      "lighthouse_accessibilityGrade": "B",
       "lighthouse_best-practices": 0.83,
       "lighthouse_best-practicesGrade": "B",
       "lighthouse_seo": 0.92,
@@ -9269,7 +9410,7 @@
     "summary": {
       "404": 43,
       "httpGrade": "B+",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2025-03-25T23:59:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "C",
@@ -9300,7 +9441,149 @@
       "Territoire",
       "Emploi"
     ],
-    "http": null,
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "F",
+        "error": null,
+        "score": 0,
+        "statusCode": 200,
+        "testsFailed": 6,
+        "testsPassed": 4,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=900",
+          "content-length": "4869",
+          "content-type": "text/html",
+          "date": "Sun, 02 Mar 2025 01:50:13 GMT",
+          "expires": "Sun, 02 Mar 2025 02:05:13 GMT",
+          "last-modified": "Mon, 24 Feb 2025 13:01:33 GMT",
+          "vary": "Accept-Encoding,User-Agent",
+          "x-content-type-options": "nosniff'",
+          "connection": "close",
+          "set-cookie": [
+            "BIGipServerPOOL_Z5_PROD_MOP_HTTP=!p88otp77OuoueRddAO+usf0EKyGf91EJdqajFHl0cprdueQW2TIsQ1EudWsbQWWIuKANvYWdBMVPi6A=; path=/; Httponly; Secure;",
+            "TS01f56c24=01b3abf0a2b68ccc4e2db914314741d7490a69327e07653a252f0755dfa06cbc1e2cf53f3e3cab48fd64464674054d0fc9688d0739; Path=/; Domain=.www.francetravail.fr; Secure; HttpOnly;"
+          ]
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": true,
+          "result": "cookies-secure-with-httponly-sessions",
+          "scoreModifier": 0,
+          "data": {
+            "BIGipServerPOOL_Z5_PROD_MOP_HTTP": {
+              "domain": "www.francetravail.fr",
+              "httponly": true,
+              "path": "/",
+              "port": null,
+              "secure": true
+            },
+            "TS01f56c24": {
+              "domain": "www.francetravail.fr",
+              "httponly": true,
+              "path": "/",
+              "port": null,
+              "secure": true
+            }
+          },
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": false,
+          "result": "redirection-off-host-from-http",
+          "scoreModifier": -5,
+          "destination": "https://www.francetravail.fr/accueil/",
+          "redirects": true,
+          "route": [
+            "http://www.emploi86.com/",
+            "https://www.francetravail.fr/accueil/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": false,
+          "result": "hsts-not-implemented",
+          "scoreModifier": -20,
+          "data": null,
+          "includeSubDomains": false,
+          "maxAge": null,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": false,
+          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+          "scoreModifier": -50,
+          "data": {
+            "https://cdn.francetravail.fr/webco/v1/ft-autoloader.js": {
+              "crossorigin": null,
+              "integrity": null
+            },
+            "//cdn.tagcommander.com/4340/tc_PoleEmploi_24.js": {
+              "crossorigin": null,
+              "integrity": null
+            }
+          }
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-header-invalid",
+          "scoreModifier": -5,
+          "data": "nosniff'"
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -9513,7 +9796,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "valid for 299 seconds only (<daily)"
+        "finding": "valid for 300 seconds only (<daily)"
       },
       {
         "id": "SSL_sessionID_support",
@@ -9674,7 +9957,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "OK",
-        "finding": "312 >= 60 days"
+        "finding": "305 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -10391,7 +10674,7 @@
         "ip": "www.emploi86.com/217.70.184.56",
         "port": "443",
         "severity": "INFO",
-        "finding": "102"
+        "finding": "101"
       }
     ],
     "thirdparties": {
@@ -10415,7 +10698,7 @@
       {
         "requestedUrl": "https://www.emploi86.com/",
         "finalUrl": "https://www.francetravail.fr/accueil/",
-        "fetchTime": "2025-02-23T01:49:51.665Z",
+        "fetchTime": "2025-03-02T01:49:34.305Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.emploi86.com/) was redirected to https://www.francetravail.fr/accueil/. Try testing the second URL directly."
         ],
@@ -10428,7 +10711,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.55
+            "score": 0.52
           },
           "accessibility": {
             "title": "Accessibility",
@@ -10449,7 +10732,7 @@
               "snapshot"
             ],
             "id": "best-practices",
-            "score": 1
+            "score": 0.83
           },
           "seo": {
             "title": "SEO",
@@ -10480,53 +10763,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7740,
+            "numericValue": 11283,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4555,
-                  "firstMeaningfulPaint": 5395,
-                  "largestContentfulPaint": 6535,
-                  "interactive": 7740,
-                  "speedIndex": 6392,
-                  "totalBlockingTime": 126,
-                  "maxPotentialFID": 125,
-                  "cumulativeLayoutShift": 0.07342026095920139,
-                  "cumulativeLayoutShiftMainFrame": 0.07342026095920139,
-                  "totalCumulativeLayoutShift": 0.07342026095920139,
+                  "firstContentfulPaint": 4379,
+                  "firstMeaningfulPaint": 5518,
+                  "largestContentfulPaint": 6527,
+                  "interactive": 11283,
+                  "speedIndex": 7047,
+                  "totalBlockingTime": 152,
+                  "maxPotentialFID": 128,
+                  "cumulativeLayoutShift": 0.07350204955206976,
+                  "cumulativeLayoutShiftMainFrame": 0.07350204955206976,
+                  "totalCumulativeLayoutShift": 0.07350204955206976,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 278864623,
+                  "observedTimeOriginTs": 272560383,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 278864623,
-                  "observedFirstPaint": 1989,
-                  "observedFirstPaintTs": 280853421,
-                  "observedFirstContentfulPaint": 2098,
-                  "observedFirstContentfulPaintTs": 280962844,
-                  "observedFirstContentfulPaintAllFrames": 2098,
-                  "observedFirstContentfulPaintAllFramesTs": 280962844,
-                  "observedFirstMeaningfulPaint": 2614,
-                  "observedFirstMeaningfulPaintTs": 281478385,
-                  "observedLargestContentfulPaint": 2511,
-                  "observedLargestContentfulPaintTs": 281375987,
-                  "observedLargestContentfulPaintAllFrames": 2511,
-                  "observedLargestContentfulPaintAllFramesTs": 281375987,
-                  "observedTraceEnd": 5836,
-                  "observedTraceEndTs": 284700527,
-                  "observedLoad": 3358,
-                  "observedLoadTs": 282222959,
-                  "observedDomContentLoaded": 2013,
-                  "observedDomContentLoadedTs": 280877428,
-                  "observedCumulativeLayoutShift": 0.07342026095920139,
-                  "observedCumulativeLayoutShiftMainFrame": 0.07342026095920139,
-                  "observedTotalCumulativeLayoutShift": 0.07342026095920139,
-                  "observedFirstVisualChange": 1990,
-                  "observedFirstVisualChangeTs": 280854623,
-                  "observedLastVisualChange": 4540,
-                  "observedLastVisualChangeTs": 283404623,
-                  "observedSpeedIndex": 2432,
-                  "observedSpeedIndexTs": 281296581
+                  "observedNavigationStartTs": 272560383,
+                  "observedFirstPaint": 2610,
+                  "observedFirstPaintTs": 275170845,
+                  "observedFirstContentfulPaint": 2691,
+                  "observedFirstContentfulPaintTs": 275251722,
+                  "observedFirstContentfulPaintAllFrames": 2691,
+                  "observedFirstContentfulPaintAllFramesTs": 275251722,
+                  "observedFirstMeaningfulPaint": 3136,
+                  "observedFirstMeaningfulPaintTs": 275696730,
+                  "observedLargestContentfulPaint": 3066,
+                  "observedLargestContentfulPaintTs": 275625969,
+                  "observedLargestContentfulPaintAllFrames": 3066,
+                  "observedLargestContentfulPaintAllFramesTs": 275625969,
+                  "observedTraceEnd": 6363,
+                  "observedTraceEndTs": 278923783,
+                  "observedLoad": 3827,
+                  "observedLoadTs": 276387688,
+                  "observedDomContentLoaded": 2634,
+                  "observedDomContentLoadedTs": 275194638,
+                  "observedCumulativeLayoutShift": 0.07350204955206976,
+                  "observedCumulativeLayoutShiftMainFrame": 0.07350204955206976,
+                  "observedTotalCumulativeLayoutShift": 0.07350204955206976,
+                  "observedFirstVisualChange": 2611,
+                  "observedFirstVisualChangeTs": 275171383,
+                  "observedLastVisualChange": 4911,
+                  "observedLastVisualChangeTs": 277471383,
+                  "observedSpeedIndex": 2996,
+                  "observedSpeedIndexTs": 275556811
                 },
                 {
                   "lcpInvalidated": false
@@ -10544,23 +10827,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 46,
-                  "numScripts": 15,
-                  "numStylesheets": 4,
-                  "numFonts": 4,
-                  "numTasks": 1681,
-                  "numTasksOver10ms": 12,
+                  "numRequests": 50,
+                  "numScripts": 17,
+                  "numStylesheets": 5,
+                  "numFonts": 5,
+                  "numTasks": 1778,
+                  "numTasksOver10ms": 15,
                   "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 1,
+                  "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 0.7719999999999998,
-                  "throughput": 3842856.6448916784,
-                  "maxRtt": 157.922,
-                  "maxServerLatency": 64.352,
-                  "totalByteWeight": 689550,
-                  "totalTaskTime": 538.1189999999965,
-                  "mainDocumentTransferSize": 5524
+                  "rtt": 0,
+                  "throughput": 4494411.984111651,
+                  "maxRtt": 146.112,
+                  "maxServerLatency": 68.96900000000001,
+                  "totalByteWeight": 1025681,
+                  "totalTaskTime": 551.878999999998,
+                  "mainDocumentTransferSize": 5545
                 }
               ]
             }
@@ -10603,15 +10886,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.emploi86.com",
-        "size": 1680.895,
-        "nodes": 519,
-        "requests": 68,
+        "size": 1986.791,
+        "nodes": 531,
+        "requests": 74,
         "grade": "D",
-        "score": 54,
-        "ges": 1.92,
-        "water": 2.88,
+        "score": 52,
+        "ges": 1.96,
+        "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:48:34.864910",
+        "date": "2025-03-02 01:48:38.298277",
         "page_type": null
       }
     ],
@@ -10619,6 +10902,7 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-01-01T23:59:00.000Z",
       "testsslGrade": "A",
@@ -10626,12 +10910,12 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.55,
+      "lighthouse_performance": 0.52,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": null,
       "lighthouse_accessibilityGrade": "F",
-      "lighthouse_best-practices": 1,
-      "lighthouse_best-practicesGrade": "A",
+      "lighthouse_best-practices": 0.83,
+      "lighthouse_best-practicesGrade": "B",
       "lighthouse_seo": 0.92,
       "lighthouse_seoGrade": "A",
       "lighthouse_pwa": 0.3,
@@ -10649,7 +10933,128 @@
     "tags": [
       "Education"
     ],
-    "http": null,
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "B",
+        "error": null,
+        "score": 70,
+        "statusCode": 200,
+        "testsFailed": 2,
+        "testsPassed": 8,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "server": "nginx/1.22.1",
+          "date": "Sun, 02 Mar 2025 01:52:27 GMT",
+          "content-type": "text/html",
+          "transfer-encoding": "chunked",
+          "vary": "Accept-Encoding",
+          "expires": "Sun, 02 Mar 2025 01:52:26 GMT",
+          "cache-control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+          "pragma": "no-cache",
+          "last-modified": "Sunday, 02-Mar-2025 01:52:27 GMT",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "cross-origin-opener-policy": "same-origin",
+          "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),cross-origin-isolated=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),geolocation=(),gyroscope=(),keyboard-map=(),magnetometer=(),microphone=(),midi=(),navigation-override=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),usb=(),web-share=(),xr-spatial-tracking=(),clipboard-read=(),gamepad=(),speaker-selection=(),conversion-measurement=(),focus-without-user-activation=(),hid=(),idle-detection=(),interest-cohort=(),serial=(),sync-script=(),trust-token-redemption=(),unload=(),window-placement=(),vertical-scroll=()",
+          "strict-transport-security": "max-age=63072000",
+          "connection": "close"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": true,
+          "result": "cookies-not-found",
+          "scoreModifier": 0,
+          "data": null,
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://enej.lavienne86.fr/fr/",
+          "redirects": true,
+          "route": [
+            "http://enej.lavienne86.fr/",
+            "https://enej.lavienne86.fr/",
+            "https://enej.lavienne86.fr/fr/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-private",
+          "scoreModifier": 5,
+          "data": "strict-origin-when-cross-origin",
+          "http": true,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": true,
+          "result": "hsts-implemented-max-age-at-least-six-months",
+          "scoreModifier": 0,
+          "data": "max-age=63072000",
+          "includeSubDomains": false,
+          "maxAge": 63072000,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": true,
+          "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
+          "scoreModifier": 0,
+          "data": {}
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": true,
+          "result": "x-frame-options-sameorigin-or-deny",
+          "scoreModifier": 0,
+          "data": "SAMEORIGIN"
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -11002,7 +11407,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "OK",
-        "finding": "76 >= 30 days"
+        "finding": "69 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -11163,7 +11568,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "1740275504"
+        "finding": "1740880377"
       },
       {
         "id": "HSTS_time",
@@ -11761,7 +12166,7 @@
         "ip": "enej.lavienne86.fr/51.254.226.174",
         "port": "443",
         "severity": "INFO",
-        "finding": "54"
+        "finding": "53"
       }
     ],
     "thirdparties": {
@@ -11912,7 +12317,7 @@
       {
         "requestedUrl": "https://enej.lavienne86.fr/",
         "finalUrl": "https://enej.lavienne86.fr/fr/",
-        "fetchTime": "2025-02-23T01:50:41.021Z",
+        "fetchTime": "2025-03-02T01:51:58.038Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://enej.lavienne86.fr/) was redirected to https://enej.lavienne86.fr/fr/. Try testing the second URL directly."
         ],
@@ -11925,7 +12330,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.48
+            "score": 0.5
           },
           "accessibility": {
             "title": "Accessibility",
@@ -11936,7 +12341,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 1
+            "score": 0.92
           },
           "best-practices": {
             "title": "Best Practices",
@@ -11977,53 +12382,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4781,
+            "numericValue": 4437,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4781,
-                  "firstMeaningfulPaint": 4781,
-                  "largestContentfulPaint": 7218,
-                  "interactive": 4781,
-                  "speedIndex": 7420,
+                  "firstContentfulPaint": 4437,
+                  "firstMeaningfulPaint": 4437,
+                  "largestContentfulPaint": 7061,
+                  "interactive": 4437,
+                  "speedIndex": 7040,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.3371522064208985,
                   "cumulativeLayoutShiftMainFrame": 0.3371522064208985,
                   "totalCumulativeLayoutShift": 0.3371522064208985,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 226264594,
+                  "observedTimeOriginTs": 214106896,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 226264594,
-                  "observedFirstPaint": 2172,
-                  "observedFirstPaintTs": 228436652,
-                  "observedFirstContentfulPaint": 2172,
-                  "observedFirstContentfulPaintTs": 228436652,
-                  "observedFirstContentfulPaintAllFrames": 2172,
-                  "observedFirstContentfulPaintAllFramesTs": 228436652,
-                  "observedFirstMeaningfulPaint": 2172,
-                  "observedFirstMeaningfulPaintTs": 228436652,
-                  "observedLargestContentfulPaint": 2172,
-                  "observedLargestContentfulPaintTs": 228436652,
-                  "observedLargestContentfulPaintAllFrames": 2172,
-                  "observedLargestContentfulPaintAllFramesTs": 228436652,
-                  "observedTraceEnd": 4594,
-                  "observedTraceEndTs": 230858381,
-                  "observedLoad": 1472,
-                  "observedLoadTs": 227736806,
-                  "observedDomContentLoaded": 1079,
-                  "observedDomContentLoadedTs": 227343333,
+                  "observedNavigationStartTs": 214106896,
+                  "observedFirstPaint": 2051,
+                  "observedFirstPaintTs": 216157956,
+                  "observedFirstContentfulPaint": 2051,
+                  "observedFirstContentfulPaintTs": 216157956,
+                  "observedFirstContentfulPaintAllFrames": 2051,
+                  "observedFirstContentfulPaintAllFramesTs": 216157956,
+                  "observedFirstMeaningfulPaint": 2051,
+                  "observedFirstMeaningfulPaintTs": 216157956,
+                  "observedLargestContentfulPaint": 2051,
+                  "observedLargestContentfulPaintTs": 216157956,
+                  "observedLargestContentfulPaintAllFrames": 2051,
+                  "observedLargestContentfulPaintAllFramesTs": 216157956,
+                  "observedTraceEnd": 4447,
+                  "observedTraceEndTs": 218553847,
+                  "observedLoad": 1417,
+                  "observedLoadTs": 215524154,
+                  "observedDomContentLoaded": 1036,
+                  "observedDomContentLoadedTs": 215143275,
                   "observedCumulativeLayoutShift": 0.3371522064208985,
                   "observedCumulativeLayoutShiftMainFrame": 0.3371522064208985,
                   "observedTotalCumulativeLayoutShift": 0.3371522064208985,
-                  "observedFirstVisualChange": 2176,
-                  "observedFirstVisualChangeTs": 228440594,
-                  "observedLastVisualChange": 2309,
-                  "observedLastVisualChangeTs": 228573594,
-                  "observedSpeedIndex": 2197,
-                  "observedSpeedIndexTs": 228461195
+                  "observedFirstVisualChange": 2051,
+                  "observedFirstVisualChangeTs": 216157896,
+                  "observedLastVisualChange": 2151,
+                  "observedLastVisualChangeTs": 216257896,
+                  "observedSpeedIndex": 2068,
+                  "observedSpeedIndexTs": 216174853
                 },
                 {
                   "lcpInvalidated": false
@@ -12041,23 +12446,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 56,
-                  "numScripts": 36,
+                  "numRequests": 54,
+                  "numScripts": 38,
                   "numStylesheets": 1,
                   "numFonts": 4,
-                  "numTasks": 17,
-                  "numTasksOver10ms": 2,
-                  "numTasksOver25ms": 1,
-                  "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 1,
-                  "numTasksOver500ms": 1,
-                  "rtt": 86.26599999999999,
-                  "throughput": 17663725.323935494,
-                  "maxRtt": 86.774,
-                  "maxServerLatency": 11.655000000000001,
-                  "totalByteWeight": 1185978,
-                  "totalTaskTime": 4220.529,
-                  "mainDocumentTransferSize": 8308
+                  "numTasks": 34,
+                  "numTasksOver10ms": 0,
+                  "numTasksOver25ms": 0,
+                  "numTasksOver50ms": 0,
+                  "numTasksOver100ms": 0,
+                  "numTasksOver500ms": 0,
+                  "rtt": 88.53099999999999,
+                  "throughput": 20928515.490060415,
+                  "maxRtt": 88.57600000000001,
+                  "maxServerLatency": 11.053000000000011,
+                  "totalByteWeight": 1220454,
+                  "totalTaskTime": 8.366000000000001,
+                  "mainDocumentTransferSize": 8304
                 }
               ]
             }
@@ -12100,15 +12505,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://enej.lavienne86.fr",
-        "size": 1310.293,
-        "nodes": 103,
-        "requests": 54,
+        "size": 1370.541,
+        "nodes": 111,
+        "requests": 52,
         "grade": "B",
         "score": 75,
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:49:45.678953",
+        "date": "2025-03-02 01:51:08.696203",
         "page_type": null
       }
     ],
@@ -12116,6 +12521,7 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "B",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-05-10T23:03:00.000Z",
       "testsslGrade": "A+",
@@ -12123,9 +12529,9 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.48,
+      "lighthouse_performance": 0.5,
       "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 1,
+      "lighthouse_accessibility": 0.92,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 1,
       "lighthouse_best-practicesGrade": "A",
@@ -12146,7 +12552,134 @@
     "tags": [
       "Autonomie"
     ],
-    "http": null,
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "F",
+        "error": null,
+        "score": 0,
+        "statusCode": 200,
+        "testsFailed": 5,
+        "testsPassed": 5,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "date": "Sun, 02 Mar 2025 01:54:58 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "close",
+          "vary": "Accept-Encoding",
+          "content-language": "fr-FR",
+          "cache-control": "private, no-store",
+          "x-typo3-parsetime": "0ms",
+          "x-cache-osi": "current - MISS"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": true,
+          "result": "cookies-not-found",
+          "scoreModifier": 0,
+          "data": null,
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://mdph86.fr/",
+          "redirects": true,
+          "route": [
+            "http://www.mdph86.fr/",
+            "https://www.mdph86.fr/",
+            "https://mdph86.fr/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": false,
+          "result": "hsts-not-implemented",
+          "scoreModifier": -20,
+          "data": null,
+          "includeSubDomains": false,
+          "maxAge": null,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": false,
+          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+          "scoreModifier": -50,
+          "data": {
+            "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            },
+            "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            },
+            "https://www.numanis.net/accessedition.js": {
+              "crossorigin": null,
+              "integrity": null
+            }
+          }
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -12499,7 +13032,7 @@
         "ip": "www.mdph86.fr/178.32.121.190",
         "port": "443",
         "severity": "MEDIUM",
-        "finding": "expires < 60 days (43)"
+        "finding": "expires < 60 days (36)"
       },
       {
         "id": "cert_notBefore",
@@ -12709,7 +13242,7 @@
         "ip": "www.mdph86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1740275687"
+        "finding": "1740880542"
       },
       {
         "id": "HSTS",
@@ -13265,7 +13798,7 @@
         "ip": "www.mdph86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "59"
+        "finding": "72"
       }
     ],
     "thirdparties": {
@@ -13528,7 +14061,7 @@
       {
         "requestedUrl": "https://www.mdph86.fr/",
         "finalUrl": "https://mdph86.fr/",
-        "fetchTime": "2025-02-23T01:53:33.870Z",
+        "fetchTime": "2025-03-02T01:54:19.232Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.mdph86.fr/) was redirected to https://mdph86.fr/. Try testing the second URL directly."
         ],
@@ -13541,7 +14074,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.47
+            "score": 0.36
           },
           "accessibility": {
             "title": "Accessibility",
@@ -13593,53 +14126,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14223,
+            "numericValue": 14948,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5614,
-                  "firstMeaningfulPaint": 5614,
-                  "largestContentfulPaint": 6193,
-                  "interactive": 14223,
-                  "speedIndex": 8141,
-                  "totalBlockingTime": 237,
-                  "maxPotentialFID": 230,
-                  "cumulativeLayoutShift": 0.01777064471774631,
-                  "cumulativeLayoutShiftMainFrame": 0.01777064471774631,
-                  "totalCumulativeLayoutShift": 0.01777064471774631,
+                  "firstContentfulPaint": 6456,
+                  "firstMeaningfulPaint": 6906,
+                  "largestContentfulPaint": 7459,
+                  "interactive": 14948,
+                  "speedIndex": 8613,
+                  "totalBlockingTime": 485,
+                  "maxPotentialFID": 347,
+                  "cumulativeLayoutShift": 0.016203664567735462,
+                  "cumulativeLayoutShiftMainFrame": 0.016203664567735462,
+                  "totalCumulativeLayoutShift": 0.016203664567735462,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 214694931,
+                  "observedTimeOriginTs": 309461159,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 214694931,
-                  "observedFirstPaint": 1116,
-                  "observedFirstPaintTs": 215810558,
-                  "observedFirstContentfulPaint": 1116,
-                  "observedFirstContentfulPaintTs": 215810558,
-                  "observedFirstContentfulPaintAllFrames": 1116,
-                  "observedFirstContentfulPaintAllFramesTs": 215810558,
-                  "observedFirstMeaningfulPaint": 1116,
-                  "observedFirstMeaningfulPaintTs": 215810558,
-                  "observedLargestContentfulPaint": 1116,
-                  "observedLargestContentfulPaintTs": 215810558,
-                  "observedLargestContentfulPaintAllFrames": 1116,
-                  "observedLargestContentfulPaintAllFramesTs": 215810558,
-                  "observedTraceEnd": 4848,
-                  "observedTraceEndTs": 219542931,
-                  "observedLoad": 1632,
-                  "observedLoadTs": 216326590,
-                  "observedDomContentLoaded": 1625,
-                  "observedDomContentLoadedTs": 216319755,
-                  "observedCumulativeLayoutShift": 0.01777064471774631,
-                  "observedCumulativeLayoutShiftMainFrame": 0.01777064471774631,
-                  "observedTotalCumulativeLayoutShift": 0.01777064471774631,
-                  "observedFirstVisualChange": 1129,
-                  "observedFirstVisualChangeTs": 215823931,
-                  "observedLastVisualChange": 2596,
-                  "observedLastVisualChangeTs": 217290931,
-                  "observedSpeedIndex": 2237,
-                  "observedSpeedIndexTs": 216932322
+                  "observedNavigationStartTs": 309461159,
+                  "observedFirstPaint": 1279,
+                  "observedFirstPaintTs": 310740373,
+                  "observedFirstContentfulPaint": 1279,
+                  "observedFirstContentfulPaintTs": 310740373,
+                  "observedFirstContentfulPaintAllFrames": 1279,
+                  "observedFirstContentfulPaintAllFramesTs": 310740373,
+                  "observedFirstMeaningfulPaint": 1362,
+                  "observedFirstMeaningfulPaintTs": 310823117,
+                  "observedLargestContentfulPaint": 1362,
+                  "observedLargestContentfulPaintTs": 310823117,
+                  "observedLargestContentfulPaintAllFrames": 1362,
+                  "observedLargestContentfulPaintAllFramesTs": 310823117,
+                  "observedTraceEnd": 5224,
+                  "observedTraceEndTs": 314684697,
+                  "observedLoad": 1916,
+                  "observedLoadTs": 311377120,
+                  "observedDomContentLoaded": 1893,
+                  "observedDomContentLoadedTs": 311354421,
+                  "observedCumulativeLayoutShift": 0.016203664567735462,
+                  "observedCumulativeLayoutShiftMainFrame": 0.016203664567735462,
+                  "observedTotalCumulativeLayoutShift": 0.016203664567735462,
+                  "observedFirstVisualChange": 1293,
+                  "observedFirstVisualChangeTs": 310754159,
+                  "observedLastVisualChange": 2976,
+                  "observedLastVisualChangeTs": 312437159,
+                  "observedSpeedIndex": 2499,
+                  "observedSpeedIndexTs": 311960021
                 },
                 {
                   "lcpInvalidated": false
@@ -13661,19 +14194,19 @@
                   "numScripts": 19,
                   "numStylesheets": 7,
                   "numFonts": 8,
-                  "numTasks": 1247,
-                  "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 2,
+                  "numTasks": 1169,
+                  "numTasksOver10ms": 15,
+                  "numTasksOver25ms": 8,
+                  "numTasksOver50ms": 5,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 32535514.733736046,
-                  "maxRtt": 88.80799999999999,
-                  "maxServerLatency": 86.06599999999999,
-                  "totalByteWeight": 2105087,
-                  "totalTaskTime": 552.4359999999995,
-                  "mainDocumentTransferSize": 14345
+                  "throughput": 29413972.820495684,
+                  "maxRtt": 114.619,
+                  "maxServerLatency": 102.91199999999999,
+                  "totalByteWeight": 2257581,
+                  "totalTaskTime": 759.1999999999989,
+                  "mainDocumentTransferSize": 14324
                 }
               ]
             }
@@ -13716,7 +14249,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mdph86.fr",
-        "size": 2745.093,
+        "size": 2898.598,
         "nodes": 659,
         "requests": 60,
         "grade": "D",
@@ -13724,7 +14257,7 @@
         "ges": 2.04,
         "water": 3.06,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:52:47.382493",
+        "date": "2025-03-02 01:53:33.158832",
         "page_type": "article"
       }
     ],
@@ -13732,6 +14265,7 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-07T23:59:00.000Z",
       "testsslGrade": "A",
@@ -13739,7 +14273,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.47,
+      "lighthouse_performance": 0.36,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -15849,7 +16383,129 @@
     "tags": [
       "Territoire"
     ],
-    "http": null,
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "F",
+        "error": null,
+        "score": 0,
+        "statusCode": 200,
+        "testsFailed": 5,
+        "testsPassed": 5,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "date": "Sun, 02 Mar 2025 01:57:06 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "close",
+          "vary": "Accept-Encoding",
+          "content-language": "fr-FR",
+          "cache-control": "private, no-store",
+          "x-typo3-parsetime": "0ms",
+          "x-cache-osi": "current - MISS"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": true,
+          "result": "cookies-not-found",
+          "scoreModifier": 0,
+          "data": null,
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://www.cli-civaux.fr/",
+          "redirects": true,
+          "route": [
+            "http://www.cli-civaux.fr/",
+            "https://www.cli-civaux.fr/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": false,
+          "result": "hsts-not-implemented",
+          "scoreModifier": -20,
+          "data": null,
+          "includeSubDomains": false,
+          "maxAge": null,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": false,
+          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+          "scoreModifier": -50,
+          "data": {
+            "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            },
+            "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            }
+          }
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -16202,7 +16858,7 @@
         "ip": "www.cli-civaux.fr/178.32.121.190",
         "port": "443",
         "severity": "MEDIUM",
-        "finding": "expires < 60 days (43)"
+        "finding": "expires < 60 days (36)"
       },
       {
         "id": "cert_notBefore",
@@ -16412,7 +17068,7 @@
         "ip": "www.cli-civaux.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1740275803"
+        "finding": "1740880659"
       },
       {
         "id": "HSTS",
@@ -16968,7 +17624,7 @@
         "ip": "www.cli-civaux.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "105"
+        "finding": "61"
       }
     ],
     "thirdparties": {
@@ -17228,8 +17884,10 @@
       {
         "requestedUrl": "https://www.cli-civaux.fr/",
         "finalUrl": "https://www.cli-civaux.fr/",
-        "fetchTime": "2025-02-23T01:54:58.937Z",
-        "runWarnings": [],
+        "fetchTime": "2025-03-02T01:56:23.042Z",
+        "runWarnings": [
+          "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
+        ],
         "categories": {
           "performance": {
             "title": "Performance",
@@ -17239,7 +17897,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.52
+            "score": 0.32
           },
           "accessibility": {
             "title": "Accessibility",
@@ -17291,53 +17949,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 13718,
+            "numericValue": 15513,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4679,
-                  "firstMeaningfulPaint": 4679,
-                  "largestContentfulPaint": 5403,
-                  "interactive": 13718,
-                  "speedIndex": 9266,
-                  "totalBlockingTime": 170,
-                  "maxPotentialFID": 238,
-                  "cumulativeLayoutShift": 0.03206593577067057,
-                  "cumulativeLayoutShiftMainFrame": 0.03206593577067057,
-                  "totalCumulativeLayoutShift": 0.03206593577067057,
+                  "firstContentfulPaint": 8391,
+                  "firstMeaningfulPaint": 8391,
+                  "largestContentfulPaint": 8793,
+                  "interactive": 15513,
+                  "speedIndex": 11163,
+                  "totalBlockingTime": 563,
+                  "maxPotentialFID": 2238,
+                  "cumulativeLayoutShift": 0.04082719294230143,
+                  "cumulativeLayoutShiftMainFrame": 0.04082719294230143,
+                  "totalCumulativeLayoutShift": 0.04082719294230143,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 419433028,
+                  "observedTimeOriginTs": 318471139,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 419433028,
-                  "observedFirstPaint": 1406,
-                  "observedFirstPaintTs": 420839501,
-                  "observedFirstContentfulPaint": 1406,
-                  "observedFirstContentfulPaintTs": 420839501,
-                  "observedFirstContentfulPaintAllFrames": 1406,
-                  "observedFirstContentfulPaintAllFramesTs": 420839501,
-                  "observedFirstMeaningfulPaint": 1406,
-                  "observedFirstMeaningfulPaintTs": 420839501,
-                  "observedLargestContentfulPaint": 1406,
-                  "observedLargestContentfulPaintTs": 420839501,
-                  "observedLargestContentfulPaintAllFrames": 1406,
-                  "observedLargestContentfulPaintAllFramesTs": 420839501,
-                  "observedTraceEnd": 4397,
-                  "observedTraceEndTs": 423830233,
-                  "observedLoad": 1944,
-                  "observedLoadTs": 421376694,
-                  "observedDomContentLoaded": 1694,
-                  "observedDomContentLoadedTs": 421127228,
-                  "observedCumulativeLayoutShift": 0.03206593577067057,
-                  "observedCumulativeLayoutShiftMainFrame": 0.03206593577067057,
-                  "observedTotalCumulativeLayoutShift": 0.03206593577067057,
-                  "observedFirstVisualChange": 1600,
-                  "observedFirstVisualChangeTs": 421033028,
-                  "observedLastVisualChange": 2900,
-                  "observedLastVisualChangeTs": 422333028,
-                  "observedSpeedIndex": 2503,
-                  "observedSpeedIndexTs": 421935955
+                  "observedNavigationStartTs": 318471139,
+                  "observedFirstPaint": 1859,
+                  "observedFirstPaintTs": 320330049,
+                  "observedFirstContentfulPaint": 1859,
+                  "observedFirstContentfulPaintTs": 320330049,
+                  "observedFirstContentfulPaintAllFrames": 1859,
+                  "observedFirstContentfulPaintAllFramesTs": 320330049,
+                  "observedFirstMeaningfulPaint": 1859,
+                  "observedFirstMeaningfulPaintTs": 320330049,
+                  "observedLargestContentfulPaint": 1859,
+                  "observedLargestContentfulPaintTs": 320330049,
+                  "observedLargestContentfulPaintAllFrames": 1859,
+                  "observedLargestContentfulPaintAllFramesTs": 320330049,
+                  "observedTraceEnd": 4775,
+                  "observedTraceEndTs": 323245813,
+                  "observedLoad": 2369,
+                  "observedLoadTs": 320840142,
+                  "observedDomContentLoaded": 2201,
+                  "observedDomContentLoadedTs": 320671749,
+                  "observedCumulativeLayoutShift": 0.04082719294230143,
+                  "observedCumulativeLayoutShiftMainFrame": 0.04082719294230143,
+                  "observedTotalCumulativeLayoutShift": 0.04082719294230143,
+                  "observedFirstVisualChange": 1866,
+                  "observedFirstVisualChangeTs": 320337139,
+                  "observedLastVisualChange": 3315,
+                  "observedLastVisualChangeTs": 321786139,
+                  "observedSpeedIndex": 2935,
+                  "observedSpeedIndexTs": 321405977
                 },
                 {
                   "lcpInvalidated": false
@@ -17359,19 +18017,19 @@
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 890,
-                  "numTasksOver10ms": 8,
-                  "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 1,
-                  "numTasksOver500ms": 0,
-                  "rtt": 9.059000000000001,
-                  "throughput": 18062565.984671175,
-                  "maxRtt": 149.68699999999998,
-                  "maxServerLatency": 29.681,
-                  "totalByteWeight": 2074427,
-                  "totalTaskTime": 454.92999999999836,
-                  "mainDocumentTransferSize": 8514
+                  "numTasks": 937,
+                  "numTasksOver10ms": 19,
+                  "numTasksOver25ms": 11,
+                  "numTasksOver50ms": 6,
+                  "numTasksOver100ms": 4,
+                  "numTasksOver500ms": 1,
+                  "rtt": 1.751,
+                  "throughput": 29961383.361486886,
+                  "maxRtt": 92.761,
+                  "maxServerLatency": 15.024000000000001,
+                  "totalByteWeight": 2068268,
+                  "totalTaskTime": 1786.9609999999884,
+                  "mainDocumentTransferSize": 8572
                 }
               ]
             }
@@ -17414,7 +18072,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cli-civaux.fr",
-        "size": 2527.18,
+        "size": 2525.514,
         "nodes": 485,
         "requests": 44,
         "grade": "C",
@@ -17422,7 +18080,7 @@
         "ges": 1.82,
         "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:54:10.537602",
+        "date": "2025-03-02 01:55:10.046099",
         "page_type": "article"
       }
     ],
@@ -17430,6 +18088,7 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-04-07T23:59:00.000Z",
       "testsslGrade": "A",
@@ -17437,8 +18096,8 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.52,
-      "lighthouse_performanceGrade": "C",
+      "lighthouse_performance": 0.32,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -17461,7 +18120,129 @@
       "Institution",
       "Sport"
     ],
-    "http": null,
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "F",
+        "error": null,
+        "score": 0,
+        "statusCode": 200,
+        "testsFailed": 5,
+        "testsPassed": 5,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "date": "Sun, 02 Mar 2025 01:59:07 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "close",
+          "vary": "Accept-Encoding",
+          "content-language": "fr-FR",
+          "cache-control": "private, no-store",
+          "x-typo3-parsetime": "0ms",
+          "x-cache-osi": "current - MISS"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": true,
+          "result": "cookies-not-found",
+          "scoreModifier": 0,
+          "data": null,
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://sportsnature.lavienne86.fr/",
+          "redirects": true,
+          "route": [
+            "http://sportsnature.lavienne86.fr/",
+            "https://sportsnature.lavienne86.fr/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": false,
+          "result": "hsts-not-implemented",
+          "scoreModifier": -20,
+          "data": null,
+          "includeSubDomains": false,
+          "maxAge": null,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": false,
+          "result": "sri-not-implemented-and-external-scripts-not-loaded-securely",
+          "scoreModifier": -50,
+          "data": {
+            "//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            },
+            "https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js": {
+              "crossorigin": null,
+              "integrity": null
+            }
+          }
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
     "updownio": null,
     "nmap": null,
     "dependabot": null,
@@ -17821,7 +18602,7 @@
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "OK",
-        "finding": "293 >= 60 days"
+        "finding": "286 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -18024,14 +18805,14 @@
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "sportsnature.lavienne86.fr/178.32.121.190",
         "port": "443",
         "severity": "INFO",
-        "finding": "1740275915"
+        "finding": "1740880781"
       },
       {
         "id": "HSTS",
@@ -18865,7 +19646,7 @@
       {
         "requestedUrl": "https://sportsnature.lavienne86.fr/",
         "finalUrl": "https://sportsnature.lavienne86.fr/",
-        "fetchTime": "2025-02-23T01:57:24.577Z",
+        "fetchTime": "2025-03-02T01:58:28.288Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -18876,7 +19657,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.46
           },
           "accessibility": {
             "title": "Accessibility",
@@ -18928,53 +19709,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15719,
+            "numericValue": 15318,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5888,
-                  "firstMeaningfulPaint": 6124,
-                  "largestContentfulPaint": 8007,
-                  "interactive": 15719,
-                  "speedIndex": 8898,
-                  "totalBlockingTime": 186,
-                  "maxPotentialFID": 271,
+                  "firstContentfulPaint": 5339,
+                  "firstMeaningfulPaint": 5339,
+                  "largestContentfulPaint": 7082,
+                  "interactive": 15318,
+                  "speedIndex": 9207,
+                  "totalBlockingTime": 197,
+                  "maxPotentialFID": 289,
                   "cumulativeLayoutShift": 0.03860466681586372,
                   "cumulativeLayoutShiftMainFrame": 0.03860466681586372,
                   "totalCumulativeLayoutShift": 0.03860466681586372,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 174944506,
+                  "observedTimeOriginTs": 207403306,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 174944506,
-                  "observedFirstPaint": 979,
-                  "observedFirstPaintTs": 175923614,
-                  "observedFirstContentfulPaint": 979,
-                  "observedFirstContentfulPaintTs": 175923614,
-                  "observedFirstContentfulPaintAllFrames": 979,
-                  "observedFirstContentfulPaintAllFramesTs": 175923614,
-                  "observedFirstMeaningfulPaint": 979,
-                  "observedFirstMeaningfulPaintTs": 175923614,
-                  "observedLargestContentfulPaint": 979,
-                  "observedLargestContentfulPaintTs": 175923614,
-                  "observedLargestContentfulPaintAllFrames": 979,
-                  "observedLargestContentfulPaintAllFramesTs": 175923614,
-                  "observedTraceEnd": 3647,
-                  "observedTraceEndTs": 178591656,
-                  "observedLoad": 1252,
-                  "observedLoadTs": 176196332,
-                  "observedDomContentLoaded": 1213,
-                  "observedDomContentLoadedTs": 176157601,
+                  "observedNavigationStartTs": 207403306,
+                  "observedFirstPaint": 1049,
+                  "observedFirstPaintTs": 208451831,
+                  "observedFirstContentfulPaint": 1049,
+                  "observedFirstContentfulPaintTs": 208451831,
+                  "observedFirstContentfulPaintAllFrames": 1049,
+                  "observedFirstContentfulPaintAllFramesTs": 208451831,
+                  "observedFirstMeaningfulPaint": 1049,
+                  "observedFirstMeaningfulPaintTs": 208451831,
+                  "observedLargestContentfulPaint": 1049,
+                  "observedLargestContentfulPaintTs": 208451831,
+                  "observedLargestContentfulPaintAllFrames": 1049,
+                  "observedLargestContentfulPaintAllFramesTs": 208451831,
+                  "observedTraceEnd": 3737,
+                  "observedTraceEndTs": 211140349,
+                  "observedLoad": 1339,
+                  "observedLoadTs": 208742033,
+                  "observedDomContentLoaded": 1310,
+                  "observedDomContentLoadedTs": 208713774,
                   "observedCumulativeLayoutShift": 0.03860466681586372,
                   "observedCumulativeLayoutShiftMainFrame": 0.03860466681586372,
                   "observedTotalCumulativeLayoutShift": 0.03860466681586372,
-                  "observedFirstVisualChange": 981,
-                  "observedFirstVisualChangeTs": 175925506,
-                  "observedLastVisualChange": 2198,
-                  "observedLastVisualChangeTs": 177142506,
-                  "observedSpeedIndex": 1827,
-                  "observedSpeedIndexTs": 176771929
+                  "observedFirstVisualChange": 1055,
+                  "observedFirstVisualChangeTs": 208458306,
+                  "observedLastVisualChange": 2304,
+                  "observedLastVisualChangeTs": 209707306,
+                  "observedSpeedIndex": 1968,
+                  "observedSpeedIndexTs": 209371625
                 },
                 {
                   "lcpInvalidated": false
@@ -18992,23 +19773,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 59,
+                  "numRequests": 58,
                   "numScripts": 15,
                   "numStylesheets": 6,
                   "numFonts": 8,
-                  "numTasks": 1156,
+                  "numTasks": 1116,
                   "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver25ms": 5,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 0,
-                  "throughput": 46948203.34890227,
-                  "maxRtt": 86.21799999999999,
-                  "maxServerLatency": 22.977999999999994,
-                  "totalByteWeight": 2838148,
-                  "totalTaskTime": 520.9579999999976,
-                  "mainDocumentTransferSize": 10364
+                  "rtt": 1.9749999999999996,
+                  "throughput": 38516222.30741232,
+                  "maxRtt": 93.404,
+                  "maxServerLatency": 16.119,
+                  "totalByteWeight": 2800606,
+                  "totalTaskTime": 608.0580000000003,
+                  "mainDocumentTransferSize": 10276
                 }
               ]
             }
@@ -19051,15 +19832,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sportsnature.lavienne86.fr",
-        "size": 3943.102,
-        "nodes": 722,
-        "requests": 59,
+        "size": 3900.2,
+        "nodes": 697,
+        "requests": 58,
         "grade": "D",
-        "score": 45,
-        "ges": 2.1,
-        "water": 3.15,
+        "score": 46,
+        "ges": 2.08,
+        "water": 3.12,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:56:39.988427",
+        "date": "2025-03-02 01:57:42.288786",
         "page_type": "article"
       }
     ],
@@ -19067,6 +19848,7 @@
     "dsfr": null,
     "summary": {
       "404": "A+",
+      "httpGrade": "F",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-13T23:59:00.000Z",
       "testsslGrade": "A",
@@ -19074,7 +19856,7 @@
       "cookiesCount": null,
       "trackersGrade": null,
       "trackersCount": null,
-      "lighthouse_performance": 0.45,
+      "lighthouse_performance": 0.46,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
