@@ -206,7 +206,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 299 seconds only (<daily)"
+              "finding"      : "valid for 300 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
@@ -367,7 +367,7 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "312 >= 60 days"
+              "finding"      : "305 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1084,6 +1084,6 @@
               "ip"           : "www.emploi86.com/217.70.184.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "101"
           }
 ]
