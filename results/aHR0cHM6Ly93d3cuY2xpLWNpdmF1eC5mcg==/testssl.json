@@ -346,7 +346,7 @@
               "ip"           : "www.cli-civaux.fr/178.32.121.190",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (43)"
+              "finding"      : "expires < 60 days (36)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.cli-civaux.fr/178.32.121.190",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740275803"
+              "finding"      : "1740880659"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.cli-civaux.fr/178.32.121.190",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "61"
           }
 ]
