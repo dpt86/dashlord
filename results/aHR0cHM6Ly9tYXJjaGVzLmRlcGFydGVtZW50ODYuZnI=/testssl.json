@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "cmdline_fast_depreciation",
+              "ip"           : "marches.departement86.fr/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "'--fast' can have some undesired side effects thus it is not recommended to use anymore"
+          }
+,         {
               "id"           : "service",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
@@ -143,28 +150,28 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 384   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "cipher-tls1_2_x9f",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 4096    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "cipher-tls1_2_xc02f",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 384   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "cipher-tls1_2_x9e",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 4096    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "supportedciphers_TLSv1_2",
@@ -178,7 +185,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "NOT a cipher order configured"
+              "finding"      : "NOT a server cipher order configured"
           }
 ,         {
               "id"           : "FS",
@@ -195,18 +202,25 @@
               "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "marches.departement86.fr/54.36.157.203",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "No KEMs offered"
+          }
+,         {
               "id"           : "FS_ECDHE_curves",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "prime256v1 secp384r1 secp521r1"
+              "finding"      : "prime256v1 secp384r1"
           }
 ,         {
               "id"           : "TLS_extensions",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'extended master secret/#23'"
+              "finding"      : "'server name/#0' 'max fragment length/#1' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -275,8 +289,8 @@
               "id"           : "cert_keySize",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "RSA 2048 bits (exponent is 65537)"
+              "severity"     : "OK",
+              "finding"      : "RSA 4096 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
@@ -290,14 +304,14 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+              "finding"      : "TLS Web Server Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D2B7ED06FFD09757021EA1BA1D4EF4A8"
+              "finding"      : "4E6F3B71F554C55FBDD23C5DB9274DB1"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +325,21 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B254CC10ABBD4A9850FF5F435205CBE96D756CFE"
+              "finding"      : "28EC2C51B12A0312C791B2D8E7547AEED3860032"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E73E0E9D0BE89CCDEBEB5AABB28C4BD4D8FD0B7B01B09C6B84B5D640592A6C20"
+              "finding"      : "4A8AE00C1FE8694DC6CA790472DD59A624527EA193507AA53A74A3C0F592199F"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -374,21 +388,21 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "331 >= 60 days"
+              "finding"      : "176 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-13 00:00"
+              "finding"      : "2026-09-22 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-03-25 23:59"
+              "finding"      : "2027-03-19 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -451,7 +465,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -465,35 +479,35 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Sectigo RSA Domain Validation Secure Server CA (Sectigo Limited from GB)"
+              "finding"      : "Sectigo Public Server Authentication CA DV R36 (Sectigo Limited from GB)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7FA4FF68EC04A99D7528D5085F94907F4D1DD1C5381BACDC832ED5C960214676"
+              "finding"      : "8C54C334B66BA4E426772AF4A3F9136C19A1AEC729FDB28C535C07A5A4EF22E0"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2018-11-02 00:00"
+              "finding"      : "2021-03-22 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2030-12-31 23:59"
+              "finding"      : "2036-03-21 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -507,49 +521,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Sectigo RSA Domain Validation Secure Server CA <-- USERTrust RSA Certification Authority"
-          }
-,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFgTCCBGmgAwIBAgIQOXJEOvkit1HX02wQ3TE1lTANBgkqhkiG9w0BAQwFADB7MQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UEAwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4MTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sIs9CsVw127c0n00ytUINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnGvDoZtF+mvX2do2NCtnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQIjy8/hPwhxR79uQfjtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfbIWax1Jt4A8BQOujM8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0tyA9yn8iNK5+O2hmAUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97Exwzf4TKuzJM7UXiVZ4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNVicQNwZNUMBkTrNN9N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5D9kCnusSTJV882sFqV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJWBp/kjbmUZIO8yZ9HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ5lhCLkMaTLTwJUdZ+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzGKAgEJTm4Diup8kyXHAc/DVL17e8vgg8CAwEAAaOB8jCB7zAfBgNVHSMEGDAWgBSgEQojPpbxB+zirynvgqV/0DCktDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMA0GCSqGSIb3DQEBDAUAA4IBAQAYh1HcdCE9nIrgJ7cz0C7M7PDmy14R3iJvm3WOnnL+5Nb+qh+cli3vA0p+rvSNb3I8QzvAP+u431yqqcau8vzY7qN7Q/aGNnwU4M309z/+3ri0ivCRlv79Q2R+/czSAaF9ffgZGclCKxO/WIu6pKJmBHaIkU4MiRTOok3JMrO66BQavHHxW/BBC5gACiIDEOUMsfnNkjcZ7Tvx5Dq2+UUTJnWvu6rvP3t3O9LEApE9GQDTF1w52z97GA1FzZOFli9d31kWTz9RvdVFGD/tSo7oBmF0Ixa1DVBzJ0RHfxBdiSprhTEUxOipakyAvGp4z7h/jnZymQyd/teRCBaho1+V\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "68B9C761219A5B1F0131784474665DB61BBDB109E00F05CA9F74244EE5F5F52B"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2019-03-12 00:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2028-12-31 23:59"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "USERTrust RSA Certification Authority <-- AAA Certificate Services"
+              "finding"      : "Sectigo Public Server Authentication CA DV R36 <-- Sectigo Public Server Authentication Root R46"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -577,7 +549,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1714267708"
+              "finding"      : "1790265365"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -661,14 +633,14 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self' *.local-trust.com; script-src 'self' *.local-trust.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com ; script-src-elem 'self' *.local-trust.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; script-src-attr 'self' *.local-trust.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; style-src 'self' *.local-trust.com *.matomo.cloud fonts.googleapis.com 'unsafe-inline'; style-src-elem 'self' *.local-trust.com fonts.googleapis.com 'unsafe-inline'; style-src-attr 'self' *.local-trust.com fonts.googleapis.com 'unsafe-inline'; img-src 'self' data: *.local-trust.com ssl.gstatic.com *.google-analytics.com *.xiti.com *.matomo.cloud; font-src 'self' *.local-trust.com fonts.gstatic.com data:; connect-src 'self' *.local-trust.com http://localhost:11992 *.google-analytics.com *.matomo.cloud; media-src 'self' *.local-trust.com; object-src 'self' *.local-trust.com; child-src 'self' *.local-trust.com; frame-src * blob:; worker-src 'self' *.local-trust.com; form-action 'self' *.local-trust.com; block-all-mixed-content;frame-ancestors 'self' *.local-trust.com"
+              "finding"      : "default-src 'self' *.local-trust.com *.local-trust.net; script-src 'self' *.local-trust.com *.local-trust.net 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com ; script-src-elem 'self' *.local-trust.com *.local-trust.net 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; script-src-attr 'self' *.local-trust.com *.local-trust.net 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; style-src 'self' *.local-trust.com *.local-trust.net *.matomo.cloud fonts.googleapis.com 'unsafe-inline'; style-src-elem 'self' *.local-trust.com *.local-trust.net fonts.googleapis.com 'unsafe-inline'; style-src-attr 'self' *.local-trust.com *.local-trust.net fonts.googleapis.com 'unsafe-inline'; img-src 'self' data: *.local-trust.com *.local-trust.net ssl.gstatic.com *.google-analytics.com *.xiti.com *.matomo.cloud; font-src 'self' *.local-trust.com *.local-trust.net fonts.gstatic.com data:; connect-src 'self' *.local-trust.com *.local-trust.net http://localhost:11992 *.google-analytics.com *.matomo.cloud https://geo.api.gouv.fr; media-src 'self' *.local-trust.com *.local-trust.net; object-src 'self' *.local-trust.com *.local-trust.net; child-src 'self' *.local-trust.com *.local-trust.net; frame-src * blob:; worker-src 'self' *.local-trust.com *.local-trust.net; form-action 'self' *.local-trust.com *.local-trust.net; block-all-mixed-content;frame-ancestors 'self' *.local-trust.com *.local-trust.net"
           }
 ,         {
               "id"           : "Permissions-Policy",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(self), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(self), web-share=(), xr-spatial-tracking=()"
+              "finding"      : "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(self), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(*), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(self), web-share=(), xr-spatial-tracking=()"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -813,7 +785,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E73E0E9D0BE89CCDEBEB5AABB28C4BD4D8FD0B7B01B09C6B84B5D640592A6C20"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4A8AE00C1FE8694DC6CA790472DD59A624527EA193507AA53A74A3C0F592199F"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -870,13 +842,6 @@
               "finding"      : "not vulnerable"
           }
 ,         {
-              "id"           : "clientsimulation-android_60",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-          }
-,         {
               "id"           : "clientsimulation-android_70",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
@@ -905,21 +870,21 @@
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-android_11",
+              "id"           : "clientsimulation-android_11_12",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-android_12",
+              "id"           : "clientsimulation-android_13_14",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-chrome_79_win10",
+              "id"           : "clientsimulation-android_15",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -933,7 +898,7 @@
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-firefox_66_win81",
+              "id"           : "clientsimulation-chromium_137_win11",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -947,21 +912,14 @@
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-ie_6_xp",
+              "id"           : "clientsimulation-firefox_137_win11",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No connection"
-          }
-,         {
-              "id"           : "clientsimulation-ie_8_xp",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1010,21 +968,28 @@
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-safari_121_ios_122",
+              "id"           : "clientsimulation-edge_133_win11_23h2",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-safari_130_osx_10146",
+              "id"           : "clientsimulation-safari_184_ios_184",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "marches.departement86.fr/54.36.157.203",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1038,21 +1003,28 @@
               "finding"      : "No connection"
           }
 ,         {
-              "id"           : "clientsimulation-java_8u161",
+              "id"           : "clientsimulation-java_80442",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
-              "id"           : "clientsimulation-java1102",
+              "id"           : "clientsimulation-java_1102",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-java1703",
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "marches.departement86.fr/54.36.157.203",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1066,21 +1038,14 @@
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-libressl_283",
+              "id"           : "clientsimulation-libressl_336",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "marches.departement86.fr/54.36.157.203",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_110l",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1094,7 +1059,14 @@
               "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
-              "id"           : "clientsimulation-openssl_303",
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "marches.departement86.fr/54.36.157.203",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1119,7 +1091,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
           }
 ,         {
               "id"           : "rating_doc",
@@ -1147,14 +1119,14 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "27"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "cipher_strength_score",
@@ -1175,7 +1147,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "96"
           }
 ,         {
               "id"           : "overall_grade",
@@ -1189,6 +1161,6 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "56"
           }
 ]

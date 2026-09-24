@@ -8,28 +8,25 @@
 </head>
 <body>
 <pre>
+
+<span style="color:#cd00cd;">&apos;--fast&apos; can have some undesired side effects thus it is not recommended to use anymore</span>
 <span style="font-weight:bold;">
-###########################################################
-    testssl.sh       3.2rc3 from </span><a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+#####################################################################</span>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2.4</span> from <a href="https://testssl.sh/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/</a>
 <span style="font-weight:bold;">
-      This program is free software. Distribution and
-             modification under GPLv2 permitted.
-      USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!
+  This program is free software. Distribution and modification under
+  GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
 
-       Please file bugs @ </span><a href="https://testssl.sh/bugs/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/bugs/</a>
-<span style="font-weight:bold;">
-###########################################################</span>
+  Please file bugs @ <a href="https://testssl.sh/bugs/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/bugs/</a>
+<span style="font-weight:bold;">#####################################################################</span>
 
- Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az665-358:/home/testssl/bin/openssl.Linux.x86_64
- (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
+  Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
+  on runnervmtr4k5:/home/testssl/bin/openssl.Linux.x86_64
 
+<span style="color:white;background-color:black;"> Start 2026-09-24 15:55:37        --&gt;&gt; 54.36.157.203:443 (marches.departement86.fr) &lt;&lt;--</span>
 
-<span style="color:white;background-color:black;"> Start 2024-04-28 01:28:02                --&gt;&gt; 54.36.157.203:443 (marches.departement86.fr) &lt;&lt;--</span>
-
- rDNS (54.36.157.203):   client-fw-prod-vip.local-trust.com.
+ rDNS (54.36.157.203):   smtp-client-prod.local-trust.com.
  Service detected:       HTTP
-
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
 
@@ -66,10 +63,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <u>TLSv1.1</u>
  - 
 <u>TLSv1.2</u> (no server order, thus listed by strength)
- xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH<span style="color:#008817;"> 521</span>   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384              
- x9f     DHE-RSA-AES256-GCM-SHA384         DH<span style="color:#008817;"> 4096</span>    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384                
- xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH<span style="color:#008817;"> 521</span>   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256              
- x9e     DHE-RSA-AES128-GCM-SHA256         DH<span style="color:#008817;"> 4096</span>    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256                
+ xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH<span style="color:#008817;"> 384</span>   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384              
+ x9f     DHE-RSA-AES256-GCM-SHA384         DH<span style="color:#008817;"> 2048</span>    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384                
+ xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH<span style="color:#008817;"> 384</span>   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256              
+ x9e     DHE-RSA-AES128-GCM-SHA256         DH<span style="color:#008817;"> 2048</span>    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256                
 <u>TLSv1.3</u>
 <span style="color:#cd00cd;">Local problem: Your /home/testssl/bin/openssl.Linux.x86_64 does not support -tls1_3</span>
 
@@ -83,16 +80,17 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               DHE-RSA-AES256-GCM-SHA384
                               ECDHE-RSA-AES128-GCM-SHA256
                               ECDHE-RSA-AES256-GCM-SHA384 
-<span style="font-weight:bold;"> Elliptic curves offered:     </span><span style="color:#008817;">prime256v1</span> <span style="color:#008817;">secp384r1</span> <span style="color:#008817;">secp521r1</span> 
+<span style="font-weight:bold;"> KEMs offered                 </span><span style="color:#a86437;">None</span>
+<span style="font-weight:bold;"> Elliptic curves offered:     </span><span style="color:#008817;">prime256v1</span> <span style="color:#008817;">secp384r1</span> 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing server defaults (Server Hello) </span>
 
-<span style="font-weight:bold;"> TLS extensions (standard)    </span>&quot;renegotiation info/#65281&quot; &quot;server name/#0&quot;
-                              &quot;EC point formats/#11&quot; &quot;supported versions/#43&quot;
-                              &quot;key share/#51&quot; &quot;supported_groups/#10&quot;
-                              &quot;max fragment length/#1&quot;
+<span style="font-weight:bold;"> TLS extensions (standard)    </span>&quot;server name/#0&quot; &quot;max fragment length/#1&quot;
+                              &quot;supported_groups/#10&quot; &quot;EC point formats/#11&quot;
                               &quot;application layer protocol negotiation/#16&quot;
                               &quot;extended master secret/#23&quot;
+                              &quot;supported versions/#43&quot; &quot;key share/#51&quot;
+                              &quot;renegotiation info/#65281&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>no -- no lifetime advertised
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
 <span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: yes
@@ -100,18 +98,18 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
 <span style="font-weight:bold;"> Signature Algorithm          </span><span style="color:#008817;">SHA256 with RSA</span>
-<span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
+<span style="font-weight:bold;"> Server key size              </span>RSA <span style="color:#008817;">4096</span> bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
-<span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>D2B7ED06FFD09757021EA1BA1D4EF4A8 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 B254CC10ABBD4A9850FF5F435205CBE96D756CFE
-                              SHA256 E73E0E9D0BE89CCDEBEB5AABB28C4BD4D8FD0B7B01B09C6B84B5D640592A6C20
+<span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
+<span style="font-weight:bold;"> Serial                       </span>4E6F3B71F554C55FBDD23C5DB9274DB1 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 28EC2C51B12A0312C791B2D8E7547AEED3860032
+                              SHA256 4A8AE00C1FE8694DC6CA790472DD59A624527EA193507AA53A74A3C0F592199F
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>marches.departement86.fr </i> (CN in response to request w/o SNI: <i>aides.hautsdefrance.fr </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>marches.departement86.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">331 &gt;= 60 days</span> (2024-03-13 00:00 --&gt; 2025-03-25 23:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">176 &gt;= 60 days</span> (2026-09-22 00:00 --&gt; 2027-03-19 23:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp.sectigo.com
@@ -119,10 +117,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
-<span style="font-weight:bold;"> Certificates provided</span>        3
-<span style="font-weight:bold;"> Issuer                       </span><i>Sectigo RSA Domain Validation Secure Server CA</i> (<i>Sectigo Limited</i> from <i>GB</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2030-12-31 23:59). <i>Sectigo RSA Domain Validation Secure Server CA</i> &lt;-- <i>USERTrust RSA Certification Authority</i>
-                              #2: <span style="color:#008817;">ok &gt; 40 days</span> (2028-12-31 23:59). <i>USERTrust RSA Certification Authority</i> &lt;-- <i>AAA Certificate Services</i>
+<span style="font-weight:bold;"> Certificates provided</span>        2
+<span style="font-weight:bold;"> Issuer                       </span><i>Sectigo Public Server Authentication CA DV R36</i> (<i>Sectigo Limited</i> from <i>GB</i>)
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2036-03-21 23:59). <i>Sectigo Public Server Authentication CA DV R36</i> &lt;-- <i>Sectigo Public Server Authentication Root R46</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
@@ -132,42 +129,50 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">365 days</span>=31536000 s<span style="color:#168092;">, just this domain</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>WebServer
+<span style="font-weight:bold;"> Server banner                </span>WebServer&apos;
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>1 issued: <span style="color:#008817;">1/1</span> secure, <span style="color:#008817;">1/1</span> HttpOnly -- maybe better try target URL of 30x
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               <span style="color:#008817;">Content-Security-Policy</span>: default-src &apos;self&apos;
-                                *.local-trust.com; script-src &apos;self&apos;
-                                *.local-trust.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;
-                                www.googletagmanager.com *.google-analytics.com
-                                ; script-src-elem &apos;self&apos; *.local-trust.com
+                                *.local-trust.com *.local-trust.net; script-src
+                                &apos;self&apos; *.local-trust.com *.local-trust.net
                                 &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;
                                 www.googletagmanager.com *.google-analytics.com
+                                ; script-src-elem &apos;self&apos; *.local-trust.com
+                                *.local-trust.net &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;
+                                www.googletagmanager.com *.google-analytics.com
                                 *.matomo.cloud; script-src-attr &apos;self&apos;
-                                *.local-trust.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;
+                                *.local-trust.com *.local-trust.net
+                                &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;
                                 www.googletagmanager.com *.google-analytics.com
                                 *.matomo.cloud; style-src &apos;self&apos;
-                                *.local-trust.com *.matomo.cloud
-                                fonts.googleapis.com &apos;unsafe-inline&apos;;
-                                style-src-elem &apos;self&apos; *.local-trust.com
+                                *.local-trust.com *.local-trust.net
+                                *.matomo.cloud fonts.googleapis.com
+                                &apos;unsafe-inline&apos;; style-src-elem &apos;self&apos;
+                                *.local-trust.com *.local-trust.net
                                 fonts.googleapis.com &apos;unsafe-inline&apos;;
                                 style-src-attr &apos;self&apos; *.local-trust.com
-                                fonts.googleapis.com &apos;unsafe-inline&apos;; img-src
-                                &apos;self&apos; data: *.local-trust.com ssl.gstatic.com
-                                *.google-analytics.com *.xiti.com
-                                *.matomo.cloud; font-src &apos;self&apos;
-                                *.local-trust.com fonts.gstatic.com data:;
-                                connect-src &apos;self&apos; *.local-trust.com
+                                *.local-trust.net fonts.googleapis.com
+                                &apos;unsafe-inline&apos;; img-src &apos;self&apos; data:
+                                *.local-trust.com *.local-trust.net
+                                ssl.gstatic.com *.google-analytics.com
+                                *.xiti.com *.matomo.cloud; font-src &apos;self&apos;
+                                *.local-trust.com *.local-trust.net
+                                fonts.gstatic.com data:; connect-src &apos;self&apos;
+                                *.local-trust.com *.local-trust.net
                                 http://localhost:11992 *.google-analytics.com
-                                *.matomo.cloud; media-src &apos;self&apos;
-                                *.local-trust.com; object-src &apos;self&apos;
-                                *.local-trust.com; child-src &apos;self&apos;
-                                *.local-trust.com; frame-src * blob:;
-                                worker-src &apos;self&apos; *.local-trust.com;
-                                form-action &apos;self&apos; *.local-trust.com;
+                                *.matomo.cloud https://geo.api.gouv.fr;
+                                media-src &apos;self&apos; *.local-trust.com
+                                *.local-trust.net; object-src &apos;self&apos;
+                                *.local-trust.com *.local-trust.net; child-src
+                                &apos;self&apos; *.local-trust.com *.local-trust.net;
+                                frame-src * blob:; worker-src &apos;self&apos;
+                                *.local-trust.com *.local-trust.net;
+                                form-action &apos;self&apos; *.local-trust.com
+                                *.local-trust.net;
                                 block-all-mixed-content;frame-ancestors &apos;self&apos;
-                                *.local-trust.com
+                                *.local-trust.com *.local-trust.net
                               <span style="color:#008817;">Permissions-Policy</span>: accelerometer=(),
                                 ambient-light-sensor=(), autoplay=(),
                                 battery=(), camera=(),
@@ -175,7 +180,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 document-domain=(self), encrypted-media=(),
                                 execution-while-not-rendered=(),
                                 execution-while-out-of-viewport=(),
-                                fullscreen=(), geolocation=(), gyroscope=(),
+                                fullscreen=(*), geolocation=(), gyroscope=(),
                                 magnetometer=(), microphone=(), midi=(),
                                 navigation-override=(), payment=(),
                                 publickey-credentials-get=(),
@@ -203,7 +208,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E73E0E9D0BE89CCDEBEB5AABB28C4BD4D8FD0B7B01B09C6B84B5D640592A6C20" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E73E0E9D0BE89CCDEBEB5AABB28C4BD4D8FD0B7B01B09C6B84B5D640592A6C20</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=4A8AE00C1FE8694DC6CA790472DD59A624527EA193507AA53A74A3C0F592199F" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=4A8AE00C1FE8694DC6CA790472DD59A624527EA193507AA53A74A3C0F592199F</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no common prime detected
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
@@ -215,54 +220,54 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
  Browser                      Protocol  Cipher Suite Name (OpenSSL)       Forward Secrecy
 ------------------------------------------------------------------------------------------------
- Android 6.0                  TLSv1.2   ECDHE-RSA-AES128-GCM-SHA256       <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Android 7.0 (native)         TLSv1.2   ECDHE-RSA-AES128-GCM-SHA256       <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Android 8.1 (native)         TLSv1.2   ECDHE-RSA-AES128-GCM-SHA256       <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Android 9.0 (native)         TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Android 10.0 (native)        TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Android 11 (native)          TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Android 12 (native)          TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Chrome 79 (Win 10)           TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Android 11/12 (native)       TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Android 13/14 (native)       TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Android 15 (native)          TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Chrome 101 (Win 10)          TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Firefox 66 (Win 8.1/10)      TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Chromium 137 (Win 11)        TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Firefox 100 (Win 10)         TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- IE 6 XP                      No connection
+ Firefox 137 (Win 11)         TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  IE 8 Win 7                   No connection
- IE 8 XP                      No connection
- IE 11 Win 7                  TLSv1.2   DHE-RSA-AES256-GCM-SHA384         <span style="color:#008817;">4096 bit DH  </span>
- IE 11 Win 8.1                TLSv1.2   DHE-RSA-AES256-GCM-SHA384         <span style="color:#008817;">4096 bit DH  </span>
+ IE 11 Win 7                  TLSv1.2   DHE-RSA-AES256-GCM-SHA384         <span style="color:#008817;">2048 bit DH  </span>
+ IE 11 Win 8.1                TLSv1.2   DHE-RSA-AES256-GCM-SHA384         <span style="color:#008817;">2048 bit DH  </span>
  IE 11 Win Phone 8.1          No connection
  IE 11 Win 10                 TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Edge 15 Win 10               TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Edge 101 Win 10 21H2         TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Safari 12.1 (iOS 12.2)       TLSv1.3   TLS_CHACHA20_POLY1305_SHA256      <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Safari 13.0 (macOS 10.14.6)  TLSv1.3   TLS_CHACHA20_POLY1305_SHA256      <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Edge 133 Win 11 23H2         TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Safari 18.4 (iOS 18.4)       TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Safari 15.4 (macOS 12.3.1)   TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Safari 18.4 (macOS 15.4)     TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Java 7u25                    No connection
- Java 8u161                   TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">256 bit ECDH (P-256)</span>
+ Java 8u442 (OpenJDK)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Java 11.0.2 (OpenJDK)        TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Java 17.0.3 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Java 21.0.6 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  go 1.17.8                    TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- LibreSSL 2.8.3 (Apple)       TLSv1.2   ECDHE-RSA-CHACHA20-POLY1305       <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ LibreSSL 3.3.6 (macOS)       TLSv1.3   TLS_CHACHA20_POLY1305_SHA256      <span style="color:#008817;">253 bit ECDH (X25519)</span>
  OpenSSL 1.0.2e               TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">256 bit ECDH (P-256)</span>
- OpenSSL 1.1.0l (Debian)      TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">253 bit ECDH (X25519)</span>
  OpenSSL 1.1.1d (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- OpenSSL 3.0.3 (git)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ OpenSSL 3.0.15 (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ OpenSSL 3.5.0 (git)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Apple Mail (16.0)            TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Thunderbird (91.9)           TLSv1.3   TLS_AES_128_GCM_SHA256            <span style="color:#008817;">253 bit ECDH (X25519)</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Rating (experimental) </span>
 
-<span style="font-weight:bold;"> Rating specs</span> (not complete)  SSL Labs&apos;s &apos;SSL Server Rating Guide&apos; (version 2009q from 2020-01-30)
+<span style="font-weight:bold;"> Rating specs</span> (not complete)  SSL Labs&apos;s &apos;SSL Server Rating Guide&apos; (version 2009r from 2025-05-16)
 <span style="font-weight:bold;"> Specification documentation  </span><a href="https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide" style="color:black;text-decoration:none;">https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide</a>
 <span style="font-weight:bold;"> Protocol Support </span>(weighted)  100 (30)
-<span style="font-weight:bold;"> Key Exchange </span>    (weighted)  90 (27)
+<span style="font-weight:bold;"> Key Exchange </span>    (weighted)  100 (30)
 <span style="font-weight:bold;"> Cipher Strength </span> (weighted)  90 (36)
-<span style="font-weight:bold;"> Final Score                  </span>93
+<span style="font-weight:bold;"> Final Score                  </span>96
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2024-04-28 01:28:55 [  55s] --&gt;&gt; 54.36.157.203:443 (marches.departement86.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-09-24 15:56:31 [  56s] --&gt;&gt; 54.36.157.203:443 (marches.departement86.fr) &lt;&lt;--</span>
 
 
 </pre>
