@@ -9,19 +9,22 @@
     "testsPassed": 4,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 02 Mar 2025 01:40:30 GMT",
-      "content-type": "text/html; charset=utf-8",
-      "transfer-encoding": "chunked",
-      "connection": "close",
-      "vary": "Accept-Encoding",
-      "content-language": "fr-FR",
       "cache-control": "private, no-store",
+      "content-language": "fr-FR",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Thu, 24 Sep 2026 15:48:18 GMT",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "pragma": "no-cache",
       "set-cookie": [
-        "fe_typo_user=deleted; expires=Sat, 02 Mar 2024 01:40:29 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax",
-        "__Secure-typo3nonce_ArO15JjlxEOLNccrAGtVgw=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IkhtOUNzVWp4dEE2UnozVGpKU3ZoUG8xLTRJNURSYlRQNUdzN0JmWDlQOUk5dkR3QWFrd1kyQSIsInRpbWUiOiIyMDI1LTAzLTAyVDAyOjQwOjMwKzAxOjAwIn0.tTDuwn9YKwdHY_PMyIlw0IDflQj0GUNFKyY9A_6Oi6k; path=/; secure; httponly; samesite=strict"
+        "PHPSESSID=d6ec16d9a9e42575cf551366d4fb7b71; path=/",
+        "fe_typo_user=deleted; expires=Wed, 24 Sep 2025 15:48:17 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax",
+        "__Secure-typo3nonce_0i3YGqcgzHFTXshihAdzUw=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6IktFcThaUVZNWHVxVmVjTnZKeGllQzItZ3dfMDlPOEJxUFd5cjBrdUFvdUViLVFjUmRYemtEdyIsInRpbWUiOiIyMDI2LTA5LTI0VDE3OjQ4OjE4KzAyOjAwIn0.oV9mR8FKtI9M2jv2ZnaNOvPodOxpH1X52venve8BUk8; path=/; secure; httponly; samesite=strict"
       ],
+      "vary": "Accept-Encoding",
+      "x-cache-osi": "current - MISS",
       "x-typo3-parsetime": "0ms",
-      "x-cache-osi": "current - MISS"
+      "connection": "close",
+      "transfer-encoding": "chunked"
     }
   },
   "tests": {
@@ -39,19 +42,24 @@
     "cookies": {
       "expectation": "cookies-secure-with-httponly-sessions",
       "pass": false,
-      "result": "cookies-without-secure-flag",
-      "scoreModifier": -20,
+      "result": "cookies-session-without-secure-flag",
+      "scoreModifier": -40,
       "data": {
+        "PHPSESSID": {
+          "domain": "www.lavienne86.fr",
+          "path": "/",
+          "port": null
+        },
         "fe_typo_user": {
           "domain": "www.lavienne86.fr",
-          "expires": "2024-03-02T01:40:29.000Z",
+          "expires": "2025-09-24T15:48:17.000Z",
           "httponly": true,
           "max-age": 0,
           "path": "/",
           "port": null,
           "samesite": "lax"
         },
-        "__Secure-typo3nonce_ArO15JjlxEOLNccrAGtVgw": {
+        "__Secure-typo3nonce_0i3YGqcgzHFTXshihAdzUw": {
           "domain": "www.lavienne86.fr",
           "httponly": true,
           "path": "/",
