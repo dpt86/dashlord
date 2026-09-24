@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.vienne-numerique.fr",
-        "size": 848.83,
-        "nodes": 334,
-        "requests": 37,
-        "grade": "B",
-        "score": 73.0,
-        "ges": 1.54,
-        "water": 2.31,
+        "size": 2800.779,
+        "nodes": 602,
+        "requests": 52,
+        "grade": "D",
+        "score": 52.0,
+        "ges": 1.96,
+        "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2025-01-12 01:56:59.851807",
-        "page_type": null
+        "date": "2026-09-24 16:03:45.375020",
+        "page_type": "article"
     }
 ]

@@ -1,70 +1,84 @@
 [
          {
+              "id"           : "cmdline_fast_depreciation",
+              "ip"           : "www.vienne-numerique.fr/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "'--fast' can have some undesired side effects thus it is not recommended to use anymore"
+          }
+,         {
               "id"           : "service",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No 128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "SSLv3",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "TLS1_3",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not offered + downgraded to weaker protocol"
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
           }
 ,         {
               "id"           : "ALPN",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http/1.1"
           }
 ,         {
               "id"           : "cipherlist_NULL",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -72,7 +86,7 @@
           }
 ,         {
               "id"           : "cipherlist_aNULL",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -80,7 +94,7 @@
           }
 ,         {
               "id"           : "cipherlist_EXPORT",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -88,7 +102,7 @@
           }
 ,         {
               "id"           : "cipherlist_LOW",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -96,7 +110,7 @@
           }
 ,         {
               "id"           : "cipherlist_3DES_IDEA",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-310",
@@ -104,7 +118,7 @@
           }
 ,         {
               "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "LOW",
               "cwe"          : "CWE-310",
@@ -112,729 +126,519 @@
           }
 ,         {
               "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_FS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "cipher_order-tls1_2",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "NOT a cipher order configured"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc030",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc028",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc014",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9f",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x6b",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x39",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc077",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH 521   Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc4",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc4     DHE-RSA-CAMELLIA256-SHA256        DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x88",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x88     DHE-RSA-CAMELLIA256-SHA           DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9d",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x3d",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x35",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc0",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc0     CAMELLIA256-SHA256                RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x84",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc02f",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc027",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc013",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9e",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x67",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x33",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc076",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH 521   Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xbe",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xbe     DHE-RSA-CAMELLIA128-SHA256        DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x45",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x45     DHE-RSA-CAMELLIA128-SHA           DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9c",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x3c",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x2f",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xba",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xba     CAMELLIA128-SHA256                RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x41",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
-          }
-,         {
-              "id"           : "supportedciphers_TLSv1_2",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA256-SHA384 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA AES256-GCM-SHA384 AES256-SHA256 AES256-SHA CAMELLIA256-SHA256 CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA AES128-GCM-SHA256 AES128-SHA256 AES128-SHA CAMELLIA128-SHA256 CAMELLIA128-SHA"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "cipher_order",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "NOT a cipher order configured"
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
           }
 ,         {
               "id"           : "FS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "FS_ciphers",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA128-SHA256 ECDHE-RSA-CAMELLIA256-SHA384"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "No KEMs offered"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "prime256v1 secp384r1 secp521r1"
           }
 ,         {
               "id"           : "TLS_extensions",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+              "finding"      : "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 300 seconds only (<daily)"
+              "finding"      : "no -- no lifetime advertised"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "yes"
           }
 ,         {
               "id"           : "sessionresumption_ticket",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "random"
           }
 ,         {
-              "id"           : "cert_compression",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "certificate_compression",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "N/A"
+              "finding"      : "none"
           }
 ,         {
               "id"           : "clientAuth",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "none"
           }
 ,         {
               "id"           : "cert_numbers",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1"
           }
 ,         {
               "id"           : "cert_signatureAlgorithm",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "SHA384 with RSA"
+              "finding"      : "SHA256 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "RSA 2048 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Digital Signature, Key Encipherment"
           }
 ,         {
               "id"           : "cert_extKeyUsage",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+              "finding"      : "TLS Web Server Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "693839186E4AA26A5350B8DE10FCA966"
+              "finding"      : "0596A1C762BBE3EBB56D8E9181C8BF5DD6F3"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "16"
+              "finding"      : "18"
           }
 ,         {
               "id"           : "cert_fingerprintSHA1",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55870FE5F0571E34E27099C09F76F6105C0F8AA4"
+              "finding"      : "6F6CC0E2B3370B34A146DF68E1A0607087D1590F"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "630099E4A49C6027F0E92C27502911E05AC97B42050DF65DDA99B21564F71489"
+              "finding"      : "3064F0FAF0D6B6F5E69E57D8C7D251B21C995DFCE0C72E78D2376D451E3FDC5E"
           }
 ,         {
               "id"           : "cert",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIHPzCCBaegAwIBAgIQaTg5GG5KompTULjeEPypZjANBgkqhkiG9w0BAQwFADBlMQswCQYDVQQGEwJHQjEZMBcGA1UEChMQVEJTIEludGVybmV0IEx0ZDE7MDkGA1UEAxMyVEJTIFJTQSBPcmdhbml6YXRpb24gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENBIDMwHhcNMjQwMzIxMDAwMDAwWhcNMjUwNDA2MjM1OTU5WjBjMQswCQYDVQQGEwJGUjEPMA0GA1UECBMGVmllbm5lMSEwHwYDVQQKExhERVBBUlRFTUVOVCBERSBMQSBWSUVOTkUxIDAeBgNVBAMTF3d3dy52aWVubmUtbnVtZXJpcXVlLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0lY/+g7BiIM7AlWRdKXvXB2bNo2EZW3zBZoCAneFuXwLXE17kDVgcprr66XT4hG3OD5ztK5Ni55wWsza7F8PG/1VGtJvZjaxlmNWS07wVV2acYgb0YAJNsDWXaf7uB+7/xxiPYZ/u2OoR6PQ94W04KodWScUyviHJXJDULYH+4+ibCVn37e1AQtW8BbYpKJxh1iOyt/ZS2Yy7zi/tEezASpqg8nyZZ+pZrOHV0JugDq8mtwSPlG3HkiKTAes+PygwjUyO8qlcs45+6jzgI7cFnQFbEF7MPLMVmlAdchJ/viY4kDl0qaOvg67UIQQ1ge1lCDlDSmoWmRlFOIDX9UNyQIDAQABo4IDazCCA2cwHwYDVR0jBBgwFoAUgJNdKsqN2ErLKq2HQtjAN9lhIBUwHQYDVR0OBBYEFDMKKYR7Bk5+2x1w3+jE6vQzfi+VMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEBAgJtMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeBDAECAjBXBgNVHR8EUDBOMEygSqBIhkZodHRwOi8vY3JsLnNlY3RpZ28uY29tL1RCU1JTQU9yZ2FuaXphdGlvblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJDQTMuY3JsMIGHBggrBgEFBQcBAQR7MHkwUgYIKwYBBQUHMAKGRmh0dHA6Ly9jcnQuc2VjdGlnby5jb20vVEJTUlNBT3JnYW5pemF0aW9uVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBMy5jcnQwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLnNlY3RpZ28uY29tMDcGA1UdEQQwMC6CF3d3dy52aWVubmUtbnVtZXJpcXVlLmZyghN2aWVubmUtbnVtZXJpcXVlLmZyMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAY5hx/q6AAAEAwBIMEYCIQDjuFpxFkUejAUXOmK8l+5ggF2THZsdEjjl1RMbsSfC4gIhAPh3iHcOtatPDUJZQFMIxF9Cxtvzs0NnJVXyKmNBGUhlAHYAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzEuVCkR+cAAAGOYcf5sAAABAMARzBFAiBTVsQBTmMcm7jGO41t0faWr/m1rGpSIK70HJlVTZmXTgIhANlU6iBtuJrdymImLMXucc4rPrsO/DsVoprF/oXuiEmFAHYATnWjJ1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8AAAGOYcf5mAAABAMARzBFAiEAuf3d9Zoj9vdo0NQ9k79TAPOKeNePGkrfCW2YtQF/3PUCIF1XQBT20vQgezo0myM1RcgBy0nGpRym3+/VpOIiIKLhMA0GCSqGSIb3DQEBDAUAA4IBgQCdiASRrIGQyTNv4ZGBoL/gTv7d58tMZaO1ST5B6g8eGQlzeIyzfwuAol8Z3fFNb3HFPDMyPiBiuQ2R7p+xdydevFWdNRj6K/YHgl9sNGs+srDiNsaZWcDu4qfeyrkK95ITrSkfB080raoZ3acw9qL8iWICh4j+mGoEcv/tanjBAhFgVmv/OTb+I6JDopy5hjvxXiF60T0AC2HNgv3cz+2yIhPMNCAc1mlTP6LQ3lCwkmx5oCWMW0GVDDrdgEdQSx1HgPETiNbaQCNNJPSh8zIxGs83YhMiMVvbhJhfljru+enBlK3Yj0unOalixYzj72+Aq4vQFcKqRjNyZmTiweu8MzDisP73SJEs7gDb62P4OGdGW6gy899DYI9PE+pHsWG9CRUngp7Frotmv4mzH/Vk8h2Ejbb7sHhInUknd4L+RipVORFnTKkIJ1qRxffXcYh9f29bBI/VN4wyBqLKxaQO7CWDsUb+DWMxLMqGpFQWYCG6LIRIu3bqNH5qXALNTAY=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFCTCCA/GgAwIBAgISBZahx2K74+u1bY6Rgci/XdbzMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjIwHhcNMjYwNzIyMjMyNjMxWhcNMjYxMDIwMjMyNjMwWjAiMSAwHgYDVQQDExd3d3cudmllbm5lLW51bWVyaXF1ZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALSDQX1N0SXA9+670k/CWU1FHpSjouRKjWqwt0+VsM2GH8RaPZs6up/hbRB+396L5/NxzlNfqP2EStKr2Adg1YDwDrUTy/JKt4+/931GNI+1MyzbmenLiWxYeMwB+OPHzyYvkrlIcJ9TfCS+cTtuZJDQ/uBt2KSZ00i0iOl86LyMbsaAu01bmsYd31MkL3cODrvDPvEoQ1zmPI7jV1UTdNrLjL5kAJ0zQbTVI8FpWPQ7hL0oBMyE9HBDY7XULddh8zUnr+aawoXT6iszyYFmZ/Sp1Shc1OK8LFNPolv0GXoPywRyjoUAFgsTcFoU/aMW7bv6x58mFypu3m+mfwrpGckCAwEAAaOCAiYwggIiMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTiJ7xhRRc1kW7ZwCPHGNSuIzYzvDAfBgNVHSMEGDAWgBRAFS0mee0yIJ7fmnId1jIfgQyBDDAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0dHA6Ly95cjIuaS5sZW5jci5vcmcvMCIGA1UdEQQbMBmCF3d3dy52aWVubmUtbnVtZXJpcXVlLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly95cjIuYy5sZW5jci5vcmcvMTE2LmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB2ANdtfRDRp/V3wsfpX9cAv/mCyTNaZeHQswFzF8DIxWl3AAABn4xchGQAAAQDAEcwRQIgQZTHGUgY/a61hYgGLZwXwBAqE9d/WeodS+4v0o2vKK8CIQDKbQ508G8or4XjrVlguj3ZO7nC8llXIGS9iAuCgUmuMQB+ABqLnWsP/r+BtHk5xtIxCobW0QLU8EbiGCyd419eJiXvAAABn4xchbQACAAABQAso1lVBAMARzBFAiApsNVRXMdtf3ovyotmGoT4iZS52zBrWAqdwdwUgAb1kQIhAJLAGBJs+raOF+uaEc/SDyA4C15UwLNO6DqlJoMkzP67MA0GCSqGSIb3DQEBCwUAA4IBAQCv/cRyXQPXMn9EydCEzI7X47Hbmq02KI4fUMCHz5v0QBu8f3Gxz6+ulZVAeBLNDFyby/zpUrO34vvRsfL9NevUAEv4c/EDwzVQyfTC7ykMpHBBdz6SoQa7Chh5Yi9TCN41nbwSG6VdrGapyOfEMV4JcKe3lVJEoENF0Xb8N0kMbzW9irUy2UUR6YyhOM2uxeu8FMX2naeiZiOieLG8715rtoYaxPJbTV428CboqnNmWoLc61eH9fU7RR1i/Yn3oVzHgEOYgKS001lyzQOsgt1dsDpJJEtKN2AMkH0oIU51yXV2Aal+zDa7QwT/Ta9GkVTS/5yHnPy2/C9Rj63PgkPR\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "www.vienne-numerique.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "*.portailagents86.fr"
+              "finding"      : "request w/o SNI didn't succeed"
           }
 ,         {
               "id"           : "cert_subjectAltName",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.vienne-numerique.fr vienne-numerique.fr"
+              "finding"      : "www.vienne-numerique.fr"
           }
 ,         {
               "id"           : "cert_trust",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_expirationStatus",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "84 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (26)"
           }
 ,         {
               "id"           : "cert_notBefore",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 00:00"
+              "finding"      : "2026-07-22 23:26"
           }
 ,         {
               "id"           : "cert_notAfter",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2025-04-06 23:59"
+              "severity"     : "MEDIUM",
+              "finding"      : "2026-10-20 23:26"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "certificate has no extended life time according to browser forum"
           }
 ,         {
               "id"           : "cert_eTLS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not present"
           }
 ,         {
               "id"           : "cert_crlDistributionPoints",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.sectigo.com/TBSRSAOrganizationValidationSecureServerCA3.crl"
+              "finding"      : "http://yr2.c.lencr.org/116.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://ocsp.sectigo.com"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "OCSP_stapling",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "cert_mustStapleExtension",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
               "id"           : "DNS_CAArecord",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "--"
           }
 ,         {
               "id"           : "certificate_transparency",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "yes (certificate extension)"
           }
 ,         {
               "id"           : "certs_countServer",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "3"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_caIssuers",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TBS RSA Organization Validation Secure Server CA 3 (TBS Internet Ltd from GB)"
+              "finding"      : "YR2 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE2jCCAsKgAwIBAgIQTr0klH4k05SALYSlL9WzGTANBgkqhkiG9w0BAQsFADAuMQswCQYDVQQGEwJVUzENMAsGA1UEChMESVNSRzEQMA4GA1UEAxMHUm9vdCBZUjAeFw0yNTA5MDMwMDAwMDBaFw0yODA5MDIyMzU5NTlaMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZ0LxwBppqh84luqMerV/eeL/fXQ7mLQQv1LnpWKZbyvGpx6wh6AfnslAnF6ewTkcHA+gSOoBvm3Dfm06AuGiF+KRut4fAcowqnAQQCW98+QPP/eOv/wug7Iyk4NkOxf2I6g2f55T6nJoOTLFcukeRq80JGQEYan+dPFr9OGUgQK2hGKgNkW87pappsOAuUJcroYhRt5uUis4qaZireiseu32gzDJNBAiKtsvd6HX4v25bpkRNcS/B/Gtc9kVbUpD+2PLPxdei3Tim55k4tfAEXwD2qyiPTxrTNq6lN+AMr5g2c1dNqkOTwjxeV6L5lpP1rGiYvLnRaPlOqyZRPW+5AgMBAAGjge4wgeswDgYDVR0PAQH/BAQDAgGGMBMGA1UdJQQMMAoGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEAVLSZ57TIgnt+ach3WMh+BDIEMMB8GA1UdIwQYMBaAFN7nW2DQIm1AKH0/DQH+pLVStFGUMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3lyLmkubGVuY3Iub3JnLzATBgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veXIuYy5sZW5jci5vcmcvMA0GCSqGSIb3DQEBCwUAA4ICAQB0ZUQWZ9/Yn9COEpo+JfecMnB0h0vwDm/M66IqXqw3LoaLmx9lZvRTeDIS67PUeI3yCA2W6PKRD0/FE/G57lOmS+Xy5AaaL00ICGOqjNcCaMWW8o8nevHOd4i4lqgtznE/28QwlcdJyF8yBiWHpnyjhEpmNWJURgOCOg2xpwRMBCsjMScqYPtOhBeuYQvSwAEeTML2Ukh6uGuX4E14q65Ja8cdjF5bAldnP1eE4FBaAwsZG2fOqqrKV03Y85Nw2btedP1AtliQuJZs/Jo/gXxXdc7LrH3McgnpnbTiAncX7yEShP6kzQejllqMCIt52HOjxDGWafS7Xw+DKwqmH+Eqy8dcbOuag/1AYlQoKNVK3F5qHh6tEDiMqQcLIibGKteE6iHo4A/bIScbzrhXUYuism42ZYzmc48FMVIH3qy4L84ETdAH2gtxw0PAhvRVXp8HP7wfngpzsN/8xOTpeRSbM4+Qbc56G6+Bifmv6sk1ieQbNA3wJdl4DDUuQSV8hBgx6zoI1ZSGORprDFux7c6rhc77QZMSRrEgomBeklervEve86ylWmZ3WWHV6RLMi8xNvjd71r4EPIGgY7BZU/VPBkq+uA7Gb6mbJnFgV43uh3xyLRFgxIAphIukwTGSMZZR+AI+Qnp0BYTWovHXozOf3H8r6hozEoT02JHn0AeTfA==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1F1B69BF37D3E228B3A0F4E89EC47831C98F38A845391B614FED5908705CC5DD"
+              "finding"      : "238B85A0099C65B970477D5724F1A1D475CE5058CFFE4EFA8733899BDB863C47"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-08-02 00:00"
+              "finding"      : "2025-09-03 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2033-08-01 23:59"
+              "finding"      : "2028-09-02 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TBS RSA Organization Validation Secure Server CA 3 <-- USERTrust RSA Certification Authority"
+              "finding"      : "YR2 <-- Root YR"
           }
 ,         {
               "id"           : "intermediate_cert <#2>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFgTCCBGmgAwIBAgIQOXJEOvkit1HX02wQ3TE1lTANBgkqhkiG9w0BAQwFADB7MQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UEAwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4MTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sIs9CsVw127c0n00ytUINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnGvDoZtF+mvX2do2NCtnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQIjy8/hPwhxR79uQfjtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfbIWax1Jt4A8BQOujM8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0tyA9yn8iNK5+O2hmAUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97Exwzf4TKuzJM7UXiVZ4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNVicQNwZNUMBkTrNN9N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5D9kCnusSTJV882sFqV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJWBp/kjbmUZIO8yZ9HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ5lhCLkMaTLTwJUdZ+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzGKAgEJTm4Diup8kyXHAc/DVL17e8vgg8CAwEAAaOB8jCB7zAfBgNVHSMEGDAWgBSgEQojPpbxB+zirynvgqV/0DCktDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMA0GCSqGSIb3DQEBDAUAA4IBAQAYh1HcdCE9nIrgJ7cz0C7M7PDmy14R3iJvm3WOnnL+5Nb+qh+cli3vA0p+rvSNb3I8QzvAP+u431yqqcau8vzY7qN7Q/aGNnwU4M309z/+3ri0ivCRlv79Q2R+/czSAaF9ffgZGclCKxO/WIu6pKJmBHaIkU4MiRTOok3JMrO66BQavHHxW/BBC5gACiIDEOUMsfnNkjcZ7Tvx5Dq2+UUTJnWvu6rvP3t3O9LEApE9GQDTF1w52z97GA1FzZOFli9d31kWTz9RvdVFGD/tSo7oBmF0Ixa1DVBzJ0RHfxBdiSprhTEUxOipakyAvGp4z7h/jnZymQyd/teRCBaho1+V\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "68B9C761219A5B1F0131784474665DB61BBDB109E00F05CA9F74244EE5F5F52B"
+              "finding"      : "072639D0B140D5BFFAE16AD9C3F6CC6086040621F51EE61A6D46A8915C07CF76"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2019-03-12 00:00"
+              "finding"      : "2026-05-13 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2028-12-31 23:59"
+              "finding"      : "2032-09-02 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "USERTrust RSA Certification Authority <-- AAA Certificate Services"
+              "finding"      : "Root YR <-- ISRG Root X1"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
               "id"           : "HTTP_status_code",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "200 OK ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+2281 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736649613"
+              "finding"      : "1790265929"
           }
 ,         {
               "id"           : "HSTS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No support for HTTP Public Key Pinning"
           }
 ,         {
               "id"           : "banner_server",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "No Server banner line in header, interesting!"
           }
 ,         {
               "id"           : "banner_application",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No application banner found"
+              "finding"      : "X-Typo3-Parsetime: 0ms"
           }
 ,         {
               "id"           : "cookie_count",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2 at '/'"
+              "finding"      : "1 at '/'"
           }
 ,         {
               "id"           : "cookie_secure",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0/2 at '/' marked as secure"
+              "finding"      : "0/1 at '/' marked as secure"
           }
 ,         {
               "id"           : "cookie_httponly",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0/2 at '/' marked as HttpOnly"
-          }
-,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "X-XSS-Protection",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1; mode=block"
+              "finding"      : "0/1 at '/' marked as HttpOnly"
           }
 ,         {
               "id"           : "Cache-Control",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+              "finding"      : "private, no-store"
           }
 ,         {
               "id"           : "Pragma",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no-cache"
           }
 ,         {
               "id"           : "banner_reverseproxy",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "--"
+              "finding"      : "X-Cache-Osi: current - MISS"
           }
 ,         {
               "id"           : "heartbleed",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0160",
@@ -843,7 +647,7 @@
           }
 ,         {
               "id"           : "CCS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0224",
@@ -852,7 +656,7 @@
           }
 ,         {
               "id"           : "ticketbleed",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
@@ -861,16 +665,16 @@
           }
 ,         {
               "id"           : "ROBOT",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
               "cwe"          : "CWE-203",
-              "finding"      : "not vulnerable"
+              "finding"      : "not vulnerable, no RSA key transport cipher"
           }
 ,         {
               "id"           : "secure_renego",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-310",
@@ -878,7 +682,7 @@
           }
 ,         {
               "id"           : "secure_client_renego",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
@@ -887,7 +691,7 @@
           }
 ,         {
               "id"           : "CRIME_TLS",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
@@ -896,16 +700,16 @@
           }
 ,         {
               "id"           : "BREACH",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-3566",
@@ -914,14 +718,14 @@
           }
 ,         {
               "id"           : "fallback_SCSV",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-2183 CVE-2016-6329",
@@ -930,7 +734,7 @@
           }
 ,         {
               "id"           : "FREAK",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-0204",
@@ -939,7 +743,7 @@
           }
 ,         {
               "id"           : "DROWN",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -948,25 +752,16 @@
           }
 ,         {
               "id"           : "DROWN_hint",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=630099E4A49C6027F0E92C27502911E05AC97B42050DF65DDA99B21564F71489"
-          }
-,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "RFC3526/Oakley Group 14"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3064F0FAF0D6B6F5E69E57D8C7D251B21C995DFCE0C72E78D2376D451E3FDC5E"
           }
 ,         {
               "id"           : "LOGJAM",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-4000",
@@ -974,8 +769,17 @@
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
           }
 ,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
               "id"           : "BEAST",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
@@ -984,16 +788,16 @@
           }
 ,         {
               "id"           : "LUCKY13",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "LOW",
               "cve"          : "CVE-2013-0169",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+              "finding"      : "potentially vulnerable, uses obsolete TLS CBC ciphers"
           }
 ,         {
               "id"           : "winshock",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-6321",
@@ -1002,7 +806,7 @@
           }
 ,         {
               "id"           : "RC4",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2013-2566 CVE-2015-2808",
@@ -1010,332 +814,325 @@
               "finding"      : "not vulnerable"
           }
 ,         {
-              "id"           : "clientsimulation-android_60",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-          }
-,         {
               "id"           : "clientsimulation-android_70",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-android_11",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-android_12",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-chrome_79_win10",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_101_win10",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-firefox_66_win81",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-ie_6_xp",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No connection"
-          }
-,         {
-              "id"           : "clientsimulation-ie_8_xp",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win7",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 AES128-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-edge_15_win10",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-edge_101_win10_21h2",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-safari_121_ios_122",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-safari_130_osx_10146",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java_7u25",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
-              "id"           : "clientsimulation-java_8u161",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-java1102",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-java1703",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "clientsimulation-libressl_283",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_110l",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_111d",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_303",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-apple_mail_16_0",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-thunderbird_91_9",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
-              "id"           : "rating_spec",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
           }
 ,         {
               "id"           : "rating_doc",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
           }
 ,         {
               "id"           : "protocol_support_score",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "90"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "27"
           }
 ,         {
               "id"           : "cipher_strength_score",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "60"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "36"
+              "finding"      : "24"
           }
 ,         {
               "id"           : "final_score",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "81"
           }
 ,         {
               "id"           : "overall_grade",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS is not offered"
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "scanTime",
-              "ip"           : "www.vienne-numerique.fr/83.206.130.186",
+              "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "137"
+              "finding"      : "62"
           }
 ]
