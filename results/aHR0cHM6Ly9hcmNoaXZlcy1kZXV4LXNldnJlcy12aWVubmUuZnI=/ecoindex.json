@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://archives-deux-sevres-vienne.fr",
-        "size": 3029.828,
-        "nodes": 604,
-        "requests": 65,
+        "size": 3921.753,
+        "nodes": 738,
+        "requests": 72,
         "grade": "D",
-        "score": 48.0,
-        "ges": 2.04,
-        "water": 3.06,
+        "score": 41.0,
+        "ges": 2.18,
+        "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2024-04-16 15:10:02.670441",
+        "date": "2026-09-24 15:46:14.115743",
         "page_type": null
     }
 ]
