@@ -388,7 +388,7 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "42 >= 30 days"
+              "finding"      : "40 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,14 +584,14 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1790265518"
+              "finding"      : "1790475493"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1217,6 +1217,6 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94"
+              "finding"      : "78"
           }
 ]
