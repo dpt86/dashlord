@@ -360,7 +360,7 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "47 >= 30 days"
+              "finding"      : "44 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,14 +556,14 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1790266135"
+              "finding"      : "1790476058"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "104"
           }
 ]
