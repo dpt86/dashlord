@@ -360,7 +360,7 @@
               "ip"           : "sportsnature.lavienne86.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "47 >= 30 days"
+              "finding"      : "44 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -563,7 +563,7 @@
               "ip"           : "sportsnature.lavienne86.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1790266166"
+              "finding"      : "1790476079"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "sportsnature.lavienne86.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87"
+              "finding"      : "95"
           }
 ]
