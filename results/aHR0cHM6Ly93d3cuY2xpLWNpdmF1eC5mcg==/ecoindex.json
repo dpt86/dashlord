@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cli-civaux.fr",
-        "size": 2295.048,
+        "size": 2294.99,
         "nodes": 513,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-09-27 02:25:25.054676",
+        "date": "2026-10-04 03:24:44.799166",
         "page_type": "article"
     }
 ]
