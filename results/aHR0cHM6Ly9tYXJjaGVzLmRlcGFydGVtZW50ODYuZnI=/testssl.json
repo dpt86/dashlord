@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "engine_problem",
+              "ip"           : "marches.departement86.fr/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /home/testssl/bin/openssl.Linux.x86_64"
+          }
+,         {
               "id"           : "cmdline_fast_depreciation",
               "ip"           : "marches.departement86.fr/",
               "port"         : "443",
@@ -388,7 +395,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "173 >= 60 days"
+              "finding"      : "166 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +556,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1790475408"
+              "finding"      : "1791083731"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1161,6 +1168,6 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91"
+              "finding"      : "102"
           }
 ]
