@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mdph86.fr",
-        "size": 2590.98,
-        "nodes": 626,
-        "requests": 60,
+        "size": 2590.054,
+        "nodes": 624,
+        "requests": 59,
         "grade": "D",
         "score": 50.0,
         "ges": 2.0,
         "water": 3.0,
         "ecoindex_version": "5.4.2",
-        "date": "2026-09-27 02:20:55.246309",
+        "date": "2026-10-04 03:19:47.557299",
         "page_type": "article"
     }
 ]
