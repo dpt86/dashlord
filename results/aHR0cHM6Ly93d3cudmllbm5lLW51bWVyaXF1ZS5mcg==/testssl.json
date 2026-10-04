@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "engine_problem",
+              "ip"           : "www.vienne-numerique.fr/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /home/testssl/bin/openssl.Linux.x86_64"
+          }
+,         {
               "id"           : "cmdline_fast_depreciation",
               "ip"           : "www.vienne-numerique.fr/",
               "port"         : "443",
@@ -283,7 +290,7 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0596A1C762BBE3EBB56D8E9181C8BF5DD6F3"
+              "finding"      : "0640F24D542DE74FB84DA131A9524CFA0F17"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -297,21 +304,21 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6F6CC0E2B3370B34A146DF68E1A0607087D1590F"
+              "finding"      : "F5022E28C5C12C96477BBBF78864F0BF5D01D160"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3064F0FAF0D6B6F5E69E57D8C7D251B21C995DFCE0C72E78D2376D451E3FDC5E"
+              "finding"      : "EF274050E6F664BDC56C9C5E39D79CDE44343CD4910A8D5C6FD453E4442EBCD6"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFCTCCA/GgAwIBAgISBZahx2K74+u1bY6Rgci/XdbzMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjIwHhcNMjYwNzIyMjMyNjMxWhcNMjYxMDIwMjMyNjMwWjAiMSAwHgYDVQQDExd3d3cudmllbm5lLW51bWVyaXF1ZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALSDQX1N0SXA9+670k/CWU1FHpSjouRKjWqwt0+VsM2GH8RaPZs6up/hbRB+396L5/NxzlNfqP2EStKr2Adg1YDwDrUTy/JKt4+/931GNI+1MyzbmenLiWxYeMwB+OPHzyYvkrlIcJ9TfCS+cTtuZJDQ/uBt2KSZ00i0iOl86LyMbsaAu01bmsYd31MkL3cODrvDPvEoQ1zmPI7jV1UTdNrLjL5kAJ0zQbTVI8FpWPQ7hL0oBMyE9HBDY7XULddh8zUnr+aawoXT6iszyYFmZ/Sp1Shc1OK8LFNPolv0GXoPywRyjoUAFgsTcFoU/aMW7bv6x58mFypu3m+mfwrpGckCAwEAAaOCAiYwggIiMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTiJ7xhRRc1kW7ZwCPHGNSuIzYzvDAfBgNVHSMEGDAWgBRAFS0mee0yIJ7fmnId1jIfgQyBDDAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0dHA6Ly95cjIuaS5sZW5jci5vcmcvMCIGA1UdEQQbMBmCF3d3dy52aWVubmUtbnVtZXJpcXVlLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly95cjIuYy5sZW5jci5vcmcvMTE2LmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB2ANdtfRDRp/V3wsfpX9cAv/mCyTNaZeHQswFzF8DIxWl3AAABn4xchGQAAAQDAEcwRQIgQZTHGUgY/a61hYgGLZwXwBAqE9d/WeodS+4v0o2vKK8CIQDKbQ508G8or4XjrVlguj3ZO7nC8llXIGS9iAuCgUmuMQB+ABqLnWsP/r+BtHk5xtIxCobW0QLU8EbiGCyd419eJiXvAAABn4xchbQACAAABQAso1lVBAMARzBFAiApsNVRXMdtf3ovyotmGoT4iZS52zBrWAqdwdwUgAb1kQIhAJLAGBJs+raOF+uaEc/SDyA4C15UwLNO6DqlJoMkzP67MA0GCSqGSIb3DQEBCwUAA4IBAQCv/cRyXQPXMn9EydCEzI7X47Hbmq02KI4fUMCHz5v0QBu8f3Gxz6+ulZVAeBLNDFyby/zpUrO34vvRsfL9NevUAEv4c/EDwzVQyfTC7ykMpHBBdz6SoQa7Chh5Yi9TCN41nbwSG6VdrGapyOfEMV4JcKe3lVJEoENF0Xb8N0kMbzW9irUy2UUR6YyhOM2uxeu8FMX2naeiZiOieLG8715rtoYaxPJbTV428CboqnNmWoLc61eH9fU7RR1i/Yn3oVzHgEOYgKS001lyzQOsgt1dsDpJJEtKN2AMkH0oIU51yXV2Aal+zDa7QwT/Ta9GkVTS/5yHnPy2/C9Rj63PgkPR\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBzCCA++gAwIBAgISBkDyTVQt50+4TaExqVJM+g8XMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjEwHhcNMjYwOTI4MDAwNzMwWhcNMjYxMjI3MDAwNzI5WjAiMSAwHgYDVQQDExd3d3cudmllbm5lLW51bWVyaXF1ZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALSDQX1N0SXA9+670k/CWU1FHpSjouRKjWqwt0+VsM2GH8RaPZs6up/hbRB+396L5/NxzlNfqP2EStKr2Adg1YDwDrUTy/JKt4+/931GNI+1MyzbmenLiWxYeMwB+OPHzyYvkrlIcJ9TfCS+cTtuZJDQ/uBt2KSZ00i0iOl86LyMbsaAu01bmsYd31MkL3cODrvDPvEoQ1zmPI7jV1UTdNrLjL5kAJ0zQbTVI8FpWPQ7hL0oBMyE9HBDY7XULddh8zUnr+aawoXT6iszyYFmZ/Sp1Shc1OK8LFNPolv0GXoPywRyjoUAFgsTcFoU/aMW7bv6x58mFypu3m+mfwrpGckCAwEAAaOCAiQwggIgMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTiJ7xhRRc1kW7ZwCPHGNSuIzYzvDAfBgNVHSMEGDAWgBQfLzW+RhSCzUCxrnksVXj699Ro+zAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0dHA6Ly95cjEuaS5sZW5jci5vcmcvMCIGA1UdEQQbMBmCF3d3dy52aWVubmUtbnVtZXJpcXVlLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6Ly95cjEuYy5sZW5jci5vcmcvMjQuY3JsMIIBCwYKKwYBBAHWeQIEAgSB/ASB+QD3AHYA2AlVO5RPev/IFhlvlE+Fq7D4/F6HVSYPFdEucrtFSxQAAAGg5Ywd+gAABAMARzBFAiAMrKb7nl/QZnYupI1Ok9XVk4jBLpAYBx0e+90X77NazwIhAJ6B4z8RPKopnS3VhvIT7ByoJGCxzQz8zd601w3YjD0lAH0AjspHC6zeavOiBrCkeoS3Rv4fxr+VPiXmm07kAkjzxugAAAGg5YwgHQAIAAAFABaeo4IEAwBGMEQCIEkxm+629PVTLf1h9HtuVV0PGxTvkzxdsGqe3+/vw+CnAiBgIfJrNJ3mnWVevAEsEWHiaxDZRDwNAps3n8UDZ1otcjANBgkqhkiG9w0BAQsFAAOCAQEAZDrAK271i1UpmLaagSJTSXNxWoS49C4xaQC39H1ByoElI1pZsoIu4hummVBf4cEupajCoHrL94ridN4fClDSGELrr+NJQNZgskK3SvVMtlbo/rYrWlsgwj9X3OQOTURvzk9g4uBt6Mh82lz9F4S15yCv1tGVe7v3mdrzEMLMsqQlWD9YAmgGHd2/LTRlbvVykIaZ13n/S2wYTo0DgP2r1vKrNOuF97q60mM8Jc42hjzDbFqheGuiCMORw0CNE8e1EzjPoR7bfKDDF8oDtkOHmz8dYaD+eImR1ndQUw5sFx94Ig1iEEtoMlsKzHE8cAtgyGVfg6Kb+2+rrbBrqx+HOA==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -359,22 +366,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (23)"
+              "severity"     : "OK",
+              "finding"      : "83 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2026-07-22 23:26"
+              "finding"      : "2026-09-28 00:07"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2026-10-20 23:26"
+              "severity"     : "OK",
+              "finding"      : "2026-12-27 00:07"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -395,7 +402,7 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://yr2.c.lencr.org/116.crl"
+              "finding"      : "http://yr1.c.lencr.org/24.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -451,21 +458,21 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "YR2 (Let's Encrypt from US)"
+              "finding"      : "YR1 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE2jCCAsKgAwIBAgIQTr0klH4k05SALYSlL9WzGTANBgkqhkiG9w0BAQsFADAuMQswCQYDVQQGEwJVUzENMAsGA1UEChMESVNSRzEQMA4GA1UEAxMHUm9vdCBZUjAeFw0yNTA5MDMwMDAwMDBaFw0yODA5MDIyMzU5NTlaMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZ0LxwBppqh84luqMerV/eeL/fXQ7mLQQv1LnpWKZbyvGpx6wh6AfnslAnF6ewTkcHA+gSOoBvm3Dfm06AuGiF+KRut4fAcowqnAQQCW98+QPP/eOv/wug7Iyk4NkOxf2I6g2f55T6nJoOTLFcukeRq80JGQEYan+dPFr9OGUgQK2hGKgNkW87pappsOAuUJcroYhRt5uUis4qaZireiseu32gzDJNBAiKtsvd6HX4v25bpkRNcS/B/Gtc9kVbUpD+2PLPxdei3Tim55k4tfAEXwD2qyiPTxrTNq6lN+AMr5g2c1dNqkOTwjxeV6L5lpP1rGiYvLnRaPlOqyZRPW+5AgMBAAGjge4wgeswDgYDVR0PAQH/BAQDAgGGMBMGA1UdJQQMMAoGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEAVLSZ57TIgnt+ach3WMh+BDIEMMB8GA1UdIwQYMBaAFN7nW2DQIm1AKH0/DQH+pLVStFGUMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3lyLmkubGVuY3Iub3JnLzATBgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veXIuYy5sZW5jci5vcmcvMA0GCSqGSIb3DQEBCwUAA4ICAQB0ZUQWZ9/Yn9COEpo+JfecMnB0h0vwDm/M66IqXqw3LoaLmx9lZvRTeDIS67PUeI3yCA2W6PKRD0/FE/G57lOmS+Xy5AaaL00ICGOqjNcCaMWW8o8nevHOd4i4lqgtznE/28QwlcdJyF8yBiWHpnyjhEpmNWJURgOCOg2xpwRMBCsjMScqYPtOhBeuYQvSwAEeTML2Ukh6uGuX4E14q65Ja8cdjF5bAldnP1eE4FBaAwsZG2fOqqrKV03Y85Nw2btedP1AtliQuJZs/Jo/gXxXdc7LrH3McgnpnbTiAncX7yEShP6kzQejllqMCIt52HOjxDGWafS7Xw+DKwqmH+Eqy8dcbOuag/1AYlQoKNVK3F5qHh6tEDiMqQcLIibGKteE6iHo4A/bIScbzrhXUYuism42ZYzmc48FMVIH3qy4L84ETdAH2gtxw0PAhvRVXp8HP7wfngpzsN/8xOTpeRSbM4+Qbc56G6+Bifmv6sk1ieQbNA3wJdl4DDUuQSV8hBgx6zoI1ZSGORprDFux7c6rhc77QZMSRrEgomBeklervEve86ylWmZ3WWHV6RLMi8xNvjd71r4EPIGgY7BZU/VPBkq+uA7Gb6mbJnFgV43uh3xyLRFgxIAphIukwTGSMZZR+AI+Qnp0BYTWovHXozOf3H8r6hozEoT02JHn0AeTfA==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE2zCCAsOgAwIBAgIRAKICU/FfJpHAXcHOE7m8yk4wDQYJKoZIhvcNAQELBQAwLjELMAkGA1UEBhMCVVMxDTALBgNVBAoTBElTUkcxEDAOBgNVBAMTB1Jvb3QgWVIwHhcNMjUwOTAzMDAwMDAwWhcNMjgwOTAyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDEMMAoGA1UEAxMDWVIxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoVi8X2xCYgMXvJxNPKp/oF13UMgmPABB07VCLNDtoXmt9luEZNJSBV10VyT1Pz6LD8Zq1d2gc43WNl1AdRrj4sEnazbOiz0nPpmGBp2hui49oZtDIY6wdKeZAi5BbNU20CH6RSBBMLSQ9cXrH8dxdv4PAJ45ssGML68USE3BsjC2a6cAN9L5CgXVIQi5tfNiTPoFZZ3S0OlXqLmmtdV95udWAb5b6e/F49DiCsH0Y00Ag72BVIb1hzynmKe+X0mERBTtsb3BwmpV9ipeBjMLoR/D9cHxHQCWoi5lTmXwY015J5rGelz1nZjJuxc2kioaX29XJBnhMkP531rSdG5uMwIDAQABo4HuMIHrMA4GA1UdDwEB/wQEAwIBhjATBgNVHSUEDDAKBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBQfLzW+RhSCzUCxrnksVXj699Ro+zAfBgNVHSMEGDAWgBTe51tg0CJtQCh9Pw0B/qS1UrRRlDAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly95ci5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3lyLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEA0+zvMq3kHig1ddTmmm+RibTr9/RpX7k4buanMMRqbV/yIvP82zAHN3mvaw+cASuVsdpd0ikjhr4hnhJQLQOzOp2ccKrsdGOAgo0vddeISFAqEWEV4lmUM3vFF796up+bSgmJ1u6RupDCMxDgF8M3eLvGuj6L0lu3zkQ0KuQLnKxLtB0oQqn1Idg5CuuGpMvQzk29Pa3D/qHurc0EIM9SxukQuJqq63lxsYyRQFU8yMBOhq1w5LbfaWNRrz1uklOfI/pYkAb2E2MTZrAMQkBIE2S8Jt1F8gRc96o/xOsrgvSka84AisX6xq1lz1Z7jGvrnXc4TMcjxZTjiTaihcYI1JIXZiLtEMSCa5l3cu8YWd6zdLRQlqRdclVjuQfNHawRJ6GWlkK0QJosivTKwdBw3KxEtzGo8yMHERbsy57gP1UXHOMcmZYQC0gtyR3SxfenIM/MxC3Ia2Ypab/kQ/CTnlIn2KQ5JUC6NYrGCbhFN9bp5lKJStEwCUnLpntcrXk5XVDCNv/5RyWpRThkGOV7GetKkQ0qAY8hCzWK6oqnAhDZcjlYVdWfqOw3DIOX6EDNBgAqHarRVxyF9QZdOaXSyPJ0ueD2BYJEBgaCGQ8rAaU/Qc123V5LTXDZW4CcsPBDyhy4v+c8hClAyw/IkJlfBqxB9D+/wvIMHgECZ4ptP6o=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "238B85A0099C65B970477D5724F1A1D475CE5058CFFE4EFA8733899BDB863C47"
+              "finding"      : "13949634D99CD6FD6AA80BC034FEFACCEB1969FEEF986586713ECDBB05758D3F"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
@@ -493,7 +500,7 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "YR2 <-- Root YR"
+              "finding"      : "YR1 <-- Root YR"
           }
 ,         {
               "id"           : "intermediate_cert <#2>",
@@ -556,14 +563,14 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1790475930"
+              "finding"      : "1791084178"
           }
 ,         {
               "id"           : "HSTS",
@@ -757,7 +764,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3064F0FAF0D6B6F5E69E57D8C7D251B21C995DFCE0C72E78D2376D451E3FDC5E"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=EF274050E6F664BDC56C9C5E39D79CDE44343CD4910A8D5C6FD453E4442EBCD6"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1133,6 +1140,6 @@
               "ip"           : "www.vienne-numerique.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "102"
           }
 ]
