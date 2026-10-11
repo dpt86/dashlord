@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lavienne86.fr",
-        "size": 5149.964,
-        "nodes": 1859,
+        "size": 5323.436,
+        "nodes": 1881,
         "requests": 68,
         "grade": "F",
         "score": 25.0,
         "ges": 2.5,
         "water": 3.75,
         "ecoindex_version": "5.4.2",
-        "date": "2026-10-04 03:03:57.793605",
+        "date": "2026-10-11 02:27:45.528939",
         "page_type": "article"
     }
 ]
