@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://marches.departement86.fr",
-        "size": 1331.827,
-        "nodes": 322,
+        "size": 1335.84,
+        "nodes": 347,
         "requests": 29,
         "grade": "B",
-        "score": 73.0,
-        "ges": 1.54,
-        "water": 2.31,
+        "score": 72.0,
+        "ges": 1.56,
+        "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2026-10-04 03:09:10.080747",
+        "date": "2026-10-11 02:32:00.490924",
         "page_type": null
     }
 ]

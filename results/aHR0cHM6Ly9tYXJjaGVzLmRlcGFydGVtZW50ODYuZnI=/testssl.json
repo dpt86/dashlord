@@ -395,7 +395,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "166 >= 60 days"
+              "finding"      : "159 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1791083731"
+              "finding"      : "1791686184"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1168,6 +1168,6 @@
               "ip"           : "marches.departement86.fr/54.36.157.203",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "58"
           }
 ]
