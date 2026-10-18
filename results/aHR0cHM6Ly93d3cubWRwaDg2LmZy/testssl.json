@@ -381,7 +381,7 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "56 >= 30 days"
+              "finding"      : "49 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -626,7 +626,7 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1791686651"
+              "finding"      : "1792288979"
           }
 ,         {
               "id"           : "HSTS",
@@ -1175,6 +1175,6 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "57"
+              "finding"      : "100"
           }
 ]
