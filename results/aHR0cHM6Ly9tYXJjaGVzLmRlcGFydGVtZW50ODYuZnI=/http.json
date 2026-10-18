@@ -9,19 +9,18 @@
     "testsPassed": 9,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 11 Oct 2026 02:35:52 GMT",
-      "cache-control": "max-age=0, must-revalidate, private, max-age=0, no-store",
-      "expires": "Sun, 11 Oct 2026 02:35:52 GMT",
+      "date": "Sun, 18 Oct 2026 01:53:52 GMT",
+      "cache-control": "max-age=0, must-revalidate, private",
+      "expires": "Sun, 18 Oct 2026 01:53:52 GMT",
       "set-cookie": [
         "no-design=1; path=/; secure; HttpOnly;HttpOnly;Secure; HttpOnly; Secure",
-        "PHPSESSID=c60d0184c4c4d3395719b91d8d0143cb; path=/; secure; httponly; samesite=lax;HttpOnly;Secure; HttpOnly; Secure"
+        "PHPSESSID=0f8a1a68e029e8635c8596c97ed23392; path=/; secure; httponly; samesite=lax;HttpOnly;Secure; HttpOnly; Secure"
       ],
-      "x-waf-request-uuid": "asr2CGKz1BUmBxATwgnqgwAAACg",
+      "x-waf-request-uuid": "atQmsB3BfdIlWlrMzgdpqQAAACo",
       "upgrade": "h2,h2c",
       "connection": "Upgrade",
       "vary": "Accept-Encoding",
-      "retry-after": "1800",
-      "content-length": "7010",
+      "content-length": "6997",
       "content-type": "text/html; charset=UTF-8",
       "x-frame-options": "SAMEORIGIN",
       "x-xss-protection": "1; mode=block",
@@ -30,7 +29,7 @@
       "server": "WebServer",
       "content-security-policy": "default-src 'self' *.local-trust.com *.local-trust.net; script-src 'self' *.local-trust.com *.local-trust.net 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com ; script-src-elem 'self' *.local-trust.com *.local-trust.net 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; script-src-attr 'self' *.local-trust.com *.local-trust.net 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com *.google-analytics.com *.matomo.cloud; style-src 'self' *.local-trust.com *.local-trust.net *.matomo.cloud fonts.googleapis.com 'unsafe-inline'; style-src-elem 'self' *.local-trust.com *.local-trust.net fonts.googleapis.com 'unsafe-inline'; style-src-attr 'self' *.local-trust.com *.local-trust.net fonts.googleapis.com 'unsafe-inline'; img-src 'self' data: *.local-trust.com *.local-trust.net ssl.gstatic.com *.google-analytics.com *.xiti.com *.matomo.cloud; font-src 'self' *.local-trust.com *.local-trust.net fonts.gstatic.com data:; connect-src 'self' *.local-trust.com *.local-trust.net http://localhost:11992 *.google-analytics.com *.matomo.cloud https://geo.api.gouv.fr; media-src 'self' *.local-trust.com *.local-trust.net; object-src 'self' *.local-trust.com *.local-trust.net; child-src 'self' *.local-trust.com *.local-trust.net; frame-src * blob:; worker-src 'self' *.local-trust.com *.local-trust.net; form-action 'self' *.local-trust.com *.local-trust.net; block-all-mixed-content;frame-ancestors 'self' *.local-trust.com *.local-trust.net",
       "permissions-policy": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(self), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(*), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(self), web-share=(), xr-spatial-tracking=()",
-      "strict-transport-security": "max-age=31536000"
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
     }
   },
   "tests": {
@@ -244,8 +243,8 @@
       "pass": true,
       "result": "hsts-implemented-max-age-at-least-six-months",
       "scoreModifier": 0,
-      "data": "max-age=31536000",
-      "includeSubDomains": false,
+      "data": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
       "maxAge": 31536000,
       "preload": false,
       "preloaded": false
