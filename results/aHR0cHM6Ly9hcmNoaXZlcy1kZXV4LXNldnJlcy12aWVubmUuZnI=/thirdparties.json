@@ -4,10 +4,10 @@
   "headers": {
     "content-length": "1969",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 11 Oct 2026 02:26:50 GMT",
+    "date": "Sun, 18 Oct 2026 01:44:25 GMT",
     "permissions-policy": "geolocation=(), microphone=(), camera=()",
     "referrer-policy": "no-referrer-when-downgrade",
-    "set-cookie": "techaro.lol-anubis-auth=; Path=/; Expires=Sun, 11 Oct 2026 02:25:50 GMT; Max-Age=0; Secure; SameSite=None",
+    "set-cookie": "techaro.lol-anubis-auth=; Path=/; Expires=Sun, 18 Oct 2026 01:43:25 GMT; Max-Age=0; Secure; SameSite=None",
     "strict-transport-security": "max-age=63072000",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "1;mode=block"
