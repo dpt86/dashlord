@@ -12,11 +12,11 @@
       "cache-control": "private, no-store",
       "content-language": "fr-FR",
       "content-type": "text/html; charset=utf-8",
-      "date": "Sun, 18 Oct 2026 02:01:53 GMT",
+      "date": "Sun, 25 Oct 2026 02:10:08 GMT",
       "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "pragma": "no-cache",
       "set-cookie": [
-        "PHPSESSID=513a848fbe16a838dcb18a00455e479c; path=/"
+        "PHPSESSID=8bed1e0b9f6c65223d84f79ef1d3017b; path=/"
       ],
       "vary": "Accept-Encoding",
       "x-cache-osi": "current - MISS",
