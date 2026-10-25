@@ -9,18 +9,19 @@
     "testsPassed": 9,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 18 Oct 2026 01:53:52 GMT",
+      "date": "Sun, 25 Oct 2026 02:05:41 GMT",
       "cache-control": "max-age=0, must-revalidate, private",
-      "expires": "Sun, 18 Oct 2026 01:53:52 GMT",
+      "content-security-policy-report-only": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
+      "expires": "Sun, 25 Oct 2026 02:05:41 GMT",
       "set-cookie": [
         "no-design=1; path=/; secure; HttpOnly;HttpOnly;Secure; HttpOnly; Secure",
-        "PHPSESSID=0f8a1a68e029e8635c8596c97ed23392; path=/; secure; httponly; samesite=lax;HttpOnly;Secure; HttpOnly; Secure"
+        "PHPSESSID=342b0a84a4973b0cc4c42bc76f91541d; path=/; secure; httponly; samesite=lax;HttpOnly;Secure; HttpOnly; Secure"
       ],
-      "x-waf-request-uuid": "atQmsB3BfdIlWlrMzgdpqQAAACo",
+      "x-waf-request-uuid": "at1j9WXKsLOShTzU6-bcfAAAACs",
       "upgrade": "h2,h2c",
       "connection": "Upgrade",
       "vary": "Accept-Encoding",
-      "content-length": "6997",
+      "content-length": "7000",
       "content-type": "text/html; charset=UTF-8",
       "x-frame-options": "SAMEORIGIN",
       "x-xss-protection": "1; mode=block",
