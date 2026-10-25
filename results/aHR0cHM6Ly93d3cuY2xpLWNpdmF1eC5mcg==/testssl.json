@@ -290,7 +290,7 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "064ADC5412F9BD8A0DB289F421610A8448AD"
+              "finding"      : "068E21FBBF2C096D53DA9BA9B2A0B1340500"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E4B0F87EA1592A942EC71289A1AF677D8B73E8ED"
+              "finding"      : "6F407CAEF041EBCF7A82BB030D2A77F8BED07649"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0619B9F885E4E319B016F06C6EB9921D0573BBB6DB48900C236BAE805B9D70D2"
+              "finding"      : "E7EE979748D5873075E9DDE3301B8CB6E7211B377F6706C17C82C106DE6F83B7"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE/DCCA+SgAwIBAgISBkrcVBL5vYoNson0IWEKhEitMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjIwHhcNMjYwODEyMjM1MjQ3WhcNMjYxMTEwMjM1MjQ2WjAcMRowGAYDVQQDExF3d3cuY2xpLWNpdmF1eC5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyLPWZIVxZZ/qO7/xqI9hJLauRf8ppNRsQmpkx3RK3m05DjOm/HYygMLN+9R4tTNdMig73a8QzcN90XSbTe0BuSogyoZu6pojwbrcBTGO9TAaLEhzNRb7iYshfG8a1tZdSqF+v2XAUE8aD3E54+EJlSow8eZ9HhvURPmxAOOqE+k/NUdBsNlQ6knmU8lo3Frh333d38+ol0iVSrI6ac9C11BfI2+kmWz+f2wDlN/eE4l9zcMjQfNoITxynNHVEwWDwzjrgGaM8hHBj6+g83Nj6oRF9z6hrO5tzgNmBMwjt6U5KjGglxX0vq+wKqxO8+/OG/7Opd3P4spMn6IAW3CJsCAwEAAaOCAh8wggIbMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRTMvkFNke/K+wKnQDRjQ4r/dfL9DAfBgNVHSMEGDAWgBRAFS0mee0yIJ7fmnId1jIfgQyBDDAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0dHA6Ly95cjIuaS5sZW5jci5vcmcvMBwGA1UdEQQVMBOCEXd3dy5jbGktY2l2YXV4LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6Ly95cjIuYy5sZW5jci5vcmcvNDYuY3JsMIIBDAYKKwYBBAHWeQIEAgSB/QSB+gD4AHcA2AlVO5RPev/IFhlvlE+Fq7D4/F6HVSYPFdEucrtFSxQAAAGf+JoeZAAABAMASDBGAiEAjfGREvPeBsUoE3XkTfZ2FhVImLUGXXc/mdwhNXHeFVACIQCOtC0iOd0haF4SNdQBvhYhdGl2lhG0ftzgyGR7SxiANQB9ABqLnWsP/r+BtHk5xtIxCobW0QLU8EbiGCyd419eJiXvAAABn/iaInsACAAABQA0I+XvBAMARjBEAiAWwYJd4TZUEyqPUc5JC92zozagD9933h6cZ9RRq/dAgQIgT1fK6f8VIj+g1vWabx4wOjX/erDn1ZYkwsSSdidxrt0wDQYJKoZIhvcNAQELBQADggEBABX4tnGuildO9jcZ5NsYGghPHsZ89mO0dovMvo1uWX+YtWdz5hJNH7DnDJ9xbWIACqCzxsux05kcMU3bPkLq+q3dYWGaP+afj4Xq11Tb/2iuHge32ltad6abcu3Mwq/cFezAfPBT9itZ9PRg3SCSVIWyjr58W/WTnTNpKK3WTR3dGjfJPpm8/qXhme26dbQY4pHul/JpS/xLiU24++4tUYHmibw5NHMzFa/GNNBer75JcrwMdoYP1aJrtcKi4LPAJQeCSsg5PZOxXzH4jTWBolacCRL7E7RT+RrcHPV++z71Sk/godmRdxI2+gT8By4SuYu1+bz0tkfRk28JDVvPxOw=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE+jCCA+KgAwIBAgISBo4h+78sCW1T2pupsqCxNAUAMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjIwHhcNMjYxMDE4MjM0NzIzWhcNMjcwMTE2MjM0NzIyWjAcMRowGAYDVQQDExF3d3cuY2xpLWNpdmF1eC5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyLPWZIVxZZ/qO7/xqI9hJLauRf8ppNRsQmpkx3RK3m05DjOm/HYygMLN+9R4tTNdMig73a8QzcN90XSbTe0BuSogyoZu6pojwbrcBTGO9TAaLEhzNRb7iYshfG8a1tZdSqF+v2XAUE8aD3E54+EJlSow8eZ9HhvURPmxAOOqE+k/NUdBsNlQ6knmU8lo3Frh333d38+ol0iVSrI6ac9C11BfI2+kmWz+f2wDlN/eE4l9zcMjQfNoITxynNHVEwWDwzjrgGaM8hHBj6+g83Nj6oRF9z6hrO5tzgNmBMwjt6U5KjGglxX0vq+wKqxO8+/OG/7Opd3P4spMn6IAW3CJsCAwEAAaOCAh0wggIZMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRTMvkFNke/K+wKnQDRjQ4r/dfL9DAfBgNVHSMEGDAWgBRAFS0mee0yIJ7fmnId1jIfgQyBDDAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0dHA6Ly95cjIuaS5sZW5jci5vcmcvMBwGA1UdEQQVMBOCEXd3dy5jbGktY2l2YXV4LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC0GA1UdHwQmMCQwIqAgoB6GHGh0dHA6Ly95cjIuYy5sZW5jci5vcmcvMS5jcmwwggELBgorBgEEAdZ5AgQCBIH8BIH5APcAdQBEwr0M6RQOZKXJSgGTClqhuzWXDgDuERaJaCocRNe1ZgAAAaFRn0HkAAAEAwBGMEQCIGSOXN4nNWJuu+UiBLnO6J+HZNmmLsHd/eZuh0bQXp+dAiBKM993LzSrL1nAZC5Bf3bior/VhQTMCPvaQ63ZzETfBAB+ABqLnWuN15HRzQVJ7bYDVdYGtk+tMNtx/niPD8fI+8SxAAABoVGfR/wACAAABQAKh8OFBAMARzBFAiEAzDxff4Q/JO/olScmuzvX3PkdqkyC3LDWB2RwbVylEnACIHKmUUvZwTpC0lQy/QoyIpOVBXA8EolWhLyM4qDyUHWIMA0GCSqGSIb3DQEBCwUAA4IBAQBpGVCqeORhisvbdkbF6UnE76VGo2YfK7YzV2e8iqrbw6rOM8uk825mOpJNJ1cMX/hwLj3sJXFqkRm9VjtlA+65ILrUDrM7UALb2918meRscjO5bW8e6eyVyPu+SjFlvKX/Iw8jX6gNIkL2je0njasEpXCZcw3t2xSIA8vY0hp1g5SzrvR3hF62lm0iroa+Y+MUJgSODOIA2DFGz/4hdVDw7GZzr9UynWZUz8dGKZ952bhB2DXlmRGHLYcinQ/OBBn7stNv3xFEELRkW15d/3Uv4Ft3SlCaTeBytSkOHS+HawOb0i90d/2JBnQp7808nSvmg5uedFeN3o9Gy7KJyY2+\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -366,22 +366,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (23)"
+              "severity"     : "OK",
+              "finding"      : "83 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2026-08-12 23:52"
+              "finding"      : "2026-10-18 23:47"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2026-11-10 23:52"
+              "severity"     : "OK",
+              "finding"      : "2027-01-16 23:47"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -402,7 +402,7 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://yr2.c.lencr.org/46.crl"
+              "finding"      : "http://yr2.c.lencr.org/1.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -563,14 +563,14 @@
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.cli-civaux.fr/37.59.251.196",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1792289201"
+              "finding"      : "1792894495"
           }
 ,         {
               "id"           : "HSTS",
@@ -764,7 +764,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0619B9F885E4E319B016F06C6EB9921D0573BBB6DB48900C236BAE805B9D70D2"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E7EE979748D5873075E9DDE3301B8CB6E7211B377F6706C17C82C106DE6F83B7"
           }
 ,         {
               "id"           : "LOGJAM",
