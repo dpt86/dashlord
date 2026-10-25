@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "archives-deux-sevres-vienne.fr",
+        "port": null,
+        "hostname": "archives-deux-sevres-vienne.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://archives-deux-sevres-vienne.fr/"
+      },
+      "link": "https://archives-deux-sevres-vienne.fr/",
+      "line": "--2026-10-25 01:57:40--  https://archives-deux-sevres-vienne.fr/",
+      "broken": false
+    }
+  ],
+  "broken": []
+}

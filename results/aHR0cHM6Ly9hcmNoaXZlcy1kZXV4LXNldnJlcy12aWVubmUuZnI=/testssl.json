@@ -395,7 +395,7 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 30 days"
+              "finding"      : "72 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -591,14 +591,14 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1792288682"
+              "finding"      : "1792893554"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -653,22 +653,15 @@
               "id"           : "cookie_secure",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1/2 at '/' marked as secure"
+              "severity"     : "OK",
+              "finding"      : "All (2) at '/' marked as secure"
           }
 ,         {
               "id"           : "cookie_httponly",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1/2 at '/' marked as HttpOnly"
-          }
-,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "*"
+              "finding"      : "2/2 at '/' marked as HttpOnly"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -676,13 +669,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "Content-Security-Policy",
-              "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "default-src  'self' 'unsafe-inline' 'unsafe-eval' *.ligeo-archives.com *.archives-deux-sevres-vienne.fr www.googletagmanager.com statistique.lavienne86.fr archives-deux-sevres-vienne.fr *.youtube.com *.genially.com *.calameo.com *.openstreetmap.org *.osm.org *.open-billet.fr *.open-system.fr gadget.open-system.fr *.google-analytics.com quota.for-system.com etape-rest.for-system.com poitou-charentes-mb-prestataire.for-system.com use.fontawesome.com fonts.googleapis.com fonts.gstatic.com maxcdn.bootstrapcdn.com *.google.com data: *.spotify.com *.arcgis.com https://arcg.is/ *.vimeo.com https://learningapps.org *.canva.com https://cartes.gouv.fr"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -710,14 +696,7 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "no-cache"
-          }
-,         {
-              "id"           : "Pragma",
-              "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-cache"
+              "finding"      : "no-store"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -793,10 +772,10 @@
               "id"           : "BREACH",
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1224,6 +1203,6 @@
               "ip"           : "archives-deux-sevres-vienne.fr/91.223.76.138",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "65"
           }
 ]
