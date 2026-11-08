@@ -12,10 +12,10 @@
       "cache-control": "no-store",
       "content-type": "text/html; charset=utf-8",
       "set-cookie": [
-        "techaro.lol-anubis-auth=; Path=/; Expires=Sun, 01 Nov 2026 02:50:11 GMT; Max-Age=0; Secure; SameSite=None",
-        "techaro.lol-anubis-cookie-verification=01a19504-a4ef-767a-b26b-19b979166c9f; Path=/; Expires=Sun, 01 Nov 2026 03:21:11 GMT; Secure; SameSite=None"
+        "techaro.lol-anubis-auth=; Path=/; Expires=Sun, 08 Nov 2026 02:54:59 GMT; Max-Age=0; Secure; SameSite=None",
+        "techaro.lol-anubis-cookie-verification=01a1b915-8cc1-7650-8019-3887623c8c1b; Path=/; Expires=Sun, 08 Nov 2026 03:25:59 GMT; Secure; SameSite=None"
       ],
-      "date": "Sun, 01 Nov 2026 02:51:11 GMT",
+      "date": "Sun, 08 Nov 2026 02:55:59 GMT",
       "transfer-encoding": "chunked",
       "permissions-policy": "geolocation=(), microphone=(), camera=()",
       "strict-transport-security": "max-age=63072000",
@@ -45,7 +45,7 @@
       "data": {
         "techaro.lol-anubis-auth": {
           "domain": "archives-deux-sevres-vienne.fr",
-          "expires": "2026-11-01T02:50:11.000Z",
+          "expires": "2026-11-08T02:54:59.000Z",
           "max-age": 0,
           "path": "/",
           "port": null,
@@ -54,7 +54,7 @@
         },
         "techaro.lol-anubis-cookie-verification": {
           "domain": "archives-deux-sevres-vienne.fr",
-          "expires": "2026-11-01T03:21:11.000Z",
+          "expires": "2026-11-08T03:25:59.000Z",
           "path": "/",
           "port": null,
           "samesite": "none",
