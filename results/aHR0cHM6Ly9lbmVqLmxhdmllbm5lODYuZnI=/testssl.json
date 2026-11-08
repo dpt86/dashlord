@@ -367,7 +367,7 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -563,14 +563,14 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1793502022"
+              "finding"      : "1794107040"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1161,6 +1161,6 @@
               "ip"           : "enej.lavienne86.fr/51.254.226.174",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "90"
           }
 ]
