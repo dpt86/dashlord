@@ -12,13 +12,13 @@
       "cache-control": "private, no-store",
       "content-language": "fr-FR",
       "content-type": "text/html; charset=utf-8",
-      "date": "Sun, 01 Nov 2026 02:51:31 GMT",
+      "date": "Sun, 08 Nov 2026 02:56:22 GMT",
       "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "pragma": "no-cache",
       "set-cookie": [
-        "PHPSESSID=ddd85e918d377960f69b56ce9e55a457; path=/",
-        "fe_typo_user=deleted; expires=Sat, 01 Nov 2025 02:51:30 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax",
-        "__Secure-typo3nonce_5VLFETNIZ9egjZGgzfLbYA=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6ImZHNlhiWGF4TWhiWjYzRUVjQ1V2dlpvbktzZ1dPZlZwdUlfUW1RM0ZLX0VVRzRmRlItSGE5dyIsInRpbWUiOiIyMDI2LTExLTAxVDAzOjUxOjMxKzAxOjAwIn0.V4O-X5g_tqHUxBt3OXTayJ12HjtAZ4bnyOAtqOVgQ2I; path=/; secure; httponly; samesite=strict"
+        "PHPSESSID=4db9318664a55cf3c5953d3ced143471; path=/",
+        "fe_typo_user=deleted; expires=Sat, 08 Nov 2025 02:56:21 GMT; Max-Age=0; path=/; domain=www.lavienne86.fr; httponly; samesite=lax",
+        "__Secure-typo3nonce_x21pB8aaDTjryVxbVK3y4w=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub25jZSI6InZWNHB5ZEZNaUxfQWdHLWg3dDVMR3dZd0t4N3hrM09TVFF0UENvSUo0dFB2UV84cnRvSmFPdyIsInRpbWUiOiIyMDI2LTExLTA4VDAzOjU2OjIyKzAxOjAwIn0.8Ks-nZyd7OkfNpa-db5mLH-jAc-Ac1Gq1rJjgsZ8Gz4; path=/; secure; httponly; samesite=strict"
       ],
       "vary": "Accept-Encoding",
       "x-cache-osi": "current - MISS",
@@ -52,14 +52,14 @@
         },
         "fe_typo_user": {
           "domain": "www.lavienne86.fr",
-          "expires": "2025-11-01T02:51:30.000Z",
+          "expires": "2025-11-08T02:56:21.000Z",
           "httponly": true,
           "max-age": 0,
           "path": "/",
           "port": null,
           "samesite": "lax"
         },
-        "__Secure-typo3nonce_5VLFETNIZ9egjZGgzfLbYA": {
+        "__Secure-typo3nonce_x21pB8aaDTjryVxbVK3y4w": {
           "domain": "www.lavienne86.fr",
           "httponly": true,
           "path": "/",
