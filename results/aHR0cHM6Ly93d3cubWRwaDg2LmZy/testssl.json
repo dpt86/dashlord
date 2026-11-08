@@ -304,7 +304,7 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "05E32B4FA80582091F7C3A3154742FCEDFF8"
+              "finding"      : "06C18C168E5111A6A92737C1CED5D805BEE9"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -318,21 +318,21 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0B30D56AC11268B613224BDEC30BA7F2AE71BCF6"
+              "finding"      : "406EB0B2D68FFA426588B97F6F1484EF51A89CA1"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4DB0C5A6E6EC2112E5937C1BE3FF83B147657005271A9A9FED8C03F47508949B"
+              "finding"      : "685A2247F39015480CC15CE69FE357C62BD887F3F3EF2D886718208156AAD7DC"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDkzCCAxigAwIBAgISBeMrT6gFggkffDoxVHQvzt/4MAoGCCqGSM49BAMDMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZRTEwHhcNMjYwOTA3MTIzMzUzWhcNMjYxMjA2MTIzMzUyWjAUMRIwEAYDVQQDEwltZHBoODYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARRHg+hbK0TWyhlIprzmKmSPArEy21bl/PVaA5uGfy3APVpC9Q6bwgopSO9x3b+RtJvoJAVtidjf/7rUh9p7pwso4ICKTCCAiUwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFFiYi7cDdJdSTRGG1CQlZ/oks8ABMB8GA1UdIwQYMBaAFLsgykcL/tflnPmPCSqjjDdFsbzYMDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3llMS5pLmxlbmNyLm9yZy8wIwYDVR0RBBwwGoIJbWRwaDg2LmZygg13d3cubWRwaDg2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly95ZTEuYy5sZW5jci5vcmcvMTIxLmNybDCCAQ4GCisGAQQB1nkCBAIEgf8EgfwA+gB3AMijxH/Hs625NWsBP2p6Em3jOk5DpcZG+ZetOXWZHc+aAAABoHwR6asAAAQDAEgwRgIhANSN0VAXsVls6CVVo6DT8/n04XueS0G9EFtQQAgrKQqNAiEA09zlBA25jprCEQTZrTepZjCmcvoRrshtSkg4NbSM+BUAfwAai51rD/6/gbR5OcbSMQqG1tEC1PBG4hgsneNfXiYl7wAAAaB8Eeu1AAgAAAUAPZWJbAQDAEgwRgIhAIwO64swlqQQxEskrRX5NQMJ5A2Yn1N//gmjRbfBp02XAiEA/+SAy8zptIcjc3/tq128hYwTl3eBC0Z2Tfss365o920wCgYIKoZIzj0EAwMDaQAwZgIxAKNClLBAuEJQu29jukPEhz7vFlifsQD507wADmtUaijAhIiD7GCVzncEnKPn/yHYJgIxAKlNGimIq5sV1ix5PU/LV89xDizD5eRe+UsDpPvaVjDZXv8SEpUM0BCXdTrphpc4lw==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDjzCCAxagAwIBAgISBsGMFo5REaapJzfBztXYBb7pMAoGCCqGSM49BAMDMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZRTEwHhcNMjYxMTA2MTM1MjQzWhcNMjcwMjA0MTM1MjQyWjAUMRIwEAYDVQQDEwltZHBoODYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASXFMsKYbu/kdRTcUe9oJU0nHbCwxbxV6CVXWcPj5Eb4VKze1AyS5hbtBA5Rc6yHJq+918HpemdKX+tsEQdKZOPo4ICJzCCAiMwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFCLmErY/lgmfrl53+jDR3xBnW4R6MB8GA1UdIwQYMBaAFLsgykcL/tflnPmPCSqjjDdFsbzYMDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3llMS5pLmxlbmNyLm9yZy8wIwYDVR0RBBwwGoIJbWRwaDg2LmZygg13d3cubWRwaDg2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly95ZTEuYy5sZW5jci5vcmcvMTA2LmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB2AETCvQzpFA5kpclKAZMKWqG7NZcOAO4RFoloKhxE17VmAAABobFXplgAAAQDAEcwRQIgdBWvH0WfgJbYbHpDWYNm5r0ZrtDGlDE+W7XTWOqq3SMCIQCHEKqTYL8TEqATDHtWrc7kD7PyMWkb2mZ0lb/B0ODMJAB+AFlubDOGlLJZcqJWyKDo3ZBKdugIPdqHOwEIOCgUPO5ZAAABobFXpvwACAAABQAd7B0gBAMARzBFAiAte4VDcYnXZvCgrD6FJrn5DMySF25iI//fMrpy929yWQIhALueNV9A2cXvs8cF7F9HChmPOCZunHkUmILUjO3Co4UBMAoGCCqGSM49BAMDA2cAMGQCMHpAgmZdJjQNG/50QdbJDxbPIoxzzsgCWc5xJGr7osQwLO/LNajL91OspzvwUqkd+wIwfRH1v0QaPL7MTd/mY8a5oRmyhLGkZHam9EPr2m5hwp761jEVmzIrv5NAE/tAPQ8H\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -381,21 +381,21 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "88 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2026-09-07 12:33"
+              "finding"      : "2026-11-06 13:52"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2026-12-06 12:33"
+              "finding"      : "2027-02-04 13:52"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -416,7 +416,7 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://ye1.c.lencr.org/121.crl"
+              "finding"      : "http://ye1.c.lencr.org/106.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -626,7 +626,7 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1793502159"
+              "finding"      : "1794107277"
           }
 ,         {
               "id"           : "HSTS",
@@ -1175,6 +1175,6 @@
               "ip"           : "www.mdph86.fr/5.39.54.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "56"
           }
 ]
